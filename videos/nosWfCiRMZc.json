@@ -1,0 +1,4768 @@
+{
+ "id": "nosWfCiRMZc",
+ "title": "How to Build A Disciplined Life | fitness, diet, home, motherhood, daily default systems",
+ "channel": "Jenn Im",
+ "duration": 964,
+ "subtitle": {
+  "lang": "en-orig",
+  "kind": "auto"
+ },
+ "segmenter": "punctuation",
+ "created": "2026-10-05T16:44:12",
+ "sentences": [
+  {
+   "text": "Hi everyone, welcome back.",
+   "start": 0.0,
+   "end": 1.8,
+   "words": [
+    ["Hi", 0.0, 0.24],
+    ["everyone,", 0.24, 0.92],
+    ["welcome", 0.92, 1.2],
+    ["back.", 1.2, 1.8]
+   ]
+  },
+  {
+   "text": "Today we are talking about discipline.",
+   "start": 1.8,
+   "end": 4.92,
+   "words": [
+    ["Today", 1.8, 2.4],
+    ["we", 2.6, 2.8],
+    ["are", 2.8, 2.88],
+    ["talking", 2.88, 3.44],
+    ["about", 3.44, 3.96],
+    ["discipline.", 3.96, 4.92]
+   ]
+  },
+  {
+   "text": "If you look at my life, I think it's pretty easy to kind of lump me into the type A bucket.",
+   "start": 4.92,
+   "end": 9.92,
+   "words": [
+    ["If", 4.92, 5.04],
+    ["you", 5.04, 5.12],
+    ["look", 5.12, 5.24],
+    ["at", 5.24, 5.32],
+    ["my", 5.32, 5.44],
+    ["life,", 5.44, 5.84],
+    ["I", 5.84, 5.92],
+    ["think", 5.92, 6.12],
+    ["it's", 6.12, 6.28],
+    ["pretty", 6.28, 6.64],
+    ["easy", 6.64, 6.96],
+    ["to", 6.96, 7.04],
+    ["kind", 7.04, 7.24],
+    ["of", 7.24, 7.36],
+    ["lump", 7.36, 7.56],
+    ["me", 7.56, 7.72],
+    ["into", 7.72, 8.16],
+    ["the", 8.16, 8.36],
+    ["type", 8.36, 8.88],
+    ["A", 8.88, 9.16],
+    ["bucket.", 9.16, 9.92]
+   ]
+  },
+  {
+   "text": "I am organized, I love structure, and I love a good routine, but I was not born this way.",
+   "start": 10.08,
+   "end": 16.2,
+   "words": [
+    ["I", 10.08, 10.24],
+    ["am", 10.24, 10.52],
+    ["organized,", 10.52, 11.36],
+    ["I", 11.36, 11.48],
+    ["love", 11.48, 11.76],
+    ["structure,", 11.76, 12.28],
+    ["and", 12.28, 12.44],
+    ["I", 12.44, 12.49],
+    ["love", 12.48, 12.68],
+    ["a", 12.68, 12.73],
+    ["good", 12.72, 12.92],
+    ["routine,", 12.92, 13.76],
+    ["but", 13.76, 14.2],
+    ["I", 14.32, 14.44],
+    ["was", 14.44, 14.6],
+    ["not", 14.6, 15.04],
+    ["born", 15.28, 15.64],
+    ["this", 15.64, 15.92],
+    ["way.", 15.92, 16.2]
+   ]
+  },
+  {
+   "text": "This is a completely learned skill.",
+   "start": 16.2,
+   "end": 19.36,
+   "words": [
+    ["This", 16.2, 16.44],
+    ["is", 16.44, 16.8],
+    ["a", 16.8, 16.88],
+    ["completely", 16.88, 17.88],
+    ["learned", 18.04, 18.68],
+    ["skill.", 18.68, 19.36]
+   ]
+  },
+  {
+   "text": "Just ask my mom.",
+   "start": 19.36,
+   "end": 20.4,
+   "words": [
+    ["Just", 19.36, 19.6],
+    ["ask", 19.6, 19.76],
+    ["my", 19.76, 19.88],
+    ["mom.", 19.88, 20.4]
+   ]
+  },
+  {
+   "text": "Things started to change when I started college and I was living alone.",
+   "start": 31.4,
+   "end": 35.44,
+   "words": [
+    ["Things", 31.4, 31.72],
+    ["started", 31.72, 32.0],
+    ["to", 32.0, 32.08],
+    ["change", 32.08, 32.76],
+    ["when", 32.96, 33.2],
+    ["I", 33.2, 33.28],
+    ["started", 33.28, 33.68],
+    ["college", 33.68, 34.24],
+    ["and", 34.24, 34.4],
+    ["I", 34.4, 34.45],
+    ["was", 34.44, 34.64],
+    ["living", 34.64, 34.88],
+    ["alone.", 34.88, 35.44]
+   ]
+  },
+  {
+   "text": "And specifically when I started my own YouTube channel, I didn't realize it at the time,",
+   "start": 35.44,
+   "end": 40.8,
+   "words": [
+    ["And", 35.44, 35.68],
+    ["specifically", 35.68, 36.72],
+    ["when", 36.72, 36.88],
+    ["I", 36.88, 36.96],
+    ["started", 36.96, 37.48],
+    ["my", 37.48, 37.64],
+    ["own", 37.64, 37.84],
+    ["YouTube", 37.84, 38.12],
+    ["channel,", 38.12, 38.96],
+    ["I", 38.96, 39.12],
+    ["didn't", 39.12, 39.52],
+    ["realize", 39.52, 39.96],
+    ["it", 39.96, 40.2],
+    ["at", 40.2, 40.32],
+    ["the", 40.32, 40.44],
+    ["time,", 40.44, 40.8]
+   ]
+  },
+  {
+   "text": "but I was essentially running a business and it only grew when I stayed on track and when I stuck with my goals.",
+   "start": 40.8,
+   "end": 47.56,
+   "words": [
+    ["but", 40.8, 41.04],
+    ["I", 41.04, 41.12],
+    ["was", 41.12, 41.24],
+    ["essentially", 41.24, 42.08],
+    ["running", 42.08, 42.48],
+    ["a", 42.48, 42.56],
+    ["business", 42.56, 43.4],
+    ["and", 43.4, 43.56],
+    ["it", 43.56, 43.76],
+    ["only", 43.76, 44.04],
+    ["grew", 44.04, 44.56],
+    ["when", 44.88, 45.08],
+    ["I", 45.08, 45.16],
+    ["stayed", 45.16, 45.52],
+    ["on", 45.52, 45.68],
+    ["track", 45.68, 46.08],
+    ["and", 46.08, 46.24],
+    ["when", 46.24, 46.4],
+    ["I", 46.4, 46.48],
+    ["stuck", 46.48, 46.72],
+    ["with", 46.72, 46.84],
+    ["my", 46.84, 47.0],
+    ["goals.", 47.0, 47.56]
+   ]
+  },
+  {
+   "text": "I think we love to assume that really disciplined people are just built different.",
+   "start": 47.56,
+   "end": 52.12,
+   "words": [
+    ["I", 47.56, 47.61],
+    ["think", 47.6, 47.8],
+    ["we", 47.8, 47.92],
+    ["love", 47.92, 48.16],
+    ["to", 48.16, 48.28],
+    ["assume", 48.28, 48.72],
+    ["that", 48.72, 49.04],
+    ["really", 49.04, 49.28],
+    ["disciplined", 49.28, 49.72],
+    ["people", 49.72, 50.4],
+    ["are", 50.48, 50.64],
+    ["just", 50.64, 51.16],
+    ["built", 51.36, 51.64],
+    ["different.", 51.64, 52.12]
+   ]
+  },
+  {
+   "text": "Like maybe they're just hooked to an IV that drips self-control, but they're not.",
+   "start": 52.12,
+   "end": 56.76,
+   "words": [
+    ["Like", 52.12, 52.36],
+    ["maybe", 52.36, 52.72],
+    ["they're", 52.72, 52.88],
+    ["just", 52.88, 53.12],
+    ["hooked", 53.12, 53.4],
+    ["to", 53.4, 53.52],
+    ["an", 53.52, 53.72],
+    ["IV", 53.72, 54.08],
+    ["that", 54.36, 54.6],
+    ["drips", 54.6, 54.92],
+    ["self-control,", 54.92, 56.04],
+    ["but", 56.04, 56.28],
+    ["they're", 56.28, 56.44],
+    ["not.", 56.44, 56.76]
+   ]
+  },
+  {
+   "text": "They're not using pure willpower to run their life.",
+   "start": 56.76,
+   "end": 61.2,
+   "words": [
+    ["They're", 56.76, 56.92],
+    ["not", 56.92, 57.36],
+    ["using", 57.6, 58.2],
+    ["pure", 58.36, 58.88],
+    ["willpower", 59.08, 60.0],
+    ["to", 60.04, 60.32],
+    ["run", 60.32, 60.6],
+    ["their", 60.6, 60.76],
+    ["life.", 60.76, 61.2]
+   ]
+  },
+  {
+   "text": "In fact, I want to break down three primary fuels that drive humans to do things.",
+   "start": 61.2,
+   "end": 65.72,
+   "words": [
+    ["In", 61.2, 61.32],
+    ["fact,", 61.32, 61.6],
+    ["I", 61.6, 61.65],
+    ["want", 61.64, 61.76],
+    ["to", 61.76, 61.81],
+    ["break", 61.8, 61.96],
+    ["down", 61.96, 62.16],
+    ["three", 62.16, 62.64],
+    ["primary", 62.64, 63.2],
+    ["fuels", 63.2, 63.64],
+    ["that", 63.64, 63.84],
+    ["drive", 63.84, 64.28],
+    ["humans", 64.28, 64.68],
+    ["to", 64.68, 64.8],
+    ["do", 64.8, 65.0],
+    ["things.", 65.0, 65.72]
+   ]
+  },
+  {
+   "text": "Shout out to Chris Williamson for framing this so beautifully in his podcast.",
+   "start": 65.72,
+   "end": 69.84,
+   "words": [
+    ["Shout", 65.72, 65.96],
+    ["out", 65.96, 66.16],
+    ["to", 66.16, 66.4],
+    ["Chris", 66.4, 66.68],
+    ["Williamson", 66.68, 67.28],
+    ["for", 67.28, 67.44],
+    ["framing", 67.44, 67.8],
+    ["this", 67.8, 68.0],
+    ["so", 68.0, 68.12],
+    ["beautifully", 68.12, 68.8],
+    ["in", 68.8, 68.88],
+    ["his", 68.88, 69.0],
+    ["podcast.", 69.0, 69.84]
+   ]
+  },
+  {
+   "text": "So, first we have motivation.",
+   "start": 69.92,
+   "end": 72.4,
+   "words": [
+    ["So,", 69.92, 70.36],
+    ["first", 70.4, 70.76],
+    ["we", 70.76, 70.88],
+    ["have", 70.88, 71.32],
+    ["motivation.", 71.32, 72.4]
+   ]
+  },
+  {
+   "text": "Motivation is awesome, but she's like a flaky friend.",
+   "start": 72.64,
+   "end": 77.04,
+   "words": [
+    ["Motivation", 72.64, 73.64],
+    ["is", 73.84, 74.12],
+    ["awesome,", 74.12, 74.96],
+    ["but", 74.96, 75.4],
+    ["she's", 75.76, 76.0],
+    ["like", 76.0, 76.12],
+    ["a", 76.12, 76.17],
+    ["flaky", 76.16, 76.64],
+    ["friend.", 76.64, 77.04]
+   ]
+  },
+  {
+   "text": "Like she shows up when things are fun, when you're on vacation, when you're ovulating,",
+   "start": 77.04,
+   "end": 80.72,
+   "words": [
+    ["Like", 77.04, 77.2],
+    ["she", 77.2, 77.36],
+    ["shows", 77.36, 77.72],
+    ["up", 77.72, 77.88],
+    ["when", 77.88, 78.0],
+    ["things", 78.0, 78.24],
+    ["are", 78.24, 78.36],
+    ["fun,", 78.36, 78.72],
+    ["when", 78.72, 78.84],
+    ["you're", 78.84, 78.96],
+    ["on", 78.96, 79.08],
+    ["vacation,", 79.08, 79.72],
+    ["when", 79.72, 79.84],
+    ["you're", 79.84, 80.0],
+    ["ovulating,", 80.0, 80.72]
+   ]
+  },
+  {
+   "text": "when you've had two cappuccinos, but the second your mood dips or there's a bit of friction,",
+   "start": 80.72,
+   "end": 86.2,
+   "words": [
+    ["when", 80.72, 80.84],
+    ["you've", 80.84, 80.96],
+    ["had", 80.96, 81.16],
+    ["two", 81.16, 81.28],
+    ["cappuccinos,", 81.28, 82.16],
+    ["but", 82.16, 82.32],
+    ["the", 82.32, 82.44],
+    ["second", 82.44, 83.12],
+    ["your", 83.2, 83.36],
+    ["mood", 83.36, 83.72],
+    ["dips", 83.72, 84.24],
+    ["or", 84.56, 84.8],
+    ["there's", 84.8, 85.0],
+    ["a", 85.0, 85.08],
+    ["bit", 85.08, 85.2],
+    ["of", 85.2, 85.28],
+    ["friction,", 85.28, 86.2]
+   ]
+  },
+  {
+   "text": "she's out. Then we have obsession.",
+   "start": 87.88,
+   "end": 90.76,
+   "words": [
+    ["she's", 87.88, 88.2],
+    ["out.", 88.2, 88.72],
+    ["Then", 88.96, 89.48],
+    ["we", 89.48, 89.64],
+    ["have", 89.64, 89.88],
+    ["obsession.", 89.88, 90.76]
+   ]
+  },
+  {
+   "text": "And I'm not talking about like, oh my god, I'm obsessed.",
+   "start": 90.76,
+   "end": 93.4,
+   "words": [
+    ["And", 90.76, 90.84],
+    ["I'm", 90.84, 90.92],
+    ["not", 90.92, 91.08],
+    ["talking", 91.08, 91.4],
+    ["about", 91.4, 91.64],
+    ["like,", 91.64, 92.0],
+    ["oh", 92.0, 92.05],
+    ["my", 92.04, 92.2],
+    ["god,", 92.2, 92.4],
+    ["I'm", 92.4, 92.48],
+    ["obsessed.", 92.48, 93.4]
+   ]
+  },
+  {
+   "text": "I'm talking about like clinical obsession.",
+   "start": 93.48,
+   "end": 96.28,
+   "words": [
+    ["I'm", 93.48, 93.6],
+    ["talking", 93.6, 93.92],
+    ["about", 93.92, 94.48],
+    ["like", 94.48, 94.64],
+    ["clinical", 94.64, 95.4],
+    ["obsession.", 95.4, 96.28]
+   ]
+  },
+  {
+   "text": "And textbook obsession is friction inverted.",
+   "start": 96.28,
+   "end": 100.04,
+   "words": [
+    ["And", 96.28, 96.68],
+    ["textbook", 96.68, 97.36],
+    ["obsession", 97.36, 98.28],
+    ["is", 98.28, 98.6],
+    ["friction", 98.6, 99.36],
+    ["inverted.", 99.36, 100.04]
+   ]
+  },
+  {
+   "text": "It means that you don't have to force yourself to work because the work pulls you in.",
+   "start": 100.04,
+   "end": 105.48,
+   "words": [
+    ["It", 100.04, 100.2],
+    ["means", 100.2, 100.48],
+    ["that", 100.48, 101.0],
+    ["you", 101.08, 101.24],
+    ["don't", 101.24, 101.84],
+    ["have", 101.88, 102.04],
+    ["to", 102.04, 102.2],
+    ["force", 102.2, 102.56],
+    ["yourself", 102.56, 102.92],
+    ["to", 102.92, 103.08],
+    ["work", 103.08, 103.6],
+    ["because", 103.76, 104.08],
+    ["the", 104.08, 104.24],
+    ["work", 104.24, 104.68],
+    ["pulls", 104.68, 105.0],
+    ["you", 105.0, 105.16],
+    ["in.", 105.16, 105.48]
+   ]
+  },
+  {
+   "text": "Like it follows you.",
+   "start": 105.48,
+   "end": 106.6,
+   "words": [
+    ["Like", 105.48, 105.64],
+    ["it", 105.64, 105.84],
+    ["follows", 105.84, 106.44],
+    ["you.", 106.44, 106.6]
+   ]
+  },
+  {
+   "text": "It follows you into your car, the shower, your dreams.",
+   "start": 106.6,
+   "end": 109.44,
+   "words": [
+    ["It", 106.6, 106.76],
+    ["follows", 106.76, 107.08],
+    ["you", 107.08, 107.2],
+    ["into", 107.2, 107.4],
+    ["your", 107.4, 107.56],
+    ["car,", 107.56, 108.04],
+    ["the", 108.04, 108.16],
+    ["shower,", 108.16, 108.72],
+    ["your", 108.72, 108.88],
+    ["dreams.", 108.88, 109.44]
+   ]
+  },
+  {
+   "text": "Like it's basically motivation, but on MSG.",
+   "start": 109.44,
+   "end": 112.2,
+   "words": [
+    ["Like", 109.44, 109.6],
+    ["it's", 109.6, 109.72],
+    ["basically", 109.72, 110.36],
+    ["motivation,", 110.36, 111.32],
+    ["but", 111.32, 111.52],
+    ["on", 111.52, 111.68],
+    ["MSG.", 111.68, 112.2]
+   ]
+  },
+  {
+   "text": "The catch with obsession is that it's non-renewable and it's unstable.",
+   "start": 112.4,
+   "end": 116.72,
+   "words": [
+    ["The", 112.4, 112.52],
+    ["catch", 112.52, 112.96],
+    ["with", 112.96, 113.12],
+    ["obsession", 113.12, 113.92],
+    ["is", 113.92, 114.08],
+    ["that", 114.08, 114.32],
+    ["it's", 114.32, 114.48],
+    ["non-renewable", 114.48, 115.68],
+    ["and", 115.68, 115.84],
+    ["it's", 115.84, 116.0],
+    ["unstable.", 116.0, 116.72]
+   ]
+  },
+  {
+   "text": "And once it's gone, it's gone.",
+   "start": 116.72,
+   "end": 118.92,
+   "words": [
+    ["And", 116.72, 116.92],
+    ["once", 116.92, 117.24],
+    ["it's", 117.24, 117.4],
+    ["gone,", 117.4, 118.0],
+    ["it's", 118.12, 118.36],
+    ["gone.", 118.36, 118.92]
+   ]
+  },
+  {
+   "text": "It's like seeing a shooting star or like catching a big wave.",
+   "start": 118.92,
+   "end": 122.64,
+   "words": [
+    ["It's", 118.92, 119.08],
+    ["like", 119.08, 119.32],
+    ["seeing", 119.32, 119.76],
+    ["a", 119.76, 119.84],
+    ["shooting", 119.84, 120.2],
+    ["star", 120.2, 120.72],
+    ["or", 120.88, 121.0],
+    ["like", 121.0, 121.28],
+    ["catching", 121.28, 121.72],
+    ["a", 121.72, 121.77],
+    ["big", 121.76, 122.04],
+    ["wave.", 122.04, 122.64]
+   ]
+  },
+  {
+   "text": "And what's you're left with is discipline.",
+   "start": 122.88,
+   "end": 125.64,
+   "words": [
+    ["And", 122.88, 123.12],
+    ["what's", 123.12, 123.36],
+    ["you're", 123.36, 123.52],
+    ["left", 123.52, 123.88],
+    ["with", 123.88, 124.4],
+    ["is", 124.56, 124.88],
+    ["discipline.", 124.88, 125.64]
+   ]
+  },
+  {
+   "text": "Now, discipline is the only fuel that's reliable.",
+   "start": 125.64,
+   "end": 128.76,
+   "words": [
+    ["Now,", 125.64, 125.84],
+    ["discipline", 125.84, 126.68],
+    ["is", 126.68, 126.84],
+    ["the", 126.84, 127.0],
+    ["only", 127.0, 127.24],
+    ["fuel", 127.24, 127.76],
+    ["that's", 127.92, 128.2],
+    ["reliable.", 128.2, 128.76]
+   ]
+  },
+  {
+   "text": "It's that voice that says, \"I don't give a what you're thinking.",
+   "start": 128.76,
+   "end": 132.08,
+   "words": [
+    ["It's", 128.76, 128.96],
+    ["that", 128.96, 129.16],
+    ["voice", 129.16, 129.4],
+    ["that", 129.4, 129.56],
+    ["says,", 129.56, 130.16],
+    ["\"I", 130.28, 130.36],
+    ["don't", 130.36, 130.52],
+    ["give", 130.52, 130.68],
+    ["a", 130.68, 130.96],
+    ["what", 131.2, 131.32],
+    ["you're", 131.32, 131.44],
+    ["thinking.", 131.44, 132.08]
+   ]
+  },
+  {
+   "text": "This is what we're doing.\"",
+   "start": 132.08,
+   "end": 133.24,
+   "words": [
+    ["This", 132.08, 132.28],
+    ["is", 132.28, 132.4],
+    ["what", 132.4, 132.52],
+    ["we're", 132.52, 132.6],
+    ["doing.\"", 132.6, 133.24]
+   ]
+  },
+  {
+   "text": "It operates completely independent of your emotional state.",
+   "start": 133.24,
+   "end": 136.28,
+   "words": [
+    ["It", 133.24, 133.44],
+    ["operates", 133.44, 133.84],
+    ["completely", 133.84, 134.4],
+    ["independent", 134.4, 134.92],
+    ["of", 134.92, 135.04],
+    ["your", 135.04, 135.12],
+    ["emotional", 135.12, 135.6],
+    ["state.", 135.6, 136.28]
+   ]
+  },
+  {
+   "text": "But, the price tag is high.",
+   "start": 136.28,
+   "end": 138.2,
+   "words": [
+    ["But,", 136.28, 136.56],
+    ["the", 136.56, 136.68],
+    ["price", 136.68, 137.0],
+    ["tag", 137.0, 137.36],
+    ["is", 137.36, 137.6],
+    ["high.", 137.6, 138.2]
+   ]
+  },
+  {
+   "text": "Like, raw discipline is very taxing on the brain.",
+   "start": 138.44,
+   "end": 142.88,
+   "words": [
+    ["Like,", 138.44, 139.04],
+    ["raw", 139.16, 139.52],
+    ["discipline", 139.52, 140.52],
+    ["is", 140.52, 140.72],
+    ["very", 140.72, 141.08],
+    ["taxing", 141.08, 141.76],
+    ["on", 141.96, 142.12],
+    ["the", 142.12, 142.2],
+    ["brain.", 142.2, 142.88]
+   ]
+  },
+  {
+   "text": "And if that's all you got, it's going to be like an endless grind.",
+   "start": 142.92,
+   "end": 146.72,
+   "words": [
+    ["And", 142.92, 143.04],
+    ["if", 143.04, 143.16],
+    ["that's", 143.16, 143.4],
+    ["all", 143.4, 143.52],
+    ["you", 143.52, 143.64],
+    ["got,", 143.64, 144.16],
+    ["it's", 144.36, 144.48],
+    ["going", 144.48, 144.64],
+    ["to", 144.64, 144.76],
+    ["be", 144.76, 145.12],
+    ["like", 145.28, 145.48],
+    ["an", 145.48, 145.68],
+    ["endless", 145.68, 146.08],
+    ["grind.", 146.08, 146.72]
+   ]
+  },
+  {
+   "text": "This is where defaults come in.",
+   "start": 146.72,
+   "end": 148.88,
+   "words": [
+    ["This", 146.72, 147.16],
+    ["is", 147.16, 147.32],
+    ["where", 147.32, 147.6],
+    ["defaults", 147.6, 148.24],
+    ["come", 148.24, 148.44],
+    ["in.", 148.44, 148.88]
+   ]
+  },
+  {
+   "text": "I love defaults.",
+   "start": 149.08,
+   "end": 150.28,
+   "words": [
+    ["I", 149.08, 149.32],
+    ["love", 149.32, 149.72],
+    ["defaults.", 149.72, 150.28]
+   ]
+  },
+  {
+   "text": "My life mostly runs on defaults.",
+   "start": 150.28,
+   "end": 153.04,
+   "words": [
+    ["My", 150.28, 150.64],
+    ["life", 150.64, 151.16],
+    ["mostly", 151.32, 151.8],
+    ["runs", 151.8, 152.08],
+    ["on", 152.08, 152.2],
+    ["defaults.", 152.2, 153.04]
+   ]
+  },
+  {
+   "text": "And a default is essentially a decision that you made beforehand when your brain was chill, calm, and functional.",
+   "start": 153.04,
+   "end": 160.88,
+   "words": [
+    ["And", 153.04, 153.16],
+    ["a", 153.16, 153.21],
+    ["default", 153.2, 153.68],
+    ["is", 153.68, 153.8],
+    ["essentially", 153.8, 154.4],
+    ["a", 154.4, 154.48],
+    ["decision", 154.48, 155.32],
+    ["that", 155.44, 155.68],
+    ["you", 155.68, 155.88],
+    ["made", 155.88, 156.28],
+    ["beforehand", 156.28, 157.28],
+    ["when", 157.44, 157.52],
+    ["your", 157.52, 157.64],
+    ["brain", 157.64, 158.08],
+    ["was", 158.08, 158.32],
+    ["chill,", 158.32, 159.0],
+    ["calm,", 159.2, 159.8],
+    ["and", 159.96, 160.12],
+    ["functional.", 160.12, 160.88]
+   ]
+  },
+  {
+   "text": "Every morning when you wake up, your brain has like a limited battery capacity.",
+   "start": 160.88,
+   "end": 165.2,
+   "words": [
+    ["Every", 160.88, 161.12],
+    ["morning", 161.12, 161.44],
+    ["when", 161.44, 161.56],
+    ["you", 161.56, 161.68],
+    ["wake", 161.68, 161.96],
+    ["up,", 161.96, 162.4],
+    ["your", 162.4, 162.6],
+    ["brain", 162.6, 163.04],
+    ["has", 163.04, 163.24],
+    ["like", 163.24, 163.36],
+    ["a", 163.36, 163.44],
+    ["limited", 163.44, 163.96],
+    ["battery", 163.96, 164.36],
+    ["capacity.", 164.36, 165.2]
+   ]
+  },
+  {
+   "text": "And every micro decision that you make drains it.",
+   "start": 165.2,
+   "end": 168.48,
+   "words": [
+    ["And", 165.2, 165.52],
+    ["every", 165.52, 165.88],
+    ["micro", 165.88, 166.32],
+    ["decision", 166.32, 166.76],
+    ["that", 166.76, 166.92],
+    ["you", 166.92, 167.04],
+    ["make", 167.04, 167.56],
+    ["drains", 167.6, 168.04],
+    ["it.", 168.04, 168.48]
+   ]
+  },
+  {
+   "text": "Like, what am I going to do today?",
+   "start": 168.6,
+   "end": 170.12,
+   "words": [
+    ["Like,", 168.6, 168.96],
+    ["what", 168.96, 169.12],
+    ["am", 169.12, 169.24],
+    ["I", 169.24, 169.32],
+    ["going", 169.32, 169.44],
+    ["to", 169.44, 169.56],
+    ["do", 169.56, 169.68],
+    ["today?", 169.68, 170.12]
+   ]
+  },
+  {
+   "text": "What am I going to eat today?",
+   "start": 170.12,
+   "end": 171.6,
+   "words": [
+    ["What", 170.12, 170.32],
+    ["am", 170.32, 170.44],
+    ["I", 170.44, 170.49],
+    ["going", 170.48, 170.6],
+    ["to", 170.6, 170.76],
+    ["eat", 170.76, 170.92],
+    ["today?", 170.92, 171.6]
+   ]
+  },
+  {
+   "text": "What am I going to work out?",
+   "start": 171.64,
+   "end": 172.88,
+   "words": [
+    ["What", 171.64, 171.76],
+    ["am", 171.76, 171.88],
+    ["I", 171.88, 171.93],
+    ["going", 171.92, 172.04],
+    ["to", 172.04, 172.12],
+    ["work", 172.12, 172.36],
+    ["out?", 172.36, 172.88]
+   ]
+  },
+  {
+   "text": "What am I going to wear?",
+   "start": 172.88,
+   "end": 173.92,
+   "words": [
+    ["What", 172.88, 172.96],
+    ["am", 172.96, 173.04],
+    ["I", 173.04, 173.12],
+    ["going", 173.12, 173.24],
+    ["to", 173.24, 173.32],
+    ["wear?", 173.32, 173.92]
+   ]
+  },
+  {
+   "text": "If you do that all day, by 5:00 p.m., there's going to be nothing left.",
+   "start": 174.2,
+   "end": 178.6,
+   "words": [
+    ["If", 174.2, 174.32],
+    ["you", 174.32, 174.44],
+    ["do", 174.44, 174.64],
+    ["that", 174.64, 174.88],
+    ["all", 174.88, 175.04],
+    ["day,", 175.04, 175.56],
+    ["by", 175.76, 176.0],
+    ["5:00", 176.0, 176.28],
+    ["p.m.,", 176.28, 176.88],
+    ["there's", 177.04, 177.36],
+    ["going", 177.36, 177.48],
+    ["to", 177.48, 177.56],
+    ["be", 177.56, 177.68],
+    ["nothing", 177.68, 178.16],
+    ["left.", 178.16, 178.6]
+   ]
+  },
+  {
+   "text": "Defaults exist so that you don't need to waste energy on mundane life administrative decisions.",
+   "start": 178.6,
+   "end": 184.52,
+   "words": [
+    ["Defaults", 178.6, 179.12],
+    ["exist", 179.12, 179.6],
+    ["so", 179.6, 179.72],
+    ["that", 179.72, 180.08],
+    ["you", 180.08, 180.2],
+    ["don't", 180.2, 180.4],
+    ["need", 180.4, 180.56],
+    ["to", 180.56, 180.68],
+    ["waste", 180.68, 181.0],
+    ["energy", 181.0, 181.68],
+    ["on", 181.76, 182.04],
+    ["mundane", 182.04, 182.8],
+    ["life", 182.96, 183.28],
+    ["administrative", 183.28, 183.92],
+    ["decisions.", 183.92, 184.52]
+   ]
+  },
+  {
+   "text": "So, let's take fitness for example.",
+   "start": 184.52,
+   "end": 187.44,
+   "words": [
+    ["So,", 184.52, 184.92],
+    ["let's", 184.92, 185.24],
+    ["take", 185.24, 185.64],
+    ["fitness", 185.64, 186.4],
+    ["for", 186.44, 186.64],
+    ["example.", 186.64, 187.44]
+   ]
+  },
+  {
+   "text": "In the deeply philosophical words of Britney, you want a hot body?",
+   "start": 187.44,
+   "end": 191.04,
+   "words": [
+    ["In", 187.44, 187.56],
+    ["the", 187.56, 187.64],
+    ["deeply", 187.64, 188.04],
+    ["philosophical", 188.04, 188.72],
+    ["words", 188.72, 189.12],
+    ["of", 189.12, 189.32],
+    ["Britney,", 189.32, 190.04],
+    ["you", 190.04, 190.16],
+    ["want", 190.16, 190.28],
+    ["a", 190.28, 190.33],
+    ["hot", 190.32, 190.56],
+    ["body?", 190.56, 191.04]
+   ]
+  },
+  {
+   "text": "Look cute in a bikini?",
+   "start": 191.04,
+   "end": 192.4,
+   "words": [
+    ["Look", 191.04, 191.24],
+    ["cute", 191.24, 191.48],
+    ["in", 191.48, 191.6],
+    ["a", 191.6, 191.65],
+    ["bikini?", 191.64, 192.4]
+   ]
+  },
+  {
+   "text": "You better work She's not lying.",
+   "start": 192.6,
+   "end": 195.04,
+   "words": [
+    ["You", 192.6, 192.68],
+    ["better", 192.68, 192.88],
+    ["work", 192.88, 193.4],
+    ["She's", 193.88, 194.16],
+    ["not", 194.16, 194.36],
+    ["lying.", 194.36, 195.04]
+   ]
+  },
+  {
+   "text": "And if you want to have it to stick, it needs to have the absolute lowest amount of friction possible.",
+   "start": 195.04,
+   "end": 200.32,
+   "words": [
+    ["And", 195.04, 195.16],
+    ["if", 195.16, 195.24],
+    ["you", 195.24, 195.36],
+    ["want", 195.36, 195.52],
+    ["to", 195.52, 195.57],
+    ["have", 195.56, 195.72],
+    ["it", 195.72, 195.8],
+    ["to", 195.8, 195.88],
+    ["stick,", 195.88, 196.48],
+    ["it", 196.48, 196.64],
+    ["needs", 196.64, 196.84],
+    ["to", 196.84, 196.92],
+    ["have", 196.92, 197.16],
+    ["the", 197.16, 197.36],
+    ["absolute", 197.36, 198.16],
+    ["lowest", 198.16, 198.56],
+    ["amount", 198.56, 198.76],
+    ["of", 198.76, 198.84],
+    ["friction", 198.84, 199.52],
+    ["possible.", 199.52, 200.32]
+   ]
+  },
+  {
+   "text": "And when it comes to fitness, it's got to be easy for me.",
+   "start": 200.32,
+   "end": 203.2,
+   "words": [
+    ["And", 200.32, 200.44],
+    ["when", 200.44, 200.56],
+    ["it", 200.56, 200.64],
+    ["comes", 200.64, 200.88],
+    ["to", 200.88, 201.0],
+    ["fitness,", 201.0, 201.84],
+    ["it's", 201.92, 202.08],
+    ["got", 202.08, 202.28],
+    ["to", 202.28, 202.33],
+    ["be", 202.32, 202.52],
+    ["easy", 202.52, 202.8],
+    ["for", 202.8, 202.96],
+    ["me.", 202.96, 203.2]
+   ]
+  },
+  {
+   "text": "Like, I got to want to do it.",
+   "start": 203.2,
+   "end": 204.76,
+   "words": [
+    ["Like,", 203.2, 203.32],
+    ["I", 203.32, 203.4],
+    ["got", 203.4, 203.64],
+    ["to", 203.64, 203.8],
+    ["want", 203.8, 204.2],
+    ["to", 204.2, 204.28],
+    ["do", 204.28, 204.48],
+    ["it.", 204.48, 204.76]
+   ]
+  },
+  {
+   "text": "And I think I've tried almost every fitness trend, Pilates, group classes, hit, hot yoga, regular yoga, YouTube videos.",
+   "start": 204.76,
+   "end": 210.72,
+   "words": [
+    ["And", 204.76, 204.88],
+    ["I", 204.88, 204.96],
+    ["think", 204.96, 205.12],
+    ["I've", 205.12, 205.24],
+    ["tried", 205.24, 205.44],
+    ["almost", 205.44, 205.8],
+    ["every", 205.8, 206.4],
+    ["fitness", 206.56, 206.92],
+    ["trend,", 206.92, 207.6],
+    ["Pilates,", 207.72, 208.16],
+    ["group", 208.16, 208.32],
+    ["classes,", 208.32, 208.76],
+    ["hit,", 208.76, 209.04],
+    ["hot", 209.04, 209.2],
+    ["yoga,", 209.2, 209.4],
+    ["regular", 209.4, 209.64],
+    ["yoga,", 209.64, 209.96],
+    ["YouTube", 209.96, 210.24],
+    ["videos.", 210.24, 210.72]
+   ]
+  },
+  {
+   "text": "But, the main thing that's stuck for me was weightlifting.",
+   "start": 210.72,
+   "end": 214.96,
+   "words": [
+    ["But,", 210.72, 211.24],
+    ["the", 211.24, 211.4],
+    ["main", 211.4, 211.92],
+    ["thing", 211.96, 212.48],
+    ["that's", 212.48, 212.72],
+    ["stuck", 212.72, 212.96],
+    ["for", 212.96, 213.08],
+    ["me", 213.08, 213.44],
+    ["was", 214.0, 214.12],
+    ["weightlifting.", 214.12, 214.96]
+   ]
+  },
+  {
+   "text": "Now, I'm arguably in the best shape of my life.",
+   "start": 214.96,
+   "end": 217.48,
+   "words": [
+    ["Now,", 214.96, 215.24],
+    ["I'm", 215.24, 215.44],
+    ["arguably", 215.44, 215.88],
+    ["in", 215.88, 215.96],
+    ["the", 215.96, 216.08],
+    ["best", 216.08, 216.4],
+    ["shape", 216.4, 216.64],
+    ["of", 216.64, 216.72],
+    ["my", 216.72, 216.88],
+    ["life.", 216.88, 217.48]
+   ]
+  },
+  {
+   "text": "Like, I'm no bodybuilder, but I feel lean, sexy, strong.",
+   "start": 217.48,
+   "end": 222.6,
+   "words": [
+    ["Like,", 217.48, 217.76],
+    ["I'm", 217.76, 217.92],
+    ["no", 217.92, 218.12],
+    ["bodybuilder,", 218.12, 218.88],
+    ["but", 218.88, 219.28],
+    ["I", 219.28, 219.44],
+    ["feel", 219.44, 219.96],
+    ["lean,", 220.04, 220.64],
+    ["sexy,", 221.0, 221.6],
+    ["strong.", 221.84, 222.6]
+   ]
+  },
+  {
+   "text": "I feel good in my clothes and at home in my body.",
+   "start": 222.68,
+   "end": 225.8,
+   "words": [
+    ["I", 222.68, 222.76],
+    ["feel", 222.76, 223.12],
+    ["good", 223.12, 223.48],
+    ["in", 223.48, 223.6],
+    ["my", 223.6, 223.76],
+    ["clothes", 223.76, 224.36],
+    ["and", 224.36, 224.64],
+    ["at", 224.64, 224.76],
+    ["home", 224.76, 225.0],
+    ["in", 225.0, 225.08],
+    ["my", 225.08, 225.2],
+    ["body.", 225.2, 225.8]
+   ]
+  },
+  {
+   "text": "And this is something that I'd never thought I'd feel after I gave birth.",
+   "start": 225.88,
+   "end": 229.36,
+   "words": [
+    ["And", 225.88, 226.0],
+    ["this", 226.0, 226.16],
+    ["is", 226.16, 226.24],
+    ["something", 226.24, 226.52],
+    ["that", 226.52, 226.68],
+    ["I'd", 226.68, 226.8],
+    ["never", 226.8, 227.16],
+    ["thought", 227.16, 227.44],
+    ["I'd", 227.44, 227.64],
+    ["feel", 227.64, 228.0],
+    ["after", 228.0, 228.36],
+    ["I", 228.36, 228.44],
+    ["gave", 228.44, 228.68],
+    ["birth.", 228.68, 229.36]
+   ]
+  },
+  {
+   "text": "And I strongly attribute my fitness progress to Trainwell, who is today's sponsor.",
+   "start": 229.4,
+   "end": 235.84,
+   "words": [
+    ["And", 229.4, 229.72],
+    ["I", 229.72, 229.88],
+    ["strongly", 229.88, 230.6],
+    ["attribute", 230.6, 231.36],
+    ["my", 231.36, 231.52],
+    ["fitness", 231.52, 231.92],
+    ["progress", 231.92, 232.72],
+    ["to", 232.72, 233.04],
+    ["Trainwell,", 233.04, 233.92],
+    ["who", 233.92, 234.12],
+    ["is", 234.12, 234.44],
+    ["today's", 234.44, 235.0],
+    ["sponsor.", 235.0, 235.84]
+   ]
+  },
+  {
+   "text": "I have been using Trainwell obsessively since 2023.",
+   "start": 236.48,
+   "end": 240.12,
+   "words": [
+    ["I", 236.48, 236.64],
+    ["have", 236.64, 236.84],
+    ["been", 236.84, 237.04],
+    ["using", 237.04, 237.4],
+    ["Trainwell", 237.4, 238.12],
+    ["obsessively", 238.12, 239.08],
+    ["since", 239.08, 239.52],
+    ["2023.", 239.52, 240.12]
+   ]
+  },
+  {
+   "text": "Like, I can scroll back to all my workouts, and I've logged 712 workouts.",
+   "start": 240.64,
+   "end": 245.6,
+   "words": [
+    ["Like,", 240.64, 240.88],
+    ["I", 240.88, 240.96],
+    ["can", 240.96, 241.12],
+    ["scroll", 241.12, 241.36],
+    ["back", 241.36, 241.6],
+    ["to", 241.6, 241.76],
+    ["all", 241.76, 241.88],
+    ["my", 241.88, 242.0],
+    ["workouts,", 242.0, 242.88],
+    ["and", 242.88, 243.32],
+    ["I've", 243.36, 243.56],
+    ["logged", 243.56, 244.2],
+    ["712", 244.2, 244.64],
+    ["workouts.", 245.08, 245.6]
+   ]
+  },
+  {
+   "text": "So, Trainwell connects you with a real-life human personal trainer.",
+   "start": 245.6,
+   "end": 249.92,
+   "words": [
+    ["So,", 245.6, 245.84],
+    ["Trainwell", 245.84, 246.32],
+    ["connects", 246.32, 246.64],
+    ["you", 246.64, 246.8],
+    ["with", 246.8, 247.16],
+    ["a", 247.16, 247.32],
+    ["real-life", 247.32, 248.12],
+    ["human", 248.12, 248.72],
+    ["personal", 248.84, 249.24],
+    ["trainer.", 249.24, 249.92]
+   ]
+  },
+  {
+   "text": "These days, it's very easy to lean on AI for everything, but fitness has always been so like physical and deeply personal to me.",
+   "start": 249.92,
+   "end": 258.24,
+   "words": [
+    ["These", 249.92, 250.12],
+    ["days,", 250.12, 250.36],
+    ["it's", 250.36, 250.52],
+    ["very", 250.52, 250.8],
+    ["easy", 250.8, 251.12],
+    ["to", 251.12, 251.36],
+    ["lean", 251.36, 251.68],
+    ["on", 251.68, 252.04],
+    ["AI", 252.12, 252.48],
+    ["for", 252.52, 252.68],
+    ["everything,", 252.68, 253.44],
+    ["but", 253.44, 253.68],
+    ["fitness", 253.68, 254.08],
+    ["has", 254.08, 254.28],
+    ["always", 254.28, 254.6],
+    ["been", 254.6, 254.84],
+    ["so", 254.84, 255.2],
+    ["like", 255.28, 255.8],
+    ["physical", 255.8, 256.6],
+    ["and", 256.6, 256.8],
+    ["deeply", 256.8, 257.24],
+    ["personal", 257.24, 257.68],
+    ["to", 257.68, 257.8],
+    ["me.", 257.8, 258.24]
+   ]
+  },
+  {
+   "text": "My trainer is Jill, and I hopped on a call with her just to go over my updated fitness goals, which was to maintain.",
+   "start": 258.24,
+   "end": 264.72,
+   "words": [
+    ["My", 258.24, 258.4],
+    ["trainer", 258.4, 258.72],
+    ["is", 258.72, 258.88],
+    ["Jill,", 258.88, 259.28],
+    ["and", 259.28, 259.44],
+    ["I", 259.44, 259.49],
+    ["hopped", 259.48, 259.76],
+    ["on", 259.76, 259.84],
+    ["a", 259.84, 259.89],
+    ["call", 259.88, 260.08],
+    ["with", 260.08, 260.24],
+    ["her", 260.24, 260.44],
+    ["just", 260.44, 260.68],
+    ["to", 260.68, 260.8],
+    ["go", 260.8, 261.04],
+    ["over", 261.04, 261.56],
+    ["my", 261.72, 261.88],
+    ["updated", 261.88, 262.36],
+    ["fitness", 262.36, 262.64],
+    ["goals,", 262.64, 263.04],
+    ["which", 263.04, 263.24],
+    ["was", 263.24, 263.48],
+    ["to", 263.48, 263.84],
+    ["maintain.", 264.16, 264.72]
+   ]
+  },
+  {
+   "text": "It's like I just want to keep the current body composition I have right now.",
+   "start": 264.72,
+   "end": 268.24,
+   "words": [
+    ["It's", 264.72, 264.84],
+    ["like", 264.84, 265.0],
+    ["I", 265.0, 265.05],
+    ["just", 265.04, 265.2],
+    ["want", 265.2, 265.32],
+    ["to", 265.32, 265.4],
+    ["keep", 265.4, 265.92],
+    ["the", 266.04, 266.12],
+    ["current", 266.12, 266.52],
+    ["body", 266.52, 266.8],
+    ["composition", 266.8, 267.28],
+    ["I", 267.28, 267.36],
+    ["have", 267.36, 267.56],
+    ["right", 267.56, 267.72],
+    ["now.", 267.72, 268.24]
+   ]
+  },
+  {
+   "text": "I told her that obviously I love weightlifting, and I showed her the equipment that was at my gym,",
+   "start": 268.8,
+   "end": 273.4,
+   "words": [
+    ["I", 268.8, 268.85],
+    ["told", 268.84, 269.12],
+    ["her", 269.12, 269.56],
+    ["that", 269.64, 269.84],
+    ["obviously", 269.84, 270.2],
+    ["I", 270.2, 270.25],
+    ["love", 270.24, 270.56],
+    ["weightlifting,", 270.56, 271.52],
+    ["and", 271.52, 271.68],
+    ["I", 271.68, 271.76],
+    ["showed", 271.76, 271.96],
+    ["her", 271.96, 272.08],
+    ["the", 272.08, 272.2],
+    ["equipment", 272.2, 272.6],
+    ["that", 272.6, 272.68],
+    ["was", 272.68, 272.8],
+    ["at", 272.8, 272.88],
+    ["my", 272.88, 273.0],
+    ["gym,", 273.0, 273.4]
+   ]
+  },
+  {
+   "text": "and then she designed an exercise routine that requires zero brainpower from my end.",
+   "start": 273.4,
+   "end": 279.96,
+   "words": [
+    ["and", 273.4, 273.56],
+    ["then", 273.56, 273.76],
+    ["she", 273.76, 273.92],
+    ["designed", 273.92, 274.76],
+    ["an", 275.04, 275.2],
+    ["exercise", 275.2, 275.68],
+    ["routine", 275.68, 276.44],
+    ["that", 276.48, 277.0],
+    ["requires", 277.08, 277.84],
+    ["zero", 277.84, 278.36],
+    ["brainpower", 278.4, 279.16],
+    ["from", 279.16, 279.36],
+    ["my", 279.36, 279.56],
+    ["end.", 279.56, 279.96]
+   ]
+  },
+  {
+   "text": "When it's time to exercise, I don't think.",
+   "start": 279.96,
+   "end": 282.32,
+   "words": [
+    ["When", 279.96, 280.16],
+    ["it's", 280.16, 280.28],
+    ["time", 280.28, 280.44],
+    ["to", 280.44, 280.52],
+    ["exercise,", 280.52, 281.44],
+    ["I", 281.44, 281.52],
+    ["don't", 281.52, 281.72],
+    ["think.", 281.72, 282.32]
+   ]
+  },
+  {
+   "text": "I just open up Trainwell, hit start, and I finish the workout.",
+   "start": 282.32,
+   "end": 286.56,
+   "words": [
+    ["I", 282.32, 282.4],
+    ["just", 282.4, 282.72],
+    ["open", 282.72, 283.04],
+    ["up", 283.04, 283.2],
+    ["Trainwell,", 283.2, 284.16],
+    ["hit", 284.16, 284.36],
+    ["start,", 284.36, 285.04],
+    ["and", 285.12, 285.24],
+    ["I", 285.24, 285.32],
+    ["finish", 285.32, 285.64],
+    ["the", 285.64, 285.72],
+    ["workout.", 285.72, 286.56]
+   ]
+  },
+  {
+   "text": "That's it. There's no mental load, and there is no friction.",
+   "start": 286.92,
+   "end": 290.2,
+   "words": [
+    ["That's", 286.92, 287.16],
+    ["it.", 287.16, 287.6],
+    ["There's", 287.6, 287.84],
+    ["no", 287.84, 288.0],
+    ["mental", 288.0, 288.32],
+    ["load,", 288.32, 288.88],
+    ["and", 288.88, 289.0],
+    ["there", 289.0, 289.12],
+    ["is", 289.12, 289.28],
+    ["no", 289.28, 289.44],
+    ["friction.", 289.44, 290.2]
+   ]
+  },
+  {
+   "text": "I message Jill whenever I want to tweak something.",
+   "start": 290.2,
+   "end": 292.04,
+   "words": [
+    ["I", 290.2, 290.32],
+    ["message", 290.32, 290.68],
+    ["Jill", 290.68, 290.84],
+    ["whenever", 290.84, 291.2],
+    ["I", 291.2, 291.25],
+    ["want", 291.24, 291.36],
+    ["to", 291.36, 291.44],
+    ["tweak", 291.44, 291.6],
+    ["something.", 291.6, 292.04]
+   ]
+  },
+  {
+   "text": "For example, she was like having me do this medicine ball exercise, and I was like, \"Can we tweak this?\"",
+   "start": 292.04,
+   "end": 297.08,
+   "words": [
+    ["For", 292.04, 292.16],
+    ["example,", 292.16, 292.68],
+    ["she", 292.68, 292.84],
+    ["was", 292.84, 293.0],
+    ["like", 293.0, 293.32],
+    ["having", 293.32, 293.52],
+    ["me", 293.52, 293.64],
+    ["do", 293.64, 293.76],
+    ["this", 293.76, 293.96],
+    ["medicine", 293.96, 294.4],
+    ["ball", 294.4, 294.76],
+    ["exercise,", 294.76, 295.28],
+    ["and", 295.28, 295.36],
+    ["I", 295.36, 295.41],
+    ["was", 295.4, 295.52],
+    ["like,", 295.52, 296.12],
+    ["\"Can", 296.16, 296.32],
+    ["we", 296.32, 296.44],
+    ["tweak", 296.44, 296.72],
+    ["this?\"", 296.72, 297.08]
+   ]
+  },
+  {
+   "text": "And she did.",
+   "start": 297.08,
+   "end": 298.2,
+   "words": [
+    ["And", 297.08, 297.48],
+    ["she", 297.48, 297.68],
+    ["did.", 297.68, 298.2]
+   ]
+  },
+  {
+   "text": "And also, if I'm traveling,",
+   "start": 298.4,
+   "end": 300.24,
+   "words": [
+    ["And", 298.4, 298.72],
+    ["also,", 298.72, 299.2],
+    ["if", 299.2, 299.36],
+    ["I'm", 299.36, 299.48],
+    ["traveling,", 299.48, 300.24]
+   ]
+  },
+  {
+   "text": "or let's say I just don't want to go to the gym, she'll switch my routine for something where I just can use like my body weight.",
+   "start": 300.24,
+   "end": 306.12,
+   "words": [
+    ["or", 300.24, 300.32],
+    ["let's", 300.32, 300.52],
+    ["say", 300.52, 300.6],
+    ["I", 300.6, 300.65],
+    ["just", 300.64, 300.88],
+    ["don't", 300.88, 301.04],
+    ["want", 301.04, 301.16],
+    ["to", 301.16, 301.24],
+    ["go", 301.24, 301.29],
+    ["to", 301.28, 301.36],
+    ["the", 301.36, 301.44],
+    ["gym,", 301.44, 301.96],
+    ["she'll", 302.0, 302.36],
+    ["switch", 302.36, 302.68],
+    ["my", 302.68, 302.84],
+    ["routine", 302.84, 303.6],
+    ["for", 303.64, 303.84],
+    ["something", 303.84, 304.32],
+    ["where", 304.32, 304.44],
+    ["I", 304.44, 304.56],
+    ["just", 304.56, 304.88],
+    ["can", 304.88, 305.04],
+    ["use", 305.04, 305.24],
+    ["like", 305.24, 305.4],
+    ["my", 305.4, 305.56],
+    ["body", 305.56, 305.84],
+    ["weight.", 305.84, 306.12]
+   ]
+  },
+  {
+   "text": "I can even just take like a 15-minute walk and track it on the app, and it will count as my daily exercise.",
+   "start": 306.12,
+   "end": 311.72,
+   "words": [
+    ["I", 306.12, 306.2],
+    ["can", 306.2, 306.32],
+    ["even", 306.32, 306.48],
+    ["just", 306.48, 306.68],
+    ["take", 306.68, 306.96],
+    ["like", 306.96, 307.12],
+    ["a", 307.12, 307.2],
+    ["15-minute", 307.2, 307.8],
+    ["walk", 307.8, 308.08],
+    ["and", 308.08, 308.2],
+    ["track", 308.2, 308.4],
+    ["it", 308.4, 308.48],
+    ["on", 308.48, 308.6],
+    ["the", 308.6, 308.68],
+    ["app,", 308.68, 309.0],
+    ["and", 309.0, 309.12],
+    ["it", 309.12, 309.24],
+    ["will", 309.24, 309.4],
+    ["count", 309.4, 309.76],
+    ["as", 309.76, 310.12],
+    ["my", 310.2, 310.36],
+    ["daily", 310.36, 310.8],
+    ["exercise.", 310.8, 311.72]
+   ]
+  },
+  {
+   "text": "So, if you've been trying to lock in and you want to create your own fitness default, I highly recommend Trainwell.",
+   "start": 311.76,
+   "end": 317.56,
+   "words": [
+    ["So,", 311.76, 312.0],
+    ["if", 312.0, 312.16],
+    ["you've", 312.16, 312.28],
+    ["been", 312.28, 312.4],
+    ["trying", 312.4, 312.64],
+    ["to", 312.64, 312.72],
+    ["lock", 312.72, 313.0],
+    ["in", 313.0, 313.24],
+    ["and", 313.24, 313.36],
+    ["you", 313.36, 313.44],
+    ["want", 313.44, 313.6],
+    ["to", 313.6, 313.68],
+    ["create", 313.68, 313.96],
+    ["your", 313.96, 314.12],
+    ["own", 314.12, 314.36],
+    ["fitness", 314.36, 314.72],
+    ["default,", 314.72, 315.56],
+    ["I", 315.6, 315.8],
+    ["highly", 315.8, 316.32],
+    ["recommend", 316.32, 316.76],
+    ["Trainwell.", 316.76, 317.56]
+   ]
+  },
+  {
+   "text": "They're actually doing a 14-day free trial, so click the link.",
+   "start": 317.56,
+   "end": 321.12,
+   "words": [
+    ["They're", 317.56, 317.72],
+    ["actually", 317.72, 318.08],
+    ["doing", 318.08, 318.4],
+    ["a", 318.4, 318.52],
+    ["14-day", 318.52, 319.12],
+    ["free", 319.12, 319.36],
+    ["trial,", 319.36, 320.04],
+    ["so", 320.08, 320.36],
+    ["click", 320.36, 320.72],
+    ["the", 320.72, 320.8],
+    ["link.", 320.8, 321.12]
+   ]
+  },
+  {
+   "text": "It will be in my description box.",
+   "start": 321.12,
+   "end": 322.84,
+   "words": [
+    ["It", 321.12, 321.24],
+    ["will", 321.24, 321.36],
+    ["be", 321.36, 321.6],
+    ["in", 321.6, 321.76],
+    ["my", 321.76, 321.88],
+    ["description", 321.88, 322.32],
+    ["box.", 322.32, 322.84]
+   ]
+  },
+  {
+   "text": "Let's move on to food.",
+   "start": 323.08,
+   "end": 324.36,
+   "words": [
+    ["Let's", 323.08, 323.32],
+    ["move", 323.32, 323.52],
+    ["on", 323.52, 323.64],
+    ["to", 323.64, 323.76],
+    ["food.", 323.76, 324.36]
+   ]
+  },
+  {
+   "text": "We are making three to four decisions a day just on our diet.",
+   "start": 324.4,
+   "end": 327.92,
+   "words": [
+    ["We", 324.4, 324.56],
+    ["are", 324.56, 324.64],
+    ["making", 324.64, 325.12],
+    ["three", 325.12, 325.36],
+    ["to", 325.36, 325.48],
+    ["four", 325.48, 325.68],
+    ["decisions", 325.68, 326.32],
+    ["a", 326.32, 326.4],
+    ["day", 326.4, 326.72],
+    ["just", 326.72, 327.08],
+    ["on", 327.08, 327.2],
+    ["our", 327.2, 327.32],
+    ["diet.", 327.32, 327.92]
+   ]
+  },
+  {
+   "text": "And if I am hungry, I don't get hangry, I get anxious.",
+   "start": 328.0,
+   "end": 333.0,
+   "words": [
+    ["And", 328.0, 328.16],
+    ["if", 328.16, 328.44],
+    ["I", 328.44, 328.72],
+    ["am", 329.16, 329.36],
+    ["hungry,", 329.36, 330.12],
+    ["I", 330.24, 330.32],
+    ["don't", 330.32, 330.52],
+    ["get", 330.52, 330.72],
+    ["hangry,", 330.72, 331.48],
+    ["I", 331.72, 331.8],
+    ["get", 331.8, 332.16],
+    ["anxious.", 332.16, 333.0]
+   ]
+  },
+  {
+   "text": "That's hungry and anxious.",
+   "start": 333.04,
+   "end": 335.24,
+   "words": [
+    ["That's", 333.04, 333.36],
+    ["hungry", 333.36, 334.04],
+    ["and", 334.28, 334.44],
+    ["anxious.", 334.44, 335.24]
+   ]
+  },
+  {
+   "text": "It's a combination I absolutely hate, and when I get into this state,",
+   "start": 335.24,
+   "end": 338.84,
+   "words": [
+    ["It's", 335.24, 335.4],
+    ["a", 335.4, 335.45],
+    ["combination", 335.44, 336.04],
+    ["I", 336.04, 336.2],
+    ["absolutely", 336.2, 336.8],
+    ["hate,", 336.8, 337.12],
+    ["and", 337.12, 337.28],
+    ["when", 337.28, 337.48],
+    ["I", 337.48, 337.56],
+    ["get", 337.56, 337.8],
+    ["into", 337.8, 337.96],
+    ["this", 337.96, 338.16],
+    ["state,", 338.16, 338.84]
+   ]
+  },
+  {
+   "text": "and there's nothing in my fridge, like no ingredients, no leftovers, what am I going to do?",
+   "start": 339.04,
+   "end": 344.32,
+   "words": [
+    ["and", 339.04, 339.16],
+    ["there's", 339.16, 339.44],
+    ["nothing", 339.44, 339.92],
+    ["in", 339.92, 340.04],
+    ["my", 340.04, 340.2],
+    ["fridge,", 340.2, 340.6],
+    ["like", 340.6, 340.84],
+    ["no", 340.84, 341.08],
+    ["ingredients,", 341.08, 341.88],
+    ["no", 341.88, 342.08],
+    ["leftovers,", 342.08, 343.08],
+    ["what", 343.52, 343.57],
+    ["am", 343.56, 343.68],
+    ["I", 343.68, 343.73],
+    ["going", 343.72, 343.84],
+    ["to", 343.84, 343.89],
+    ["do?", 343.88, 344.32]
+   ]
+  },
+  {
+   "text": "My brain is going to find the fastest solution, and that's usually chips or chocolate.",
+   "start": 344.48,
+   "end": 349.36,
+   "words": [
+    ["My", 344.48, 344.6],
+    ["brain", 344.6, 344.8],
+    ["is", 344.8, 344.85],
+    ["going", 344.84, 344.96],
+    ["to", 344.96, 345.04],
+    ["find", 345.04, 345.2],
+    ["the", 345.2, 345.28],
+    ["fastest", 345.28, 345.88],
+    ["solution,", 345.88, 346.76],
+    ["and", 346.76, 346.92],
+    ["that's", 346.92, 347.16],
+    ["usually", 347.16, 347.56],
+    ["chips", 347.56, 348.16],
+    ["or", 348.48, 348.6],
+    ["chocolate.", 348.6, 349.36]
+   ]
+  },
+  {
+   "text": "So, my default meal system relies on a few things.",
+   "start": 349.36,
+   "end": 352.8,
+   "words": [
+    ["So,", 349.36, 349.64],
+    ["my", 349.64, 349.8],
+    ["default", 349.8, 350.36],
+    ["meal", 350.36, 350.6],
+    ["system", 350.6, 351.2],
+    ["relies", 351.2, 351.64],
+    ["on", 351.64, 351.76],
+    ["a", 351.76, 351.81],
+    ["few", 351.8, 352.04],
+    ["things.", 352.04, 352.8]
+   ]
+  },
+  {
+   "text": "Number one, I have a short menu of consistent hits.",
+   "start": 352.84,
+   "end": 356.84,
+   "words": [
+    ["Number", 352.84, 353.16],
+    ["one,", 353.16, 353.68],
+    ["I", 353.88, 353.96],
+    ["have", 353.96, 354.16],
+    ["a", 354.16, 354.24],
+    ["short", 354.24, 354.6],
+    ["menu", 354.6, 355.12],
+    ["of", 355.32, 355.52],
+    ["consistent", 355.52, 356.24],
+    ["hits.", 356.24, 356.84]
+   ]
+  },
+  {
+   "text": "I have like a running list of maybe three to five meals that I can cook under 15 minutes.",
+   "start": 357.08,
+   "end": 363.12,
+   "words": [
+    ["I", 357.08, 357.16],
+    ["have", 357.16, 357.32],
+    ["like", 357.32, 357.48],
+    ["a", 357.48, 357.53],
+    ["running", 357.52, 357.84],
+    ["list", 357.84, 358.08],
+    ["of", 358.08, 358.2],
+    ["maybe", 358.2, 358.56],
+    ["three", 358.56, 359.12],
+    ["to", 359.12, 359.32],
+    ["five", 359.32, 359.84],
+    ["meals", 360.0, 360.52],
+    ["that", 360.52, 360.88],
+    ["I", 360.88, 361.16],
+    ["can", 361.24, 361.48],
+    ["cook", 361.48, 361.8],
+    ["under", 361.8, 362.08],
+    ["15", 362.08, 362.44],
+    ["minutes.", 362.48, 363.12]
+   ]
+  },
+  {
+   "text": "Like, these are not fancy meals.",
+   "start": 363.12,
+   "end": 364.84,
+   "words": [
+    ["Like,", 363.12, 363.4],
+    ["these", 363.4, 363.6],
+    ["are", 363.6, 363.68],
+    ["not", 363.68, 364.08],
+    ["fancy", 364.08, 364.52],
+    ["meals.", 364.52, 364.84]
+   ]
+  },
+  {
+   "text": "Like, this is not a soufflé, if you will.",
+   "start": 364.84,
+   "end": 367.44,
+   "words": [
+    ["Like,", 364.84, 365.0],
+    ["this", 365.0, 365.12],
+    ["is", 365.12, 365.2],
+    ["not", 365.2, 365.4],
+    ["a", 365.4, 365.48],
+    ["soufflé,", 365.48, 366.32],
+    ["if", 366.52, 366.72],
+    ["you", 366.72, 366.84],
+    ["will.", 366.84, 367.44]
+   ]
+  },
+  {
+   "text": "These are quick, accessible, healthy, and they fit in with my maintenance calories.",
+   "start": 367.48,
+   "end": 373.2,
+   "words": [
+    ["These", 367.48, 367.76],
+    ["are", 367.76, 368.08],
+    ["quick,", 368.08, 368.76],
+    ["accessible,", 369.04, 370.08],
+    ["healthy,", 370.08, 370.92],
+    ["and", 370.92, 371.08],
+    ["they", 371.08, 371.24],
+    ["fit", 371.24, 371.52],
+    ["in", 371.52, 371.68],
+    ["with", 371.68, 371.88],
+    ["my", 371.88, 372.0],
+    ["maintenance", 372.0, 372.4],
+    ["calories.", 372.4, 373.2]
+   ]
+  },
+  {
+   "text": "When I cook, I am bulk cooking.",
+   "start": 373.2,
+   "end": 375.6,
+   "words": [
+    ["When", 373.2, 373.44],
+    ["I", 373.44, 373.56],
+    ["cook,", 373.56, 374.16],
+    ["I", 374.24, 374.36],
+    ["am", 374.36, 374.64],
+    ["bulk", 374.64, 375.16],
+    ["cooking.", 375.16, 375.6]
+   ]
+  },
+  {
+   "text": "I want to make sure I can stretch this out maybe three or four meals because I love leftovers.",
+   "start": 375.6,
+   "end": 381.24,
+   "words": [
+    ["I", 375.6, 375.65],
+    ["want", 375.64, 375.8],
+    ["to", 375.8, 375.88],
+    ["make", 375.88, 376.04],
+    ["sure", 376.04, 376.2],
+    ["I", 376.2, 376.28],
+    ["can", 376.28, 376.48],
+    ["stretch", 376.48, 376.8],
+    ["this", 376.8, 377.04],
+    ["out", 377.04, 377.2],
+    ["maybe", 377.2, 377.4],
+    ["three", 377.4, 377.64],
+    ["or", 377.64, 377.76],
+    ["four", 377.76, 377.96],
+    ["meals", 377.96, 378.56],
+    ["because", 378.68, 379.2],
+    ["I", 379.2, 379.48],
+    ["love", 379.92, 380.44],
+    ["leftovers.", 380.56, 381.24]
+   ]
+  },
+  {
+   "text": "I am the queen of leftovers.",
+   "start": 381.24,
+   "end": 383.4,
+   "words": [
+    ["I", 381.24, 381.36],
+    ["am", 381.36, 381.56],
+    ["the", 381.56, 381.72],
+    ["queen", 381.72, 382.32],
+    ["of", 382.36, 382.52],
+    ["leftovers.", 382.52, 383.4]
+   ]
+  },
+  {
+   "text": "It's because I'm a very impatient person, and when I'm hungry, I want to eat immediately.",
+   "start": 383.4,
+   "end": 388.04,
+   "words": [
+    ["It's", 383.4, 383.6],
+    ["because", 383.6, 383.96],
+    ["I'm", 383.96, 384.08],
+    ["a", 384.08, 384.16],
+    ["very", 384.16, 384.56],
+    ["impatient", 384.56, 385.12],
+    ["person,", 385.12, 385.52],
+    ["and", 385.52, 385.64],
+    ["when", 385.64, 385.8],
+    ["I'm", 385.8, 385.96],
+    ["hungry,", 385.96, 386.72],
+    ["I", 386.76, 386.84],
+    ["want", 386.84, 387.0],
+    ["to", 387.0, 387.08],
+    ["eat", 387.08, 387.24],
+    ["immediately.", 387.24, 388.04]
+   ]
+  },
+  {
+   "text": "So, even if I'm craving like a burger or a pizza,",
+   "start": 388.04,
+   "end": 390.76,
+   "words": [
+    ["So,", 388.04, 388.24],
+    ["even", 388.24, 388.48],
+    ["if", 388.48, 388.6],
+    ["I'm", 388.6, 388.72],
+    ["craving", 388.72, 389.2],
+    ["like", 389.2, 389.36],
+    ["a", 389.36, 389.44],
+    ["burger", 389.44, 389.88],
+    ["or", 389.88, 390.04],
+    ["a", 390.04, 390.09],
+    ["pizza,", 390.08, 390.76]
+   ]
+  },
+  {
+   "text": "if I have leftovers, I would much rather eat my prep chicken in my Tupperware than wait 45 minutes for a soggy pizza.",
+   "start": 391.12,
+   "end": 398.2,
+   "words": [
+    ["if", 391.12, 391.4],
+    ["I", 391.4, 391.48],
+    ["have", 391.48, 391.72],
+    ["leftovers,", 391.72, 392.4],
+    ["I", 392.4, 392.48],
+    ["would", 392.48, 392.64],
+    ["much", 392.64, 392.84],
+    ["rather", 392.84, 393.08],
+    ["eat", 393.08, 393.28],
+    ["my", 393.28, 393.44],
+    ["prep", 393.44, 393.72],
+    ["chicken", 393.72, 394.24],
+    ["in", 394.24, 394.36],
+    ["my", 394.36, 394.48],
+    ["Tupperware", 394.48, 395.48],
+    ["than", 395.64, 395.84],
+    ["wait", 395.84, 396.16],
+    ["45", 396.16, 396.52],
+    ["minutes", 396.68, 396.96],
+    ["for", 396.96, 397.08],
+    ["a", 397.08, 397.16],
+    ["soggy", 397.16, 397.52],
+    ["pizza.", 397.52, 398.2]
+   ]
+  },
+  {
+   "text": "I have a son, so I also keep default stand-alone meals on deck just for him.",
+   "start": 398.36,
+   "end": 403.48,
+   "words": [
+    ["I", 398.36, 398.44],
+    ["have", 398.44, 398.56],
+    ["a", 398.56, 398.64],
+    ["son,", 398.64, 398.96],
+    ["so", 398.96, 399.16],
+    ["I", 399.16, 399.32],
+    ["also", 399.32, 399.8],
+    ["keep", 399.8, 400.32],
+    ["default", 400.4, 400.96],
+    ["stand-alone", 400.96, 401.52],
+    ["meals", 401.52, 401.88],
+    ["on", 401.88, 402.04],
+    ["deck", 402.04, 402.4],
+    ["just", 402.4, 402.76],
+    ["for", 402.76, 402.96],
+    ["him.", 402.96, 403.48]
+   ]
+  },
+  {
+   "text": "Obviously, there are meals that we both eat,",
+   "start": 403.6,
+   "end": 405.84,
+   "words": [
+    ["Obviously,", 403.6, 404.2],
+    ["there", 404.2, 404.4],
+    ["are", 404.4, 404.48],
+    ["meals", 404.48, 404.76],
+    ["that", 404.76, 405.0],
+    ["we", 405.0, 405.05],
+    ["both", 405.04, 405.32],
+    ["eat,", 405.32, 405.84]
+   ]
+  },
+  {
+   "text": "but sometimes I don't want to force him to eat something that I have made because I don't want to fight.",
+   "start": 405.96,
+   "end": 412.72,
+   "words": [
+    ["but", 405.96, 406.4],
+    ["sometimes", 407.12, 407.68],
+    ["I", 407.68, 407.73],
+    ["don't", 407.72, 407.92],
+    ["want", 407.92, 408.04],
+    ["to", 408.04, 408.12],
+    ["force", 408.12, 408.44],
+    ["him", 408.44, 408.88],
+    ["to", 409.0, 409.16],
+    ["eat", 409.16, 409.4],
+    ["something", 409.4, 409.84],
+    ["that", 409.84, 410.04],
+    ["I", 410.04, 410.09],
+    ["have", 410.08, 410.28],
+    ["made", 410.28, 410.64],
+    ["because", 410.64, 411.2],
+    ["I", 411.2, 411.48],
+    ["don't", 411.84, 412.08],
+    ["want", 412.08, 412.2],
+    ["to", 412.2, 412.28],
+    ["fight.", 412.28, 412.72]
+   ]
+  },
+  {
+   "text": "I just It's the end of the day.",
+   "start": 412.72,
+   "end": 414.48,
+   "words": [
+    ["I", 412.72, 412.84],
+    ["just", 412.84, 413.12],
+    ["It's", 413.12, 413.36],
+    ["the", 413.36, 413.52],
+    ["end", 413.52, 413.76],
+    ["of", 413.76, 413.84],
+    ["the", 413.84, 413.96],
+    ["day.", 413.96, 414.48]
+   ]
+  },
+  {
+   "text": "I am broken.",
+   "start": 414.52,
+   "end": 415.36,
+   "words": [
+    ["I", 414.52, 414.76],
+    ["am", 414.76, 414.92],
+    ["broken.", 414.92, 415.36]
+   ]
+  },
+  {
+   "text": "I just want him to be happy when he eats, too.",
+   "start": 415.36,
+   "end": 418.64,
+   "words": [
+    ["I", 415.36, 415.44],
+    ["just", 415.44, 415.8],
+    ["want", 415.8, 416.0],
+    ["him", 416.0, 416.44],
+    ["to", 416.6, 416.96],
+    ["be", 417.12, 417.32],
+    ["happy", 417.32, 417.68],
+    ["when", 417.68, 417.84],
+    ["he", 417.84, 417.96],
+    ["eats,", 417.96, 418.24],
+    ["too.", 418.24, 418.64]
+   ]
+  },
+  {
+   "text": "Parents really feel me on this.",
+   "start": 418.64,
+   "end": 420.32,
+   "words": [
+    ["Parents", 418.64, 419.12],
+    ["really", 419.12, 419.44],
+    ["feel", 419.44, 419.68],
+    ["me", 419.68, 419.84],
+    ["on", 419.84, 419.96],
+    ["this.", 419.96, 420.32]
+   ]
+  },
+  {
+   "text": "Like, some days we are eating the same thing, and sometimes we are not.",
+   "start": 420.32,
+   "end": 424.32,
+   "words": [
+    ["Like,", 420.32, 420.56],
+    ["some", 420.56, 420.8],
+    ["days", 420.8, 421.32],
+    ["we", 421.36, 421.48],
+    ["are", 421.48, 421.64],
+    ["eating", 421.64, 421.84],
+    ["the", 421.84, 421.92],
+    ["same", 421.92, 422.16],
+    ["thing,", 422.16, 422.72],
+    ["and", 422.72, 422.84],
+    ["sometimes", 422.84, 423.48],
+    ["we", 423.48, 423.68],
+    ["are", 423.68, 423.8],
+    ["not.", 423.8, 424.32]
+   ]
+  },
+  {
+   "text": "My default meals list is always rotating depending on the season or time of year it is.",
+   "start": 424.44,
+   "end": 428.92,
+   "words": [
+    ["My", 424.44, 424.56],
+    ["default", 424.56, 424.96],
+    ["meals", 424.96, 425.2],
+    ["list", 425.2, 425.44],
+    ["is", 425.44, 425.6],
+    ["always", 425.6, 425.96],
+    ["rotating", 425.96, 426.52],
+    ["depending", 426.52, 426.92],
+    ["on", 426.92, 427.04],
+    ["the", 427.04, 427.16],
+    ["season", 427.16, 427.64],
+    ["or", 427.64, 427.76],
+    ["time", 427.76, 428.0],
+    ["of", 428.0, 428.12],
+    ["year", 428.12, 428.36],
+    ["it", 428.36, 428.48],
+    ["is.", 428.48, 428.92]
+   ]
+  },
+  {
+   "text": "But, yeah, I'm like always pretty adventurous with my food.",
+   "start": 429.12,
+   "end": 432.48,
+   "words": [
+    ["But,", 429.12, 429.6],
+    ["yeah,", 429.6, 429.8],
+    ["I'm", 429.8, 429.96],
+    ["like", 429.96, 430.2],
+    ["always", 430.2, 430.64],
+    ["pretty", 430.64, 431.0],
+    ["adventurous", 431.0, 431.6],
+    ["with", 431.6, 431.76],
+    ["my", 431.76, 431.92],
+    ["food.", 431.92, 432.48]
+   ]
+  },
+  {
+   "text": "Every month when I'm feeling the itch to try something new or try out a new recipe, I'll go for it.",
+   "start": 432.48,
+   "end": 437.88,
+   "words": [
+    ["Every", 432.48, 432.72],
+    ["month", 432.72, 432.96],
+    ["when", 432.96, 433.04],
+    ["I'm", 433.04, 433.16],
+    ["feeling", 433.16, 433.48],
+    ["the", 433.48, 433.6],
+    ["itch", 433.6, 433.88],
+    ["to", 433.88, 434.0],
+    ["try", 434.0, 434.2],
+    ["something", 434.2, 434.64],
+    ["new", 434.64, 435.08],
+    ["or", 435.44, 435.72],
+    ["try", 435.72, 435.92],
+    ["out", 435.92, 436.0],
+    ["a", 436.0, 436.05],
+    ["new", 436.04, 436.2],
+    ["recipe,", 436.2, 436.96],
+    ["I'll", 437.12, 437.24],
+    ["go", 437.24, 437.4],
+    ["for", 437.4, 437.6],
+    ["it.", 437.6, 437.88]
+   ]
+  },
+  {
+   "text": "Let's talk about space because our environment affects our mood and behavior more than we'd like to admit.",
+   "start": 437.88,
+   "end": 443.08,
+   "words": [
+    ["Let's", 437.88, 438.16],
+    ["talk", 438.16, 438.32],
+    ["about", 438.32, 438.6],
+    ["space", 438.6, 438.96],
+    ["because", 438.96, 439.32],
+    ["our", 439.32, 439.52],
+    ["environment", 439.52, 440.4],
+    ["affects", 440.4, 440.72],
+    ["our", 440.72, 440.84],
+    ["mood", 440.84, 441.0],
+    ["and", 441.0, 441.12],
+    ["behavior", 441.12, 441.52],
+    ["more", 441.52, 441.8],
+    ["than", 441.8, 441.96],
+    ["we'd", 441.96, 442.12],
+    ["like", 442.12, 442.28],
+    ["to", 442.28, 442.4],
+    ["admit.", 442.4, 443.08]
+   ]
+  },
+  {
+   "text": "Like, when was the last time you crashed out and your bedroom was like pristine and organized, right?",
+   "start": 443.08,
+   "end": 448.64,
+   "words": [
+    ["Like,", 443.08, 443.48],
+    ["when", 443.48, 443.72],
+    ["was", 443.72, 443.88],
+    ["the", 443.88, 443.96],
+    ["last", 443.96, 444.2],
+    ["time", 444.2, 444.4],
+    ["you", 444.4, 444.52],
+    ["crashed", 444.52, 444.92],
+    ["out", 444.92, 445.36],
+    ["and", 445.44, 445.56],
+    ["your", 445.56, 445.68],
+    ["bedroom", 445.68, 446.2],
+    ["was", 446.2, 446.44],
+    ["like", 446.44, 446.72],
+    ["pristine", 446.72, 447.2],
+    ["and", 447.2, 447.32],
+    ["organized,", 447.32, 448.24],
+    ["right?", 448.24, 448.64]
+   ]
+  },
+  {
+   "text": "Like, I feel like if you're on the brink of of like a collapse, it's usually because your space is messy, too.",
+   "start": 448.64,
+   "end": 454.64,
+   "words": [
+    ["Like,", 448.64, 449.08],
+    ["I", 449.08, 449.2],
+    ["feel", 449.2, 449.4],
+    ["like", 449.4, 449.92],
+    ["if", 449.92, 450.04],
+    ["you're", 450.04, 450.16],
+    ["on", 450.16, 450.32],
+    ["the", 450.32, 450.4],
+    ["brink", 450.4, 451.0],
+    ["of", 451.04, 451.28],
+    ["of", 451.28, 451.4],
+    ["like", 451.4, 451.56],
+    ["a", 451.56, 451.61],
+    ["collapse,", 451.6, 452.44],
+    ["it's", 452.44, 452.64],
+    ["usually", 452.64, 453.0],
+    ["because", 453.0, 453.28],
+    ["your", 453.28, 453.36],
+    ["space", 453.36, 453.68],
+    ["is", 453.68, 453.8],
+    ["messy,", 453.8, 454.2],
+    ["too.", 454.2, 454.64]
+   ]
+  },
+  {
+   "text": "Like, I feel like that is always the final straw.",
+   "start": 454.64,
+   "end": 457.16,
+   "words": [
+    ["Like,", 454.64, 454.8],
+    ["I", 454.8, 454.85],
+    ["feel", 454.84, 455.0],
+    ["like", 455.0, 455.2],
+    ["that", 455.2, 455.48],
+    ["is", 455.48, 455.64],
+    ["always", 455.64, 456.0],
+    ["the", 456.0, 456.08],
+    ["final", 456.08, 456.48],
+    ["straw.", 456.48, 457.16]
+   ]
+  },
+  {
+   "text": "When like your shit's a mess and you can't find something.",
+   "start": 457.88,
+   "end": 460.64,
+   "words": [
+    ["When", 457.88, 458.0],
+    ["like", 458.0, 458.32],
+    ["your", 458.32, 458.48],
+    ["shit's", 458.48, 458.8],
+    ["a", 458.8, 458.85],
+    ["mess", 458.84, 459.08],
+    ["and", 459.08, 459.16],
+    ["you", 459.16, 459.21],
+    ["can't", 459.2, 459.48],
+    ["find", 459.48, 459.72],
+    ["something.", 459.72, 460.64]
+   ]
+  },
+  {
+   "text": "I have been binge-watching Mikayla.",
+   "start": 460.64,
+   "end": 462.96,
+   "words": [
+    ["I", 460.64, 460.76],
+    ["have", 460.76, 460.96],
+    ["been", 460.96, 461.24],
+    ["binge-watching", 461.24, 462.12],
+    ["Mikayla.", 462.12, 462.96]
+   ]
+  },
+  {
+   "text": "Her YouTube channel is called Break Your Budget.",
+   "start": 463.0,
+   "end": 465.04,
+   "words": [
+    ["Her", 463.0, 463.24],
+    ["YouTube", 463.24, 463.48],
+    ["channel", 463.48, 463.68],
+    ["is", 463.68, 463.76],
+    ["called", 463.76, 464.0],
+    ["Break", 464.0, 464.2],
+    ["Your", 464.2, 464.32],
+    ["Budget.", 464.32, 465.04]
+   ]
+  },
+  {
+   "text": "She has this amazing video about how she tidies up her space,",
+   "start": 465.04,
+   "end": 469.24,
+   "words": [
+    ["She", 465.04, 465.48],
+    ["has", 465.64, 465.8],
+    ["this", 465.8, 465.96],
+    ["amazing", 465.96, 466.44],
+    ["video", 466.44, 466.92],
+    ["about", 466.92, 467.4],
+    ["how", 467.4, 467.68],
+    ["she", 467.68, 468.08],
+    ["tidies", 468.08, 468.52],
+    ["up", 468.52, 468.64],
+    ["her", 468.64, 468.76],
+    ["space,", 468.76, 469.24]
+   ]
+  },
+  {
+   "text": "and she has a bunch of home defaults, and it inspired me to share my own home defaults.",
+   "start": 469.24,
+   "end": 475.0,
+   "words": [
+    ["and", 469.24, 469.36],
+    ["she", 469.36, 469.44],
+    ["has", 469.44, 469.56],
+    ["a", 469.56, 469.61],
+    ["bunch", 469.6, 469.8],
+    ["of", 469.8, 469.92],
+    ["home", 469.92, 470.2],
+    ["defaults,", 470.2, 471.12],
+    ["and", 471.12, 471.24],
+    ["it", 471.24, 471.36],
+    ["inspired", 471.36, 471.88],
+    ["me", 471.88, 472.24],
+    ["to", 472.32, 472.48],
+    ["share", 472.48, 472.96],
+    ["my", 472.96, 473.2],
+    ["own", 473.2, 473.64],
+    ["home", 473.84, 474.12],
+    ["defaults.", 474.12, 475.0]
+   ]
+  },
+  {
+   "text": "My first is everything has a home.",
+   "start": 475.0,
+   "end": 477.84,
+   "words": [
+    ["My", 475.0, 475.2],
+    ["first", 475.2, 475.56],
+    ["is", 475.56, 475.92],
+    ["everything", 476.28, 476.88],
+    ["has", 476.88, 477.16],
+    ["a", 477.16, 477.24],
+    ["home.", 477.24, 477.84]
+   ]
+  },
+  {
+   "text": "Like nearly every object in my house has a designated area that they belong to, and I've tried my best to make it as functional as possible.",
+   "start": 477.92,
+   "end": 486.48,
+   "words": [
+    ["Like", 477.92, 478.16],
+    ["nearly", 478.16, 478.72],
+    ["every", 478.72, 479.2],
+    ["object", 479.2, 479.76],
+    ["in", 479.76, 479.92],
+    ["my", 479.92, 480.12],
+    ["house", 480.12, 480.72],
+    ["has", 480.8, 481.0],
+    ["a", 481.0, 481.08],
+    ["designated", 481.08, 481.8],
+    ["area", 481.8, 482.16],
+    ["that", 482.16, 482.32],
+    ["they", 482.32, 482.4],
+    ["belong", 482.4, 482.84],
+    ["to,", 482.84, 483.28],
+    ["and", 483.44, 483.56],
+    ["I've", 483.56, 483.72],
+    ["tried", 483.72, 484.08],
+    ["my", 484.08, 484.2],
+    ["best", 484.2, 484.48],
+    ["to", 484.48, 484.56],
+    ["make", 484.56, 484.72],
+    ["it", 484.72, 484.84],
+    ["as", 484.84, 485.0],
+    ["functional", 485.0, 485.48],
+    ["as", 485.48, 485.6],
+    ["possible.", 485.6, 486.48]
+   ]
+  },
+  {
+   "text": "Like my sunglasses and my sunscreen are by my entryway.",
+   "start": 486.48,
+   "end": 490.4,
+   "words": [
+    ["Like", 486.48, 487.0],
+    ["my", 487.12, 487.32],
+    ["sunglasses", 487.32, 488.12],
+    ["and", 488.12, 488.2],
+    ["my", 488.2, 488.32],
+    ["sunscreen", 488.32, 488.96],
+    ["are", 488.96, 489.12],
+    ["by", 489.12, 489.32],
+    ["my", 489.32, 489.48],
+    ["entryway.", 489.48, 490.4]
+   ]
+  },
+  {
+   "text": "My mugs live on top of my coffee maker.",
+   "start": 490.4,
+   "end": 493.6,
+   "words": [
+    ["My", 490.4, 490.6],
+    ["mugs", 490.6, 491.12],
+    ["live", 491.28, 491.6],
+    ["on", 491.6, 491.76],
+    ["top", 491.76, 492.2],
+    ["of", 492.28, 492.52],
+    ["my", 492.52, 492.64],
+    ["coffee", 492.64, 493.0],
+    ["maker.", 493.0, 493.6]
+   ]
+  },
+  {
+   "text": "Like my hair products are next to the hair dryer.",
+   "start": 493.6,
+   "end": 496.32,
+   "words": [
+    ["Like", 493.6, 493.76],
+    ["my", 493.76, 493.92],
+    ["hair", 493.92, 494.28],
+    ["products", 494.28, 494.68],
+    ["are", 494.68, 494.8],
+    ["next", 494.8, 495.12],
+    ["to", 495.12, 495.48],
+    ["the", 495.48, 495.64],
+    ["hair", 495.64, 495.84],
+    ["dryer.", 495.84, 496.32]
+   ]
+  },
+  {
+   "text": "Sometimes when I'm putting things away, I play a little game with myself.",
+   "start": 496.32,
+   "end": 499.64,
+   "words": [
+    ["Sometimes", 496.32, 496.8],
+    ["when", 496.8, 496.88],
+    ["I'm", 496.88, 496.93],
+    ["putting", 496.92, 497.12],
+    ["things", 497.12, 497.28],
+    ["away,", 497.28, 497.88],
+    ["I", 498.0, 498.08],
+    ["play", 498.08, 498.24],
+    ["a", 498.24, 498.29],
+    ["little", 498.28, 498.52],
+    ["game", 498.52, 498.76],
+    ["with", 498.76, 498.92],
+    ["myself.", 498.92, 499.64]
+   ]
+  },
+  {
+   "text": "Like I pretend that the objects are alive.",
+   "start": 499.64,
+   "end": 502.8,
+   "words": [
+    ["Like", 499.64, 499.88],
+    ["I", 499.88, 499.96],
+    ["pretend", 499.96, 500.72],
+    ["that", 501.36, 501.48],
+    ["the", 501.48, 501.6],
+    ["objects", 501.6, 502.0],
+    ["are", 502.0, 502.12],
+    ["alive.", 502.12, 502.8]
+   ]
+  },
+  {
+   "text": "Like let's say like a purse is just out there.",
+   "start": 502.96,
+   "end": 504.96,
+   "words": [
+    ["Like", 502.96, 503.12],
+    ["let's", 503.12, 503.28],
+    ["say", 503.28, 503.36],
+    ["like", 503.36, 503.6],
+    ["a", 503.6, 503.68],
+    ["purse", 503.68, 503.96],
+    ["is", 503.96, 504.04],
+    ["just", 504.04, 504.28],
+    ["out", 504.28, 504.4],
+    ["there.", 504.4, 504.96]
+   ]
+  },
+  {
+   "text": "I will give the purse a little voice.",
+   "start": 504.96,
+   "end": 506.88,
+   "words": [
+    ["I", 504.96, 505.08],
+    ["will", 505.08, 505.36],
+    ["give", 505.36, 505.84],
+    ["the", 505.84, 506.0],
+    ["purse", 506.0, 506.32],
+    ["a", 506.32, 506.37],
+    ["little", 506.36, 506.6],
+    ["voice.", 506.6, 506.88]
+   ]
+  },
+  {
+   "text": "It'll be like, \"Oh, where do I belong?",
+   "start": 506.88,
+   "end": 509.24,
+   "words": [
+    ["It'll", 506.88, 507.0],
+    ["be", 507.0, 507.12],
+    ["like,", 507.12, 507.52],
+    ["\"Oh,", 507.52, 508.04],
+    ["where", 508.12, 508.28],
+    ["do", 508.28, 508.4],
+    ["I", 508.4, 508.48],
+    ["belong?", 508.48, 509.24]
+   ]
+  },
+  {
+   "text": "I miss my family.\"",
+   "start": 509.28,
+   "end": 510.6,
+   "words": [
+    ["I", 509.28, 509.4],
+    ["miss", 509.4, 509.68],
+    ["my", 509.68, 509.84],
+    ["family.\"", 509.84, 510.6]
+   ]
+  },
+  {
+   "text": "And I'm like, \"Oh my gosh, I feel so bad.\"",
+   "start": 510.6,
+   "end": 512.16,
+   "words": [
+    ["And", 510.6, 510.68],
+    ["I'm", 510.68, 510.8],
+    ["like,", 510.8, 511.08],
+    ["\"Oh", 511.08, 511.16],
+    ["my", 511.16, 511.28],
+    ["gosh,", 511.28, 511.56],
+    ["I", 511.56, 511.61],
+    ["feel", 511.6, 511.76],
+    ["so", 511.76, 511.92],
+    ["bad.\"", 511.92, 512.16]
+   ]
+  },
+  {
+   "text": "And I And then I carry my purse, and I put it with its purse family.",
+   "start": 512.16,
+   "end": 516.16,
+   "words": [
+    ["And", 512.16, 512.6],
+    ["I", 512.64, 512.76],
+    ["And", 512.76, 512.84],
+    ["then", 512.84, 512.96],
+    ["I", 512.96, 513.04],
+    ["carry", 513.04, 513.28],
+    ["my", 513.28, 513.44],
+    ["purse,", 513.44, 514.0],
+    ["and", 514.0, 514.12],
+    ["I", 514.12, 514.2],
+    ["put", 514.2, 514.4],
+    ["it", 514.4, 514.76],
+    ["with", 514.88, 515.04],
+    ["its", 515.04, 515.2],
+    ["purse", 515.2, 515.44],
+    ["family.", 515.44, 516.16]
+   ]
+  },
+  {
+   "text": "And suddenly I am cleaning up.",
+   "start": 516.16,
+   "end": 517.96,
+   "words": [
+    ["And", 516.16, 516.32],
+    ["suddenly", 516.32, 516.96],
+    ["I", 516.96, 517.08],
+    ["am", 517.08, 517.24],
+    ["cleaning", 517.24, 517.64],
+    ["up.", 517.64, 517.96]
+   ]
+  },
+  {
+   "text": "So even with like this battery, I'll be like, \"Oh, I want to go home.",
+   "start": 517.96,
+   "end": 522.36,
+   "words": [
+    ["So", 517.96, 518.08],
+    ["even", 518.08, 518.32],
+    ["with", 518.32, 518.48],
+    ["like", 518.48, 518.64],
+    ["this", 518.64, 518.84],
+    ["battery,", 518.84, 519.28],
+    ["I'll", 519.28, 519.36],
+    ["be", 519.36, 519.48],
+    ["like,", 519.48, 519.84],
+    ["\"Oh,", 519.84, 520.36],
+    ["I", 521.32, 521.37],
+    ["want", 521.36, 521.52],
+    ["to", 521.52, 521.6],
+    ["go", 521.6, 521.8],
+    ["home.", 521.8, 522.36]
+   ]
+  },
+  {
+   "text": "I miss my brother.",
+   "start": 522.36,
+   "end": 523.28,
+   "words": [
+    ["I", 522.36, 522.48],
+    ["miss", 522.48, 522.76],
+    ["my", 522.76, 522.92],
+    ["brother.", 522.92, 523.28]
+   ]
+  },
+  {
+   "text": "I miss my sister.\"",
+   "start": 523.28,
+   "end": 524.12,
+   "words": [
+    ["I", 523.28, 523.33],
+    ["miss", 523.32, 523.56],
+    ["my", 523.56, 523.72],
+    ["sister.\"", 523.72, 524.12]
+   ]
+  },
+  {
+   "text": "And then I put it with the other batteries.",
+   "start": 524.12,
+   "end": 525.84,
+   "words": [
+    ["And", 524.12, 524.24],
+    ["then", 524.24, 524.36],
+    ["I", 524.36, 524.44],
+    ["put", 524.44, 524.64],
+    ["it", 524.64, 524.76],
+    ["with", 524.76, 524.92],
+    ["the", 524.92, 525.0],
+    ["other", 525.0, 525.2],
+    ["batteries.", 525.2, 525.84]
+   ]
+  },
+  {
+   "text": "This also works very well with children. Yeah.",
+   "start": 525.84,
+   "end": 528.4,
+   "words": [
+    ["This", 525.84, 525.96],
+    ["also", 525.96, 526.2],
+    ["works", 526.2, 526.44],
+    ["very", 526.44, 526.64],
+    ["well", 526.64, 527.04],
+    ["with", 527.04, 527.16],
+    ["children.", 527.16, 527.96],
+    ["Yeah.", 527.96, 528.4]
+   ]
+  },
+  {
+   "text": "So sometimes it pays to have a vivid imagination.",
+   "start": 528.4,
+   "end": 530.92,
+   "words": [
+    ["So", 528.4, 528.52],
+    ["sometimes", 528.52, 528.92],
+    ["it", 528.92, 529.04],
+    ["pays", 529.04, 529.4],
+    ["to", 529.4, 529.48],
+    ["have", 529.48, 529.6],
+    ["a", 529.6, 529.65],
+    ["vivid", 529.64, 529.96],
+    ["imagination.", 529.96, 530.92]
+   ]
+  },
+  {
+   "text": "I feel like a lot of times people dread cleaning up because they're like, \"Oh my gosh, I have to spend the whole day cleaning.\"",
+   "start": 530.92,
+   "end": 536.0,
+   "words": [
+    ["I", 530.92, 531.0],
+    ["feel", 531.0, 531.16],
+    ["like", 531.16, 531.24],
+    ["a", 531.24, 531.32],
+    ["lot", 531.32, 531.48],
+    ["of", 531.48, 531.56],
+    ["times", 531.56, 531.88],
+    ["people", 531.88, 532.24],
+    ["dread", 532.24, 532.56],
+    ["cleaning", 532.56, 532.92],
+    ["up", 532.92, 533.08],
+    ["because", 533.08, 533.4],
+    ["they're", 533.4, 533.52],
+    ["like,", 533.52, 533.8],
+    ["\"Oh", 533.8, 533.92],
+    ["my", 533.92, 534.08],
+    ["gosh,", 534.08, 534.28],
+    ["I", 534.28, 534.33],
+    ["have", 534.32, 534.4],
+    ["to", 534.4, 534.48],
+    ["spend", 534.48, 534.68],
+    ["the", 534.68, 534.73],
+    ["whole", 534.72, 534.84],
+    ["day", 534.84, 535.0],
+    ["cleaning.\"", 535.0, 536.0]
+   ]
+  },
+  {
+   "text": "You don't need to spend the entire day cleaning if you just do like little 10-15 micro cleans every single day.",
+   "start": 536.08,
+   "end": 543.44,
+   "words": [
+    ["You", 536.08, 536.2],
+    ["don't", 536.2, 536.4],
+    ["need", 536.4, 536.52],
+    ["to", 536.52, 536.64],
+    ["spend", 536.64, 537.2],
+    ["the", 537.2, 537.36],
+    ["entire", 537.36, 537.84],
+    ["day", 537.84, 538.0],
+    ["cleaning", 538.0, 538.8],
+    ["if", 538.8, 539.16],
+    ["you", 539.32, 539.4],
+    ["just", 539.4, 539.76],
+    ["do", 539.76, 539.96],
+    ["like", 539.96, 540.24],
+    ["little", 540.24, 540.56],
+    ["10-15", 540.56, 541.16],
+    ["micro", 541.6, 541.96],
+    ["cleans", 541.96, 542.44],
+    ["every", 542.44, 542.72],
+    ["single", 542.72, 543.0],
+    ["day.", 543.0, 543.44]
+   ]
+  },
+  {
+   "text": "And so this is where a timer comes in.",
+   "start": 543.44,
+   "end": 546.08,
+   "words": [
+    ["And", 543.44, 543.56],
+    ["so", 543.56, 543.68],
+    ["this", 543.68, 544.2],
+    ["is", 544.4, 544.6],
+    ["where", 544.6, 545.04],
+    ["a", 545.04, 545.12],
+    ["timer", 545.12, 545.68],
+    ["comes", 545.68, 545.96],
+    ["in.", 545.96, 546.08]
+   ]
+  },
+  {
+   "text": "I love using a physical timer because it's just like there.",
+   "start": 546.08,
+   "end": 549.36,
+   "words": [
+    ["I", 546.08, 546.16],
+    ["love", 546.16, 546.4],
+    ["using", 546.4, 546.64],
+    ["a", 546.64, 546.72],
+    ["physical", 546.72, 547.12],
+    ["timer", 547.12, 547.48],
+    ["because", 547.48, 547.84],
+    ["it's", 547.84, 548.08],
+    ["just", 548.08, 548.36],
+    ["like", 548.36, 548.88],
+    ["there.", 548.96, 549.36]
+   ]
+  },
+  {
+   "text": "You can touch it.",
+   "start": 549.36,
+   "end": 550.28,
+   "words": [
+    ["You", 549.36, 549.44],
+    ["can", 549.44, 549.56],
+    ["touch", 549.56, 549.84],
+    ["it.", 549.84, 550.28]
+   ]
+  },
+  {
+   "text": "And so I like to put 10 to 15 minutes on.",
+   "start": 550.76,
+   "end": 555.0,
+   "words": [
+    ["And", 550.76, 550.92],
+    ["so", 550.92, 551.28],
+    ["I", 551.56, 551.68],
+    ["like", 551.68, 551.88],
+    ["to", 551.88, 551.96],
+    ["put", 551.96, 552.4],
+    ["10", 553.36, 553.68],
+    ["to", 553.68, 553.8],
+    ["15", 553.8, 554.12],
+    ["minutes", 554.12, 554.56],
+    ["on.", 554.56, 555.0]
+   ]
+  },
+  {
+   "text": "And I have trained myself to treat this timer like a small god.",
+   "start": 555.04,
+   "end": 559.0,
+   "words": [
+    ["And", 555.04, 555.24],
+    ["I", 555.24, 555.36],
+    ["have", 555.36, 555.52],
+    ["trained", 555.52, 555.92],
+    ["myself", 555.92, 556.32],
+    ["to", 556.32, 556.44],
+    ["treat", 556.44, 556.84],
+    ["this", 556.84, 557.0],
+    ["timer", 557.0, 557.6],
+    ["like", 557.84, 558.0],
+    ["a", 558.0, 558.08],
+    ["small", 558.08, 558.48],
+    ["god.", 558.48, 559.0]
+   ]
+  },
+  {
+   "text": "Like when this timer is on, I can do nothing but the task at hand.",
+   "start": 559.24,
+   "end": 564.0,
+   "words": [
+    ["Like", 559.24, 559.52],
+    ["when", 559.52, 559.84],
+    ["this", 559.84, 560.0],
+    ["timer", 560.0, 560.32],
+    ["is", 560.32, 560.48],
+    ["on,", 560.48, 560.92],
+    ["I", 561.12, 561.28],
+    ["can", 561.28, 561.44],
+    ["do", 561.44, 561.6],
+    ["nothing", 561.6, 562.16],
+    ["but", 562.16, 562.6],
+    ["the", 562.64, 562.8],
+    ["task", 562.8, 563.24],
+    ["at", 563.24, 563.4],
+    ["hand.", 563.4, 564.0]
+   ]
+  },
+  {
+   "text": "That's just the rule.",
+   "start": 564.04,
+   "end": 565.2,
+   "words": [
+    ["That's", 564.04, 564.24],
+    ["just", 564.24, 564.48],
+    ["the", 564.48, 564.6],
+    ["rule.", 564.6, 565.2]
+   ]
+  },
+  {
+   "text": "And each time I'm just like purely amazed at how much I can clean up in just 10-15 minutes.",
+   "start": 565.24,
+   "end": 572.36,
+   "words": [
+    ["And", 565.24, 565.68],
+    ["each", 565.76, 565.96],
+    ["time", 565.96, 566.2],
+    ["I'm", 566.2, 566.32],
+    ["just", 566.32, 566.52],
+    ["like", 566.52, 566.76],
+    ["purely", 566.76, 567.32],
+    ["amazed", 567.32, 568.0],
+    ["at", 568.16, 568.52],
+    ["how", 568.56, 568.84],
+    ["much", 568.84, 569.36],
+    ["I", 569.36, 569.44],
+    ["can", 569.44, 569.6],
+    ["clean", 569.6, 569.88],
+    ["up", 569.88, 570.24],
+    ["in", 570.44, 570.64],
+    ["just", 570.64, 571.16],
+    ["10-15", 571.24, 571.8],
+    ["minutes.", 571.8, 572.36]
+   ]
+  },
+  {
+   "text": "It's It's astounding.",
+   "start": 572.36,
+   "end": 573.72,
+   "words": [
+    ["It's", 572.36, 572.8],
+    ["It's", 572.8, 573.0],
+    ["astounding.", 573.0, 573.72]
+   ]
+  },
+  {
+   "text": "I also have a section in my closet dedicated to default outfits.",
+   "start": 573.72,
+   "end": 577.52,
+   "words": [
+    ["I", 573.72, 573.8],
+    ["also", 573.8, 574.0],
+    ["have", 574.0, 574.12],
+    ["a", 574.12, 574.17],
+    ["section", 574.16, 574.52],
+    ["in", 574.52, 574.6],
+    ["my", 574.6, 574.68],
+    ["closet", 574.68, 575.36],
+    ["dedicated", 575.44, 576.16],
+    ["to", 576.16, 576.32],
+    ["default", 576.32, 576.96],
+    ["outfits.", 576.96, 577.52]
+   ]
+  },
+  {
+   "text": "These are outfits that I have prepared in advance…",
+   "start": 577.52,
+   "end": 580.0,
+   "words": [
+    ["These", 577.52, 577.8],
+    ["are", 577.8, 577.92],
+    ["outfits", 577.92, 578.36],
+    ["that", 578.36, 578.48],
+    ["I", 578.48, 578.56],
+    ["have", 578.56, 578.68],
+    ["prepared", 578.68, 579.28],
+    ["in", 579.28, 579.4],
+    ["advance", 579.4, 580.0]
+   ]
+  },
+  {
+   "text": "because I realized the only reason I'm ever late is because I am just like trying to figure out my fit, you know?",
+   "start": 580.0,
+   "end": 586.16,
+   "words": [
+    ["because", 580.0, 580.52],
+    ["I", 580.52, 580.8],
+    ["realized", 580.84, 581.68],
+    ["the", 581.8, 581.96],
+    ["only", 581.96, 582.28],
+    ["reason", 582.28, 582.56],
+    ["I'm", 582.56, 582.68],
+    ["ever", 582.68, 582.92],
+    ["late", 582.92, 583.28],
+    ["is", 583.28, 583.4],
+    ["because", 583.4, 583.8],
+    ["I", 583.8, 583.92],
+    ["am", 583.92, 584.12],
+    ["just", 584.12, 584.28],
+    ["like", 584.28, 584.48],
+    ["trying", 584.48, 584.64],
+    ["to", 584.64, 584.76],
+    ["figure", 584.76, 585.08],
+    ["out", 585.08, 585.2],
+    ["my", 585.2, 585.36],
+    ["fit,", 585.36, 585.88],
+    ["you", 585.88, 586.0],
+    ["know?", 586.0, 586.16]
+   ]
+  },
+  {
+   "text": "That's such a time suck.",
+   "start": 586.16,
+   "end": 587.72,
+   "words": [
+    ["That's", 586.16, 586.64],
+    ["such", 586.64, 586.84],
+    ["a", 586.84, 586.89],
+    ["time", 586.88, 587.24],
+    ["suck.", 587.24, 587.72]
+   ]
+  },
+  {
+   "text": "And so, to avoid this, I pre-plan my outfits the night before.",
+   "start": 587.72,
+   "end": 591.44,
+   "words": [
+    ["And", 587.72, 587.88],
+    ["so,", 587.88, 588.16],
+    ["to", 588.16, 588.4],
+    ["avoid", 588.4, 588.8],
+    ["this,", 588.8, 589.4],
+    ["I", 589.44, 589.56],
+    ["pre-plan", 589.56, 590.24],
+    ["my", 590.24, 590.4],
+    ["outfits", 590.4, 590.84],
+    ["the", 590.84, 590.92],
+    ["night", 590.92, 591.08],
+    ["before.", 591.08, 591.44]
+   ]
+  },
+  {
+   "text": "I also save outfit combinations of outfits that I want to repeat.",
+   "start": 591.44,
+   "end": 595.32,
+   "words": [
+    ["I", 591.44, 591.52],
+    ["also", 591.52, 592.04],
+    ["save", 592.04, 592.56],
+    ["outfit", 592.76, 593.04],
+    ["combinations", 593.04, 593.68],
+    ["of", 593.68, 593.8],
+    ["outfits", 593.8, 594.12],
+    ["that", 594.12, 594.24],
+    ["I", 594.24, 594.32],
+    ["want", 594.32, 594.52],
+    ["to", 594.52, 594.57],
+    ["repeat.", 594.56, 595.32]
+   ]
+  },
+  {
+   "text": "If I put something on, I'm like, \"Ooh, this is good.\"",
+   "start": 595.4,
+   "end": 598.76,
+   "words": [
+    ["If", 595.4, 595.56],
+    ["I", 595.56, 595.68],
+    ["put", 595.68, 595.88],
+    ["something", 595.88, 596.16],
+    ["on,", 596.16, 596.28],
+    ["I'm", 596.28, 596.4],
+    ["like,", 596.4, 597.0],
+    ["\"Ooh,", 597.2, 597.72],
+    ["this", 597.72, 597.96],
+    ["is", 597.96, 598.08],
+    ["good.\"", 598.08, 598.76]
+   ]
+  },
+  {
+   "text": "I'll save it and I'll put it in my little default closet area.",
+   "start": 598.92,
+   "end": 603.0,
+   "words": [
+    ["I'll", 598.92, 599.08],
+    ["save", 599.08, 599.36],
+    ["it", 599.36, 599.48],
+    ["and", 599.48, 599.6],
+    ["I'll", 599.6, 599.72],
+    ["put", 599.72, 599.88],
+    ["it", 599.88, 600.04],
+    ["in", 600.04, 600.4],
+    ["my", 600.56, 600.72],
+    ["little", 600.72, 601.16],
+    ["default", 601.16, 601.84],
+    ["closet", 601.84, 602.4],
+    ["area.", 602.4, 603.0]
+   ]
+  },
+  {
+   "text": "Let's move on to motherhood.",
+   "start": 603.2,
+   "end": 604.88,
+   "words": [
+    ["Let's", 603.2, 603.52],
+    ["move", 603.52, 603.72],
+    ["on", 603.72, 603.84],
+    ["to", 603.84, 603.96],
+    ["motherhood.", 603.96, 604.88]
+   ]
+  },
+  {
+   "text": "I would say parenthood is the ultimate stress test for your system.",
+   "start": 604.88,
+   "end": 609.84,
+   "words": [
+    ["I", 604.88, 605.0],
+    ["would", 605.0, 605.2],
+    ["say", 605.2, 605.64],
+    ["parenthood", 605.76, 606.76],
+    ["is", 606.76, 606.96],
+    ["the", 606.96, 607.32],
+    ["ultimate", 607.32, 607.88],
+    ["stress", 607.88, 608.24],
+    ["test", 608.24, 608.76],
+    ["for", 608.8, 609.0],
+    ["your", 609.0, 609.12],
+    ["system.", 609.12, 609.84]
+   ]
+  },
+  {
+   "text": "You will quickly know if you have a good system or a bad system once you have kids because with kids,",
+   "start": 609.84,
+   "end": 616.04,
+   "words": [
+    ["You", 609.84, 609.96],
+    ["will", 609.96, 610.08],
+    ["quickly", 610.08, 610.36],
+    ["know", 610.36, 610.8],
+    ["if", 610.8, 610.92],
+    ["you", 610.92, 611.0],
+    ["have", 611.0, 611.12],
+    ["a", 611.12, 611.2],
+    ["good", 611.2, 611.4],
+    ["system", 611.4, 612.08],
+    ["or", 612.08, 612.28],
+    ["a", 612.28, 612.33],
+    ["bad", 612.32, 612.64],
+    ["system", 612.64, 613.32],
+    ["once", 613.4, 613.64],
+    ["you", 613.64, 613.76],
+    ["have", 613.76, 613.96],
+    ["kids", 613.96, 614.32],
+    ["because", 614.32, 615.0],
+    ["with", 615.0, 615.44],
+    ["kids,", 615.44, 616.04]
+   ]
+  },
+  {
+   "text": "you never know what you're going to get that day.",
+   "start": 616.16,
+   "end": 617.68,
+   "words": [
+    ["you", 616.16, 616.24],
+    ["never", 616.24, 616.48],
+    ["know", 616.48, 616.6],
+    ["what", 616.6, 616.76],
+    ["you're", 616.76, 616.84],
+    ["going", 616.84, 616.96],
+    ["to", 616.96, 617.01],
+    ["get", 617.0, 617.2],
+    ["that", 617.2, 617.4],
+    ["day.", 617.4, 617.68]
+   ]
+  },
+  {
+   "text": "So, you want to make sure that you are prepared.",
+   "start": 617.68,
+   "end": 619.84,
+   "words": [
+    ["So,", 617.68, 617.84],
+    ["you", 617.84, 617.96],
+    ["want", 617.96, 618.16],
+    ["to", 618.16, 618.21],
+    ["make", 618.2, 618.4],
+    ["sure", 618.4, 618.64],
+    ["that", 618.64, 618.84],
+    ["you", 618.84, 618.96],
+    ["are", 618.96, 619.04],
+    ["prepared.", 619.04, 619.84]
+   ]
+  },
+  {
+   "text": "So, my main default that I have is waking up at least 30 minutes before my son.",
+   "start": 619.84,
+   "end": 626.8,
+   "words": [
+    ["So,", 619.84, 620.28],
+    ["my", 620.44, 620.8],
+    ["main", 621.08, 621.52],
+    ["default", 621.52, 622.0],
+    ["that", 622.0, 622.12],
+    ["I", 622.12, 622.2],
+    ["have", 622.2, 622.68],
+    ["is", 622.68, 623.04],
+    ["waking", 623.28, 623.76],
+    ["up", 623.76, 624.0],
+    ["at", 624.0, 624.24],
+    ["least", 624.24, 624.84],
+    ["30", 624.96, 625.32],
+    ["minutes", 625.36, 625.72],
+    ["before", 625.72, 626.08],
+    ["my", 626.08, 626.28],
+    ["son.", 626.28, 626.8]
+   ]
+  },
+  {
+   "text": "I love him to death, but like having him just burst into my room is just like not my favorite way to start the day, if I'm honest.",
+   "start": 627.04,
+   "end": 635.64,
+   "words": [
+    ["I", 627.04, 627.24],
+    ["love", 627.24, 627.6],
+    ["him", 627.6, 627.76],
+    ["to", 627.76, 627.84],
+    ["death,", 627.84, 628.48],
+    ["but", 628.48, 628.92],
+    ["like", 629.16, 629.48],
+    ["having", 629.48, 629.8],
+    ["him", 629.8, 630.24],
+    ["just", 630.36, 630.56],
+    ["burst", 630.56, 630.92],
+    ["into", 630.92, 631.12],
+    ["my", 631.12, 631.28],
+    ["room", 631.28, 631.8],
+    ["is", 632.16, 632.32],
+    ["just", 632.32, 632.52],
+    ["like", 632.52, 632.68],
+    ["not", 632.68, 632.84],
+    ["my", 632.84, 632.96],
+    ["favorite", 632.96, 633.28],
+    ["way", 633.28, 633.52],
+    ["to", 633.52, 633.64],
+    ["start", 633.64, 633.84],
+    ["the", 633.84, 633.92],
+    ["day,", 633.92, 634.44],
+    ["if", 634.56, 634.72],
+    ["I'm", 634.72, 634.92],
+    ["honest.", 634.92, 635.64]
+   ]
+  },
+  {
+   "text": "So, that's why it's so important for me to have at least 30,",
+   "start": 635.64,
+   "end": 638.6,
+   "words": [
+    ["So,", 635.64, 635.92],
+    ["that's", 635.92, 636.2],
+    ["why", 636.2, 636.32],
+    ["it's", 636.32, 636.56],
+    ["so", 636.56, 636.76],
+    ["important", 636.76, 637.24],
+    ["for", 637.24, 637.36],
+    ["me", 637.36, 637.48],
+    ["to", 637.48, 637.6],
+    ["have", 637.6, 637.84],
+    ["at", 637.84, 637.92],
+    ["least", 637.92, 638.24],
+    ["30,", 638.24, 638.6]
+   ]
+  },
+  {
+   "text": "sometimes 60 minutes to myself in the morning so I can ground myself and like orient myself.",
+   "start": 638.6,
+   "end": 643.36,
+   "words": [
+    ["sometimes", 638.6, 639.08],
+    ["60", 639.08, 639.44],
+    ["minutes", 639.48, 639.76],
+    ["to", 639.76, 639.84],
+    ["myself", 639.84, 640.2],
+    ["in", 640.2, 640.25],
+    ["the", 640.24, 640.32],
+    ["morning", 640.32, 640.64],
+    ["so", 640.64, 640.76],
+    ["I", 640.76, 640.84],
+    ["can", 640.84, 641.0],
+    ["ground", 641.0, 641.32],
+    ["myself", 641.32, 641.84],
+    ["and", 641.84, 642.0],
+    ["like", 642.0, 642.24],
+    ["orient", 642.24, 642.72],
+    ["myself.", 642.72, 643.36]
+   ]
+  },
+  {
+   "text": "And I feel like it's really changed the way I show up as a mother because I am starting the day on my own terms.",
+   "start": 643.36,
+   "end": 648.56,
+   "words": [
+    ["And", 643.36, 643.48],
+    ["I", 643.48, 643.56],
+    ["feel", 643.56, 643.72],
+    ["like", 643.72, 643.92],
+    ["it's", 643.92, 644.16],
+    ["really", 644.16, 644.4],
+    ["changed", 644.4, 644.84],
+    ["the", 644.84, 644.92],
+    ["way", 644.92, 645.04],
+    ["I", 645.04, 645.12],
+    ["show", 645.12, 645.28],
+    ["up", 645.28, 645.4],
+    ["as", 645.4, 645.48],
+    ["a", 645.48, 645.53],
+    ["mother", 645.52, 645.84],
+    ["because", 645.84, 646.16],
+    ["I", 646.16, 646.24],
+    ["am", 646.24, 646.36],
+    ["starting", 646.36, 646.72],
+    ["the", 646.72, 646.84],
+    ["day", 646.84, 647.28],
+    ["on", 647.4, 647.52],
+    ["my", 647.52, 647.68],
+    ["own", 647.68, 647.88],
+    ["terms.", 647.88, 648.56]
+   ]
+  },
+  {
+   "text": "You feel me?",
+   "start": 648.56,
+   "end": 649.08,
+   "words": [
+    ["You", 648.56, 648.64],
+    ["feel", 648.64, 648.8],
+    ["me?", 648.8, 649.08]
+   ]
+  },
+  {
+   "text": "Next, we have pre-planning outfits.",
+   "start": 649.08,
+   "end": 650.8,
+   "words": [
+    ["Next,", 649.08, 649.32],
+    ["we", 649.32, 649.4],
+    ["have", 649.4, 649.6],
+    ["pre-planning", 649.6, 650.12],
+    ["outfits.", 650.12, 650.8]
+   ]
+  },
+  {
+   "text": "This is like common sense, but if you have like a whole day with your kid the next day, just like have the outfits out already.",
+   "start": 650.8,
+   "end": 657.48,
+   "words": [
+    ["This", 650.8, 650.96],
+    ["is", 650.96, 651.08],
+    ["like", 651.08, 651.24],
+    ["common", 651.24, 651.6],
+    ["sense,", 651.6, 651.96],
+    ["but", 651.96, 652.4],
+    ["if", 652.48, 652.6],
+    ["you", 652.6, 652.72],
+    ["have", 652.72, 652.84],
+    ["like", 652.84, 652.96],
+    ["a", 652.96, 653.04],
+    ["whole", 653.04, 653.24],
+    ["day", 653.24, 653.48],
+    ["with", 653.48, 653.6],
+    ["your", 653.6, 653.72],
+    ["kid", 653.72, 654.12],
+    ["the", 654.12, 654.2],
+    ["next", 654.2, 654.44],
+    ["day,", 654.44, 654.88],
+    ["just", 654.88, 655.08],
+    ["like", 655.08, 655.6],
+    ["have", 655.68, 655.88],
+    ["the", 655.88, 656.0],
+    ["outfits", 656.0, 656.48],
+    ["out", 656.48, 656.68],
+    ["already.", 656.68, 657.48]
+   ]
+  },
+  {
+   "text": "Your outfit, too.",
+   "start": 657.48,
+   "end": 658.4,
+   "words": [
+    ["Your", 657.48, 657.72],
+    ["outfit,", 657.72, 658.12],
+    ["too.", 658.12, 658.4]
+   ]
+  },
+  {
+   "text": "Same goes for the go bag.",
+   "start": 658.4,
+   "end": 659.68,
+   "words": [
+    ["Same", 658.4, 658.68],
+    ["goes", 658.68, 658.92],
+    ["for", 658.92, 659.04],
+    ["the", 659.04, 659.12],
+    ["go", 659.12, 659.28],
+    ["bag.", 659.28, 659.68]
+   ]
+  },
+  {
+   "text": "The night before, I like to have all my son's essentials in my purse already.",
+   "start": 659.68,
+   "end": 663.96,
+   "words": [
+    ["The", 659.68, 659.8],
+    ["night", 659.8, 660.0],
+    ["before,", 660.0, 660.76],
+    ["I", 660.96, 661.04],
+    ["like", 661.04, 661.2],
+    ["to", 661.2, 661.32],
+    ["have", 661.32, 661.6],
+    ["all", 661.6, 661.88],
+    ["my", 661.88, 662.04],
+    ["son's", 662.04, 662.32],
+    ["essentials", 662.32, 662.92],
+    ["in", 662.92, 663.04],
+    ["my", 663.04, 663.2],
+    ["purse", 663.2, 663.48],
+    ["already.", 663.48, 663.96]
+   ]
+  },
+  {
+   "text": "That's the water bottle, that's the wipes, that's the antibacterial spray, the sunscreen.",
+   "start": 663.96,
+   "end": 668.88,
+   "words": [
+    ["That's", 663.96, 664.2],
+    ["the", 664.2, 664.32],
+    ["water", 664.32, 664.64],
+    ["bottle,", 664.64, 665.12],
+    ["that's", 665.12, 665.32],
+    ["the", 665.32, 665.52],
+    ["wipes,", 665.52, 666.04],
+    ["that's", 666.04, 666.24],
+    ["the", 666.24, 666.32],
+    ["antibacterial", 666.32, 667.2],
+    ["spray,", 667.2, 667.8],
+    ["the", 667.8, 667.88],
+    ["sunscreen.", 667.88, 668.88]
+   ]
+  },
+  {
+   "text": "I want to have it all prepped beforehand.",
+   "start": 668.92,
+   "end": 671.52,
+   "words": [
+    ["I", 668.92, 669.0],
+    ["want", 669.0, 669.16],
+    ["to", 669.16, 669.21],
+    ["have", 669.2, 669.36],
+    ["it", 669.36, 669.48],
+    ["all", 669.48, 669.92],
+    ["prepped", 670.12, 670.44],
+    ["beforehand.", 670.44, 671.52]
+   ]
+  },
+  {
+   "text": "Sometimes when I come home after I have not seen my son for hours, he is so excited to see me.",
+   "start": 671.56,
+   "end": 677.52,
+   "words": [
+    ["Sometimes", 671.56, 672.08],
+    ["when", 672.08, 672.24],
+    ["I", 672.24, 672.52],
+    ["come", 672.6, 672.84],
+    ["home", 672.84, 673.08],
+    ["after", 673.08, 673.32],
+    ["I", 673.32, 673.37],
+    ["have", 673.36, 673.48],
+    ["not", 673.48, 673.72],
+    ["seen", 673.72, 673.84],
+    ["my", 673.84, 673.96],
+    ["son", 673.96, 674.28],
+    ["for", 674.28, 674.6],
+    ["hours,", 674.6, 675.28],
+    ["he", 675.52, 675.72],
+    ["is", 675.72, 675.92],
+    ["so", 675.92, 676.28],
+    ["excited", 676.32, 676.8],
+    ["to", 676.8, 676.88],
+    ["see", 676.88, 677.08],
+    ["me.", 677.08, 677.52]
+   ]
+  },
+  {
+   "text": "And so, this is when I will put a little timer on my phone for 15 minutes.",
+   "start": 677.76,
+   "end": 682.88,
+   "words": [
+    ["And", 677.76, 677.96],
+    ["so,", 677.96, 678.2],
+    ["this", 678.2, 678.52],
+    ["is", 678.52, 678.72],
+    ["when", 678.72, 679.08],
+    ["I", 679.08, 679.2],
+    ["will", 679.2, 679.36],
+    ["put", 679.36, 679.8],
+    ["a", 680.08, 680.16],
+    ["little", 680.16, 680.4],
+    ["timer", 680.4, 680.96],
+    ["on", 680.96, 681.16],
+    ["my", 681.16, 681.28],
+    ["phone", 681.28, 681.88],
+    ["for", 681.96, 682.12],
+    ["15", 682.12, 682.48],
+    ["minutes.", 682.6, 682.88]
+   ]
+  },
+  {
+   "text": "I don't show him.",
+   "start": 682.88,
+   "end": 683.56,
+   "words": [
+    ["I", 682.88, 682.93],
+    ["don't", 682.92, 683.12],
+    ["show", 683.12, 683.32],
+    ["him.", 683.32, 683.56]
+   ]
+  },
+  {
+   "text": "It's a silent one, but during that 15 minutes, I give him my full undivided attention.",
+   "start": 683.56,
+   "end": 690.68,
+   "words": [
+    ["It's", 683.56, 683.72],
+    ["a", 683.72, 683.8],
+    ["silent", 683.8, 684.2],
+    ["one,", 684.2, 684.72],
+    ["but", 684.8, 685.24],
+    ["during", 685.4, 685.64],
+    ["that", 685.64, 685.8],
+    ["15", 685.8, 686.16],
+    ["minutes,", 686.16, 687.0],
+    ["I", 687.04, 687.32],
+    ["give", 687.56, 687.8],
+    ["him", 687.8, 688.04],
+    ["my", 688.04, 688.2],
+    ["full", 688.2, 688.72],
+    ["undivided", 689.12, 689.72],
+    ["attention.", 689.72, 690.68]
+   ]
+  },
+  {
+   "text": "That doesn't like cuz I feel like sometimes like when you get home like you want to like, you know,",
+   "start": 690.68,
+   "end": 694.04,
+   "words": [
+    ["That", 690.68, 690.88],
+    ["doesn't", 690.88, 691.16],
+    ["like", 691.16, 691.32],
+    ["cuz", 691.32, 691.44],
+    ["I", 691.44, 691.49],
+    ["feel", 691.48, 691.68],
+    ["like", 691.68, 691.8],
+    ["sometimes", 691.8, 692.12],
+    ["like", 692.12, 692.2],
+    ["when", 692.2, 692.32],
+    ["you", 692.32, 692.44],
+    ["get", 692.44, 692.6],
+    ["home", 692.6, 692.88],
+    ["like", 692.88, 693.04],
+    ["you", 693.04, 693.16],
+    ["want", 693.16, 693.36],
+    ["to", 693.36, 693.56],
+    ["like,", 693.56, 693.76],
+    ["you", 693.76, 693.84],
+    ["know,", 693.84, 694.04]
+   ]
+  },
+  {
+   "text": "take your stuff off and start cleaning and you know, get adjusted,",
+   "start": 694.04,
+   "end": 697.48,
+   "words": [
+    ["take", 694.04, 694.24],
+    ["your", 694.24, 694.36],
+    ["stuff", 694.36, 694.72],
+    ["off", 694.72, 695.0],
+    ["and", 695.0, 695.08],
+    ["start", 695.08, 695.4],
+    ["cleaning", 695.4, 695.84],
+    ["and", 695.84, 695.96],
+    ["you", 695.96, 696.04],
+    ["know,", 696.04, 696.28],
+    ["get", 696.28, 696.56],
+    ["adjusted,", 696.56, 697.48]
+   ]
+  },
+  {
+   "text": "but that's when like the kid is like really like wanting your attention even more.",
+   "start": 697.56,
+   "end": 701.76,
+   "words": [
+    ["but", 697.56, 697.96],
+    ["that's", 697.96, 698.2],
+    ["when", 698.2, 698.36],
+    ["like", 698.36, 698.48],
+    ["the", 698.48, 698.6],
+    ["kid", 698.6, 698.8],
+    ["is", 698.8, 698.88],
+    ["like", 698.88, 699.16],
+    ["really", 699.16, 699.56],
+    ["like", 699.56, 699.96],
+    ["wanting", 699.96, 700.36],
+    ["your", 700.36, 700.48],
+    ["attention", 700.48, 700.92],
+    ["even", 700.92, 701.16],
+    ["more.", 701.16, 701.76]
+   ]
+  },
+  {
+   "text": "I like to just give him the attention up front.",
+   "start": 701.76,
+   "end": 704.64,
+   "words": [
+    ["I", 701.76, 701.88],
+    ["like", 701.88, 702.12],
+    ["to", 702.12, 702.2],
+    ["just", 702.2, 702.44],
+    ["give", 702.44, 702.64],
+    ["him", 702.64, 702.84],
+    ["the", 702.84, 702.96],
+    ["attention", 702.96, 703.76],
+    ["up", 703.76, 704.0],
+    ["front.", 704.0, 704.64]
+   ]
+  },
+  {
+   "text": "Like I pay it first.",
+   "start": 704.64,
+   "end": 705.92,
+   "words": [
+    ["Like", 704.64, 704.8],
+    ["I", 704.8, 704.88],
+    ["pay", 704.88, 705.08],
+    ["it", 705.08, 705.24],
+    ["first.", 705.24, 705.92]
+   ]
+  },
+  {
+   "text": "And once I do that, he's actually way more cooperative and chill for the rest of the day.",
+   "start": 706.04,
+   "end": 710.72,
+   "words": [
+    ["And", 706.04, 706.48],
+    ["once", 706.48, 706.72],
+    ["I", 706.72, 706.8],
+    ["do", 706.8, 706.96],
+    ["that,", 706.96, 707.56],
+    ["he's", 707.6, 707.8],
+    ["actually", 707.8, 708.2],
+    ["way", 708.2, 708.44],
+    ["more", 708.44, 708.68],
+    ["cooperative", 708.68, 709.2],
+    ["and", 709.2, 709.32],
+    ["chill", 709.32, 709.64],
+    ["for", 709.64, 709.76],
+    ["the", 709.76, 709.88],
+    ["rest", 709.88, 710.08],
+    ["of", 710.08, 710.13],
+    ["the", 710.12, 710.24],
+    ["day.", 710.24, 710.72]
+   ]
+  },
+  {
+   "text": "I don't know.",
+   "start": 710.72,
+   "end": 711.12,
+   "words": [
+    ["I", 710.72, 710.8],
+    ["don't", 710.8, 710.92],
+    ["know.", 710.92, 711.12]
+   ]
+  },
+  {
+   "text": "It's been like a big game changer.",
+   "start": 711.12,
+   "end": 713.0,
+   "words": [
+    ["It's", 711.12, 711.28],
+    ["been", 711.28, 711.48],
+    ["like", 711.48, 711.72],
+    ["a", 711.72, 711.8],
+    ["big", 711.8, 712.08],
+    ["game", 712.08, 712.28],
+    ["changer.", 712.28, 713.0]
+   ]
+  },
+  {
+   "text": "My final section is about planning and executing.",
+   "start": 713.0,
+   "end": 716.2,
+   "words": [
+    ["My", 713.0, 713.16],
+    ["final", 713.16, 713.52],
+    ["section", 713.52, 713.88],
+    ["is", 713.88, 714.0],
+    ["about", 714.0, 714.32],
+    ["planning", 714.32, 715.04],
+    ["and", 715.04, 715.2],
+    ["executing.", 715.2, 716.2]
+   ]
+  },
+  {
+   "text": "Planning is like a delicate balance because if you spend too much of your time planning, you don't have enough time to execute it.",
+   "start": 716.32,
+   "end": 722.96,
+   "words": [
+    ["Planning", 716.32, 717.16],
+    ["is", 717.24, 717.44],
+    ["like", 717.44, 717.6],
+    ["a", 717.6, 717.68],
+    ["delicate", 717.68, 718.4],
+    ["balance", 718.4, 719.0],
+    ["because", 719.0, 719.24],
+    ["if", 719.24, 719.36],
+    ["you", 719.36, 719.48],
+    ["spend", 719.48, 719.72],
+    ["too", 719.72, 720.0],
+    ["much", 720.0, 720.12],
+    ["of", 720.12, 720.2],
+    ["your", 720.2, 720.32],
+    ["time", 720.32, 720.56],
+    ["planning,", 720.56, 721.2],
+    ["you", 721.2, 721.32],
+    ["don't", 721.32, 721.52],
+    ["have", 721.52, 721.68],
+    ["enough", 721.68, 721.88],
+    ["time", 721.88, 722.04],
+    ["to", 722.04, 722.16],
+    ["execute", 722.16, 722.6],
+    ["it.", 722.6, 722.96]
+   ]
+  },
+  {
+   "text": "And if you just execute it without a plan, then it feels overwhelming and impossible.",
+   "start": 722.96,
+   "end": 727.4,
+   "words": [
+    ["And", 722.96, 723.08],
+    ["if", 723.08, 723.2],
+    ["you", 723.2, 723.28],
+    ["just", 723.28, 723.52],
+    ["execute", 723.52, 723.92],
+    ["it", 723.92, 723.97],
+    ["without", 723.96, 724.2],
+    ["a", 724.2, 724.25],
+    ["plan,", 724.24, 724.72],
+    ["then", 724.72, 724.92],
+    ["it", 724.92, 725.08],
+    ["feels", 725.08, 725.68],
+    ["overwhelming", 725.68, 726.24],
+    ["and", 726.24, 726.36],
+    ["impossible.", 726.36, 727.4]
+   ]
+  },
+  {
+   "text": "Something that I do every single night without fail is to write a to-do list because honestly, like heading into a day with no plan horror film.",
+   "start": 727.4,
+   "end": 738.8,
+   "words": [
+    ["Something", 727.4, 728.0],
+    ["that", 728.0, 728.16],
+    ["I", 728.16, 728.24],
+    ["do", 728.24, 728.6],
+    ["every", 728.6, 728.92],
+    ["single", 728.92, 729.24],
+    ["night", 729.24, 729.6],
+    ["without", 729.6, 730.04],
+    ["fail", 730.04, 730.56],
+    ["is", 730.84, 731.0],
+    ["to", 731.0, 731.16],
+    ["write", 731.16, 731.52],
+    ["a", 731.52, 731.57],
+    ["to-do", 731.56, 731.88],
+    ["list", 731.88, 732.4],
+    ["because", 732.52, 733.28],
+    ["honestly,", 733.32, 734.24],
+    ["like", 734.36, 734.64],
+    ["heading", 734.64, 734.96],
+    ["into", 734.96, 735.2],
+    ["a", 735.2, 735.28],
+    ["day", 735.28, 735.72],
+    ["with", 735.84, 736.08],
+    ["no", 736.08, 736.32],
+    ["plan", 736.32, 736.84],
+    ["horror", 737.84, 738.24],
+    ["film.", 738.24, 738.8]
+   ]
+  },
+  {
+   "text": "Top five horror film.",
+   "start": 738.8,
+   "end": 740.0,
+   "words": [
+    ["Top", 738.8, 739.08],
+    ["five", 739.08, 739.28],
+    ["horror", 739.28, 739.48],
+    ["film.", 739.48, 740.0]
+   ]
+  },
+  {
+   "text": "It's not for me.",
+   "start": 740.0,
+   "end": 740.92,
+   "words": [
+    ["It's", 740.0, 740.12],
+    ["not", 740.12, 740.36],
+    ["for", 740.36, 740.48],
+    ["me.", 740.48, 740.92]
+   ]
+  },
+  {
+   "text": "Like I need to know exactly what I'm walking into the next day.",
+   "start": 741.04,
+   "end": 744.32,
+   "words": [
+    ["Like", 741.04, 741.24],
+    ["I", 741.24, 741.32],
+    ["need", 741.32, 741.52],
+    ["to", 741.52, 741.6],
+    ["know", 741.6, 741.88],
+    ["exactly", 741.88, 742.64],
+    ["what", 742.72, 742.88],
+    ["I'm", 742.88, 743.0],
+    ["walking", 743.0, 743.36],
+    ["into", 743.36, 743.72],
+    ["the", 743.72, 743.84],
+    ["next", 743.84, 744.12],
+    ["day.", 744.12, 744.32]
+   ]
+  },
+  {
+   "text": "So, before I go to sleep, I'll look at my calendar and then I will just write out everything that's going to happen.",
+   "start": 744.32,
+   "end": 750.76,
+   "words": [
+    ["So,", 744.32, 744.76],
+    ["before", 744.96, 745.24],
+    ["I", 745.24, 745.32],
+    ["go", 745.32, 745.4],
+    ["to", 745.4, 745.52],
+    ["sleep,", 745.52, 745.88],
+    ["I'll", 745.88, 746.0],
+    ["look", 746.0, 746.2],
+    ["at", 746.2, 746.28],
+    ["my", 746.28, 746.4],
+    ["calendar", 746.4, 747.04],
+    ["and", 747.04, 747.24],
+    ["then", 747.24, 747.72],
+    ["I", 747.72, 747.88],
+    ["will", 747.88, 748.28],
+    ["just", 748.28, 748.56],
+    ["write", 748.56, 748.84],
+    ["out", 748.84, 749.28],
+    ["everything", 749.32, 749.68],
+    ["that's", 749.68, 749.84],
+    ["going", 749.84, 749.96],
+    ["to", 749.96, 750.04],
+    ["happen.", 750.04, 750.76]
+   ]
+  },
+  {
+   "text": "The things that are happening with my son, the things that are going to happen with me.",
+   "start": 750.76,
+   "end": 753.64,
+   "words": [
+    ["The", 750.76, 750.84],
+    ["things", 750.84, 751.04],
+    ["that", 751.04, 751.16],
+    ["are", 751.16, 751.21],
+    ["happening", 751.2, 751.48],
+    ["with", 751.48, 751.6],
+    ["my", 751.6, 751.72],
+    ["son,", 751.72, 752.16],
+    ["the", 752.16, 752.28],
+    ["things", 752.28, 752.52],
+    ["that", 752.52, 752.6],
+    ["are", 752.6, 752.68],
+    ["going", 752.68, 752.8],
+    ["to", 752.8, 752.85],
+    ["happen", 752.84, 753.04],
+    ["with", 753.04, 753.2],
+    ["me.", 753.2, 753.64]
+   ]
+  },
+  {
+   "text": "It's almost like giving my brain a trailer to show like what's going to happen tomorrow.",
+   "start": 753.72,
+   "end": 757.88,
+   "words": [
+    ["It's", 753.72, 753.88],
+    ["almost", 753.88, 754.08],
+    ["like", 754.08, 754.2],
+    ["giving", 754.2, 754.48],
+    ["my", 754.48, 754.6],
+    ["brain", 754.6, 754.88],
+    ["a", 754.88, 754.93],
+    ["trailer", 754.92, 755.68],
+    ["to", 755.72, 755.88],
+    ["show", 755.88, 756.2],
+    ["like", 756.2, 756.52],
+    ["what's", 756.52, 756.76],
+    ["going", 756.76, 756.92],
+    ["to", 756.92, 757.0],
+    ["happen", 757.0, 757.32],
+    ["tomorrow.", 757.32, 757.88]
+   ]
+  },
+  {
+   "text": "Now, if I'm planning for the week, that is when I have Monday.",
+   "start": 757.88,
+   "end": 761.68,
+   "words": [
+    ["Now,", 757.88, 758.0],
+    ["if", 758.0, 758.12],
+    ["I'm", 758.12, 758.24],
+    ["planning", 758.24, 758.64],
+    ["for", 758.64, 758.8],
+    ["the", 758.8, 759.0],
+    ["week,", 759.0, 759.6],
+    ["that", 759.88, 760.08],
+    ["is", 760.08, 760.2],
+    ["when", 760.2, 760.52],
+    ["I", 760.52, 760.64],
+    ["have", 760.64, 760.92],
+    ["Monday.", 760.92, 761.68]
+   ]
+  },
+  {
+   "text": "Monday is when my son's in school, the house is quiet, and I'll have like my little cappuccino and strategize my week ahead.",
+   "start": 761.68,
+   "end": 770.0,
+   "words": [
+    ["Monday", 761.68, 762.12],
+    ["is", 762.12, 762.36],
+    ["when", 762.36, 762.88],
+    ["my", 762.92, 763.08],
+    ["son's", 763.08, 763.4],
+    ["in", 763.4, 763.52],
+    ["school,", 763.52, 764.12],
+    ["the", 764.12, 764.24],
+    ["house", 764.24, 764.52],
+    ["is", 764.52, 764.68],
+    ["quiet,", 764.68, 765.2],
+    ["and", 765.2, 765.28],
+    ["I'll", 765.28, 765.36],
+    ["have", 765.36, 765.6],
+    ["like", 765.6, 765.96],
+    ["my", 765.96, 766.12],
+    ["little", 766.12, 766.36],
+    ["cappuccino", 766.36, 767.36],
+    ["and", 767.36, 767.8],
+    ["strategize", 768.48, 769.0],
+    ["my", 769.0, 769.12],
+    ["week", 769.12, 769.32],
+    ["ahead.", 769.32, 770.0]
+   ]
+  },
+  {
+   "text": "I'll spend like maybe 30 to 45 minutes in the morning and it gives an overall structure of what's to come for the following week.",
+   "start": 770.04,
+   "end": 777.88,
+   "words": [
+    ["I'll", 770.04, 770.16],
+    ["spend", 770.16, 770.44],
+    ["like", 770.44, 770.64],
+    ["maybe", 770.64, 770.92],
+    ["30", 770.92, 771.28],
+    ["to", 771.4, 771.56],
+    ["45", 771.56, 771.92],
+    ["minutes", 772.12, 772.44],
+    ["in", 772.44, 772.64],
+    ["the", 772.64, 772.72],
+    ["morning", 772.72, 773.48],
+    ["and", 773.52, 773.64],
+    ["it", 773.64, 773.76],
+    ["gives", 773.76, 774.36],
+    ["an", 774.36, 774.52],
+    ["overall", 774.52, 774.92],
+    ["structure", 774.92, 775.72],
+    ["of", 775.72, 775.88],
+    ["what's", 775.88, 776.12],
+    ["to", 776.12, 776.2],
+    ["come", 776.2, 776.72],
+    ["for", 776.8, 776.96],
+    ["the", 776.96, 777.08],
+    ["following", 777.08, 777.48],
+    ["week.", 777.48, 777.88]
+   ]
+  },
+  {
+   "text": "I have like a dedicated space in my bullet journal that acts as like my to-do brain dump.",
+   "start": 777.88,
+   "end": 783.32,
+   "words": [
+    ["I", 777.88, 778.04],
+    ["have", 778.04, 778.28],
+    ["like", 778.28, 778.4],
+    ["a", 778.4, 778.48],
+    ["dedicated", 778.48, 779.24],
+    ["space", 779.24, 779.68],
+    ["in", 779.68, 779.8],
+    ["my", 779.8, 779.96],
+    ["bullet", 779.96, 780.2],
+    ["journal", 780.2, 780.88],
+    ["that", 780.88, 781.12],
+    ["acts", 781.12, 781.4],
+    ["as", 781.4, 781.6],
+    ["like", 781.6, 781.8],
+    ["my", 781.8, 781.96],
+    ["to-do", 781.96, 782.48],
+    ["brain", 782.48, 782.8],
+    ["dump.", 782.8, 783.32]
+   ]
+  },
+  {
+   "text": "Like whenever I have like a thought or a worry, I'll just jot it down in the brain dump.",
+   "start": 783.32,
+   "end": 788.8,
+   "words": [
+    ["Like", 783.32, 783.52],
+    ["whenever", 783.52, 783.92],
+    ["I", 783.92, 784.04],
+    ["have", 784.04, 784.4],
+    ["like", 784.4, 784.64],
+    ["a", 784.64, 784.72],
+    ["thought", 784.72, 785.2],
+    ["or", 785.2, 785.36],
+    ["a", 785.36, 785.44],
+    ["worry,", 785.44, 786.12],
+    ["I'll", 786.16, 786.28],
+    ["just", 786.28, 786.6],
+    ["jot", 786.6, 786.8],
+    ["it", 786.8, 786.92],
+    ["down", 786.92, 787.44],
+    ["in", 787.56, 787.84],
+    ["the", 787.84, 787.92],
+    ["brain", 787.92, 788.2],
+    ["dump.", 788.2, 788.8]
+   ]
+  },
+  {
+   "text": "And so, on that Monday or even the night before,",
+   "start": 788.8,
+   "end": 792.24,
+   "words": [
+    ["And", 788.8, 789.0],
+    ["so,", 789.0, 789.44],
+    ["on", 789.44, 789.64],
+    ["that", 789.64, 789.84],
+    ["Monday", 789.84, 790.52],
+    ["or", 790.64, 790.84],
+    ["even", 790.84, 791.04],
+    ["the", 791.04, 791.16],
+    ["night", 791.16, 791.48],
+    ["before,", 791.48, 792.24]
+   ]
+  },
+  {
+   "text": "I will look at that dump list and then I'll start adding when I can execute what I need to.",
+   "start": 792.28,
+   "end": 798.36,
+   "words": [
+    ["I", 792.28, 792.4],
+    ["will", 792.4, 792.6],
+    ["look", 792.6, 792.92],
+    ["at", 792.92, 793.08],
+    ["that", 793.08, 793.32],
+    ["dump", 793.32, 793.64],
+    ["list", 793.64, 794.0],
+    ["and", 794.0, 794.16],
+    ["then", 794.16, 794.4],
+    ["I'll", 794.4, 794.6],
+    ["start", 794.6, 795.08],
+    ["adding", 795.08, 795.76],
+    ["when", 795.76, 796.2],
+    ["I", 796.2, 796.32],
+    ["can", 796.32, 796.56],
+    ["execute", 796.56, 797.32],
+    ["what", 797.64, 797.8],
+    ["I", 797.8, 797.85],
+    ["need", 797.84, 798.08],
+    ["to.", 798.08, 798.36]
+   ]
+  },
+  {
+   "text": "Because I feel like if I don't write that down, it's just going to be this open loop that like floats around in my head.",
+   "start": 798.36,
+   "end": 804.96,
+   "words": [
+    ["Because", 798.36, 798.64],
+    ["I", 798.64, 798.72],
+    ["feel", 798.72, 798.88],
+    ["like", 798.88, 799.0],
+    ["if", 799.0, 799.12],
+    ["I", 799.12, 799.17],
+    ["don't", 799.16, 799.6],
+    ["write", 799.6, 800.12],
+    ["that", 800.12, 800.36],
+    ["down,", 800.36, 800.96],
+    ["it's", 800.96, 801.16],
+    ["just", 801.16, 801.36],
+    ["going", 801.36, 801.48],
+    ["to", 801.48, 801.53],
+    ["be", 801.52, 801.64],
+    ["this", 801.64, 801.96],
+    ["open", 801.96, 802.4],
+    ["loop", 802.4, 802.92],
+    ["that", 803.04, 803.56],
+    ["like", 803.56, 803.76],
+    ["floats", 803.76, 804.0],
+    ["around", 804.0, 804.2],
+    ["in", 804.2, 804.28],
+    ["my", 804.28, 804.4],
+    ["head.", 804.4, 804.96]
+   ]
+  },
+  {
+   "text": "When I write it down, it almost silences that and I it just frees up my brain for other thoughts.",
+   "start": 804.96,
+   "end": 810.52,
+   "words": [
+    ["When", 804.96, 805.12],
+    ["I", 805.12, 805.2],
+    ["write", 805.2, 805.44],
+    ["it", 805.44, 805.56],
+    ["down,", 805.56, 806.04],
+    ["it", 806.04, 806.16],
+    ["almost", 806.16, 806.56],
+    ["silences", 806.56, 807.12],
+    ["that", 807.12, 807.64],
+    ["and", 808.0, 808.24],
+    ["I", 808.24, 808.44],
+    ["it", 808.44, 808.56],
+    ["just", 808.56, 808.76],
+    ["frees", 808.76, 809.0],
+    ["up", 809.0, 809.08],
+    ["my", 809.08, 809.16],
+    ["brain", 809.16, 809.44],
+    ["for", 809.44, 809.56],
+    ["other", 809.56, 809.76],
+    ["thoughts.", 809.76, 810.52]
+   ]
+  },
+  {
+   "text": "I will select one to two high-lift high-lift tasks in a day.",
+   "start": 810.52,
+   "end": 814.76,
+   "words": [
+    ["I", 810.52, 810.6],
+    ["will", 810.6, 810.72],
+    ["select", 810.72, 811.28],
+    ["one", 811.28, 811.68],
+    ["to", 811.68, 811.88],
+    ["two", 811.88, 812.32],
+    ["high-lift", 812.4, 813.12],
+    ["high-lift", 813.12, 813.6],
+    ["tasks", 813.6, 814.04],
+    ["in", 814.04, 814.2],
+    ["a", 814.2, 814.25],
+    ["day.", 814.24, 814.76]
+   ]
+  },
+  {
+   "text": "Meaning that as long as I finish one or two of these, I'll feel good.",
+   "start": 814.8,
+   "end": 820.08,
+   "words": [
+    ["Meaning", 814.8, 815.12],
+    ["that", 815.12, 815.64],
+    ["as", 815.8, 815.96],
+    ["long", 815.96, 816.16],
+    ["as", 816.16, 816.32],
+    ["I", 816.32, 816.44],
+    ["finish", 816.44, 816.92],
+    ["one", 816.92, 817.28],
+    ["or", 817.28, 817.44],
+    ["two", 817.44, 817.88],
+    ["of", 818.28, 818.44],
+    ["these,", 818.44, 819.04],
+    ["I'll", 819.04, 819.24],
+    ["feel", 819.24, 819.48],
+    ["good.", 819.48, 820.08]
+   ]
+  },
+  {
+   "text": "These high-lift tasks are the activities that use a lot of brainpower.",
+   "start": 820.08,
+   "end": 826.44,
+   "words": [
+    ["These", 820.08, 820.52],
+    ["high-lift", 820.52, 821.16],
+    ["tasks", 821.16, 821.76],
+    ["are", 821.8, 822.24],
+    ["the", 823.0, 823.24],
+    ["activities", 823.24, 823.76],
+    ["that", 823.76, 824.08],
+    ["use", 824.08, 824.52],
+    ["a", 824.56, 824.68],
+    ["lot", 824.68, 825.12],
+    ["of", 825.64, 825.84],
+    ["brainpower.", 825.84, 826.44]
+   ]
+  },
+  {
+   "text": "For example, one high-lift task for me is like filming this video.",
+   "start": 826.44,
+   "end": 830.04,
+   "words": [
+    ["For", 826.44, 826.56],
+    ["example,", 826.56, 827.36],
+    ["one", 827.36, 827.56],
+    ["high-lift", 827.56, 827.92],
+    ["task", 827.92, 828.12],
+    ["for", 828.12, 828.24],
+    ["me", 828.24, 828.4],
+    ["is", 828.4, 828.52],
+    ["like", 828.52, 828.8],
+    ["filming", 828.8, 829.16],
+    ["this", 829.16, 829.36],
+    ["video.", 829.36, 830.04]
+   ]
+  },
+  {
+   "text": "After I finish filming this, I'm going to be like good job.",
+   "start": 830.28,
+   "end": 834.32,
+   "words": [
+    ["After", 830.28, 830.56],
+    ["I", 830.56, 830.64],
+    ["finish", 830.64, 830.96],
+    ["filming", 830.96, 831.24],
+    ["this,", 831.24, 831.72],
+    ["I'm", 831.72, 831.88],
+    ["going", 831.88, 832.0],
+    ["to", 832.0, 832.08],
+    ["be", 832.08, 832.2],
+    ["like", 832.2, 832.72],
+    ["good", 833.56, 833.8],
+    ["job.", 833.8, 834.32]
+   ]
+  },
+  {
+   "text": "Like I don't expect to do more than one or two of these in a day.",
+   "start": 834.32,
+   "end": 837.4,
+   "words": [
+    ["Like", 834.32, 834.44],
+    ["I", 834.44, 834.49],
+    ["don't", 834.48, 834.68],
+    ["expect", 834.68, 835.08],
+    ["to", 835.08, 835.16],
+    ["do", 835.16, 835.4],
+    ["more", 835.4, 835.76],
+    ["than", 835.76, 836.0],
+    ["one", 836.0, 836.16],
+    ["or", 836.16, 836.24],
+    ["two", 836.24, 836.52],
+    ["of", 836.52, 836.64],
+    ["these", 836.64, 836.84],
+    ["in", 836.84, 836.96],
+    ["a", 836.96, 837.01],
+    ["day.", 837.0, 837.4]
+   ]
+  },
+  {
+   "text": "And then I also like to do this at the beginning of the day when there's a lot of battery juice in my brain.",
+   "start": 837.4,
+   "end": 842.64,
+   "words": [
+    ["And", 837.4, 837.52],
+    ["then", 837.52, 837.68],
+    ["I", 837.68, 837.76],
+    ["also", 837.76, 837.96],
+    ["like", 837.96, 838.12],
+    ["to", 838.12, 838.24],
+    ["do", 838.24, 838.44],
+    ["this", 838.44, 838.92],
+    ["at", 838.92, 839.04],
+    ["the", 839.04, 839.12],
+    ["beginning", 839.12, 839.56],
+    ["of", 839.56, 839.61],
+    ["the", 839.6, 839.72],
+    ["day", 839.72, 840.0],
+    ["when", 840.0, 840.2],
+    ["there's", 840.2, 840.44],
+    ["a", 840.44, 840.52],
+    ["lot", 840.52, 840.84],
+    ["of", 840.84, 841.08],
+    ["battery", 841.08, 841.52],
+    ["juice", 841.52, 841.84],
+    ["in", 841.84, 841.96],
+    ["my", 841.96, 842.08],
+    ["brain.", 842.08, 842.64]
+   ]
+  },
+  {
+   "text": "Later in the day around like 3:00 or 4:00 when I'm like kind of not running on fumes,",
+   "start": 842.64,
+   "end": 846.72,
+   "words": [
+    ["Later", 842.64, 842.96],
+    ["in", 842.96, 843.04],
+    ["the", 843.04, 843.12],
+    ["day", 843.12, 843.28],
+    ["around", 843.28, 843.6],
+    ["like", 843.6, 843.84],
+    ["3:00", 843.84, 844.08],
+    ["or", 844.08, 844.2],
+    ["4:00", 844.2, 844.64],
+    ["when", 844.64, 844.76],
+    ["I'm", 844.76, 844.88],
+    ["like", 844.88, 845.12],
+    ["kind", 845.12, 845.44],
+    ["of", 845.44, 845.72],
+    ["not", 845.72, 845.88],
+    ["running", 845.88, 846.16],
+    ["on", 846.16, 846.32],
+    ["fumes,", 846.32, 846.72]
+   ]
+  },
+  {
+   "text": "but I don't know I can kind of turn it off a little bit.",
+   "start": 846.72,
+   "end": 849.4,
+   "words": [
+    ["but", 846.72, 847.16],
+    ["I", 847.28, 847.33],
+    ["don't", 847.32, 847.48],
+    ["know", 847.48, 847.53],
+    ["I", 847.52, 847.76],
+    ["can", 847.76, 847.92],
+    ["kind", 847.92, 848.08],
+    ["of", 848.08, 848.16],
+    ["turn", 848.16, 848.36],
+    ["it", 848.36, 848.48],
+    ["off", 848.48, 848.68],
+    ["a", 848.68, 848.73],
+    ["little", 848.72, 848.92],
+    ["bit.", 848.92, 849.4]
+   ]
+  },
+  {
+   "text": "That's when I'll cross off like my low-lift tasks like doing errands or emails.",
+   "start": 849.4,
+   "end": 855.96,
+   "words": [
+    ["That's", 849.4, 849.68],
+    ["when", 849.68, 849.84],
+    ["I'll", 849.84, 850.36],
+    ["cross", 850.44, 850.76],
+    ["off", 850.76, 851.08],
+    ["like", 851.08, 851.6],
+    ["my", 851.68, 852.04],
+    ["low-lift", 852.24, 852.88],
+    ["tasks", 852.88, 853.36],
+    ["like", 853.36, 853.72],
+    ["doing", 853.72, 854.16],
+    ["errands", 854.16, 854.84],
+    ["or", 854.84, 855.2],
+    ["emails.", 855.24, 855.96]
+   ]
+  },
+  {
+   "text": "That's kind of how I map out my day.",
+   "start": 855.96,
+   "end": 857.68,
+   "words": [
+    ["That's", 855.96, 856.2],
+    ["kind", 856.2, 856.44],
+    ["of", 856.44, 856.52],
+    ["how", 856.52, 856.72],
+    ["I", 856.72, 856.8],
+    ["map", 856.8, 857.12],
+    ["out", 857.12, 857.28],
+    ["my", 857.28, 857.4],
+    ["day.", 857.4, 857.68]
+   ]
+  },
+  {
+   "text": "Some days you're going to look at your list and be like I don't want to do any of this.",
+   "start": 857.68,
+   "end": 862.84,
+   "words": [
+    ["Some", 857.68, 857.92],
+    ["days", 857.92, 858.44],
+    ["you're", 858.56, 858.72],
+    ["going", 858.72, 858.84],
+    ["to", 858.84, 858.92],
+    ["look", 858.92, 859.04],
+    ["at", 859.04, 859.12],
+    ["your", 859.12, 859.28],
+    ["list", 859.28, 859.8],
+    ["and", 859.8, 859.92],
+    ["be", 859.92, 860.04],
+    ["like", 860.04, 860.56],
+    ["I", 861.56, 861.64],
+    ["don't", 861.64, 861.76],
+    ["want", 861.76, 861.88],
+    ["to", 861.88, 861.93],
+    ["do", 861.92, 862.04],
+    ["any", 862.04, 862.16],
+    ["of", 862.16, 862.24],
+    ["this.", 862.24, 862.84]
+   ]
+  },
+  {
+   "text": "I'm going to go rot.",
+   "start": 862.92,
+   "end": 863.92,
+   "words": [
+    ["I'm", 862.92, 863.04],
+    ["going", 863.04, 863.16],
+    ["to", 863.16, 863.24],
+    ["go", 863.24, 863.4],
+    ["rot.", 863.4, 863.92]
+   ]
+  },
+  {
+   "text": "I'm going to relax.",
+   "start": 864.0,
+   "end": 865.0,
+   "words": [
+    ["I'm", 864.0, 864.12],
+    ["going", 864.12, 864.24],
+    ["to", 864.24, 864.32],
+    ["relax.", 864.32, 865.0]
+   ]
+  },
+  {
+   "text": "I'm going to party.",
+   "start": 865.04,
+   "end": 866.0,
+   "words": [
+    ["I'm", 865.04, 865.12],
+    ["going", 865.12, 865.24],
+    ["to", 865.24, 865.32],
+    ["party.", 865.32, 866.0]
+   ]
+  },
+  {
+   "text": "And you got to honor that, too.",
+   "start": 866.04,
+   "end": 867.36,
+   "words": [
+    ["And", 866.04, 866.2],
+    ["you", 866.2, 866.28],
+    ["got", 866.28, 866.4],
+    ["to", 866.4, 866.52],
+    ["honor", 866.52, 866.8],
+    ["that,", 866.8, 867.0],
+    ["too.", 867.0, 867.36]
+   ]
+  },
+  {
+   "text": "Or else like what is the point of life?",
+   "start": 867.36,
+   "end": 869.56,
+   "words": [
+    ["Or", 867.36, 867.52],
+    ["else", 867.52, 867.68],
+    ["like", 867.68, 867.92],
+    ["what", 867.92, 868.28],
+    ["is", 868.28, 868.4],
+    ["the", 868.4, 868.52],
+    ["point", 868.52, 868.84],
+    ["of", 868.84, 868.96],
+    ["life?", 868.96, 869.56]
+   ]
+  },
+  {
+   "text": "What is the point of living?",
+   "start": 869.56,
+   "end": 871.2,
+   "words": [
+    ["What", 869.56, 869.8],
+    ["is", 869.8, 869.92],
+    ["the", 869.92, 870.04],
+    ["point", 870.04, 870.32],
+    ["of", 870.32, 870.44],
+    ["living?", 870.44, 871.2]
+   ]
+  },
+  {
+   "text": "Like defaults exist so that you have something to return to after you've just been doing donuts in the parking lot.",
+   "start": 871.2,
+   "end": 878.88,
+   "words": [
+    ["Like", 871.2, 871.48],
+    ["defaults", 871.48, 872.32],
+    ["exist", 872.4, 873.0],
+    ["so", 873.48, 873.72],
+    ["that", 873.72, 873.96],
+    ["you", 873.96, 874.04],
+    ["have", 874.04, 874.2],
+    ["something", 874.2, 874.68],
+    ["to", 874.68, 874.8],
+    ["return", 874.8, 875.28],
+    ["to", 875.28, 875.64],
+    ["after", 875.84, 876.2],
+    ["you've", 876.2, 876.36],
+    ["just", 876.36, 876.64],
+    ["been", 876.64, 876.88],
+    ["doing", 876.88, 877.32],
+    ["donuts", 877.32, 877.84],
+    ["in", 877.84, 877.92],
+    ["the", 877.92, 878.04],
+    ["parking", 878.04, 878.52],
+    ["lot.", 878.52, 878.88]
+   ]
+  },
+  {
+   "text": "You come home to your default, you know?",
+   "start": 878.88,
+   "end": 881.8,
+   "words": [
+    ["You", 878.88, 879.08],
+    ["come", 879.08, 879.56],
+    ["home", 879.56, 880.08],
+    ["to", 880.2, 880.44],
+    ["your", 880.44, 880.6],
+    ["default,", 880.6, 881.44],
+    ["you", 881.52, 881.64],
+    ["know?", 881.64, 881.8]
+   ]
+  },
+  {
+   "text": "I think it's important to even have like moderation in moderation.",
+   "start": 881.8,
+   "end": 885.56,
+   "words": [
+    ["I", 881.8, 881.88],
+    ["think", 881.88, 882.0],
+    ["it's", 882.0, 882.12],
+    ["important", 882.12, 882.92],
+    ["to", 882.92, 883.04],
+    ["even", 883.04, 883.28],
+    ["have", 883.28, 883.4],
+    ["like", 883.4, 883.6],
+    ["moderation", 883.6, 884.32],
+    ["in", 884.32, 884.48],
+    ["moderation.", 884.48, 885.56]
+   ]
+  },
+  {
+   "text": "I think the biggest reward of sticking to your defaults and staying disciplined…",
+   "start": 885.56,
+   "end": 888.72,
+   "words": [
+    ["I", 885.56, 885.61],
+    ["think", 885.6, 885.76],
+    ["the", 885.76, 885.88],
+    ["biggest", 885.88, 886.16],
+    ["reward", 886.16, 886.52],
+    ["of", 886.52, 886.6],
+    ["sticking", 886.6, 886.96],
+    ["to", 886.96, 887.01],
+    ["your", 887.0, 887.12],
+    ["defaults", 887.12, 887.68],
+    ["and", 887.68, 887.84],
+    ["staying", 887.84, 888.2],
+    ["disciplined", 888.2, 888.72]
+   ]
+  },
+  {
+   "text": "and like staying obsessed with something long enough is that then it just like fossilizes into your identity.",
+   "start": 888.72,
+   "end": 894.44,
+   "words": [
+    ["and", 888.72, 888.8],
+    ["like", 888.8, 889.0],
+    ["staying", 889.0, 889.32],
+    ["obsessed", 889.32, 889.68],
+    ["with", 889.68, 889.76],
+    ["something", 889.76, 890.08],
+    ["long", 890.08, 890.24],
+    ["enough", 890.24, 890.84],
+    ["is", 890.84, 891.0],
+    ["that", 891.0, 891.32],
+    ["then", 891.32, 891.84],
+    ["it", 892.04, 892.24],
+    ["just", 892.24, 892.48],
+    ["like", 892.48, 892.76],
+    ["fossilizes", 892.76, 893.64],
+    ["into", 893.64, 893.84],
+    ["your", 893.84, 893.96],
+    ["identity.", 893.96, 894.44]
+   ]
+  },
+  {
+   "text": "Like it becomes a part of you.",
+   "start": 894.44,
+   "end": 896.44,
+   "words": [
+    ["Like", 894.44, 894.64],
+    ["it", 894.64, 894.76],
+    ["becomes", 894.76, 895.28],
+    ["a", 895.28, 895.4],
+    ["part", 895.4, 895.8],
+    ["of", 895.8, 895.92],
+    ["you.", 895.92, 896.44]
+   ]
+  },
+  {
+   "text": "So, whenever you see someone that is just like effortlessly excelling in something, it's not that they're like a superhero or like a unicorn.",
+   "start": 896.48,
+   "end": 905.24,
+   "words": [
+    ["So,", 896.48, 896.88],
+    ["whenever", 896.88, 897.24],
+    ["you", 897.24, 897.4],
+    ["see", 897.4, 897.56],
+    ["someone", 897.56, 898.0],
+    ["that", 898.0, 898.2],
+    ["is", 898.2, 898.36],
+    ["just", 898.36, 898.68],
+    ["like", 898.68, 899.2],
+    ["effortlessly", 899.36, 900.24],
+    ["excelling", 900.24, 901.04],
+    ["in", 901.04, 901.2],
+    ["something,", 901.2, 902.2],
+    ["it's", 902.4, 902.56],
+    ["not", 902.56, 902.72],
+    ["that", 902.72, 902.88],
+    ["they're", 902.88, 903.04],
+    ["like", 903.04, 903.24],
+    ["a", 903.24, 903.29],
+    ["superhero", 903.28, 904.0],
+    ["or", 904.0, 904.16],
+    ["like", 904.16, 904.32],
+    ["a", 904.32, 904.4],
+    ["unicorn.", 904.4, 905.24]
+   ]
+  },
+  {
+   "text": "They were just so obsessed with something that it became a permanent default.",
+   "start": 905.24,
+   "end": 909.88,
+   "words": [
+    ["They", 905.24, 905.44],
+    ["were", 905.44, 905.6],
+    ["just", 905.6, 906.12],
+    ["so", 906.16, 906.52],
+    ["obsessed", 906.52, 907.12],
+    ["with", 907.12, 907.24],
+    ["something", 907.24, 907.6],
+    ["that", 907.6, 907.76],
+    ["it", 907.76, 907.84],
+    ["became", 907.84, 908.4],
+    ["a", 908.4, 908.48],
+    ["permanent", 908.48, 909.04],
+    ["default.", 909.04, 909.88]
+   ]
+  },
+  {
+   "text": "That's it. I'm going to leave you with a James Clear quote because he said it best.",
+   "start": 910.28,
+   "end": 913.6,
+   "words": [
+    ["That's", 910.28, 910.6],
+    ["it.", 910.6, 910.88],
+    ["I'm", 910.88, 910.96],
+    ["going", 910.96, 911.08],
+    ["to", 911.08, 911.16],
+    ["leave", 911.16, 911.28],
+    ["you", 911.28, 911.36],
+    ["with", 911.36, 911.48],
+    ["a", 911.48, 911.53],
+    ["James", 911.52, 911.84],
+    ["Clear", 911.84, 912.04],
+    ["quote", 912.04, 912.28],
+    ["because", 912.28, 912.56],
+    ["he", 912.56, 912.72],
+    ["said", 912.72, 912.88],
+    ["it", 912.88, 913.0],
+    ["best.", 913.0, 913.6]
+   ]
+  },
+  {
+   "text": "Your environment shapes your behavior.",
+   "start": 913.88,
+   "end": 916.24,
+   "words": [
+    ["Your", 913.88, 914.04],
+    ["environment", 914.04, 914.92],
+    ["shapes", 914.92, 915.24],
+    ["your", 915.24, 915.36],
+    ["behavior.", 915.36, 916.24]
+   ]
+  },
+  {
+   "text": "Your behavior shapes your identity.",
+   "start": 916.24,
+   "end": 918.24,
+   "words": [
+    ["Your", 916.24, 916.4],
+    ["behavior", 916.4, 917.12],
+    ["shapes", 917.12, 917.48],
+    ["your", 917.48, 917.6],
+    ["identity.", 917.6, 918.24]
+   ]
+  },
+  {
+   "text": "Your identity shapes your long-term results.",
+   "start": 918.24,
+   "end": 920.8,
+   "words": [
+    ["Your", 918.24, 918.36],
+    ["identity", 918.36, 919.0],
+    ["shapes", 919.0, 919.4],
+    ["your", 919.4, 919.52],
+    ["long-term", 919.52, 919.96],
+    ["results.", 919.96, 920.8]
+   ]
+  },
+  {
+   "text": "So good. Period.",
+   "start": 921.16,
+   "end": 923.28,
+   "words": [
+    ["So", 921.16, 921.52],
+    ["good.", 921.68, 922.28],
+    ["Period.", 922.52, 923.28]
+   ]
+  },
+  {
+   "text": "Thank you again to Trainwellf for sponsoring this video.",
+   "start": 923.44,
+   "end": 925.96,
+   "words": [
+    ["Thank", 923.44, 923.68],
+    ["you", 923.68, 923.76],
+    ["again", 923.76, 923.96],
+    ["to", 923.96, 924.08],
+    ["Trainwellf", 924.08, 924.56],
+    ["for", 924.56, 924.68],
+    ["sponsoring", 924.68, 925.12],
+    ["this", 925.12, 925.28],
+    ["video.", 925.28, 925.96]
+   ]
+  },
+  {
+   "text": "There is a 14-day free trial that you can try by clicking the link in my description box.",
+   "start": 926.12,
+   "end": 931.72,
+   "words": [
+    ["There", 926.12, 926.4],
+    ["is", 926.4, 926.76],
+    ["a", 926.88, 927.12],
+    ["14-day", 927.12, 927.68],
+    ["free", 927.68, 927.88],
+    ["trial", 927.88, 928.48],
+    ["that", 928.6, 928.76],
+    ["you", 928.76, 928.88],
+    ["can", 928.88, 929.0],
+    ["try", 929.0, 929.44],
+    ["by", 929.84, 929.96],
+    ["clicking", 929.96, 930.28],
+    ["the", 930.28, 930.4],
+    ["link", 930.4, 930.56],
+    ["in", 930.56, 930.64],
+    ["my", 930.64, 930.76],
+    ["description", 930.76, 931.2],
+    ["box.", 931.2, 931.72]
+   ]
+  },
+  {
+   "text": "Also, bigger thanks to you guys for making it to the end of this video.",
+   "start": 931.8,
+   "end": 936.2,
+   "words": [
+    ["Also,", 931.8, 932.4],
+    ["bigger", 932.72, 932.96],
+    ["thanks", 932.96, 933.24],
+    ["to", 933.24, 933.36],
+    ["you", 933.36, 933.52],
+    ["guys", 933.52, 933.88],
+    ["for", 933.88, 934.04],
+    ["making", 934.04, 934.52],
+    ["it", 934.52, 934.72],
+    ["to", 934.72, 934.84],
+    ["the", 934.84, 935.0],
+    ["end", 935.0, 935.24],
+    ["of", 935.24, 935.32],
+    ["this", 935.32, 935.52],
+    ["video.", 935.52, 936.2]
+   ]
+  },
+  {
+   "text": "My voice is almost gone, but I would love to know what your guys' defaults are.",
+   "start": 936.36,
+   "end": 942.72,
+   "words": [
+    ["My", 936.36, 936.56],
+    ["voice", 936.56, 937.16],
+    ["is", 938.0, 938.16],
+    ["almost", 938.16, 938.4],
+    ["gone,", 938.4, 938.72],
+    ["but", 938.72, 939.16],
+    ["I", 939.6, 939.65],
+    ["would", 939.64, 939.84],
+    ["love", 939.84, 940.04],
+    ["to", 940.04, 940.16],
+    ["know", 940.16, 940.68],
+    ["what", 940.8, 941.04],
+    ["your", 941.04, 941.32],
+    ["guys'", 941.32, 941.68],
+    ["defaults", 941.68, 942.2],
+    ["are.", 942.2, 942.72]
+   ]
+  },
+  {
+   "text": "I'm very curious to know other people's systems and to see if I can also apply it to my life.",
+   "start": 942.72,
+   "end": 947.6,
+   "words": [
+    ["I'm", 942.72, 942.88],
+    ["very", 942.88, 943.16],
+    ["curious", 943.16, 943.52],
+    ["to", 943.52, 943.6],
+    ["know", 943.6, 943.76],
+    ["other", 943.76, 944.0],
+    ["people's", 944.0, 944.28],
+    ["systems", 944.28, 944.92],
+    ["and", 944.92, 945.16],
+    ["to", 945.16, 945.24],
+    ["see", 945.24, 945.36],
+    ["if", 945.36, 945.52],
+    ["I", 945.52, 945.64],
+    ["can", 945.64, 945.92],
+    ["also", 945.92, 946.2],
+    ["apply", 946.2, 946.52],
+    ["it", 946.52, 946.76],
+    ["to", 946.76, 946.84],
+    ["my", 946.84, 947.0],
+    ["life.", 947.0, 947.6]
+   ]
+  },
+  {
+   "text": "Anyway, thank you for watching and I'll see you guys in the next one. Bye.",
+   "start": 947.84,
+   "end": 951.84,
+   "words": [
+    ["Anyway,", 947.84, 948.24],
+    ["thank", 948.24, 948.56],
+    ["you", 948.56, 948.64],
+    ["for", 948.64, 948.76],
+    ["watching", 948.76, 949.4],
+    ["and", 949.4, 949.68],
+    ["I'll", 949.68, 949.8],
+    ["see", 949.8, 949.92],
+    ["you", 949.92, 950.0],
+    ["guys", 950.0, 950.16],
+    ["in", 950.16, 950.24],
+    ["the", 950.24, 950.29],
+    ["next", 950.28, 950.56],
+    ["one.", 950.56, 951.08],
+    ["Bye.", 951.32, 951.84]
+   ]
+  }
+ ]
+}
