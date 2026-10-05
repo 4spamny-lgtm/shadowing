@@ -23,7 +23,10 @@ button{font:inherit;color:inherit;background:var(--panel2);border:1px solid var(
   border-radius:12px;padding:10px 12px;cursor:pointer;touch-action:manipulation}
 button:active{transform:scale(.97)}
 button.on{background:var(--accent);border-color:var(--accent)}
-select{font:inherit;font-size:15px;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px}
+select,input,textarea{font:inherit;font-size:16px;background:var(--panel2);color:var(--text);
+  border:1px solid var(--line);border-radius:10px;padding:8px}
+input,textarea{width:100%;min-width:0}
+textarea{resize:vertical}
 .hidden{display:none!important}
 .small{color:var(--sub);font-size:13px;line-height:1.6}
 
@@ -35,12 +38,18 @@ select{font:inherit;font-size:15px;background:var(--panel2);color:var(--text);bo
 
 /* ---------- 영상 목록 ---------- */
 #listScreen{max-width:900px;margin:0 auto;padding:calc(16px + env(safe-area-inset-top)) 16px 40px}
-#listScreen h1{font-size:22px;margin:6px 0 16px}
+.listHead{display:flex;align-items:center;gap:8px;margin:6px 0 14px}
+.listHead h1{flex:1;margin:0;font-size:22px}
+.listHead button{padding:8px 12px;font-size:14px}
+#addBtn{background:var(--accent);border-color:var(--accent)}
+#queueInfo{margin:-4px 0 12px;color:var(--warn)}
 .vcard{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);
   border-radius:14px;padding:10px;margin-bottom:10px;cursor:pointer}
 .vcard img{width:128px;aspect-ratio:16/9;object-fit:cover;border-radius:8px;flex:none;background:#000}
+.vcard .info{flex:1;min-width:0}
 .vcard .t{font-weight:600;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .vcard .m{color:var(--sub);font-size:13px;margin-top:4px}
+.vcard .del{flex:none;padding:6px 10px;font-size:13px;color:var(--sub);background:transparent}
 .msg{color:var(--sub);line-height:1.7;padding:14px;background:var(--panel);border-radius:12px}
 
 /* ---------- 쉐도잉 화면 ---------- */
@@ -89,15 +98,23 @@ select{font:inherit;font-size:15px;background:var(--panel2);color:var(--text);bo
   padding:14px 16px calc(16px + env(safe-area-inset-bottom));max-height:88dvh;overflow:auto}
 .row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
 .row small{color:var(--sub)}
+.row .inp{flex:1;max-width:62%}
+.secTitle{margin:16px 0 0;font-size:14px;color:var(--sub)}
 #toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%);
-  background:rgba(0,0,0,.85);color:#fff;padding:10px 14px;border-radius:10px;font-size:14px;z-index:20;max-width:90vw;text-align:center}
+  background:rgba(0,0,0,.88);color:#fff;padding:10px 14px;border-radius:10px;font-size:14px;z-index:20;max-width:90vw;text-align:center;line-height:1.5}
 </style>
 </head>
 <body>
 
 <!-- 영상 목록 화면 -->
 <div id="listScreen" class="hidden">
-  <h1>쉐도잉</h1>
+  <div class="listHead">
+    <h1>쉐도잉</h1>
+    <button id="refreshBtn" title="새로고침">↻</button>
+    <button id="addBtn" class="hidden">+ 영상 추가</button>
+    <button id="listSetBtn" title="설정">⚙&#xFE0E;</button>
+  </div>
+  <div id="queueInfo" class="small hidden"></div>
   <div id="videoList"></div>
 </div>
 
@@ -163,7 +180,26 @@ select{font:inherit;font-size:15px;background:var(--panel2);color:var(--text);bo
       <select id="sEdit"><option value="0">끄기</option><option value="1">켜기</option></select></div>
     <div class="row"><span>편집한 문장</span>
       <span><button id="exportBtn">JSON 내보내기</button> <button id="resetBtn">원래대로</button></span></div>
+
+    <p class="secTitle">GitHub 연결 (영상 추가·삭제용, 이 기기에만 저장)</p>
+    <div class="row"><span>저장소</span>
+      <input id="sRepo" class="inp" placeholder="아이디/저장소" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+    <div class="row"><span>토큰</span>
+      <input id="sToken" class="inp" type="password" placeholder="github_pat_..." autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+    <div class="row"><button id="ghClear">연결 해제</button><button id="ghTest">연결 확인</button></div>
+
     <p class="small">키보드: Space 재생/정지 · ← → 이전/다음 문장 · ↓ 또는 R 다시 듣기 · H 가린 자막 잠깐 보기</p>
+  </div>
+</div>
+
+<!-- 영상 추가 -->
+<div id="addSheet" class="sheetBg hidden">
+  <div class="sheet">
+    <div class="row"><b>영상 추가</b><button id="closeAdd">닫기</button></div>
+    <p class="small">유튜브 주소를 붙여넣으세요. 여러 개면 줄을 바꿔서 넣으면 돼요.</p>
+    <textarea id="addUrls" rows="4" placeholder="https://youtu.be/..." autocapitalize="off" autocomplete="off" spellcheck="false"></textarea>
+    <div style="display:flex;justify-content:flex-end;margin-top:10px"><button id="addGo" class="on">추가 요청</button></div>
+    <p class="small">GitHub 서버가 바로 처리를 시도해요. 유튜브가 막으면 대기 목록에 남았다가, 노트북에서 add.bat을 실행할 때 처리돼요.</p>
   </div>
 </div>
 
@@ -196,6 +232,97 @@ const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, hide: 'show', padBe
 const cfg = Object.assign({}, DEFAULTS, store.get('shadow:cfg', {}));
 const saveCfg = () => store.set('shadow:cfg', cfg);
 
+// ---------------------------------------------------------------- GitHub 연결 (영상 추가·삭제)
+function guessRepo() {
+  const h = location.hostname;
+  if (!h.endsWith('.github.io')) return '';
+  const owner = h.split('.')[0];
+  const seg = location.pathname.split('/').filter(Boolean)[0];
+  return seg && !seg.endsWith('.html') ? `${owner}/${seg}` : `${owner}/${h}`;
+}
+const ghCfg = () => Object.assign({ repo: guessRepo(), token: '' }, store.get('shadow:gh', {}));
+const ghReady = () => { const g = ghCfg(); return !!(g.repo && g.token); };
+
+const b64enc = s => { const b = new TextEncoder().encode(s); let bin = ''; for (let i = 0; i < b.length; i++) bin += String.fromCharCode(b[i]); return btoa(bin); };
+const b64dec = s => { const bin = atob((s || '').replace(/\s/g, '')); return new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))); };
+
+async function gh(path, opt = {}) {
+  const g = ghCfg();
+  if (!g.repo || !g.token) throw new Error('설정에서 GitHub 토큰을 먼저 넣어주세요.');
+  const headers = { 'Accept': 'application/vnd.github+json', 'Authorization': 'Bearer ' + g.token, 'X-GitHub-Api-Version': '2022-11-28' };
+  if (opt.body) headers['Content-Type'] = 'application/json';
+  const r = await fetch(`https://api.github.com/repos/${g.repo}/${path}`, { method: opt.method || 'GET', headers, body: opt.body, cache: 'no-store' });
+  if (r.status === 404 && opt.allow404) return null;
+  if (!r.ok) {
+    let m = ''; try { m = (await r.json()).message; } catch (e) {}
+    if (r.status === 401) throw new Error('토큰이 올바르지 않거나 만료됐어요.');
+    if (r.status === 403 || r.status === 404) throw new Error(`권한이 없어요. 저장소 이름과 토큰 권한(Contents: Read and write)을 확인하세요. (${r.status})`);
+    throw new Error(`GitHub 오류 ${r.status}${m ? ': ' + m : ''}`);
+  }
+  return r.status === 204 ? null : r.json();
+}
+async function getFile(p) {
+  const j = await gh(`contents/${p}?ref=main`, { allow404: true });
+  return j ? { sha: j.sha, text: j.content ? b64dec(j.content) : '' } : null;
+}
+const putFile = (p, text, sha, msg) =>
+  gh(`contents/${p}`, { method: 'PUT', body: JSON.stringify({ message: msg, content: b64enc(text), sha, branch: 'main' }) });
+const delFile = (p, sha, msg) =>
+  gh(`contents/${p}`, { method: 'DELETE', body: JSON.stringify({ message: msg, sha, branch: 'main' }) });
+
+// 삭제한 영상은 사이트가 갱신될 때까지(몇 분) 이 기기에서 바로 숨김
+const hiddenNow = () => { const h = store.get('shadow:hidden', {}), now = Date.now(); for (const k in h) if (now - h[k] > 15 * 60 * 1000) delete h[k]; return h; };
+const hideLocal = id => { const h = hiddenNow(); h[id] = Date.now(); store.set('shadow:hidden', h); };
+
+async function deleteVideo(id, title) {
+  if (!ghReady()) { toast('삭제하려면 설정에서 GitHub 토큰을 넣어주세요.', 4000); return; }
+  if (!confirm(`"${title}"\n\n이 영상을 목록에서 삭제할까요? 모든 기기에서 사라져요.`)) return;
+  toast('삭제하는 중...', 15000);
+  try {
+    const ix = await getFile('videos/index.json');
+    if (ix) {
+      const j = JSON.parse(ix.text);
+      j.videos = (j.videos || []).filter(v => v.id !== id);
+      await putFile('videos/index.json', JSON.stringify(j, null, 1), ix.sha, `Remove video ${id}`);
+    }
+    const f = await getFile(`videos/${id}.json`);
+    if (f) await delFile(`videos/${id}.json`, f.sha, `Remove video ${id}`);
+    hideLocal(id); store.del('shadow:pos:' + id); store.del('shadow:edit:' + id);
+    renderVideoList(lastVideos);
+    toast('삭제했어요. 다른 기기에는 1~2분 뒤 반영돼요.', 4000);
+  } catch (e) { toast(e.message, 6000); }
+}
+
+async function queueAdd(text) {
+  const urls = text.split(/\s+/).filter(u => /youtu\.?be/.test(u));
+  if (!urls.length) { toast('유튜브 주소를 넣어주세요.'); return; }
+  toast('추가 요청 중...', 15000);
+  try {
+    const q = await getFile('queue.txt');
+    let body = q ? q.text : '# 여기에 유튜브 주소를 한 줄에 하나씩 적으면, 다음 처리 때 영상이 추가됩니다.\n';
+    if (body && !body.endsWith('\n')) body += '\n';
+    body += urls.join('\n') + '\n';
+    await putFile('queue.txt', body, q ? q.sha : undefined, 'Queue videos');
+    $('#addUrls').value = '';
+    $('#addSheet').classList.add('hidden');
+    toast('추가를 요청했어요. 잘 되면 몇 분 뒤 목록에 나타나요. ↻로 새로고침해 보세요.', 6000);
+    loadQueueInfo();
+  } catch (e) { toast(e.message, 6000); }
+}
+
+async function loadQueueInfo() {
+  const el = $('#queueInfo');
+  if (!ghReady()) { el.classList.add('hidden'); return; }
+  try {
+    const q = await getFile('queue.txt');
+    const n = q ? q.text.split('\n').map(s => s.trim()).filter(s => s && !s.startsWith('#')).length : 0;
+    if (n) {
+      el.textContent = `처리 대기 중인 주소 ${n}개 · GitHub 서버가 처리 중이거나, 노트북에서 add.bat 실행이 필요해요`;
+      el.classList.remove('hidden');
+    } else el.classList.add('hidden');
+  } catch (e) { el.classList.add('hidden'); }
+}
+
 // ---------------------------------------------------------------- 상태
 let doc = null, sents = [], vid = null, idx = 0;
 let phase = 'idle';          // idle(멈춤) | play(듣는 중) | gap(따라 말하는 중)
@@ -205,6 +332,7 @@ let gapTimer = null, gapUntil = 0;
 let heard = false, revealed = false, splitting = false, editMode = false;
 let player = null, playerReady = false, selfPause = false;
 let lastRaw = -1, lastRawAt = 0, userScrollAt = 0, wakeLock = null, fromList = false;
+let lastVideos = [];
 
 // ---------------------------------------------------------------- 유튜브 플레이어
 let ytResolve; const ytReady = new Promise(r => ytResolve = r);
@@ -429,6 +557,7 @@ function updateTool() {
   $('#rateBtn').textContent = `${cfg.rate}x`;
   document.documentElement.style.setProperty('--fs', cfg.big ? '26px' : '20px');
   $('#editBadge').classList.toggle('hidden', !vid || !store.get('shadow:edit:' + vid, null));
+  $('#addBtn').classList.toggle('hidden', !ghReady());
 }
 
 // ---------------------------------------------------------------- 문장 편집
@@ -473,7 +602,7 @@ function editAction(act) {
 }
 
 function exportJson() {
-  if (!doc) return;
+  if (!doc) { toast('영상을 연 상태에서 사용할 수 있어요.'); return; }
   const out = Object.assign({}, doc, { sentences: sents, edited: new Date().toISOString() });
   const blob = new Blob([JSON.stringify(out, null, 1)], { type: 'application/json' });
   const a = document.createElement('a');
@@ -483,7 +612,8 @@ function exportJson() {
 }
 
 function resetEdits() {
-  if (!doc || !confirm('이 영상에서 편집한 내용을 지우고 원래 문장으로 되돌릴까요?')) return;
+  if (!doc) { toast('영상을 연 상태에서 사용할 수 있어요.'); return; }
+  if (!confirm('이 영상에서 편집한 내용을 지우고 원래 문장으로 되돌릴까요?')) return;
   stopAll();
   store.del('shadow:edit:' + vid);
   sents = doc.sentences.map(s => Object.assign({}, s, { words: (s.words || []).slice() }));
@@ -492,25 +622,36 @@ function resetEdits() {
 }
 
 // ---------------------------------------------------------------- 화면 전환
+function renderVideoList(vs) {
+  const box = $('#videoList');
+  const hid = hiddenNow();
+  const list = vs.filter(v => !hid[v.id]);
+  if (!list.length) { box.innerHTML = '<div class="msg">아직 영상이 없어요. "+ 영상 추가"나 PC의 add.bat으로 영상을 추가하세요.</div>'; return; }
+  const canDel = ghReady();
+  box.innerHTML = list.map(v => {
+    const pos = store.get('shadow:pos:' + v.id, 0);
+    return `<div class="vcard" data-id="${esc(v.id)}" data-title="${esc(v.title)}">
+      <img loading="lazy" src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/mqdefault.jpg" alt="">
+      <div class="info"><div class="t">${esc(v.title)}</div>
+      <div class="m">${esc(v.channel || '')} · 문장 ${v.sentences}개${pos > 0 ? ` · ${pos + 1}번째부터 이어서` : ''}</div></div>
+      ${canDel ? '<button class="del" data-del="1">삭제</button>' : ''}</div>`;
+  }).join('');
+}
+
 async function showList() {
   stopAll();
   if (playerReady) { try { player.pauseVideo(); } catch (e) {} }
   $('#playerScreen').classList.add('hidden');
   $('#listScreen').classList.remove('hidden');
+  updateTool();
   const box = $('#videoList');
   box.innerHTML = '<div class="msg">불러오는 중...</div>';
+  loadQueueInfo();
   try {
     const r = await fetch('videos/index.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error(r.status);
-    const vs = (await r.json()).videos || [];
-    if (!vs.length) { box.innerHTML = '<div class="msg">아직 영상이 없어요. PC에서 prep.py로 영상을 추가하세요.</div>'; return; }
-    box.innerHTML = vs.map(v => {
-      const pos = store.get('shadow:pos:' + v.id, 0);
-      return `<div class="vcard" data-id="${esc(v.id)}">
-        <img loading="lazy" src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/mqdefault.jpg" alt="">
-        <div><div class="t">${esc(v.title)}</div>
-        <div class="m">${esc(v.channel || '')} · 문장 ${v.sentences}개${pos > 0 ? ` · ${pos + 1}번째부터 이어서` : ''}</div></div></div>`;
-    }).join('');
+    lastVideos = (await r.json()).videos || [];
+    renderVideoList(lastVideos);
   } catch (e) {
     box.innerHTML = `<div class="msg">videos/index.json을 불러오지 못했어요.<br>
       PC에서 index.html을 더블클릭해서 열었다면, 폴더에서 <b>python -m http.server</b>를 실행한 뒤
@@ -565,9 +706,15 @@ document.addEventListener('click', e => { const b = e.target.closest('button'); 
 
 $('#videoList').addEventListener('click', e => {
   const c = e.target.closest('.vcard'); if (!c) return;
+  if (e.target.closest('[data-del]')) { deleteVideo(c.dataset.id, c.dataset.title); return; }
   fromList = true; location.hash = 'v=' + c.dataset.id;
 });
 $('#backBtn').onclick = () => { if (fromList) { fromList = false; history.back(); } else location.hash = ''; };
+$('#refreshBtn').onclick = () => showList();
+$('#addBtn').onclick = () => { $('#addSheet').classList.remove('hidden'); setTimeout(() => $('#addUrls').focus(), 50); };
+$('#closeAdd').onclick = () => $('#addSheet').classList.add('hidden');
+$('#addSheet').addEventListener('click', e => { if (e.target.id === 'addSheet') $('#addSheet').classList.add('hidden'); });
+$('#addGo').onclick = () => queueAdd($('#addUrls').value);
 
 $('#prevBtn').onclick = () => playSentence(idx - 1);
 $('#nextBtn').onclick = () => playSentence(idx + 1);
@@ -598,15 +745,22 @@ $('#rateBtn').onclick = () => {
 };
 
 // 설정 시트
-$('#setBtn').onclick = () => {
+function openSheet() {
   $('#sRepeat').value = String(cfg.repeat); $('#sRate').value = String(cfg.rate); $('#sGap').value = String(cfg.gap);
   $('#sAuto').value = cfg.auto ? '1' : '0'; $('#sHide').value = cfg.hide;
   $('#sPadB').value = String(cfg.padBefore); $('#sPadA').value = String(cfg.padAfter);
   $('#sBig').value = cfg.big ? '1' : '0'; $('#sEdit').value = editMode ? '1' : '0';
+  const g = ghCfg(); $('#sRepo').value = g.repo; $('#sToken').value = g.token;
   $('#sheet').classList.remove('hidden');
-};
-$('#closeSheet').onclick = () => $('#sheet').classList.add('hidden');
-$('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') $('#sheet').classList.add('hidden'); });
+}
+function closeSheet() {
+  $('#sheet').classList.add('hidden');
+  if (!$('#listScreen').classList.contains('hidden')) { updateTool(); renderVideoList(lastVideos); loadQueueInfo(); }
+}
+$('#setBtn').onclick = openSheet;
+$('#listSetBtn').onclick = openSheet;
+$('#closeSheet').onclick = closeSheet;
+$('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeSheet(); });
 const bind = (sel, key, conv) => $(sel).addEventListener('change', e => {
   cfg[key] = conv(e.target.value); saveCfg(); updateTool();
   if (key === 'rate' && playerReady) player.setPlaybackRate(cfg.rate);
@@ -620,10 +774,25 @@ $('#sEdit').addEventListener('change', e => { editMode = e.target.value === '1';
 $('#exportBtn').onclick = exportJson;
 $('#resetBtn').onclick = resetEdits;
 
+// GitHub 연결 설정
+const saveGh = () => { store.set('shadow:gh', { repo: $('#sRepo').value.trim(), token: $('#sToken').value.trim() }); updateTool(); };
+$('#sRepo').addEventListener('change', saveGh);
+$('#sToken').addEventListener('change', saveGh);
+$('#ghTest').onclick = async () => {
+  saveGh();
+  try { await gh('contents/videos/index.json?ref=main'); toast('연결됐어요! 이제 영상 추가와 삭제를 할 수 있어요.', 4000); }
+  catch (e) { toast(e.message, 6000); }
+};
+$('#ghClear').onclick = () => {
+  if (!confirm('이 기기에서 GitHub 토큰을 지울까요?')) return;
+  store.del('shadow:gh'); const g = ghCfg(); $('#sRepo').value = g.repo; $('#sToken').value = '';
+  updateTool(); toast('연결을 해제했어요.');
+};
+
 // 키보드 단축키
 document.addEventListener('keydown', e => {
   if ($('#playerScreen').classList.contains('hidden')) return;
-  if (!$('#sheet').classList.contains('hidden')) return;          // 설정 창이 열려 있으면 무시
+  if (!$('#sheet').classList.contains('hidden') || !$('#addSheet').classList.contains('hidden')) return;
   if (e.target.closest && e.target.closest('select,input,textarea')) return;
   if (e.ctrlKey || e.metaKey || e.altKey) return;
   const k = e.key;
