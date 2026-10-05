@@ -239,6 +239,10 @@ def load_local_model():
         print("문장 부호 모델 패키지가 없어 규칙 기반으로 나눕니다.")
         print("  설치:  pip install deepmultilingualpunctuation")
         return None
+    except Exception as e:
+        print(f"문장 부호 모델을 불러오지 못해 규칙 기반으로 나눕니다: {e}")
+        print("  Windows라면 이 설치가 필요할 수 있어요:  winget install Microsoft.VCRedist.2015+.x64")
+        return None
     try:
         print("문장 부호 모델을 불러오는 중... (처음 한 번은 약 2GB를 내려받아 시간이 걸립니다)")
         return PunctuationModel()
