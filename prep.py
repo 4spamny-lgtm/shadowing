@@ -11,6 +11,7 @@ prep.py - 유튜브 쉐도잉용 자막 전처리 스크립트
   --seg rules   모델 없이 쉬는 구간 기준으로만 나누기 (가장 빠름, 품질 낮음)
   --seg claude  Claude API 사용 (ANTHROPIC_API_KEY 필요, 선택 사항)
   --force       이미 처리한 영상도 다시 처리
+  --queue       queue.txt에 쌓인 주소도 함께 처리하고, 실패한 주소는 queue.txt에 남김 (add.bat이 사용)
 
 자막에 문장 부호가 이미 들어 있으면(수동 자막 등) 모델 없이 그 부호를 그대로 사용합니다.
 
@@ -545,9 +546,52 @@ def process_video(url, seg, force):
     print(f"  ✓ 문장 {len(sentences)}개 ({method}) → videos/{vid}.json")
 
 
+# ---------------------------------------------------------------- 대기 목록 (queue.txt)
+
+QUEUE_FILE = BASE / "queue.txt"
+QUEUE_HEADER = (
+    "# 여기에 유튜브 주소를 한 줄에 하나씩 적으면, 다음 처리 때 영상이 추가됩니다.\n"
+    "# 처리에 성공한 주소는 자동으로 지워지고, 실패한 주소는 여기에 남습니다.\n"
+)
+
+
+def read_queue():
+    if not QUEUE_FILE.exists():
+        return []
+    out = []
+    for line in QUEUE_FILE.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            out += line.split()  # 한 줄에 여러 개를 적어도 됨
+    return out
+
+
+def write_queue(urls):
+    QUEUE_FILE.write_text(QUEUE_HEADER + "".join(u + "\n" for u in urls), encoding="utf-8")
+
+
+def run_input(u, seg, force):
+    """주소 하나(영상 또는 재생목록)를 처리. 전부 성공하면 True"""
+    try:
+        vids = expand_urls([u])
+    except Exception as e:
+        print(f"✗ 주소를 읽지 못했습니다: {u}\n  {e}")
+        return False
+    ok = True
+    for v in vids:
+        try:
+            process_video(v, seg, force)
+        except Exception as e:
+            print(f"  ✗ 실패: {e}")
+            ok = False
+    return ok
+
+
 def main():
     ap = argparse.ArgumentParser(description="유튜브 자막을 쉐도잉용 문장 JSON으로 변환")
-    ap.add_argument("urls", nargs="+", help="유튜브 영상 또는 재생목록 주소")
+    ap.add_argument("urls", nargs="*", help="유튜브 영상 또는 재생목록 주소")
+    ap.add_argument("--queue", action="store_true",
+                    help="queue.txt의 주소도 함께 처리하고, 실패한 주소는 queue.txt에 남김")
     ap.add_argument("--seg", choices=["local", "rules", "claude"], default="local",
                     help="문장 나누기 방식 (기본: local)")
     ap.add_argument("--model", default=DEFAULT_MODEL, help="--seg claude일 때 사용할 모델")
@@ -572,11 +616,22 @@ def main():
             print("Claude API를 쓸 수 없어(키 또는 패키지 없음) 로컬 모델로 대신합니다.")
             seg["mode"] = "local"
 
-    for u in expand_urls(args.urls):
-        try:
-            process_video(u, seg, args.force)
-        except Exception as e:
-            print(f"  ✗ 실패: {e}")
+    inputs = list(args.urls)
+    if args.queue:
+        queued = read_queue()
+        if queued:
+            print(f"대기 목록(queue.txt)에서 주소 {len(queued)}개를 가져왔습니다.")
+        inputs += queued
+    uniq = list(dict.fromkeys(inputs))  # 중복 제거, 순서 유지
+    if not uniq:
+        print("처리할 주소가 없습니다.")
+
+    failed = [u for u in uniq if not run_input(u, seg, args.force)]
+
+    if args.queue:
+        write_queue(failed)
+        if failed:
+            print(f"\n처리하지 못한 주소 {len(failed)}개는 queue.txt에 남겨 두었습니다.")
 
     update_index()
 
