@@ -1,0 +1,7334 @@
+{
+ "id": "XZXVZjXYGQY",
+ "title": "My Mom Went Back To School",
+ "channel": "MSA",
+ "duration": 1539,
+ "subtitle": {
+  "lang": "en-orig",
+  "kind": "auto"
+ },
+ "segmenter": "punctuation",
+ "created": "2026-10-05T19:48:33",
+ "sentences": [
+  {
+   "text": "Hi, my name is Zoe, and my best friend is my mom, Vicki.",
+   "start": 0.48,
+   "end": 4.24,
+   "words": [
+    ["Hi,", 0.48, 0.88],
+    ["my", 0.88, 1.0],
+    ["name", 1.0, 1.2],
+    ["is", 1.2, 1.32],
+    ["Zoe,", 1.32, 1.68],
+    ["and", 1.68, 2.12],
+    ["my", 2.24, 2.4],
+    ["best", 2.4, 2.72],
+    ["friend", 2.72, 3.08],
+    ["is", 3.08, 3.24],
+    ["my", 3.24, 3.36],
+    ["mom,", 3.36, 3.56],
+    ["Vicki.", 3.56, 4.24]
+   ]
+  },
+  {
+   "text": "She was a single mom who had me when she was really young, so people always said we looked more like sisters than mother and daughter.",
+   "start": 4.28,
+   "end": 10.68,
+   "words": [
+    ["She", 4.28, 4.44],
+    ["was", 4.44, 4.6],
+    ["a", 4.6, 4.65],
+    ["single", 4.64, 5.0],
+    ["mom", 5.0, 5.28],
+    ["who", 5.28, 5.44],
+    ["had", 5.44, 5.68],
+    ["me", 5.68, 5.8],
+    ["when", 5.8, 5.96],
+    ["she", 5.96, 6.08],
+    ["was", 6.08, 6.24],
+    ["really", 6.24, 6.48],
+    ["young,", 6.48, 7.04],
+    ["so", 7.04, 7.16],
+    ["people", 7.16, 7.52],
+    ["always", 7.52, 7.8],
+    ["said", 7.8, 8.0],
+    ["we", 8.0, 8.12],
+    ["looked", 8.12, 8.36],
+    ["more", 8.36, 8.48],
+    ["like", 8.48, 8.68],
+    ["sisters", 8.68, 9.24],
+    ["than", 9.24, 9.6],
+    ["mother", 9.6, 9.88],
+    ["and", 9.88, 9.96],
+    ["daughter.", 9.96, 10.68]
+   ]
+  },
+  {
+   "text": "Once, when I was in eighth grade, we went to a parent-teacher meeting at my school, and somehow we both ended up crushing on the same family.",
+   "start": 10.68,
+   "end": 18.44,
+   "words": [
+    ["Once,", 10.68, 11.12],
+    ["when", 11.12, 11.28],
+    ["I", 11.28, 11.36],
+    ["was", 11.36, 11.52],
+    ["in", 11.52, 11.6],
+    ["eighth", 11.6, 11.8],
+    ["grade,", 11.8, 12.4],
+    ["we", 12.4, 12.52],
+    ["went", 12.52, 12.68],
+    ["to", 12.68, 12.76],
+    ["a", 12.76, 12.84],
+    ["parent-teacher", 12.84, 13.44],
+    ["meeting", 13.44, 13.76],
+    ["at", 13.76, 13.84],
+    ["my", 13.84, 13.96],
+    ["school,", 13.96, 14.72],
+    ["and", 14.72, 15.0],
+    ["somehow", 15.0, 15.64],
+    ["we", 15.64, 15.88],
+    ["both", 15.88, 16.28],
+    ["ended", 16.28, 16.52],
+    ["up", 16.52, 16.72],
+    ["crushing", 16.72, 17.2],
+    ["on", 17.2, 17.32],
+    ["the", 17.32, 17.4],
+    ["same", 17.4, 17.68],
+    ["family.", 17.68, 18.44]
+   ]
+  },
+  {
+   "text": "I liked this cute boy in my class, and mom liked his dad.",
+   "start": 18.52,
+   "end": 22.6,
+   "words": [
+    ["I", 18.52, 18.68],
+    ["liked", 18.68, 19.04],
+    ["this", 19.04, 19.24],
+    ["cute", 19.24, 19.56],
+    ["boy", 19.56, 19.84],
+    ["in", 19.84, 20.0],
+    ["my", 20.0, 20.12],
+    ["class,", 20.12, 20.68],
+    ["and", 20.68, 21.04],
+    ["mom", 21.04, 21.48],
+    ["liked", 21.6, 21.96],
+    ["his", 21.96, 22.08],
+    ["dad.", 22.08, 22.6]
+   ]
+  },
+  {
+   "text": "Is there anything on my teeth?",
+   "start": 22.68,
+   "end": 23.96,
+   "words": [
+    ["Is", 22.68, 22.8],
+    ["there", 22.8, 22.92],
+    ["anything", 22.92, 23.2],
+    ["on", 23.2, 23.32],
+    ["my", 23.32, 23.4],
+    ["teeth?", 23.4, 23.96]
+   ]
+  },
+  {
+   "text": "No, Mom, you're good.",
+   "start": 23.96,
+   "end": 25.28,
+   "words": [
+    ["No,", 23.96, 24.12],
+    ["Mom,", 24.12, 24.52],
+    ["you're", 24.52, 24.68],
+    ["good.", 24.68, 25.28]
+   ]
+  },
+  {
+   "text": "What about mine?",
+   "start": 25.44,
+   "end": 26.36,
+   "words": [
+    ["What", 25.44, 25.6],
+    ["about", 25.6, 25.84],
+    ["mine?", 25.84, 26.36]
+   ]
+  },
+  {
+   "text": "Perfect, just like your mama.",
+   "start": 26.36,
+   "end": 28.32,
+   "words": [
+    ["Perfect,", 26.36, 27.04],
+    ["just", 27.04, 27.36],
+    ["like", 27.36, 27.56],
+    ["your", 27.56, 27.72],
+    ["mama.", 27.72, 28.32]
+   ]
+  },
+  {
+   "text": "Then, during a snack break, Mom suddenly pretended to trip and spill our water all over my crush's dad, Mr. Tucker.",
+   "start": 28.44,
+   "end": 36.0,
+   "words": [
+    ["Then,", 28.44, 28.92],
+    ["during", 28.92, 29.16],
+    ["a", 29.16, 29.24],
+    ["snack", 29.24, 29.64],
+    ["break,", 29.64, 30.16],
+    ["Mom", 30.16, 30.44],
+    ["suddenly", 30.44, 30.92],
+    ["pretended", 30.92, 31.36],
+    ["to", 31.36, 31.6],
+    ["trip", 31.6, 32.0],
+    ["and", 32.0, 32.24],
+    ["spill", 32.24, 32.64],
+    ["our", 32.64, 32.76],
+    ["water", 32.76, 33.2],
+    ["all", 33.2, 33.64],
+    ["over", 33.68, 34.08],
+    ["my", 34.08, 34.24],
+    ["crush's", 34.24, 34.64],
+    ["dad,", 34.64, 34.96],
+    ["Mr.", 34.96, 35.24],
+    ["Tucker.", 35.24, 36.0]
+   ]
+  },
+  {
+   "text": "He immediately leaned in and helped her up.",
+   "start": 36.0,
+   "end": 37.96,
+   "words": [
+    ["He", 36.0, 36.05],
+    ["immediately", 36.04, 36.6],
+    ["leaned", 36.6, 36.88],
+    ["in", 36.88, 37.04],
+    ["and", 37.04, 37.16],
+    ["helped", 37.16, 37.36],
+    ["her", 37.36, 37.52],
+    ["up.", 37.52, 37.96]
+   ]
+  },
+  {
+   "text": "Oh, thank you.",
+   "start": 37.96,
+   "end": 39.2,
+   "words": [
+    ["Oh,", 37.96, 38.4],
+    ["thank", 38.56, 38.8],
+    ["you.", 38.8, 39.2]
+   ]
+  },
+  {
+   "text": "It's so hard to find a gentleman these days.",
+   "start": 39.2,
+   "end": 41.32,
+   "words": [
+    ["It's", 39.2, 39.4],
+    ["so", 39.4, 39.6],
+    ["hard", 39.6, 39.8],
+    ["to", 39.8, 39.85],
+    ["find", 39.84, 40.08],
+    ["a", 40.08, 40.13],
+    ["gentleman", 40.12, 40.52],
+    ["these", 40.52, 40.72],
+    ["days.", 40.72, 41.32]
+   ]
+  },
+  {
+   "text": "Mr. Tucker smiled politely, and Mom shot me a look like, \"Your turn.\"",
+   "start": 41.4,
+   "end": 46.36,
+   "words": [
+    ["Mr.", 41.4, 41.68],
+    ["Tucker", 41.68, 42.16],
+    ["smiled", 42.16, 42.8],
+    ["politely,", 42.8, 43.52],
+    ["and", 43.52, 43.8],
+    ["Mom", 43.8, 44.2],
+    ["shot", 44.2, 44.44],
+    ["me", 44.44, 44.56],
+    ["a", 44.56, 44.61],
+    ["look", 44.6, 44.8],
+    ["like,", 44.8, 45.4],
+    ["\"Your", 45.4, 45.68],
+    ["turn.\"", 45.68, 46.36]
+   ]
+  },
+  {
+   "text": "So, I walked over to my crush, tried to copy her move, and spilled my cup on him.",
+   "start": 46.44,
+   "end": 51.6,
+   "words": [
+    ["So,", 46.44, 46.88],
+    ["I", 46.92, 47.08],
+    ["walked", 47.08, 47.4],
+    ["over", 47.4, 47.56],
+    ["to", 47.56, 47.64],
+    ["my", 47.64, 47.76],
+    ["crush,", 47.76, 48.36],
+    ["tried", 48.36, 48.6],
+    ["to", 48.6, 48.72],
+    ["copy", 48.72, 49.04],
+    ["her", 49.04, 49.2],
+    ["move,", 49.2, 49.8],
+    ["and", 49.96, 50.16],
+    ["spilled", 50.16, 50.52],
+    ["my", 50.52, 50.64],
+    ["cup", 50.64, 50.92],
+    ["on", 50.92, 51.08],
+    ["him.", 51.08, 51.6]
+   ]
+  },
+  {
+   "text": "Except, I didn't realize I wasn't holding water.",
+   "start": 51.76,
+   "end": 54.8,
+   "words": [
+    ["Except,", 51.76, 52.44],
+    ["I", 52.44, 52.52],
+    ["didn't", 52.52, 52.8],
+    ["realize", 52.8, 53.24],
+    ["I", 53.24, 53.36],
+    ["wasn't", 53.36, 53.76],
+    ["holding", 53.76, 54.12],
+    ["water.", 54.12, 54.8]
+   ]
+  },
+  {
+   "text": "I was holding coffee.",
+   "start": 54.92,
+   "end": 56.32,
+   "words": [
+    ["I", 54.92, 55.0],
+    ["was", 55.0, 55.2],
+    ["holding", 55.2, 55.56],
+    ["coffee.", 55.56, 56.32]
+   ]
+  },
+  {
+   "text": "Very hot coffee.",
+   "start": 56.56,
+   "end": 58.48,
+   "words": [
+    ["Very", 56.56, 57.08],
+    ["hot", 57.24, 57.68],
+    ["coffee.", 57.72, 58.48]
+   ]
+  },
+  {
+   "text": "He screamed and started jumping around in pain.",
+   "start": 58.48,
+   "end": 61.44,
+   "words": [
+    ["He", 58.48, 58.64],
+    ["screamed", 58.64, 59.28],
+    ["and", 59.28, 59.4],
+    ["started", 59.4, 59.96],
+    ["jumping", 59.96, 60.28],
+    ["around", 60.28, 60.72],
+    ["in", 60.72, 60.84],
+    ["pain.", 60.84, 61.44]
+   ]
+  },
+  {
+   "text": "Oh my god, I'm so, so sorry.",
+   "start": 61.68,
+   "end": 63.56,
+   "words": [
+    ["Oh", 61.68, 61.76],
+    ["my", 61.76, 61.88],
+    ["god,", 61.88, 62.32],
+    ["I'm", 62.32, 62.52],
+    ["so,", 62.52, 62.72],
+    ["so", 62.72, 62.88],
+    ["sorry.", 62.88, 63.56]
+   ]
+  },
+  {
+   "text": "Everyone rushed over to help him, and his dad looked horrified.",
+   "start": 63.68,
+   "end": 67.72,
+   "words": [
+    ["Everyone", 63.68, 64.16],
+    ["rushed", 64.16, 64.52],
+    ["over", 64.52, 64.68],
+    ["to", 64.68, 64.76],
+    ["help", 64.76, 65.0],
+    ["him,", 65.0, 65.44],
+    ["and", 65.44, 65.56],
+    ["his", 65.56, 65.76],
+    ["dad", 65.76, 66.2],
+    ["looked", 66.2, 66.72],
+    ["horrified.", 66.72, 67.72]
+   ]
+  },
+  {
+   "text": "Mom just shook her head at me like I had failed her personally.",
+   "start": 67.72,
+   "end": 70.92,
+   "words": [
+    ["Mom", 67.72, 67.92],
+    ["just", 67.92, 68.16],
+    ["shook", 68.16, 68.36],
+    ["her", 68.36, 68.48],
+    ["head", 68.48, 68.68],
+    ["at", 68.68, 68.8],
+    ["me", 68.8, 68.96],
+    ["like", 68.96, 69.32],
+    ["I", 69.32, 69.4],
+    ["had", 69.4, 69.6],
+    ["failed", 69.6, 69.88],
+    ["her", 69.88, 70.04],
+    ["personally.", 70.04, 70.92]
+   ]
+  },
+  {
+   "text": "Then, she leaned in close and whispered, \"Pass out.\"",
+   "start": 70.92,
+   "end": 74.2,
+   "words": [
+    ["Then,", 70.92, 71.2],
+    ["she", 71.2, 71.44],
+    ["leaned", 71.44, 71.68],
+    ["in", 71.68, 71.84],
+    ["close", 71.84, 72.24],
+    ["and", 72.24, 72.4],
+    ["whispered,", 72.4, 73.2],
+    ["\"Pass", 73.2, 73.6],
+    ["out.\"", 73.6, 74.2]
+   ]
+  },
+  {
+   "text": "What? Pass out so I can tell them you fainted because you couldn't handle causing him this much pain.",
+   "start": 74.36,
+   "end": 79.96,
+   "words": [
+    ["What?", 74.36, 74.96],
+    ["Pass", 75.04, 75.36],
+    ["out", 75.36, 75.6],
+    ["so", 75.6, 75.84],
+    ["I", 75.84, 75.92],
+    ["can", 75.92, 76.12],
+    ["tell", 76.12, 76.4],
+    ["them", 76.4, 76.6],
+    ["you", 76.6, 76.72],
+    ["fainted", 76.72, 77.2],
+    ["because", 77.2, 77.52],
+    ["you", 77.52, 77.64],
+    ["couldn't", 77.64, 78.04],
+    ["handle", 78.04, 78.4],
+    ["causing", 78.4, 78.8],
+    ["him", 78.8, 78.92],
+    ["this", 78.92, 79.12],
+    ["much", 79.12, 79.36],
+    ["pain.", 79.36, 79.96]
+   ]
+  },
+  {
+   "text": "And just then, she shoved me to the floor.",
+   "start": 80.2,
+   "end": 82.72,
+   "words": [
+    ["And", 80.2, 80.32],
+    ["just", 80.32, 80.56],
+    ["then,", 80.56, 81.0],
+    ["she", 81.0, 81.28],
+    ["shoved", 81.28, 81.72],
+    ["me", 81.72, 81.84],
+    ["to", 81.84, 81.96],
+    ["the", 81.96, 82.04],
+    ["floor.", 82.04, 82.72]
+   ]
+  },
+  {
+   "text": "See, Mr. Tucker, uh my daughter couldn't take the guilt of hurting your son, so she But Mr.",
+   "start": 82.88,
+   "end": 87.56,
+   "words": [
+    ["See,", 82.88, 83.08],
+    ["Mr.", 83.08, 83.44],
+    ["Tucker,", 83.44, 83.92],
+    ["uh", 83.92, 83.97],
+    ["my", 83.96, 84.12],
+    ["daughter", 84.12, 84.44],
+    ["couldn't", 84.44, 84.72],
+    ["take", 84.72, 84.88],
+    ["the", 84.88, 85.0],
+    ["guilt", 85.0, 85.24],
+    ["of", 85.24, 85.32],
+    ["hurting", 85.32, 85.6],
+    ["your", 85.6, 85.72],
+    ["son,", 85.72, 86.24],
+    ["so", 86.4, 86.56],
+    ["she", 86.56, 87.0],
+    ["But", 87.16, 87.24],
+    ["Mr.", 87.24, 87.56]
+   ]
+  },
+  {
+   "text": "Tucker wasn't listening.",
+   "start": 87.56,
+   "end": 89.2,
+   "words": [
+    ["Tucker", 87.56, 88.0],
+    ["wasn't", 88.0, 88.36],
+    ["listening.", 88.36, 89.2]
+   ]
+  },
+  {
+   "text": "He was too busy rushing his son out of the room, and then they both tripped over me.",
+   "start": 89.2,
+   "end": 93.8,
+   "words": [
+    ["He", 89.2, 89.28],
+    ["was", 89.28, 89.44],
+    ["too", 89.44, 89.56],
+    ["busy", 89.56, 90.0],
+    ["rushing", 90.0, 90.44],
+    ["his", 90.44, 90.6],
+    ["son", 90.6, 90.92],
+    ["out", 90.92, 91.04],
+    ["of", 91.04, 91.09],
+    ["the", 91.08, 91.16],
+    ["room,", 91.16, 91.76],
+    ["and", 91.8, 91.96],
+    ["then", 91.96, 92.24],
+    ["they", 92.24, 92.4],
+    ["both", 92.4, 92.76],
+    ["tripped", 92.76, 93.12],
+    ["over", 93.12, 93.36],
+    ["me.", 93.36, 93.8]
+   ]
+  },
+  {
+   "text": "My crush fell on top of his already burned foot and screamed even louder.",
+   "start": 93.88,
+   "end": 98.84,
+   "words": [
+    ["My", 93.88, 94.04],
+    ["crush", 94.04, 94.36],
+    ["fell", 94.36, 94.56],
+    ["on", 94.56, 94.68],
+    ["top", 94.68, 94.88],
+    ["of", 94.88, 94.96],
+    ["his", 94.96, 95.28],
+    ["already", 95.28, 95.8],
+    ["burned", 95.8, 96.16],
+    ["foot", 96.16, 96.68],
+    ["and", 96.72, 96.96],
+    ["screamed", 96.96, 97.72],
+    ["even", 97.72, 98.08],
+    ["louder.", 98.08, 98.84]
+   ]
+  },
+  {
+   "text": "I shot up from the floor, completely startled. Mr.",
+   "start": 99.0,
+   "end": 102.16,
+   "words": [
+    ["I", 99.0, 99.16],
+    ["shot", 99.16, 99.64],
+    ["up", 99.64, 99.76],
+    ["from", 99.76, 99.92],
+    ["the", 99.92, 100.04],
+    ["floor,", 100.04, 100.48],
+    ["completely", 100.48, 101.12],
+    ["startled.", 101.12, 101.88],
+    ["Mr.", 101.88, 102.16]
+   ]
+  },
+  {
+   "text": "Tucker, we can still work this out. Mr.",
+   "start": 102.16,
+   "end": 104.32,
+   "words": [
+    ["Tucker,", 102.16, 102.6],
+    ["we", 102.6, 102.76],
+    ["can", 102.76, 102.88],
+    ["still", 102.88, 103.08],
+    ["work", 103.08, 103.24],
+    ["this", 103.24, 103.44],
+    ["out.", 103.44, 103.96],
+    ["Mr.", 103.96, 104.32]
+   ]
+  },
+  {
+   "text": "Tucker backed away, polite, but firm.",
+   "start": 104.32,
+   "end": 107.2,
+   "words": [
+    ["Tucker", 104.32, 104.68],
+    ["backed", 104.68, 104.96],
+    ["away,", 104.96, 105.56],
+    ["polite,", 105.6, 106.36],
+    ["but", 106.36, 106.6],
+    ["firm.", 106.6, 107.2]
+   ]
+  },
+  {
+   "text": "Please, ma'am, you and your daughter need to stay away from us.",
+   "start": 107.2,
+   "end": 111.4,
+   "words": [
+    ["Please,", 107.2, 107.8],
+    ["ma'am,", 107.8, 108.28],
+    ["you", 108.28, 108.52],
+    ["and", 108.52, 108.6],
+    ["your", 108.6, 108.72],
+    ["daughter", 108.72, 109.52],
+    ["need", 109.52, 109.96],
+    ["to", 109.96, 110.08],
+    ["stay", 110.08, 110.36],
+    ["away", 110.36, 110.68],
+    ["from", 110.68, 110.96],
+    ["us.", 110.96, 111.4]
+   ]
+  },
+  {
+   "text": "That was basically my life with Mom.",
+   "start": 111.68,
+   "end": 113.92,
+   "words": [
+    ["That", 111.68, 111.96],
+    ["was", 111.96, 112.2],
+    ["basically", 112.2, 112.76],
+    ["my", 112.76, 112.92],
+    ["life", 112.92, 113.24],
+    ["with", 113.24, 113.4],
+    ["Mom.", 113.4, 113.92]
+   ]
+  },
+  {
+   "text": "Every day It like an adventure.",
+   "start": 114.2,
+   "end": 116.48,
+   "words": [
+    ["Every", 114.2, 114.6],
+    ["day", 114.6, 115.0],
+    ["It", 115.0, 115.2],
+    ["like", 115.2, 115.4],
+    ["an", 115.4, 115.48],
+    ["adventure.", 115.48, 116.48]
+   ]
+  },
+  {
+   "text": "Mom was loud, fearless, and always trying to make me more outgoing.",
+   "start": 116.48,
+   "end": 121.36,
+   "words": [
+    ["Mom", 116.48, 116.92],
+    ["was", 116.92, 117.36],
+    ["loud,", 117.36, 117.96],
+    ["fearless,", 117.96, 118.8],
+    ["and", 118.8, 119.0],
+    ["always", 119.0, 119.32],
+    ["trying", 119.32, 119.52],
+    ["to", 119.52, 119.64],
+    ["make", 119.64, 119.92],
+    ["me", 119.92, 120.2],
+    ["more", 120.2, 120.44],
+    ["outgoing.", 120.44, 121.36]
+   ]
+  },
+  {
+   "text": "While I was shy enough to apologize when someone else stepped on my foot.",
+   "start": 121.36,
+   "end": 125.64,
+   "words": [
+    ["While", 121.36, 121.6],
+    ["I", 121.6, 121.72],
+    ["was", 121.72, 122.12],
+    ["shy", 122.12, 122.48],
+    ["enough", 122.48, 122.72],
+    ["to", 122.72, 122.84],
+    ["apologize", 122.84, 123.52],
+    ["when", 123.52, 123.68],
+    ["someone", 123.68, 123.96],
+    ["else", 123.96, 124.28],
+    ["stepped", 124.28, 124.56],
+    ["on", 124.56, 124.76],
+    ["my", 124.76, 125.04],
+    ["foot.", 125.04, 125.64]
+   ]
+  },
+  {
+   "text": "Except, our adventure mostly happened in Grandma's house because we lived with her.",
+   "start": 125.76,
+   "end": 131.88,
+   "words": [
+    ["Except,", 125.76, 126.52],
+    ["our", 126.76, 127.2],
+    ["adventure", 127.24, 128.16],
+    ["mostly", 128.52, 129.04],
+    ["happened", 129.04, 129.4],
+    ["in", 129.4, 129.52],
+    ["Grandma's", 129.52, 129.96],
+    ["house", 129.96, 130.48],
+    ["because", 130.48, 130.88],
+    ["we", 130.88, 131.04],
+    ["lived", 131.04, 131.28],
+    ["with", 131.28, 131.44],
+    ["her.", 131.44, 131.88]
+   ]
+  },
+  {
+   "text": "And Grandma never missed a chance to remind Mom what a disappointment she was.",
+   "start": 131.88,
+   "end": 136.8,
+   "words": [
+    ["And", 131.88, 132.16],
+    ["Grandma", 132.16, 132.92],
+    ["never", 132.96, 133.36],
+    ["missed", 133.36, 133.6],
+    ["a", 133.6, 133.65],
+    ["chance", 133.64, 133.96],
+    ["to", 133.96, 134.08],
+    ["remind", 134.08, 134.52],
+    ["Mom", 134.52, 134.96],
+    ["what", 135.04, 135.2],
+    ["a", 135.2, 135.28],
+    ["disappointment", 135.28, 136.08],
+    ["she", 136.08, 136.28],
+    ["was.", 136.28, 136.8]
+   ]
+  },
+  {
+   "text": "If you can't get a proper job, then at least make yourself useful and fix what you ruined in high school.",
+   "start": 137.04,
+   "end": 144.48,
+   "words": [
+    ["If", 137.04, 137.32],
+    ["you", 137.32, 137.48],
+    ["can't", 137.48, 137.88],
+    ["get", 137.88, 138.08],
+    ["a", 138.08, 138.16],
+    ["proper", 138.16, 138.68],
+    ["job,", 138.68, 139.2],
+    ["then", 139.56, 139.8],
+    ["at", 139.8, 140.04],
+    ["least", 140.04, 140.44],
+    ["make", 140.44, 140.68],
+    ["yourself", 140.68, 141.16],
+    ["useful", 141.16, 141.68],
+    ["and", 141.68, 141.92],
+    ["fix", 141.92, 142.32],
+    ["what", 142.32, 142.52],
+    ["you", 142.52, 142.76],
+    ["ruined", 142.76, 143.24],
+    ["in", 143.24, 143.48],
+    ["high", 143.48, 143.72],
+    ["school.", 143.72, 144.48]
+   ]
+  },
+  {
+   "text": "It's the only way to save this family.",
+   "start": 144.72,
+   "end": 147.56,
+   "words": [
+    ["It's", 144.72, 144.96],
+    ["the", 144.96, 145.08],
+    ["only", 145.08, 145.4],
+    ["way", 145.4, 145.68],
+    ["to", 145.68, 145.92],
+    ["save", 145.92, 146.44],
+    ["this", 146.48, 146.8],
+    ["family.", 146.8, 147.56]
+   ]
+  },
+  {
+   "text": "Grandma said things like that all the time, but I never understood what she meant.",
+   "start": 147.6,
+   "end": 151.92,
+   "words": [
+    ["Grandma", 147.6, 148.0],
+    ["said", 148.0, 148.28],
+    ["things", 148.28, 148.56],
+    ["like", 148.56, 148.76],
+    ["that", 148.76, 149.04],
+    ["all", 149.04, 149.28],
+    ["the", 149.28, 149.4],
+    ["time,", 149.4, 150.0],
+    ["but", 150.16, 150.28],
+    ["I", 150.28, 150.33],
+    ["never", 150.32, 150.56],
+    ["understood", 150.56, 151.04],
+    ["what", 151.04, 151.16],
+    ["she", 151.16, 151.32],
+    ["meant.", 151.32, 151.92]
+   ]
+  },
+  {
+   "text": "And whenever I asked Mom, she brushed it off.",
+   "start": 151.92,
+   "end": 154.72,
+   "words": [
+    ["And", 151.92, 152.04],
+    ["whenever", 152.04, 152.36],
+    ["I", 152.36, 152.44],
+    ["asked", 152.44, 152.76],
+    ["Mom,", 152.76, 153.28],
+    ["she", 153.28, 153.52],
+    ["brushed", 153.52, 154.08],
+    ["it", 154.08, 154.2],
+    ["off.", 154.2, 154.72]
+   ]
+  },
+  {
+   "text": "Oh, your grandma is just old.",
+   "start": 154.8,
+   "end": 156.6,
+   "words": [
+    ["Oh,", 154.8, 155.04],
+    ["your", 155.04, 155.28],
+    ["grandma", 155.28, 155.64],
+    ["is", 155.64, 155.8],
+    ["just", 155.8, 156.08],
+    ["old.", 156.08, 156.6]
+   ]
+  },
+  {
+   "text": "She still believes in bad luck and curses and all that spooky nonsense.",
+   "start": 156.76,
+   "end": 160.8,
+   "words": [
+    ["She", 156.76, 156.96],
+    ["still", 156.96, 157.16],
+    ["believes", 157.16, 157.52],
+    ["in", 157.52, 157.6],
+    ["bad", 157.6, 157.84],
+    ["luck", 157.84, 158.12],
+    ["and", 158.12, 158.48],
+    ["curses", 158.48, 159.08],
+    ["and", 159.08, 159.24],
+    ["all", 159.24, 159.36],
+    ["that", 159.36, 159.6],
+    ["spooky", 159.6, 159.96],
+    ["nonsense.", 159.96, 160.8]
+   ]
+  },
+  {
+   "text": "She's only 67.",
+   "start": 160.8,
+   "end": 161.76,
+   "words": [
+    ["She's", 160.8, 161.04],
+    ["only", 161.04, 161.32],
+    ["67.", 161.32, 161.76]
+   ]
+  },
+  {
+   "text": "Also, what bad luck? 67.",
+   "start": 162.48,
+   "end": 164.88,
+   "words": [
+    ["Also,", 162.48, 163.08],
+    ["what", 163.28, 163.52],
+    ["bad", 163.52, 163.76],
+    ["luck?", 163.76, 164.36],
+    ["67.", 164.44, 164.88]
+   ]
+  },
+  {
+   "text": "Like 67.",
+   "start": 166.44,
+   "end": 167.48,
+   "words": [
+    ["Like", 166.44, 166.96],
+    ["67.", 167.04, 167.48]
+   ]
+  },
+  {
+   "text": "Then one day, Grandma got really sick and had to be rushed to the hospital.",
+   "start": 170.8,
+   "end": 175.08,
+   "words": [
+    ["Then", 170.8, 171.0],
+    ["one", 171.0, 171.2],
+    ["day,", 171.2, 171.72],
+    ["Grandma", 171.72, 172.08],
+    ["got", 172.08, 172.32],
+    ["really", 172.32, 172.64],
+    ["sick", 172.64, 173.08],
+    ["and", 173.08, 173.24],
+    ["had", 173.24, 173.4],
+    ["to", 173.4, 173.48],
+    ["be", 173.48, 173.6],
+    ["rushed", 173.6, 173.96],
+    ["to", 173.96, 174.04],
+    ["the", 174.04, 174.16],
+    ["hospital.", 174.16, 175.08]
+   ]
+  },
+  {
+   "text": "Her face looked pale and her hands were shaking.",
+   "start": 175.12,
+   "end": 178.16,
+   "words": [
+    ["Her", 175.12, 175.32],
+    ["face", 175.32, 175.76],
+    ["looked", 175.76, 176.04],
+    ["pale", 176.04, 176.56],
+    ["and", 176.56, 176.68],
+    ["her", 176.68, 176.8],
+    ["hands", 176.8, 177.2],
+    ["were", 177.2, 177.32],
+    ["shaking.", 177.32, 178.16]
+   ]
+  },
+  {
+   "text": "And the doctors kept using serious words.",
+   "start": 178.28,
+   "end": 181.2,
+   "words": [
+    ["And", 178.28, 178.36],
+    ["the", 178.36, 178.44],
+    ["doctors", 178.44, 179.0],
+    ["kept", 179.0, 179.28],
+    ["using", 179.28, 179.72],
+    ["serious", 179.72, 180.48],
+    ["words.", 180.52, 181.2]
+   ]
+  },
+  {
+   "text": "One doctor handed me her medical summary and at the bottom it said, \"Your grandma will only get better if you like and subscribe to MSA.\"",
+   "start": 181.24,
+   "end": 189.12,
+   "words": [
+    ["One", 181.24, 181.48],
+    ["doctor", 181.48, 181.84],
+    ["handed", 181.84, 182.12],
+    ["me", 182.12, 182.24],
+    ["her", 182.24, 182.36],
+    ["medical", 182.36, 182.76],
+    ["summary", 182.76, 183.52],
+    ["and", 183.52, 183.64],
+    ["at", 183.64, 183.72],
+    ["the", 183.72, 183.84],
+    ["bottom", 183.84, 184.2],
+    ["it", 184.2, 184.32],
+    ["said,", 184.32, 184.92],
+    ["\"Your", 185.2, 185.4],
+    ["grandma", 185.4, 185.96],
+    ["will", 185.96, 186.2],
+    ["only", 186.2, 186.48],
+    ["get", 186.48, 186.72],
+    ["better", 186.72, 187.04],
+    ["if", 187.04, 187.2],
+    ["you", 187.2, 187.4],
+    ["like", 187.4, 187.72],
+    ["and", 187.72, 187.84],
+    ["subscribe", 187.84, 188.4],
+    ["to", 188.4, 188.52],
+    ["MSA.\"", 188.52, 189.12]
+   ]
+  },
+  {
+   "text": "Just kidding, guys.",
+   "start": 190.08,
+   "end": 191.16,
+   "words": [
+    ["Just", 190.08, 190.28],
+    ["kidding,", 190.28, 190.56],
+    ["guys.", 190.56, 191.16]
+   ]
+  },
+  {
+   "text": "I wish it said that, but liking, commenting, and helping this video go viral would definitely make us feel better.",
+   "start": 191.32,
+   "end": 197.96,
+   "words": [
+    ["I", 191.32, 191.56],
+    ["wish", 191.56, 191.96],
+    ["it", 191.96, 192.08],
+    ["said", 192.08, 192.28],
+    ["that,", 192.28, 192.8],
+    ["but", 192.8, 193.0],
+    ["liking,", 193.0, 193.36],
+    ["commenting,", 193.36, 193.84],
+    ["and", 193.84, 193.96],
+    ["helping", 193.96, 194.24],
+    ["this", 194.24, 194.4],
+    ["video", 194.4, 194.72],
+    ["go", 194.72, 194.88],
+    ["viral", 194.88, 195.4],
+    ["would", 195.4, 195.76],
+    ["definitely", 195.76, 196.32],
+    ["make", 196.32, 196.72],
+    ["us", 196.72, 197.0],
+    ["feel", 197.0, 197.2],
+    ["better.", 197.2, 197.96]
+   ]
+  },
+  {
+   "text": "Anyway, a few days later, the hospital bills started piling up and we didn't have enough money to pay for all of it.",
+   "start": 198.32,
+   "end": 205.04,
+   "words": [
+    ["Anyway,", 198.32, 199.08],
+    ["a", 199.16, 199.24],
+    ["few", 199.24, 199.44],
+    ["days", 199.44, 199.64],
+    ["later,", 199.64, 200.24],
+    ["the", 200.24, 200.36],
+    ["hospital", 200.36, 200.84],
+    ["bills", 200.84, 201.24],
+    ["started", 201.24, 201.72],
+    ["piling", 201.72, 202.32],
+    ["up", 202.32, 202.68],
+    ["and", 202.88, 202.96],
+    ["we", 202.96, 203.04],
+    ["didn't", 203.04, 203.24],
+    ["have", 203.24, 203.36],
+    ["enough", 203.36, 203.6],
+    ["money", 203.6, 203.84],
+    ["to", 203.84, 203.96],
+    ["pay", 203.96, 204.16],
+    ["for", 204.16, 204.36],
+    ["all", 204.36, 204.52],
+    ["of", 204.52, 204.64],
+    ["it.", 204.64, 205.04]
+   ]
+  },
+  {
+   "text": "Mom tried everything from selling her bags to flirting with the accountant, but nothing worked.",
+   "start": 205.04,
+   "end": 211.32,
+   "words": [
+    ["Mom", 205.04, 205.28],
+    ["tried", 205.28, 205.72],
+    ["everything", 205.72, 206.68],
+    ["from", 206.68, 206.88],
+    ["selling", 206.88, 207.24],
+    ["her", 207.24, 207.36],
+    ["bags", 207.36, 207.84],
+    ["to", 207.84, 208.2],
+    ["flirting", 208.2, 208.6],
+    ["with", 208.6, 208.72],
+    ["the", 208.72, 208.84],
+    ["accountant,", 208.84, 209.8],
+    ["but", 209.8, 210.0],
+    ["nothing", 210.0, 210.56],
+    ["worked.", 210.56, 211.32]
+   ]
+  },
+  {
+   "text": "Vicky, honey, please go back to high school and fix this if you want me to survive.",
+   "start": 211.4,
+   "end": 219.92,
+   "words": [
+    ["Vicky,", 211.4, 212.08],
+    ["honey,", 212.28, 212.96],
+    ["please", 213.2, 213.88],
+    ["go", 214.48, 214.68],
+    ["back", 214.68, 215.2],
+    ["to", 215.2, 215.44],
+    ["high", 215.44, 215.72],
+    ["school", 215.72, 216.4],
+    ["and", 216.56, 216.84],
+    ["fix", 216.84, 217.28],
+    ["this", 217.4, 217.8],
+    ["if", 217.8, 217.96],
+    ["you", 217.96, 218.12],
+    ["want", 218.12, 218.6],
+    ["me", 218.6, 218.92],
+    ["to", 218.92, 219.08],
+    ["survive.", 219.08, 219.92]
+   ]
+  },
+  {
+   "text": "Sorry. Go back where? Mom, don't.",
+   "start": 220.28,
+   "end": 223.56,
+   "words": [
+    ["Sorry.", 220.28, 220.96],
+    ["Go", 221.12, 221.24],
+    ["back", 221.24, 221.68],
+    ["where?", 221.68, 222.32],
+    ["Mom,", 222.32, 222.84],
+    ["don't.", 222.88, 223.56]
+   ]
+  },
+  {
+   "text": "She deserves a normal life. Normal?",
+   "start": 223.6,
+   "end": 226.24,
+   "words": [
+    ["She", 223.6, 223.8],
+    ["deserves", 223.8, 224.24],
+    ["a", 224.24, 224.32],
+    ["normal", 224.32, 224.72],
+    ["life.", 224.72, 225.32],
+    ["Normal?", 225.48, 226.24]
+   ]
+  },
+  {
+   "text": "Vicky, you had a baby at 17, live in your mother's house, and once winked at a judge during your own hearing.",
+   "start": 227.32,
+   "end": 235.84,
+   "words": [
+    ["Vicky,", 227.32, 228.0],
+    ["you", 228.24, 228.48],
+    ["had", 228.48, 228.64],
+    ["a", 228.64, 228.72],
+    ["baby", 228.72, 229.16],
+    ["at", 229.16, 229.4],
+    ["17,", 229.4, 229.84],
+    ["live", 230.64, 231.0],
+    ["in", 231.0, 231.12],
+    ["your", 231.12, 231.32],
+    ["mother's", 231.32, 231.8],
+    ["house,", 231.8, 232.24],
+    ["and", 232.24, 232.52],
+    ["once", 232.52, 232.88],
+    ["winked", 232.88, 233.2],
+    ["at", 233.2, 233.36],
+    ["a", 233.36, 233.44],
+    ["judge", 233.44, 234.0],
+    ["during", 234.0, 234.4],
+    ["your", 234.4, 234.64],
+    ["own", 234.64, 235.0],
+    ["hearing.", 235.0, 235.84]
+   ]
+  },
+  {
+   "text": "He added two extra charges, and I had to sell my gold bracelet to bail you out.",
+   "start": 236.64,
+   "end": 242.48,
+   "words": [
+    ["He", 236.64, 236.88],
+    ["added", 236.88, 237.28],
+    ["two", 237.28, 237.52],
+    ["extra", 237.52, 237.92],
+    ["charges,", 237.92, 238.76],
+    ["and", 238.76, 239.0],
+    ["I", 239.0, 239.12],
+    ["had", 239.12, 239.36],
+    ["to", 239.36, 239.48],
+    ["sell", 239.48, 239.76],
+    ["my", 239.76, 240.0],
+    ["gold", 240.0, 240.48],
+    ["bracelet", 240.48, 241.12],
+    ["to", 241.12, 241.28],
+    ["bail", 241.28, 241.68],
+    ["you", 241.68, 241.96],
+    ["out.", 241.96, 242.48]
+   ]
+  },
+  {
+   "text": "What is she talking about, Ma? Fine.",
+   "start": 243.04,
+   "end": 245.44,
+   "words": [
+    ["What", 243.04, 243.2],
+    ["is", 243.2, 243.28],
+    ["she", 243.28, 243.44],
+    ["talking", 243.44, 243.92],
+    ["about,", 243.92, 244.16],
+    ["Ma?", 244.16, 244.6],
+    ["Fine.", 244.84, 245.44]
+   ]
+  },
+  {
+   "text": "Our family is a a little different.",
+   "start": 245.68,
+   "end": 248.2,
+   "words": [
+    ["Our", 245.68, 245.92],
+    ["family", 245.92, 246.36],
+    ["is", 246.36, 246.72],
+    ["a", 246.76, 247.04],
+    ["a", 247.08, 247.16],
+    ["little", 247.16, 247.44],
+    ["different.", 247.44, 248.2]
+   ]
+  },
+  {
+   "text": "We came from a line of witches.",
+   "start": 248.2,
+   "end": 249.92,
+   "words": [
+    ["We", 248.2, 248.32],
+    ["came", 248.32, 248.56],
+    ["from", 248.56, 248.72],
+    ["a", 248.72, 248.8],
+    ["line", 248.8, 249.04],
+    ["of", 249.04, 249.16],
+    ["witches.", 249.16, 249.92]
+   ]
+  },
+  {
+   "text": "For a second, nobody spoke.",
+   "start": 249.92,
+   "end": 252.0,
+   "words": [
+    ["For", 249.92, 250.04],
+    ["a", 250.04, 250.09],
+    ["second,", 250.08, 250.8],
+    ["nobody", 250.8, 251.32],
+    ["spoke.", 251.32, 252.0]
+   ]
+  },
+  {
+   "text": "Okay, cool. And I'm guessing Dad is a vampire and my math teacher is a goblin.",
+   "start": 252.32,
+   "end": 258.44,
+   "words": [
+    ["Okay,", 252.32, 252.92],
+    ["cool.", 253.08, 253.68],
+    ["And", 253.96, 254.16],
+    ["I'm", 254.16, 254.32],
+    ["guessing", 254.32, 255.0],
+    ["Dad", 255.0, 255.24],
+    ["is", 255.24, 255.36],
+    ["a", 255.36, 255.44],
+    ["vampire", 255.44, 256.2],
+    ["and", 256.24, 256.4],
+    ["my", 256.4, 256.56],
+    ["math", 256.56, 257.0],
+    ["teacher", 257.0, 257.36],
+    ["is", 257.36, 257.6],
+    ["a", 257.6, 257.68],
+    ["goblin.", 257.68, 258.44]
+   ]
+  },
+  {
+   "text": "Mom looked away.",
+   "start": 258.84,
+   "end": 260.0,
+   "words": [
+    ["Mom", 258.84, 259.16],
+    ["looked", 259.16, 259.4],
+    ["away.", 259.4, 260.0]
+   ]
+  },
+  {
+   "text": "Wait, is my math teacher a goblin?",
+   "start": 260.2,
+   "end": 262.8,
+   "words": [
+    ["Wait,", 260.2, 260.8],
+    ["is", 260.88, 261.2],
+    ["my", 261.2, 261.36],
+    ["math", 261.36, 261.68],
+    ["teacher", 261.68, 261.96],
+    ["a", 261.96, 262.04],
+    ["goblin?", 262.04, 262.8]
+   ]
+  },
+  {
+   "text": "No, just ugly.",
+   "start": 262.88,
+   "end": 264.4,
+   "words": [
+    ["No,", 262.88, 263.32],
+    ["just", 263.4, 263.8],
+    ["ugly.", 263.8, 264.4]
+   ]
+  },
+  {
+   "text": "Mom tried to explain, but I was too shocked to understand.",
+   "start": 264.56,
+   "end": 268.2,
+   "words": [
+    ["Mom", 264.56, 264.72],
+    ["tried", 264.72, 265.0],
+    ["to", 265.0, 265.12],
+    ["explain,", 265.12, 265.96],
+    ["but", 265.96, 266.12],
+    ["I", 266.12, 266.17],
+    ["was", 266.16, 266.36],
+    ["too", 266.36, 266.52],
+    ["shocked", 266.52, 267.04],
+    ["to", 267.04, 267.12],
+    ["understand.", 267.12, 268.2]
+   ]
+  },
+  {
+   "text": "20 minutes later, I finally decided to listen.",
+   "start": 268.2,
+   "end": 271.92,
+   "words": [
+    ["20", 268.2, 268.48],
+    ["minutes", 268.48, 268.8],
+    ["later,", 268.8, 269.48],
+    ["I", 269.56, 269.84],
+    ["finally", 269.84, 270.6],
+    ["decided", 270.64, 271.08],
+    ["to", 271.08, 271.16],
+    ["listen.", 271.16, 271.92]
+   ]
+  },
+  {
+   "text": "According to Grandma, every woman in our family had to face a special ritual at 16 inside her own school hallway.",
+   "start": 271.96,
+   "end": 279.72,
+   "words": [
+    ["According", 271.96, 272.4],
+    ["to", 272.4, 272.48],
+    ["Grandma,", 272.48, 273.24],
+    ["every", 273.24, 273.68],
+    ["woman", 273.68, 273.96],
+    ["in", 273.96, 274.08],
+    ["our", 274.08, 274.16],
+    ["family", 274.16, 274.64],
+    ["had", 274.64, 274.8],
+    ["to", 274.8, 274.88],
+    ["face", 274.88, 275.16],
+    ["a", 275.16, 275.44],
+    ["special", 275.48, 276.12],
+    ["ritual", 276.12, 276.6],
+    ["at", 276.6, 276.72],
+    ["16", 276.72, 277.08],
+    ["inside", 277.56, 278.16],
+    ["her", 278.16, 278.28],
+    ["own", 278.28, 278.44],
+    ["school", 278.44, 278.88],
+    ["hallway.", 278.88, 279.72]
+   ]
+  },
+  {
+   "text": "Same age, same time.",
+   "start": 279.72,
+   "end": 281.52,
+   "words": [
+    ["Same", 279.72, 280.04],
+    ["age,", 280.04, 280.56],
+    ["same", 280.64, 280.92],
+    ["time.", 280.92, 281.52]
+   ]
+  },
+  {
+   "text": "And because Mom missed it, the magic never passed to her.",
+   "start": 281.6,
+   "end": 285.0,
+   "words": [
+    ["And", 281.6, 281.72],
+    ["because", 281.72, 282.12],
+    ["Mom", 282.12, 282.36],
+    ["missed", 282.36, 282.64],
+    ["it,", 282.64, 283.04],
+    ["the", 283.04, 283.12],
+    ["magic", 283.12, 283.68],
+    ["never", 283.68, 284.0],
+    ["passed", 284.0, 284.4],
+    ["to", 284.4, 284.48],
+    ["her.", 284.48, 285.0]
+   ]
+  },
+  {
+   "text": "Grandma said it stayed trapped inside her body instead, getting heavier every year until it started making her sick.",
+   "start": 285.04,
+   "end": 291.88,
+   "words": [
+    ["Grandma", 285.04, 285.4],
+    ["said", 285.4, 285.6],
+    ["it", 285.6, 285.72],
+    ["stayed", 285.72, 286.04],
+    ["trapped", 286.04, 286.56],
+    ["inside", 286.56, 286.88],
+    ["her", 286.88, 287.0],
+    ["body", 287.0, 287.36],
+    ["instead,", 287.36, 288.16],
+    ["getting", 288.16, 288.48],
+    ["heavier", 288.48, 289.08],
+    ["every", 289.08, 289.56],
+    ["year", 289.56, 290.08],
+    ["until", 290.12, 290.4],
+    ["it", 290.4, 290.52],
+    ["started", 290.52, 290.88],
+    ["making", 290.88, 291.16],
+    ["her", 291.16, 291.28],
+    ["sick.", 291.28, 291.88]
+   ]
+  },
+  {
+   "text": "I looked at Mom, and suddenly I noticed how pale she looked.",
+   "start": 292.0,
+   "end": 296.2,
+   "words": [
+    ["I", 292.0, 292.12],
+    ["looked", 292.12, 292.36],
+    ["at", 292.36, 292.44],
+    ["Mom,", 292.44, 292.96],
+    ["and", 293.16, 293.4],
+    ["suddenly", 293.4, 294.16],
+    ["I", 294.16, 294.28],
+    ["noticed", 294.28, 294.72],
+    ["how", 294.72, 294.88],
+    ["pale", 294.88, 295.36],
+    ["she", 295.36, 295.56],
+    ["looked.", 295.56, 296.2]
+   ]
+  },
+  {
+   "text": "Even the skin under her eyes had a weird pinkish tint.",
+   "start": 296.2,
+   "end": 299.64,
+   "words": [
+    ["Even", 296.2, 296.48],
+    ["the", 296.48, 296.6],
+    ["skin", 296.6, 296.92],
+    ["under", 296.92, 297.12],
+    ["her", 297.12, 297.36],
+    ["eyes", 297.36, 297.6],
+    ["had", 297.6, 297.76],
+    ["a", 297.76, 297.88],
+    ["weird", 297.88, 298.48],
+    ["pinkish", 298.52, 299.04],
+    ["tint.", 299.04, 299.64]
+   ]
+  },
+  {
+   "text": "Maybe Grandma wasn't being dramatic after all.",
+   "start": 299.72,
+   "end": 302.36,
+   "words": [
+    ["Maybe", 299.72, 300.0],
+    ["Grandma", 300.0, 300.4],
+    ["wasn't", 300.4, 300.72],
+    ["being", 300.72, 300.92],
+    ["dramatic", 300.92, 301.4],
+    ["after", 301.4, 301.84],
+    ["all.", 301.84, 302.36]
+   ]
+  },
+  {
+   "text": "How do you miss becoming a witch, Ma?",
+   "start": 302.44,
+   "end": 304.72,
+   "words": [
+    ["How", 302.44, 302.64],
+    ["do", 302.64, 302.72],
+    ["you", 302.72, 302.96],
+    ["miss", 302.96, 303.4],
+    ["becoming", 303.4, 303.76],
+    ["a", 303.76, 303.88],
+    ["witch,", 303.88, 304.28],
+    ["Ma?", 304.28, 304.72]
+   ]
+  },
+  {
+   "text": "By sneaking out to a party with a boy named Brandon who wore sunglasses indoors.",
+   "start": 304.88,
+   "end": 311.56,
+   "words": [
+    ["By", 304.88, 305.12],
+    ["sneaking", 305.12, 305.8],
+    ["out", 305.8, 306.0],
+    ["to", 306.0, 306.12],
+    ["a", 306.12, 306.24],
+    ["party", 306.24, 306.76],
+    ["with", 306.76, 306.96],
+    ["a", 306.96, 307.04],
+    ["boy", 307.04, 307.36],
+    ["named", 307.36, 307.76],
+    ["Brandon", 307.76, 308.52],
+    ["who", 308.92, 309.12],
+    ["wore", 309.12, 309.48],
+    ["sunglasses", 309.48, 310.48],
+    ["indoors.", 310.72, 311.56]
+   ]
+  },
+  {
+   "text": "He had sensitive eyes.",
+   "start": 312.04,
+   "end": 313.52,
+   "words": [
+    ["He", 312.04, 312.16],
+    ["had", 312.16, 312.4],
+    ["sensitive", 312.4, 312.92],
+    ["eyes.", 312.92, 313.52]
+   ]
+  },
+  {
+   "text": "I stared at Mom, and she just shrugged her shoulders mumbling, \"I'm sorry.\"",
+   "start": 313.68,
+   "end": 319.12,
+   "words": [
+    ["I", 313.68, 313.96],
+    ["stared", 313.96, 314.64],
+    ["at", 314.64, 314.8],
+    ["Mom,", 314.8, 315.32],
+    ["and", 315.36, 315.48],
+    ["she", 315.48, 315.6],
+    ["just", 315.6, 316.04],
+    ["shrugged", 316.04, 316.6],
+    ["her", 316.6, 316.76],
+    ["shoulders", 316.76, 317.44],
+    ["mumbling,", 317.44, 318.04],
+    ["\"I'm", 318.04, 318.36],
+    ["sorry.\"", 318.36, 319.12]
+   ]
+  },
+  {
+   "text": "And just like that, Mom called her shady ex-boyfriend to help.",
+   "start": 319.4,
+   "end": 323.96,
+   "words": [
+    ["And", 319.4, 319.76],
+    ["just", 319.76, 320.08],
+    ["like", 320.08, 320.28],
+    ["that,", 320.28, 320.8],
+    ["Mom", 320.8, 321.16],
+    ["called", 321.16, 321.44],
+    ["her", 321.44, 321.8],
+    ["shady", 321.8, 322.32],
+    ["ex-boyfriend", 322.32, 323.24],
+    ["to", 323.24, 323.36],
+    ["help.", 323.36, 323.96]
+   ]
+  },
+  {
+   "text": "Two days later, Mom had a brand new identity.",
+   "start": 324.12,
+   "end": 327.72,
+   "words": [
+    ["Two", 324.12, 324.32],
+    ["days", 324.32, 324.56],
+    ["later,", 324.56, 325.24],
+    ["Mom", 325.32, 325.6],
+    ["had", 325.6, 325.88],
+    ["a", 325.88, 326.04],
+    ["brand", 326.04, 326.6],
+    ["new", 326.6, 326.84],
+    ["identity.", 326.84, 327.72]
+   ]
+  },
+  {
+   "text": "Her name was Violet now, which was convenient because we could still call her V.",
+   "start": 327.72,
+   "end": 332.28,
+   "words": [
+    ["Her", 327.72, 327.88],
+    ["name", 327.88, 328.32],
+    ["was", 328.32, 328.6],
+    ["Violet", 328.6, 329.08],
+    ["now,", 329.08, 329.6],
+    ["which", 329.72, 329.92],
+    ["was", 329.92, 330.08],
+    ["convenient", 330.08, 330.68],
+    ["because", 330.68, 331.0],
+    ["we", 331.0, 331.12],
+    ["could", 331.12, 331.28],
+    ["still", 331.28, 331.52],
+    ["call", 331.52, 331.76],
+    ["her", 331.76, 331.92],
+    ["V.", 331.92, 332.28]
+   ]
+  },
+  {
+   "text": "According to her fake file, Violet was an orphan who had been raised in a very strict orphanage.",
+   "start": 332.56,
+   "end": 338.52,
+   "words": [
+    ["According", 332.56, 333.0],
+    ["to", 333.0, 333.12],
+    ["her", 333.12, 333.28],
+    ["fake", 333.28, 333.6],
+    ["file,", 333.6, 334.2],
+    ["Violet", 334.4, 334.84],
+    ["was", 334.84, 335.0],
+    ["an", 335.0, 335.16],
+    ["orphan", 335.16, 335.56],
+    ["who", 335.56, 335.68],
+    ["had", 335.68, 335.76],
+    ["been", 335.76, 335.96],
+    ["raised", 335.96, 336.28],
+    ["in", 336.28, 336.44],
+    ["a", 336.44, 336.56],
+    ["very", 336.56, 337.08],
+    ["strict", 337.16, 337.52],
+    ["orphanage.", 337.52, 338.52]
+   ]
+  },
+  {
+   "text": "And just like that, my mom became a sophomore in my high school, and my life changed forever.",
+   "start": 338.56,
+   "end": 345.36,
+   "words": [
+    ["And", 338.56, 338.8],
+    ["just", 338.8, 339.0],
+    ["like", 339.0, 339.2],
+    ["that,", 339.2, 339.8],
+    ["my", 339.8, 340.0],
+    ["mom", 340.0, 340.28],
+    ["became", 340.28, 340.64],
+    ["a", 340.64, 340.76],
+    ["sophomore", 340.76, 341.48],
+    ["in", 341.48, 341.64],
+    ["my", 341.64, 341.88],
+    ["high", 341.88, 342.04],
+    ["school,", 342.04, 342.8],
+    ["and", 342.92, 343.16],
+    ["my", 343.16, 343.36],
+    ["life", 343.36, 343.88],
+    ["changed", 344.04, 344.52],
+    ["forever.", 344.52, 345.36]
+   ]
+  },
+  {
+   "text": "I I sitting in class when the principal came in dragging Mom behind him.",
+   "start": 345.56,
+   "end": 349.88,
+   "words": [
+    ["I", 345.56, 345.64],
+    ["I", 345.64, 345.76],
+    ["sitting", 345.76, 346.04],
+    ["in", 346.04, 346.16],
+    ["class", 346.16, 346.68],
+    ["when", 346.68, 346.8],
+    ["the", 346.8, 346.96],
+    ["principal", 346.96, 347.44],
+    ["came", 347.44, 347.68],
+    ["in", 347.68, 348.04],
+    ["dragging", 348.08, 348.56],
+    ["Mom", 348.56, 348.88],
+    ["behind", 348.88, 349.36],
+    ["him.", 349.36, 349.88]
+   ]
+  },
+  {
+   "text": "Who called this sweet little girl a stupid orphan?",
+   "start": 349.92,
+   "end": 353.72,
+   "words": [
+    ["Who", 349.92, 350.24],
+    ["called", 350.24, 350.72],
+    ["this", 350.72, 351.0],
+    ["sweet", 351.0, 351.4],
+    ["little", 351.4, 351.72],
+    ["girl", 351.72, 352.2],
+    ["a", 352.2, 352.32],
+    ["stupid", 352.32, 352.96],
+    ["orphan?", 352.96, 353.72]
+   ]
+  },
+  {
+   "text": "Is this how we welcome a new student?",
+   "start": 353.84,
+   "end": 357.72,
+   "words": [
+    ["Is", 353.84, 354.2],
+    ["this", 354.2, 354.6],
+    ["how", 354.6, 354.96],
+    ["we", 354.96, 355.24],
+    ["welcome", 355.24, 356.0],
+    ["a", 356.2, 356.36],
+    ["new", 356.36, 356.8],
+    ["student?", 356.88, 357.72]
+   ]
+  },
+  {
+   "text": "What in the world now?",
+   "start": 357.72,
+   "end": 359.12,
+   "words": [
+    ["What", 357.72, 357.88],
+    ["in", 357.88, 357.96],
+    ["the", 357.96, 358.12],
+    ["world", 358.12, 358.6],
+    ["now?", 358.6, 359.12]
+   ]
+  },
+  {
+   "text": "I'm sure no one said that, Mr. McDonut.",
+   "start": 359.32,
+   "end": 362.08,
+   "words": [
+    ["I'm", 359.32, 359.76],
+    ["sure", 359.8, 360.12],
+    ["no", 360.12, 360.32],
+    ["one", 360.32, 360.52],
+    ["said", 360.52, 360.76],
+    ["that,", 360.76, 360.96],
+    ["Mr.", 360.96, 361.24],
+    ["McDonut.", 361.24, 362.08]
+   ]
+  },
+  {
+   "text": "She probably just misunderstood.",
+   "start": 362.24,
+   "end": 364.2,
+   "words": [
+    ["She", 362.24, 362.4],
+    ["probably", 362.4, 362.8],
+    ["just", 362.8, 363.0],
+    ["misunderstood.", 363.0, 364.2]
+   ]
+  },
+  {
+   "text": "She can sit next to me.",
+   "start": 364.24,
+   "end": 365.6,
+   "words": [
+    ["She", 364.24, 364.52],
+    ["can", 364.52, 364.68],
+    ["sit", 364.68, 364.84],
+    ["next", 364.84, 365.08],
+    ["to", 365.08, 365.16],
+    ["me.", 365.16, 365.6]
+   ]
+  },
+  {
+   "text": "Come on, Mom.",
+   "start": 365.8,
+   "end": 366.56,
+   "words": [
+    ["Come", 365.8, 365.92],
+    ["on,", 365.92, 366.04],
+    ["Mom.", 366.04, 366.56]
+   ]
+  },
+  {
+   "text": "Mom suddenly shot her head up and squinted at me.",
+   "start": 368.48,
+   "end": 371.16,
+   "words": [
+    ["Mom", 368.48, 368.72],
+    ["suddenly", 368.72, 369.2],
+    ["shot", 369.2, 369.44],
+    ["her", 369.44, 369.56],
+    ["head", 369.56, 369.72],
+    ["up", 369.72, 370.04],
+    ["and", 370.04, 370.2],
+    ["squinted", 370.2, 370.6],
+    ["at", 370.6, 370.72],
+    ["me.", 370.72, 371.16]
+   ]
+  },
+  {
+   "text": "Um, are you constipated or something?",
+   "start": 371.16,
+   "end": 373.72,
+   "words": [
+    ["Um,", 371.16, 371.6],
+    ["are", 371.84, 371.96],
+    ["you", 371.96, 372.12],
+    ["constipated", 372.12, 372.8],
+    ["or", 372.8, 372.88],
+    ["something?", 372.88, 373.72]
+   ]
+  },
+  {
+   "text": "Wait a second, it's her.",
+   "start": 373.72,
+   "end": 374.96,
+   "words": [
+    ["Wait", 373.72, 373.92],
+    ["a", 373.92, 373.97],
+    ["second,", 373.96, 374.28],
+    ["it's", 374.28, 374.44],
+    ["her.", 374.44, 374.96]
+   ]
+  },
+  {
+   "text": "Mr. McDonut, she's the bully.",
+   "start": 375.04,
+   "end": 376.8,
+   "words": [
+    ["Mr.", 375.04, 375.24],
+    ["McDonut,", 375.24, 375.84],
+    ["she's", 375.84, 376.16],
+    ["the", 376.16, 376.24],
+    ["bully.", 376.24, 376.8]
+   ]
+  },
+  {
+   "text": "My jaw literally dropped. Mr.",
+   "start": 376.8,
+   "end": 379.68,
+   "words": [
+    ["My", 376.8, 377.16],
+    ["jaw", 377.24, 377.68],
+    ["literally", 378.08, 378.6],
+    ["dropped.", 378.6, 379.36],
+    ["Mr.", 379.36, 379.68]
+   ]
+  },
+  {
+   "text": "McDonut shook his head in disappointment.",
+   "start": 379.68,
+   "end": 382.48,
+   "words": [
+    ["McDonut", 379.68, 380.44],
+    ["shook", 380.44, 380.72],
+    ["his", 380.72, 380.92],
+    ["head", 380.92, 381.24],
+    ["in", 381.24, 381.36],
+    ["disappointment.", 381.36, 382.48]
+   ]
+  },
+  {
+   "text": "Zoe Butterman, how could you?",
+   "start": 382.48,
+   "end": 386.16,
+   "words": [
+    ["Zoe", 382.48, 382.92],
+    ["Butterman,", 383.56, 384.56],
+    ["how", 384.64, 385.08],
+    ["could", 385.12, 385.64],
+    ["you?", 385.64, 386.16]
+   ]
+  },
+  {
+   "text": "I never expected this from you.",
+   "start": 386.6,
+   "end": 389.12,
+   "words": [
+    ["I", 386.6, 386.8],
+    ["never", 386.8, 387.28],
+    ["expected", 387.28, 388.12],
+    ["this", 388.12, 388.36],
+    ["from", 388.36, 388.6],
+    ["you.", 388.6, 389.12]
+   ]
+  },
+  {
+   "text": "Your mother raised you better.",
+   "start": 389.52,
+   "end": 392.28,
+   "words": [
+    ["Your", 389.52, 389.96],
+    ["mother", 389.96, 390.64],
+    ["raised", 390.72, 391.32],
+    ["you", 391.32, 391.52],
+    ["better.", 391.52, 392.28]
+   ]
+  },
+  {
+   "text": "Mom's face immediately lit up.",
+   "start": 392.4,
+   "end": 394.84,
+   "words": [
+    ["Mom's", 392.4, 392.96],
+    ["face", 392.96, 393.36],
+    ["immediately", 393.36, 394.2],
+    ["lit", 394.2, 394.44],
+    ["up.", 394.44, 394.84]
+   ]
+  },
+  {
+   "text": "You know what?",
+   "start": 394.84,
+   "end": 395.32,
+   "words": [
+    ["You", 394.84, 394.89],
+    ["know", 394.88, 395.0],
+    ["what?", 395.0, 395.32]
+   ]
+  },
+  {
+   "text": "I forgive her.",
+   "start": 395.32,
+   "end": 396.08,
+   "words": [
+    ["I", 395.32, 395.4],
+    ["forgive", 395.4, 395.72],
+    ["her.", 395.72, 396.08]
+   ]
+  },
+  {
+   "text": "At the orphanage, they taught us to forgive identity thieves and bullies.",
+   "start": 396.08,
+   "end": 399.16,
+   "words": [
+    ["At", 396.08, 396.2],
+    ["the", 396.2, 396.32],
+    ["orphanage,", 396.32, 396.72],
+    ["they", 396.72, 396.84],
+    ["taught", 396.84, 397.08],
+    ["us", 397.08, 397.16],
+    ["to", 397.16, 397.28],
+    ["forgive", 397.28, 397.64],
+    ["identity", 397.64, 398.08],
+    ["thieves", 398.08, 398.36],
+    ["and", 398.36, 398.48],
+    ["bullies.", 398.48, 399.16]
+   ]
+  },
+  {
+   "text": "Zoe, we're good.",
+   "start": 399.16,
+   "end": 400.2,
+   "words": [
+    ["Zoe,", 399.16, 399.44],
+    ["we're", 399.44, 399.6],
+    ["good.", 399.6, 400.2]
+   ]
+  },
+  {
+   "text": "What? Mr. McDonut touched his chest emotionally and asked for the class to clap for her.",
+   "start": 400.56,
+   "end": 406.2,
+   "words": [
+    ["What?", 400.56, 401.16],
+    ["Mr.", 401.28, 401.52],
+    ["McDonut", 401.52, 402.24],
+    ["touched", 402.24, 402.56],
+    ["his", 402.56, 402.72],
+    ["chest", 402.72, 403.04],
+    ["emotionally", 403.04, 403.76],
+    ["and", 403.76, 403.92],
+    ["asked", 403.92, 404.16],
+    ["for", 404.16, 404.24],
+    ["the", 404.24, 404.36],
+    ["class", 404.36, 404.96],
+    ["to", 405.0, 405.16],
+    ["clap", 405.16, 405.52],
+    ["for", 405.52, 405.68],
+    ["her.", 405.68, 406.2]
+   ]
+  },
+  {
+   "text": "Then she hopped over and sat right next to me.",
+   "start": 406.2,
+   "end": 409.08,
+   "words": [
+    ["Then", 406.2, 406.36],
+    ["she", 406.36, 406.6],
+    ["hopped", 406.6, 407.08],
+    ["over", 407.08, 407.44],
+    ["and", 407.44, 407.64],
+    ["sat", 407.64, 408.08],
+    ["right", 408.08, 408.28],
+    ["next", 408.28, 408.52],
+    ["to", 408.52, 408.64],
+    ["me.", 408.64, 409.08]
+   ]
+  },
+  {
+   "text": "I gave her a look and she whispered back.",
+   "start": 409.32,
+   "end": 411.68,
+   "words": [
+    ["I", 409.32, 409.4],
+    ["gave", 409.4, 409.64],
+    ["her", 409.64, 409.76],
+    ["a", 409.76, 409.84],
+    ["look", 409.84, 410.36],
+    ["and", 410.48, 410.56],
+    ["she", 410.56, 410.76],
+    ["whispered", 410.76, 411.12],
+    ["back.", 411.12, 411.68]
+   ]
+  },
+  {
+   "text": "I barged into his office without knocking, so I had to make up a story on my feet to make him feel sorry for me.",
+   "start": 411.68,
+   "end": 416.84,
+   "words": [
+    ["I", 411.68, 411.73],
+    ["barged", 411.72, 412.04],
+    ["into", 412.04, 412.24],
+    ["his", 412.24, 412.36],
+    ["office", 412.36, 412.68],
+    ["without", 412.68, 413.0],
+    ["knocking,", 413.0, 413.56],
+    ["so", 413.56, 413.72],
+    ["I", 413.72, 413.8],
+    ["had", 413.8, 414.0],
+    ["to", 414.0, 414.08],
+    ["make", 414.08, 414.28],
+    ["up", 414.28, 414.4],
+    ["a", 414.4, 414.45],
+    ["story", 414.44, 414.84],
+    ["on", 414.84, 414.96],
+    ["my", 414.96, 415.08],
+    ["feet", 415.08, 415.36],
+    ["to", 415.36, 415.44],
+    ["make", 415.44, 415.6],
+    ["him", 415.6, 415.72],
+    ["feel", 415.72, 415.92],
+    ["sorry", 415.92, 416.28],
+    ["for", 416.28, 416.4],
+    ["me.", 416.4, 416.84]
+   ]
+  },
+  {
+   "text": "So, you throw me under the bus?",
+   "start": 416.92,
+   "end": 419.08,
+   "words": [
+    ["So,", 416.92, 417.2],
+    ["you", 417.2, 417.4],
+    ["throw", 417.4, 417.88],
+    ["me", 417.88, 418.12],
+    ["under", 418.12, 418.36],
+    ["the", 418.36, 418.56],
+    ["bus?", 418.56, 419.08]
+   ]
+  },
+  {
+   "text": "Did you know he's bald?",
+   "start": 419.32,
+   "end": 420.52,
+   "words": [
+    ["Did", 419.32, 419.48],
+    ["you", 419.48, 419.56],
+    ["know", 419.56, 419.68],
+    ["he's", 419.68, 419.92],
+    ["bald?", 419.92, 420.52]
+   ]
+  },
+  {
+   "text": "That's a wig he's wearing.",
+   "start": 420.56,
+   "end": 421.8,
+   "words": [
+    ["That's", 420.56, 420.76],
+    ["a", 420.76, 420.84],
+    ["wig", 420.84, 421.12],
+    ["he's", 421.12, 421.36],
+    ["wearing.", 421.36, 421.8]
+   ]
+  },
+  {
+   "text": "His poor wife has to look at that thing every morning.",
+   "start": 421.8,
+   "end": 424.68,
+   "words": [
+    ["His", 421.8, 422.0],
+    ["poor", 422.0, 422.24],
+    ["wife", 422.24, 422.48],
+    ["has", 422.48, 422.68],
+    ["to", 422.68, 422.8],
+    ["look", 422.8, 423.0],
+    ["at", 423.0, 423.08],
+    ["that", 423.08, 423.28],
+    ["thing", 423.28, 423.48],
+    ["every", 423.48, 423.84],
+    ["morning.", 423.84, 424.68]
+   ]
+  },
+  {
+   "text": "And just like that, Mom became one of us.",
+   "start": 425.32,
+   "end": 428.36,
+   "words": [
+    ["And", 425.32, 425.52],
+    ["just", 425.52, 425.76],
+    ["like", 425.76, 425.96],
+    ["that,", 425.96, 426.56],
+    ["Mom", 426.72, 427.04],
+    ["became", 427.04, 427.6],
+    ["one", 427.6, 427.8],
+    ["of", 427.8, 427.92],
+    ["us.", 427.92, 428.36]
+   ]
+  },
+  {
+   "text": "She adjusted so fast that she made friends on the very first day.",
+   "start": 428.56,
+   "end": 432.28,
+   "words": [
+    ["She", 428.56, 428.76],
+    ["adjusted", 428.76, 429.36],
+    ["so", 429.36, 429.56],
+    ["fast", 429.56, 430.04],
+    ["that", 430.04, 430.2],
+    ["she", 430.2, 430.32],
+    ["made", 430.32, 430.56],
+    ["friends", 430.56, 430.92],
+    ["on", 430.92, 431.04],
+    ["the", 431.04, 431.12],
+    ["very", 431.12, 431.36],
+    ["first", 431.36, 431.76],
+    ["day.", 431.76, 432.28]
+   ]
+  },
+  {
+   "text": "Kids were waving at her in the hallway and even calling her Cool V.",
+   "start": 432.44,
+   "end": 436.12,
+   "words": [
+    ["Kids", 432.44, 432.64],
+    ["were", 432.64, 432.8],
+    ["waving", 432.8, 433.12],
+    ["at", 433.12, 433.24],
+    ["her", 433.24, 433.36],
+    ["in", 433.36, 433.44],
+    ["the", 433.44, 433.52],
+    ["hallway", 433.52, 434.04],
+    ["and", 434.04, 434.24],
+    ["even", 434.24, 434.44],
+    ["calling", 434.44, 434.76],
+    ["her", 434.76, 435.2],
+    ["Cool", 435.32, 435.76],
+    ["V.", 435.76, 436.12]
+   ]
+  },
+  {
+   "text": "But she just couldn't control herself.",
+   "start": 436.76,
+   "end": 439.8,
+   "words": [
+    ["But", 436.76, 436.96],
+    ["she", 436.96, 437.24],
+    ["just", 437.24, 437.76],
+    ["couldn't", 437.88, 438.32],
+    ["control", 438.32, 438.96],
+    ["herself.", 438.96, 439.8]
+   ]
+  },
+  {
+   "text": "A week later, when she saw the PE teacher, she almost started drooling.",
+   "start": 439.92,
+   "end": 444.4,
+   "words": [
+    ["A", 439.92, 440.0],
+    ["week", 440.0, 440.28],
+    ["later,", 440.28, 440.68],
+    ["when", 440.68, 440.88],
+    ["she", 440.88, 441.0],
+    ["saw", 441.0, 441.16],
+    ["the", 441.16, 441.28],
+    ["PE", 441.28, 441.64],
+    ["teacher,", 441.64, 442.36],
+    ["she", 442.36, 442.64],
+    ["almost", 442.64, 443.04],
+    ["started", 443.04, 443.48],
+    ["drooling.", 443.48, 444.4]
+   ]
+  },
+  {
+   "text": "She winked at him during basketball practice, even though I tried to stop her many times.",
+   "start": 444.6,
+   "end": 450.12,
+   "words": [
+    ["She", 444.6, 444.88],
+    ["winked", 444.88, 445.32],
+    ["at", 445.32, 445.44],
+    ["him", 445.44, 445.56],
+    ["during", 445.56, 445.88],
+    ["basketball", 445.88, 446.52],
+    ["practice,", 446.52, 447.16],
+    ["even", 447.16, 447.36],
+    ["though", 447.36, 447.52],
+    ["I", 447.52, 447.6],
+    ["tried", 447.6, 448.2],
+    ["to", 448.24, 448.32],
+    ["stop", 448.32, 448.6],
+    ["her", 448.6, 448.8],
+    ["many", 448.8, 449.32],
+    ["times.", 449.44, 450.12]
+   ]
+  },
+  {
+   "text": "Then she literally blew him a kiss while throwing the ball at him.",
+   "start": 450.24,
+   "end": 453.88,
+   "words": [
+    ["Then", 450.24, 450.44],
+    ["she", 450.44, 450.64],
+    ["literally", 450.64, 451.16],
+    ["blew", 451.16, 451.4],
+    ["him", 451.4, 451.52],
+    ["a", 451.52, 451.6],
+    ["kiss", 451.6, 451.96],
+    ["while", 451.96, 452.16],
+    ["throwing", 452.16, 452.68],
+    ["the", 452.68, 452.84],
+    ["ball", 452.84, 453.2],
+    ["at", 453.2, 453.36],
+    ["him.", 453.36, 453.88]
+   ]
+  },
+  {
+   "text": "Oops, sorry, sir.",
+   "start": 454.0,
+   "end": 455.6,
+   "words": [
+    ["Oops,", 454.0, 454.6],
+    ["sorry,", 454.6, 455.08],
+    ["sir.", 455.08, 455.6]
+   ]
+  },
+  {
+   "text": "That was when he finally had enough and reported her to the principal.",
+   "start": 455.96,
+   "end": 459.84,
+   "words": [
+    ["That", 455.96, 456.2],
+    ["was", 456.2, 456.4],
+    ["when", 456.4, 456.56],
+    ["he", 456.56, 456.92],
+    ["finally", 457.04, 457.52],
+    ["had", 457.52, 457.64],
+    ["enough", 457.64, 458.12],
+    ["and", 458.12, 458.24],
+    ["reported", 458.24, 458.72],
+    ["her", 458.72, 458.84],
+    ["to", 458.84, 458.96],
+    ["the", 458.96, 459.04],
+    ["principal.", 459.04, 459.84]
+   ]
+  },
+  {
+   "text": "I went with her for moral support.",
+   "start": 459.84,
+   "end": 462.44,
+   "words": [
+    ["I", 459.84, 460.12],
+    ["went", 460.32, 460.6],
+    ["with", 460.6, 460.76],
+    ["her", 460.76, 460.96],
+    ["for", 460.96, 461.2],
+    ["moral", 461.2, 461.6],
+    ["support.", 461.6, 462.44]
+   ]
+  },
+  {
+   "text": "Big mistake. You know, Mr.",
+   "start": 462.6,
+   "end": 464.44,
+   "words": [
+    ["Big", 462.6, 462.96],
+    ["mistake.", 462.96, 463.8],
+    ["You", 463.84, 463.96],
+    ["know,", 463.96, 464.12],
+    ["Mr.", 464.12, 464.44]
+   ]
+  },
+  {
+   "text": "McDonut, being raised in an orphanage with no mother figure in my life, I just don't always know how to do the right thing. I'm sorry.",
+   "start": 464.44,
+   "end": 471.8,
+   "words": [
+    ["McDonut,", 464.44, 465.12],
+    ["being", 465.12, 465.4],
+    ["raised", 465.4, 465.72],
+    ["in", 465.72, 465.84],
+    ["an", 465.84, 465.96],
+    ["orphanage", 465.96, 466.48],
+    ["with", 466.48, 466.68],
+    ["no", 466.68, 466.84],
+    ["mother", 466.84, 467.12],
+    ["figure", 467.12, 467.48],
+    ["in", 467.48, 467.6],
+    ["my", 467.6, 467.76],
+    ["life,", 467.76, 468.36],
+    ["I", 468.4, 468.48],
+    ["just", 468.48, 468.68],
+    ["don't", 468.68, 468.92],
+    ["always", 468.92, 469.28],
+    ["know", 469.28, 469.44],
+    ["how", 469.44, 469.56],
+    ["to", 469.56, 469.68],
+    ["do", 469.68, 469.8],
+    ["the", 469.8, 469.88],
+    ["right", 469.88, 470.12],
+    ["thing.", 470.12, 470.8],
+    ["I'm", 470.88, 471.12],
+    ["sorry.", 471.12, 471.8]
+   ]
+  },
+  {
+   "text": "Mr. McDonut felt sorry for her immediately and handed her some tissues.",
+   "start": 472.92,
+   "end": 477.24,
+   "words": [
+    ["Mr.", 472.92, 473.16],
+    ["McDonut", 473.16, 473.8],
+    ["felt", 473.8, 474.04],
+    ["sorry", 474.04, 474.28],
+    ["for", 474.28, 474.4],
+    ["her", 474.4, 474.6],
+    ["immediately", 474.6, 475.52],
+    ["and", 475.52, 475.72],
+    ["handed", 475.72, 476.04],
+    ["her", 476.04, 476.16],
+    ["some", 476.16, 476.4],
+    ["tissues.", 476.4, 477.24]
+   ]
+  },
+  {
+   "text": "Then Mom opened her bag, pulled out a bottle of hair growth serum, and handed it to him.",
+   "start": 477.32,
+   "end": 482.48,
+   "words": [
+    ["Then", 477.32, 477.56],
+    ["Mom", 477.56, 477.88],
+    ["opened", 477.88, 478.2],
+    ["her", 478.2, 478.32],
+    ["bag,", 478.32, 478.84],
+    ["pulled", 478.96, 479.24],
+    ["out", 479.24, 479.36],
+    ["a", 479.36, 479.41],
+    ["bottle", 479.4, 479.8],
+    ["of", 479.8, 479.96],
+    ["hair", 479.96, 480.28],
+    ["growth", 480.28, 480.6],
+    ["serum,", 480.6, 481.12],
+    ["and", 481.12, 481.32],
+    ["handed", 481.32, 481.76],
+    ["it", 481.76, 481.88],
+    ["to", 481.88, 482.04],
+    ["him.", 482.04, 482.48]
+   ]
+  },
+  {
+   "text": "She nodded at him like, \"I got you.\"",
+   "start": 482.48,
+   "end": 484.84,
+   "words": [
+    ["She", 482.48, 482.68],
+    ["nodded", 482.68, 483.12],
+    ["at", 483.12, 483.24],
+    ["him", 483.24, 483.44],
+    ["like,", 483.44, 483.88],
+    ["\"I", 483.88, 484.0],
+    ["got", 484.0, 484.36],
+    ["you.\"", 484.36, 484.84]
+   ]
+  },
+  {
+   "text": "It worked on my cousin.",
+   "start": 484.84,
+   "end": 486.04,
+   "words": [
+    ["It", 484.84, 484.92],
+    ["worked", 484.92, 485.16],
+    ["on", 485.16, 485.24],
+    ["my", 485.24, 485.36],
+    ["cousin.", 485.36, 486.04]
+   ]
+  },
+  {
+   "text": "Her name was also Zoe.",
+   "start": 486.04,
+   "end": 487.36,
+   "words": [
+    ["Her", 486.04, 486.24],
+    ["name", 486.24, 486.44],
+    ["was", 486.44, 486.6],
+    ["also", 486.6, 486.84],
+    ["Zoe.", 486.84, 487.36]
+   ]
+  },
+  {
+   "text": "She used to have only three hairs, and now She looked at me, then continued.",
+   "start": 487.4,
+   "end": 491.88,
+   "words": [
+    ["She", 487.4, 487.56],
+    ["used", 487.56, 487.72],
+    ["to", 487.72, 487.8],
+    ["have", 487.8, 487.92],
+    ["only", 487.92, 488.08],
+    ["three", 488.08, 488.32],
+    ["hairs,", 488.32, 488.72],
+    ["and", 488.72, 488.88],
+    ["now", 488.88, 489.32],
+    ["She", 489.52, 489.8],
+    ["looked", 489.8, 490.24],
+    ["at", 490.24, 490.36],
+    ["me,", 490.36, 490.8],
+    ["then", 490.8, 491.0],
+    ["continued.", 491.0, 491.88]
+   ]
+  },
+  {
+   "text": "Uh not bad.",
+   "start": 491.88,
+   "end": 493.16,
+   "words": [
+    ["Uh", 491.88, 492.24],
+    ["not", 492.4, 492.64],
+    ["bad.", 492.64, 493.16]
+   ]
+  },
+  {
+   "text": "Yeah, Mom used it once.",
+   "start": 493.36,
+   "end": 495.32,
+   "words": [
+    ["Yeah,", 493.36, 493.96],
+    ["Mom", 494.12, 494.4],
+    ["used", 494.4, 494.64],
+    ["it", 494.64, 494.76],
+    ["once.", 494.76, 495.32]
+   ]
+  },
+  {
+   "text": "Now she has hair in places science can't explain.",
+   "start": 495.32,
+   "end": 498.6,
+   "words": [
+    ["Now", 495.32, 495.52],
+    ["she", 495.52, 495.76],
+    ["has", 495.76, 495.88],
+    ["hair", 495.88, 496.08],
+    ["in", 496.08, 496.2],
+    ["places", 496.2, 496.88],
+    ["science", 497.04, 497.48],
+    ["can't", 497.48, 497.76],
+    ["explain.", 497.76, 498.6]
+   ]
+  },
+  {
+   "text": "Poor thing. Well, thank you, V.",
+   "start": 499.24,
+   "end": 501.64,
+   "words": [
+    ["Poor", 499.24, 499.48],
+    ["thing.", 499.48, 500.16],
+    ["Well,", 500.36, 500.64],
+    ["thank", 500.64, 501.04],
+    ["you,", 501.04, 501.28],
+    ["V.", 501.28, 501.64]
+   ]
+  },
+  {
+   "text": "I'll let this slide this time.",
+   "start": 502.12,
+   "end": 504.12,
+   "words": [
+    ["I'll", 502.12, 502.4],
+    ["let", 502.4, 502.6],
+    ["this", 502.6, 502.8],
+    ["slide", 502.8, 503.28],
+    ["this", 503.28, 503.52],
+    ["time.", 503.52, 504.12]
+   ]
+  },
+  {
+   "text": "And for the record, I'm praying this works because let me tell you, these wigs are itchy as heck.",
+   "start": 504.24,
+   "end": 509.84,
+   "words": [
+    ["And", 504.24, 504.36],
+    ["for", 504.36, 504.52],
+    ["the", 504.52, 504.64],
+    ["record,", 504.64, 505.2],
+    ["I'm", 505.2, 505.44],
+    ["praying", 505.44, 505.84],
+    ["this", 505.84, 506.08],
+    ["works", 506.08, 506.4],
+    ["because", 506.4, 506.76],
+    ["let", 506.76, 506.96],
+    ["me", 506.96, 507.08],
+    ["tell", 507.08, 507.36],
+    ["you,", 507.36, 507.52],
+    ["these", 507.52, 507.96],
+    ["wigs", 507.96, 508.44],
+    ["are", 508.44, 508.68],
+    ["itchy", 508.68, 509.04],
+    ["as", 509.04, 509.24],
+    ["heck.", 509.24, 509.84]
+   ]
+  },
+  {
+   "text": "Now, dismissed. Chop chop.",
+   "start": 511.16,
+   "end": 513.12,
+   "words": [
+    ["Now,", 511.16, 511.52],
+    ["dismissed.", 511.52, 512.36],
+    ["Chop", 512.36, 512.56],
+    ["chop.", 512.56, 513.12]
+   ]
+  },
+  {
+   "text": "Mom saluted him and dragged me out.",
+   "start": 513.12,
+   "end": 516.04,
+   "words": [
+    ["Mom", 513.12, 513.48],
+    ["saluted", 513.48, 514.16],
+    ["him", 514.16, 514.44],
+    ["and", 514.44, 514.68],
+    ["dragged", 514.68, 515.36],
+    ["me", 515.36, 515.6],
+    ["out.", 515.6, 516.04]
+   ]
+  },
+  {
+   "text": "On our way to the schoolyard for break, Mom put her arm around me.",
+   "start": 516.04,
+   "end": 520.0,
+   "words": [
+    ["On", 516.04, 516.24],
+    ["our", 516.24, 516.36],
+    ["way", 516.36, 516.52],
+    ["to", 516.52, 516.68],
+    ["the", 516.68, 516.76],
+    ["schoolyard", 516.76, 517.48],
+    ["for", 517.48, 517.64],
+    ["break,", 517.64, 518.32],
+    ["Mom", 518.4, 518.72],
+    ["put", 518.72, 518.84],
+    ["her", 518.84, 519.0],
+    ["arm", 519.0, 519.2],
+    ["around", 519.2, 519.56],
+    ["me.", 519.56, 520.0]
+   ]
+  },
+  {
+   "text": "You know, Zoe, I noticed you don't have many friends.",
+   "start": 520.24,
+   "end": 522.96,
+   "words": [
+    ["You", 520.24, 520.32],
+    ["know,", 520.32, 520.52],
+    ["Zoe,", 520.52, 521.0],
+    ["I", 521.0, 521.12],
+    ["noticed", 521.12, 521.6],
+    ["you", 521.6, 521.68],
+    ["don't", 521.68, 521.84],
+    ["have", 521.84, 522.04],
+    ["many", 522.04, 522.24],
+    ["friends.", 522.24, 522.96]
+   ]
+  },
+  {
+   "text": "Maybe because your face isn't very friend-worthy, honey.",
+   "start": 522.96,
+   "end": 525.84,
+   "words": [
+    ["Maybe", 522.96, 523.28],
+    ["because", 523.28, 523.64],
+    ["your", 523.64, 523.76],
+    ["face", 523.76, 524.08],
+    ["isn't", 524.08, 524.32],
+    ["very", 524.32, 524.56],
+    ["friend-worthy,", 524.56, 525.24],
+    ["honey.", 525.24, 525.84]
+   ]
+  },
+  {
+   "text": "But I'm going to fix that.",
+   "start": 525.84,
+   "end": 526.96,
+   "words": [
+    ["But", 525.84, 525.96],
+    ["I'm", 525.96, 526.04],
+    ["going", 526.04, 526.16],
+    ["to", 526.16, 526.24],
+    ["fix", 526.24, 526.48],
+    ["that.", 526.48, 526.96]
+   ]
+  },
+  {
+   "text": "I'm going to make you popular, just like me.",
+   "start": 526.96,
+   "end": 529.24,
+   "words": [
+    ["I'm", 526.96, 527.16],
+    ["going", 527.16, 527.28],
+    ["to", 527.28, 527.33],
+    ["make", 527.32, 527.56],
+    ["you", 527.56, 527.68],
+    ["popular,", 527.68, 528.44],
+    ["just", 528.44, 528.64],
+    ["like", 528.64, 528.8],
+    ["me.", 528.8, 529.24]
+   ]
+  },
+  {
+   "text": "I had no idea what that even meant.",
+   "start": 529.36,
+   "end": 531.96,
+   "words": [
+    ["I", 529.36, 529.52],
+    ["had", 529.52, 529.96],
+    ["no", 530.08, 530.44],
+    ["idea", 530.44, 530.88],
+    ["what", 530.88, 531.04],
+    ["that", 531.04, 531.2],
+    ["even", 531.2, 531.44],
+    ["meant.", 531.44, 531.96]
+   ]
+  },
+  {
+   "text": "But just then, I saw Miles coming.",
+   "start": 531.96,
+   "end": 534.4,
+   "words": [
+    ["But", 531.96, 532.08],
+    ["just", 532.08, 532.36],
+    ["then,", 532.36, 532.92],
+    ["I", 532.92, 533.0],
+    ["saw", 533.0, 533.2],
+    ["Miles", 533.2, 533.64],
+    ["coming.", 533.64, 534.4]
+   ]
+  },
+  {
+   "text": "He was so cute and nerdy-looking.",
+   "start": 534.48,
+   "end": 537.32,
+   "words": [
+    ["He", 534.48, 534.6],
+    ["was", 534.6, 534.76],
+    ["so", 534.76, 535.0],
+    ["cute", 535.0, 535.52],
+    ["and", 535.76, 536.12],
+    ["nerdy-looking.", 536.12, 537.32]
+   ]
+  },
+  {
+   "text": "Exactly my type.",
+   "start": 537.68,
+   "end": 539.0,
+   "words": [
+    ["Exactly", 537.68, 538.2],
+    ["my", 538.2, 538.4],
+    ["type.", 538.4, 539.0]
+   ]
+  },
+  {
+   "text": "Of course, he had no idea I existed.",
+   "start": 539.36,
+   "end": 541.68,
+   "words": [
+    ["Of", 539.36, 539.44],
+    ["course,", 539.44, 539.76],
+    ["he", 539.76, 539.84],
+    ["had", 539.84, 540.0],
+    ["no", 540.0, 540.36],
+    ["idea", 540.36, 540.76],
+    ["I", 540.76, 540.84],
+    ["existed.", 540.84, 541.68]
+   ]
+  },
+  {
+   "text": "So, when he got closer, I hid behind Mom, who noticed immediately.",
+   "start": 541.76,
+   "end": 546.32,
+   "words": [
+    ["So,", 541.76, 541.92],
+    ["when", 541.92, 542.04],
+    ["he", 542.04, 542.16],
+    ["got", 542.16, 542.36],
+    ["closer,", 542.36, 543.12],
+    ["I", 543.12, 543.24],
+    ["hid", 543.24, 543.44],
+    ["behind", 543.44, 543.76],
+    ["Mom,", 543.76, 544.28],
+    ["who", 544.56, 544.68],
+    ["noticed", 544.68, 545.28],
+    ["immediately.", 545.28, 546.32]
+   ]
+  },
+  {
+   "text": "Please don't tell me that's your crush.",
+   "start": 546.32,
+   "end": 548.76,
+   "words": [
+    ["Please", 546.32, 547.0],
+    ["don't", 547.08, 547.36],
+    ["tell", 547.36, 547.52],
+    ["me", 547.52, 547.68],
+    ["that's", 547.68, 547.96],
+    ["your", 547.96, 548.08],
+    ["crush.", 548.08, 548.76]
+   ]
+  },
+  {
+   "text": "I was just starting to have hope for your social life.",
+   "start": 548.8,
+   "end": 551.48,
+   "words": [
+    ["I", 548.8, 548.88],
+    ["was", 548.88, 549.04],
+    ["just", 549.04, 549.2],
+    ["starting", 549.2, 549.56],
+    ["to", 549.56, 549.68],
+    ["have", 549.68, 549.88],
+    ["hope", 549.88, 550.12],
+    ["for", 550.12, 550.24],
+    ["your", 550.24, 550.44],
+    ["social", 550.44, 550.88],
+    ["life.", 550.88, 551.48]
+   ]
+  },
+  {
+   "text": "Just keep walking, Mom.",
+   "start": 551.52,
+   "end": 553.16,
+   "words": [
+    ["Just", 551.52, 551.84],
+    ["keep", 551.84, 552.16],
+    ["walking,", 552.16, 552.64],
+    ["Mom.", 552.64, 553.16]
+   ]
+  },
+  {
+   "text": "Don't let him notice me.",
+   "start": 553.4,
+   "end": 554.84,
+   "words": [
+    ["Don't", 553.4, 553.64],
+    ["let", 553.64, 553.8],
+    ["him", 553.8, 553.96],
+    ["notice", 553.96, 554.4],
+    ["me.", 554.4, 554.84]
+   ]
+  },
+  {
+   "text": "Relax. I'll help you win him over.",
+   "start": 554.96,
+   "end": 556.92,
+   "words": [
+    ["Relax.", 554.96, 555.64],
+    ["I'll", 555.72, 555.88],
+    ["help", 555.88, 556.04],
+    ["you", 556.04, 556.16],
+    ["win", 556.16, 556.28],
+    ["him", 556.28, 556.4],
+    ["over.", 556.4, 556.92]
+   ]
+  },
+  {
+   "text": "But just as he reached us, he tripped on something and fell flat on his face.",
+   "start": 556.92,
+   "end": 561.68,
+   "words": [
+    ["But", 556.92, 557.12],
+    ["just", 557.12, 557.4],
+    ["as", 557.4, 557.52],
+    ["he", 557.52, 557.64],
+    ["reached", 557.64, 558.0],
+    ["us,", 558.0, 558.44],
+    ["he", 558.44, 558.56],
+    ["tripped", 558.56, 558.96],
+    ["on", 558.96, 559.12],
+    ["something", 559.12, 559.72],
+    ["and", 559.72, 559.84],
+    ["fell", 559.84, 560.08],
+    ["flat", 560.08, 560.6],
+    ["on", 560.64, 560.8],
+    ["his", 560.8, 561.08],
+    ["face.", 561.08, 561.68]
+   ]
+  },
+  {
+   "text": "Mom nudged me to help him up, but I froze.",
+   "start": 562.24,
+   "end": 564.96,
+   "words": [
+    ["Mom", 562.24, 562.56],
+    ["nudged", 562.56, 562.96],
+    ["me", 562.96, 563.08],
+    ["to", 563.08, 563.2],
+    ["help", 563.2, 563.4],
+    ["him", 563.4, 563.56],
+    ["up,", 563.56, 564.0],
+    ["but", 564.04, 564.2],
+    ["I", 564.2, 564.28],
+    ["froze.", 564.28, 564.96]
+   ]
+  },
+  {
+   "text": "So, she went over and helped him herself.",
+   "start": 565.0,
+   "end": 567.36,
+   "words": [
+    ["So,", 565.0, 565.16],
+    ["she", 565.16, 565.48],
+    ["went", 565.48, 565.68],
+    ["over", 565.68, 565.92],
+    ["and", 565.92, 566.08],
+    ["helped", 566.08, 566.36],
+    ["him", 566.36, 566.52],
+    ["herself.", 566.52, 567.36]
+   ]
+  },
+  {
+   "text": "Wow, you look Tired and old.",
+   "start": 567.64,
+   "end": 570.12,
+   "words": [
+    ["Wow,", 567.64, 568.16],
+    ["you", 568.16, 568.48],
+    ["look", 568.48, 569.0],
+    ["Tired", 569.04, 569.44],
+    ["and", 569.44, 569.6],
+    ["old.", 569.6, 570.12]
+   ]
+  },
+  {
+   "text": "This is Zoe. She's awesome. H- hi.",
+   "start": 570.56,
+   "end": 573.04,
+   "words": [
+    ["This", 570.56, 570.76],
+    ["is", 570.76, 570.88],
+    ["Zoe.", 570.88, 571.4],
+    ["She's", 571.4, 571.64],
+    ["awesome.", 571.64, 572.36],
+    ["H-", 572.36, 572.6],
+    ["hi.", 572.6, 573.04]
+   ]
+  },
+  {
+   "text": "Hi. So, what's your name again? It's Zoe.",
+   "start": 573.6,
+   "end": 576.72,
+   "words": [
+    ["Hi.", 573.6, 574.04],
+    ["So,", 574.08, 574.48],
+    ["what's", 574.48, 574.76],
+    ["your", 574.76, 574.88],
+    ["name", 574.88, 575.08],
+    ["again?", 575.08, 575.76],
+    ["It's", 575.8, 576.2],
+    ["Zoe.", 576.2, 576.72]
+   ]
+  },
+  {
+   "text": "No, not you.",
+   "start": 576.96,
+   "end": 577.96,
+   "words": [
+    ["No,", 576.96, 577.16],
+    ["not", 577.16, 577.44],
+    ["you.", 577.44, 577.96]
+   ]
+  },
+  {
+   "text": "I mean her.",
+   "start": 578.44,
+   "end": 579.28,
+   "words": [
+    ["I", 578.44, 578.49],
+    ["mean", 578.48, 578.76],
+    ["her.", 578.76, 579.28]
+   ]
+  },
+  {
+   "text": "Oh my god, was he seriously trying to hit on Mom while ignoring me?",
+   "start": 579.32,
+   "end": 583.88,
+   "words": [
+    ["Oh", 579.32, 579.68],
+    ["my", 579.72, 580.08],
+    ["god,", 580.12, 580.64],
+    ["was", 580.8, 580.96],
+    ["he", 580.96, 581.08],
+    ["seriously", 581.08, 581.6],
+    ["trying", 581.6, 581.84],
+    ["to", 581.84, 581.92],
+    ["hit", 581.92, 582.08],
+    ["on", 582.08, 582.24],
+    ["Mom", 582.24, 582.56],
+    ["while", 582.56, 582.76],
+    ["ignoring", 582.76, 583.44],
+    ["me?", 583.44, 583.88]
+   ]
+  },
+  {
+   "text": "Then he pulled out his small notebook and started writing.",
+   "start": 584.08,
+   "end": 587.28,
+   "words": [
+    ["Then", 584.08, 584.2],
+    ["he", 584.2, 584.32],
+    ["pulled", 584.32, 584.6],
+    ["out", 584.6, 584.72],
+    ["his", 584.72, 584.96],
+    ["small", 584.96, 585.32],
+    ["notebook", 585.32, 585.88],
+    ["and", 585.88, 586.04],
+    ["started", 586.04, 586.44],
+    ["writing.", 586.44, 587.28]
+   ]
+  },
+  {
+   "text": "Sorry, I have this short-term memory issue, so I write down important things before I forget them.",
+   "start": 587.36,
+   "end": 592.32,
+   "words": [
+    ["Sorry,", 587.36, 587.84],
+    ["I", 587.84, 587.96],
+    ["have", 587.96, 588.12],
+    ["this", 588.12, 588.32],
+    ["short-term", 588.32, 588.84],
+    ["memory", 588.84, 589.16],
+    ["issue,", 589.16, 589.52],
+    ["so", 589.52, 589.8],
+    ["I", 589.8, 589.88],
+    ["write", 589.88, 590.12],
+    ["down", 590.12, 590.28],
+    ["important", 590.28, 590.76],
+    ["things", 590.76, 591.04],
+    ["before", 591.04, 591.32],
+    ["I", 591.32, 591.4],
+    ["forget", 591.4, 591.72],
+    ["them.", 591.72, 592.32]
+   ]
+  },
+  {
+   "text": "So, your name?",
+   "start": 592.48,
+   "end": 593.52,
+   "words": [
+    ["So,", 592.48, 592.76],
+    ["your", 592.76, 592.92],
+    ["name?", 592.92, 593.52]
+   ]
+  },
+  {
+   "text": "The girl with the ponytail.",
+   "start": 593.6,
+   "end": 594.88,
+   "words": [
+    ["The", 593.6, 593.68],
+    ["girl", 593.68, 593.88],
+    ["with", 593.88, 593.96],
+    ["the", 593.96, 594.04],
+    ["ponytail.", 594.04, 594.88]
+   ]
+  },
+  {
+   "text": "And he literally wrote down Mom's name and ignored mine.",
+   "start": 594.88,
+   "end": 598.72,
+   "words": [
+    ["And", 594.88, 595.08],
+    ["he", 595.08, 595.24],
+    ["literally", 595.24, 596.0],
+    ["wrote", 596.0, 596.28],
+    ["down", 596.28, 596.52],
+    ["Mom's", 596.52, 596.92],
+    ["name", 596.92, 597.44],
+    ["and", 597.48, 597.68],
+    ["ignored", 597.68, 598.12],
+    ["mine.", 598.12, 598.72]
+   ]
+  },
+  {
+   "text": "When he left, Mom turned to me.",
+   "start": 598.84,
+   "end": 600.84,
+   "words": [
+    ["When", 598.84, 599.0],
+    ["he", 599.0, 599.12],
+    ["left,", 599.12, 599.72],
+    ["Mom", 599.72, 600.0],
+    ["turned", 600.0, 600.32],
+    ["to", 600.32, 600.4],
+    ["me.", 600.4, 600.84]
+   ]
+  },
+  {
+   "text": "Don't worry, he's not my type.",
+   "start": 600.92,
+   "end": 602.52,
+   "words": [
+    ["Don't", 600.92, 601.16],
+    ["worry,", 601.16, 601.4],
+    ["he's", 601.4, 601.6],
+    ["not", 601.6, 601.8],
+    ["my", 601.8, 601.92],
+    ["type.", 601.92, 602.52]
+   ]
+  },
+  {
+   "text": "That's not what I'm worried about.",
+   "start": 602.68,
+   "end": 605.24,
+   "words": [
+    ["That's", 602.68, 603.0],
+    ["not", 603.0, 603.44],
+    ["what", 603.76, 603.96],
+    ["I'm", 603.96, 604.24],
+    ["worried", 604.24, 604.6],
+    ["about.", 604.6, 605.24]
+   ]
+  },
+  {
+   "text": "I mean, I had never really tried to make Miles notice me before, but now I had to act fast before he started liking Mom too much.",
+   "start": 605.24,
+   "end": 613.6,
+   "words": [
+    ["I", 605.24, 605.32],
+    ["mean,", 605.32, 605.84],
+    ["I", 605.84, 605.96],
+    ["had", 605.96, 606.12],
+    ["never", 606.12, 606.36],
+    ["really", 606.36, 606.6],
+    ["tried", 606.6, 607.2],
+    ["to", 607.28, 607.36],
+    ["make", 607.36, 607.6],
+    ["Miles", 607.6, 608.0],
+    ["notice", 608.0, 608.32],
+    ["me", 608.32, 608.44],
+    ["before,", 608.44, 609.2],
+    ["but", 609.2, 609.36],
+    ["now", 609.36, 609.8],
+    ["I", 610.04, 610.16],
+    ["had", 610.16, 610.32],
+    ["to", 610.32, 610.44],
+    ["act", 610.44, 610.68],
+    ["fast", 610.68, 611.2],
+    ["before", 611.32, 611.6],
+    ["he", 611.6, 611.76],
+    ["started", 611.76, 612.08],
+    ["liking", 612.08, 612.48],
+    ["Mom", 612.48, 612.8],
+    ["too", 612.8, 613.0],
+    ["much.", 613.0, 613.6]
+   ]
+  },
+  {
+   "text": "So, a couple of days later, Mom suggested giving me a makeover.",
+   "start": 613.76,
+   "end": 618.16,
+   "words": [
+    ["So,", 613.76, 614.2],
+    ["a", 614.28, 614.33],
+    ["couple", 614.32, 614.64],
+    ["of", 614.64, 614.72],
+    ["days", 614.72, 615.0],
+    ["later,", 615.0, 615.68],
+    ["Mom", 615.68, 615.96],
+    ["suggested", 615.96, 616.84],
+    ["giving", 616.84, 617.08],
+    ["me", 617.08, 617.2],
+    ["a", 617.2, 617.25],
+    ["makeover.", 617.24, 618.16]
+   ]
+  },
+  {
+   "text": "And somehow, I became her copy.",
+   "start": 618.16,
+   "end": 621.08,
+   "words": [
+    ["And", 618.16, 618.56],
+    ["somehow,", 618.56, 619.4],
+    ["I", 619.64, 619.88],
+    ["became", 619.88, 620.32],
+    ["her", 620.32, 620.48],
+    ["copy.", 620.48, 621.08]
+   ]
+  },
+  {
+   "text": "We literally looked like twins.",
+   "start": 621.44,
+   "end": 623.8,
+   "words": [
+    ["We", 621.44, 621.68],
+    ["literally", 621.68, 622.6],
+    ["looked", 622.6, 622.92],
+    ["like", 622.92, 623.12],
+    ["twins.", 623.12, 623.8]
+   ]
+  },
+  {
+   "text": "And everyone started to like me, too.",
+   "start": 624.24,
+   "end": 626.84,
+   "words": [
+    ["And", 624.24, 624.64],
+    ["everyone", 624.64, 625.24],
+    ["started", 625.24, 625.64],
+    ["to", 625.64, 625.8],
+    ["like", 625.8, 626.12],
+    ["me,", 626.12, 626.32],
+    ["too.", 626.32, 626.84]
+   ]
+  },
+  {
+   "text": "We got invited to parties, study groups, and all that.",
+   "start": 627.2,
+   "end": 630.76,
+   "words": [
+    ["We", 627.2, 627.32],
+    ["got", 627.32, 627.52],
+    ["invited", 627.52, 627.92],
+    ["to", 627.92, 628.12],
+    ["parties,", 628.12, 628.96],
+    ["study", 629.08, 629.48],
+    ["groups,", 629.48, 629.88],
+    ["and", 629.88, 630.04],
+    ["all", 630.04, 630.16],
+    ["that.", 630.16, 630.76]
+   ]
+  },
+  {
+   "text": "But all I wanted was for Miles to like me.",
+   "start": 631.2,
+   "end": 633.96,
+   "words": [
+    ["But", 631.2, 631.32],
+    ["all", 631.32, 631.48],
+    ["I", 631.48, 631.6],
+    ["wanted", 631.6, 632.0],
+    ["was", 632.0, 632.16],
+    ["for", 632.16, 632.36],
+    ["Miles", 632.36, 632.92],
+    ["to", 632.92, 633.12],
+    ["like", 633.12, 633.52],
+    ["me.", 633.52, 633.96]
+   ]
+  },
+  {
+   "text": "The problem was, every time Mom tried to shut him down, he took it as useful information.",
+   "start": 634.12,
+   "end": 639.88,
+   "words": [
+    ["The", 634.12, 634.2],
+    ["problem", 634.2, 634.64],
+    ["was,", 634.64, 635.16],
+    ["every", 635.24, 635.48],
+    ["time", 635.48, 635.72],
+    ["Mom", 635.72, 635.96],
+    ["tried", 635.96, 636.2],
+    ["to", 636.2, 636.32],
+    ["shut", 636.32, 636.56],
+    ["him", 636.56, 636.68],
+    ["down,", 636.68, 637.28],
+    ["he", 637.28, 637.4],
+    ["took", 637.4, 637.68],
+    ["it", 637.68, 637.84],
+    ["as", 637.84, 638.04],
+    ["useful", 638.04, 638.72],
+    ["information.", 638.72, 639.88]
+   ]
+  },
+  {
+   "text": "I don't like guys with glasses.",
+   "start": 640.0,
+   "end": 641.8,
+   "words": [
+    ["I", 640.0, 640.08],
+    ["don't", 640.08, 640.32],
+    ["like", 640.32, 640.52],
+    ["guys", 640.52, 640.84],
+    ["with", 640.84, 640.96],
+    ["glasses.", 640.96, 641.8]
+   ]
+  },
+  {
+   "text": "He wrote that down in his notebook.",
+   "start": 641.96,
+   "end": 643.76,
+   "words": [
+    ["He", 641.96, 642.12],
+    ["wrote", 642.12, 642.36],
+    ["that", 642.36, 642.52],
+    ["down", 642.52, 642.76],
+    ["in", 642.76, 642.84],
+    ["his", 642.84, 642.96],
+    ["notebook.", 642.96, 643.76]
+   ]
+  },
+  {
+   "text": "And the next time I saw him, he wasn't wearing his glasses.",
+   "start": 643.76,
+   "end": 647.16,
+   "words": [
+    ["And", 643.76, 643.92],
+    ["the", 643.92, 644.0],
+    ["next", 644.0, 644.28],
+    ["time", 644.28, 644.48],
+    ["I", 644.48, 644.56],
+    ["saw", 644.56, 644.8],
+    ["him,", 644.8, 645.32],
+    ["he", 645.36, 645.52],
+    ["wasn't", 645.52, 645.88],
+    ["wearing", 645.88, 646.12],
+    ["his", 646.12, 646.32],
+    ["glasses.", 646.32, 647.16]
+   ]
+  },
+  {
+   "text": "I only like blond guys.",
+   "start": 647.32,
+   "end": 648.96,
+   "words": [
+    ["I", 647.32, 647.44],
+    ["only", 647.44, 647.72],
+    ["like", 647.72, 647.96],
+    ["blond", 647.96, 648.36],
+    ["guys.", 648.36, 648.96]
+   ]
+  },
+  {
+   "text": "The next day, he came to school with his hair dyed blond.",
+   "start": 649.08,
+   "end": 652.4,
+   "words": [
+    ["The", 649.08, 649.2],
+    ["next", 649.2, 649.52],
+    ["day,", 649.52, 650.04],
+    ["he", 650.12, 650.24],
+    ["came", 650.24, 650.44],
+    ["to", 650.44, 650.52],
+    ["school", 650.52, 650.88],
+    ["with", 650.88, 651.0],
+    ["his", 651.0, 651.16],
+    ["hair", 651.16, 651.4],
+    ["dyed", 651.4, 651.72],
+    ["blond.", 651.72, 652.4]
+   ]
+  },
+  {
+   "text": "I just don't like your face, all right?",
+   "start": 652.4,
+   "end": 654.52,
+   "words": [
+    ["I", 652.4, 652.48],
+    ["just", 652.48, 652.76],
+    ["don't", 652.76, 653.0],
+    ["like", 653.0, 653.24],
+    ["your", 653.24, 653.36],
+    ["face,", 653.36, 653.84],
+    ["all", 653.84, 653.96],
+    ["right?", 653.96, 654.52]
+   ]
+  },
+  {
+   "text": "Leave me alone, dude.",
+   "start": 654.52,
+   "end": 655.96,
+   "words": [
+    ["Leave", 654.52, 654.72],
+    ["me", 654.72, 654.84],
+    ["alone,", 654.84, 655.36],
+    ["dude.", 655.36, 655.96]
+   ]
+  },
+  {
+   "text": "Then she walked away while Miles whispered to himself, That's strange.",
+   "start": 656.0,
+   "end": 660.28,
+   "words": [
+    ["Then", 656.0, 656.16],
+    ["she", 656.16, 656.32],
+    ["walked", 656.32, 656.64],
+    ["away", 656.64, 657.16],
+    ["while", 657.24, 657.52],
+    ["Miles", 657.52, 658.08],
+    ["whispered", 658.08, 658.48],
+    ["to", 658.48, 658.6],
+    ["himself,", 658.6, 659.44],
+    ["That's", 659.48, 659.64],
+    ["strange.", 659.64, 660.28]
+   ]
+  },
+  {
+   "text": "I didn't write that down.",
+   "start": 660.28,
+   "end": 661.6,
+   "words": [
+    ["I", 660.28, 660.33],
+    ["didn't", 660.32, 660.56],
+    ["write", 660.56, 660.76],
+    ["that", 660.76, 661.0],
+    ["down.", 661.0, 661.6]
+   ]
+  },
+  {
+   "text": "So, I immediately snatched his notebook.",
+   "start": 661.8,
+   "end": 664.52,
+   "words": [
+    ["So,", 661.8, 662.08],
+    ["I", 662.08, 662.16],
+    ["immediately", 662.16, 662.92],
+    ["snatched", 662.92, 663.52],
+    ["his", 663.52, 663.68],
+    ["notebook.", 663.68, 664.52]
+   ]
+  },
+  {
+   "text": "Let me write it for you.",
+   "start": 664.52,
+   "end": 665.88,
+   "words": [
+    ["Let", 664.52, 664.68],
+    ["me", 664.68, 664.8],
+    ["write", 664.8, 665.0],
+    ["it", 665.0, 665.12],
+    ["for", 665.12, 665.36],
+    ["you.", 665.36, 665.88]
+   ]
+  },
+  {
+   "text": "I wrote it down and shoved the notebook into his chest.",
+   "start": 665.92,
+   "end": 669.12,
+   "words": [
+    ["I", 665.92, 666.0],
+    ["wrote", 666.0, 666.28],
+    ["it", 666.28, 666.36],
+    ["down", 666.36, 666.72],
+    ["and", 666.72, 666.96],
+    ["shoved", 666.96, 667.48],
+    ["the", 667.48, 667.6],
+    ["notebook", 667.6, 668.08],
+    ["into", 668.08, 668.28],
+    ["his", 668.28, 668.44],
+    ["chest.", 668.44, 669.12]
+   ]
+  },
+  {
+   "text": "By the next week, he was trying to talk to Mom again.",
+   "start": 669.12,
+   "end": 672.6,
+   "words": [
+    ["By", 669.12, 669.32],
+    ["the", 669.32, 669.44],
+    ["next", 669.44, 669.84],
+    ["week,", 669.84, 670.4],
+    ["he", 670.4, 670.56],
+    ["was", 670.56, 670.72],
+    ["trying", 670.72, 671.04],
+    ["to", 671.04, 671.16],
+    ["talk", 671.16, 671.44],
+    ["to", 671.44, 671.6],
+    ["Mom", 671.6, 671.92],
+    ["again.", 671.92, 672.6]
+   ]
+  },
+  {
+   "text": "Someone wrote in my notebook that you're a witch.",
+   "start": 672.64,
+   "end": 674.92,
+   "words": [
+    ["Someone", 672.64, 673.04],
+    ["wrote", 673.04, 673.28],
+    ["in", 673.28, 673.36],
+    ["my", 673.36, 673.44],
+    ["notebook", 673.44, 673.88],
+    ["that", 673.88, 674.04],
+    ["you're", 674.04, 674.16],
+    ["a", 674.16, 674.24],
+    ["witch.", 674.24, 674.92]
+   ]
+  },
+  {
+   "text": "It's not my handwriting.",
+   "start": 675.04,
+   "end": 676.8,
+   "words": [
+    ["It's", 675.04, 675.32],
+    ["not", 675.32, 675.56],
+    ["my", 675.56, 675.8],
+    ["handwriting.", 675.8, 676.8]
+   ]
+  },
+  {
+   "text": "People have tried to prank me before, but I know better.",
+   "start": 676.8,
+   "end": 679.72,
+   "words": [
+    ["People", 676.8, 677.08],
+    ["have", 677.08, 677.2],
+    ["tried", 677.2, 677.48],
+    ["to", 677.48, 677.56],
+    ["prank", 677.56, 677.84],
+    ["me", 677.84, 677.96],
+    ["before,", 677.96, 678.44],
+    ["but", 678.44, 678.84],
+    ["I", 678.84, 678.92],
+    ["know", 678.92, 679.04],
+    ["better.", 679.04, 679.72]
+   ]
+  },
+  {
+   "text": "Oh, sweet mother of Jesus.",
+   "start": 679.72,
+   "end": 681.32,
+   "words": [
+    ["Oh,", 679.72, 679.84],
+    ["sweet", 679.84, 680.24],
+    ["mother", 680.24, 680.52],
+    ["of", 680.52, 680.64],
+    ["Jesus.", 680.64, 681.32]
+   ]
+  },
+  {
+   "text": "After that, Mom had to wear a card around her neck.",
+   "start": 681.52,
+   "end": 684.52,
+   "words": [
+    ["After", 681.52, 681.8],
+    ["that,", 681.8, 682.36],
+    ["Mom", 682.36, 682.56],
+    ["had", 682.56, 682.72],
+    ["to", 682.72, 682.8],
+    ["wear", 682.8, 683.04],
+    ["a", 683.04, 683.12],
+    ["card", 683.12, 683.56],
+    ["around", 683.56, 683.88],
+    ["her", 683.88, 684.0],
+    ["neck.", 684.0, 684.52]
+   ]
+  },
+  {
+   "text": "Whenever Miles came near her, she'd flip it over for him to read.",
+   "start": 684.52,
+   "end": 688.32,
+   "words": [
+    ["Whenever", 684.52, 684.88],
+    ["Miles", 684.88, 685.28],
+    ["came", 685.28, 685.52],
+    ["near", 685.52, 685.76],
+    ["her,", 685.76, 686.24],
+    ["she'd", 686.24, 686.48],
+    ["flip", 686.48, 686.76],
+    ["it", 686.76, 686.88],
+    ["over", 686.88, 687.16],
+    ["for", 687.16, 687.32],
+    ["him", 687.32, 687.56],
+    ["to", 687.56, 687.72],
+    ["read.", 687.72, 688.32]
+   ]
+  },
+  {
+   "text": "Dear Miles, no.",
+   "start": 688.56,
+   "end": 690.48,
+   "words": [
+    ["Dear", 688.56, 689.0],
+    ["Miles,", 689.0, 689.68],
+    ["no.", 690.04, 690.48]
+   ]
+  },
+  {
+   "text": "So, one day during lunch, while we were sitting with the coolest girls in school, I asked Mom for something.",
+   "start": 690.8,
+   "end": 697.2,
+   "words": [
+    ["So,", 690.8, 691.04],
+    ["one", 691.04, 691.24],
+    ["day", 691.24, 691.4],
+    ["during", 691.4, 691.76],
+    ["lunch,", 691.76, 692.36],
+    ["while", 692.36, 692.64],
+    ["we", 692.64, 692.76],
+    ["were", 692.76, 692.88],
+    ["sitting", 692.88, 693.16],
+    ["with", 693.16, 693.28],
+    ["the", 693.28, 693.56],
+    ["coolest", 693.56, 694.16],
+    ["girls", 694.16, 694.52],
+    ["in", 694.52, 694.64],
+    ["school,", 694.64, 695.4],
+    ["I", 695.52, 695.64],
+    ["asked", 695.64, 695.96],
+    ["Mom", 695.96, 696.24],
+    ["for", 696.24, 696.36],
+    ["something.", 696.36, 697.2]
+   ]
+  },
+  {
+   "text": "Mom, I have a serious idea.",
+   "start": 697.2,
+   "end": 699.24,
+   "words": [
+    ["Mom,", 697.2, 697.72],
+    ["I", 697.88, 698.0],
+    ["have", 698.0, 698.12],
+    ["a", 698.12, 698.17],
+    ["serious", 698.16, 698.64],
+    ["idea.", 698.64, 699.24]
+   ]
+  },
+  {
+   "text": "What? You want to become more outgoing and cool like your mama?",
+   "start": 699.32,
+   "end": 702.96,
+   "words": [
+    ["What?", 699.32, 699.92],
+    ["You", 700.0, 700.2],
+    ["want", 700.2, 700.4],
+    ["to", 700.4, 700.48],
+    ["become", 700.48, 700.84],
+    ["more", 700.84, 701.04],
+    ["outgoing", 701.04, 701.48],
+    ["and", 701.48, 701.64],
+    ["cool", 701.64, 702.0],
+    ["like", 702.0, 702.2],
+    ["your", 702.2, 702.36],
+    ["mama?", 702.36, 702.96]
+   ]
+  },
+  {
+   "text": "I said a serious idea, not science fiction.",
+   "start": 703.16,
+   "end": 706.4,
+   "words": [
+    ["I", 703.16, 703.28],
+    ["said", 703.28, 703.52],
+    ["a", 703.52, 703.57],
+    ["serious", 703.56, 704.28],
+    ["idea,", 704.28, 704.88],
+    ["not", 704.92, 705.24],
+    ["science", 705.24, 705.6],
+    ["fiction.", 705.6, 706.4]
+   ]
+  },
+  {
+   "text": "Anyway, once you become a witch, the first thing you owe me is making Miles hate you.",
+   "start": 706.4,
+   "end": 712.24,
+   "words": [
+    ["Anyway,", 706.4, 707.16],
+    ["once", 707.52, 707.8],
+    ["you", 707.8, 707.88],
+    ["become", 707.88, 708.12],
+    ["a", 708.12, 708.2],
+    ["witch,", 708.2, 708.88],
+    ["the", 708.88, 709.04],
+    ["first", 709.04, 709.48],
+    ["thing", 709.48, 709.64],
+    ["you", 709.64, 709.84],
+    ["owe", 709.84, 710.0],
+    ["me", 710.0, 710.24],
+    ["is", 710.24, 710.48],
+    ["making", 710.48, 711.04],
+    ["Miles", 711.04, 711.44],
+    ["hate", 711.44, 711.72],
+    ["you.", 711.72, 712.24]
+   ]
+  },
+  {
+   "text": "Oh, Lord knows I need that spell for many guys.",
+   "start": 712.28,
+   "end": 715.36,
+   "words": [
+    ["Oh,", 712.28, 712.72],
+    ["Lord", 712.88, 713.16],
+    ["knows", 713.16, 713.44],
+    ["I", 713.44, 713.52],
+    ["need", 713.52, 713.72],
+    ["that", 713.72, 713.96],
+    ["spell", 713.96, 714.28],
+    ["for", 714.28, 714.44],
+    ["many", 714.44, 714.76],
+    ["guys.", 714.76, 715.36]
+   ]
+  },
+  {
+   "text": "But just then, Ashley came to our table.",
+   "start": 715.6,
+   "end": 718.08,
+   "words": [
+    ["But", 715.6, 715.76],
+    ["just", 715.76, 716.0],
+    ["then,", 716.0, 716.52],
+    ["Ashley", 716.52, 716.96],
+    ["came", 716.96, 717.16],
+    ["to", 717.16, 717.28],
+    ["our", 717.28, 717.4],
+    ["table.", 717.4, 718.08]
+   ]
+  },
+  {
+   "text": "She was the school's biggest and meanest bully.",
+   "start": 718.2,
+   "end": 721.44,
+   "words": [
+    ["She", 718.2, 718.48],
+    ["was", 718.48, 718.68],
+    ["the", 718.68, 718.76],
+    ["school's", 718.76, 719.24],
+    ["biggest", 719.24, 719.88],
+    ["and", 719.88, 720.16],
+    ["meanest", 720.16, 720.88],
+    ["bully.", 720.88, 721.44]
+   ]
+  },
+  {
+   "text": "She had been away for a month visiting her relatives in Sweden, and apparently, peace ended the second she came back.",
+   "start": 721.44,
+   "end": 728.32,
+   "words": [
+    ["She", 721.44, 721.64],
+    ["had", 721.64, 721.76],
+    ["been", 721.76, 721.88],
+    ["away", 721.88, 722.12],
+    ["for", 722.12, 722.24],
+    ["a", 722.24, 722.32],
+    ["month", 722.32, 722.6],
+    ["visiting", 722.6, 722.96],
+    ["her", 722.96, 723.08],
+    ["relatives", 723.08, 723.72],
+    ["in", 723.72, 723.84],
+    ["Sweden,", 723.84, 724.6],
+    ["and", 724.68, 724.84],
+    ["apparently,", 724.84, 725.92],
+    ["peace", 725.92, 726.28],
+    ["ended", 726.28, 726.64],
+    ["the", 726.64, 726.76],
+    ["second", 726.76, 727.32],
+    ["she", 727.32, 727.48],
+    ["came", 727.48, 727.72],
+    ["back.", 727.72, 728.32]
+   ]
+  },
+  {
+   "text": "Well, well, well.",
+   "start": 728.36,
+   "end": 730.08,
+   "words": [
+    ["Well,", 728.36, 728.96],
+    ["well,", 728.96, 729.48],
+    ["well.", 729.48, 730.08]
+   ]
+  },
+  {
+   "text": "I leave for 1 month, and suddenly you think you run this place?",
+   "start": 730.32,
+   "end": 734.12,
+   "words": [
+    ["I", 730.32, 730.52],
+    ["leave", 730.52, 730.8],
+    ["for", 730.8, 731.04],
+    ["1", 731.04, 731.32],
+    ["month,", 731.44, 731.8],
+    ["and", 731.8, 731.96],
+    ["suddenly", 731.96, 732.4],
+    ["you", 732.4, 732.56],
+    ["think", 732.56, 732.84],
+    ["you", 732.84, 733.0],
+    ["run", 733.0, 733.24],
+    ["this", 733.24, 733.44],
+    ["place?", 733.44, 734.12]
+   ]
+  },
+  {
+   "text": "This is my table. Move.",
+   "start": 734.24,
+   "end": 736.44,
+   "words": [
+    ["This", 734.24, 734.44],
+    ["is", 734.44, 734.6],
+    ["my", 734.6, 734.96],
+    ["table.", 735.04, 735.72],
+    ["Move.", 735.84, 736.44]
+   ]
+  },
+  {
+   "text": "Excuse me? I wasn't talking to you, wannabe.",
+   "start": 736.76,
+   "end": 740.12,
+   "words": [
+    ["Excuse", 736.76, 737.44],
+    ["me?", 737.6, 738.04],
+    ["I", 738.08, 738.2],
+    ["wasn't", 738.2, 738.52],
+    ["talking", 738.52, 738.92],
+    ["to", 738.92, 739.08],
+    ["you,", 739.08, 739.28],
+    ["wannabe.", 739.28, 740.12]
+   ]
+  },
+  {
+   "text": "Ugly makeover, by the way.",
+   "start": 740.32,
+   "end": 742.04,
+   "words": [
+    ["Ugly", 740.32, 740.68],
+    ["makeover,", 740.68, 741.24],
+    ["by", 741.24, 741.4],
+    ["the", 741.4, 741.52],
+    ["way.", 741.52, 742.04]
+   ]
+  },
+  {
+   "text": "What's wrong, V?",
+   "start": 742.36,
+   "end": 743.52,
+   "words": [
+    ["What's", 742.36, 742.72],
+    ["wrong,", 742.72, 743.16],
+    ["V?", 743.16, 743.52]
+   ]
+  },
+  {
+   "text": "Cat got your tongue?",
+   "start": 743.96,
+   "end": 745.52,
+   "words": [
+    ["Cat", 743.96, 744.36],
+    ["got", 744.36, 744.6],
+    ["your", 744.6, 744.76],
+    ["tongue?", 744.76, 745.52]
+   ]
+  },
+  {
+   "text": "But Mom just stared at her without saying a word, which was very weird.",
+   "start": 745.68,
+   "end": 750.48,
+   "words": [
+    ["But", 745.68, 745.84],
+    ["Mom", 745.84, 746.12],
+    ["just", 746.12, 746.36],
+    ["stared", 746.36, 746.68],
+    ["at", 746.68, 746.76],
+    ["her", 746.76, 747.12],
+    ["without", 747.12, 747.44],
+    ["saying", 747.44, 747.68],
+    ["a", 747.68, 747.76],
+    ["word,", 747.76, 748.36],
+    ["which", 748.52, 748.76],
+    ["was", 748.76, 749.2],
+    ["very", 749.4, 749.8],
+    ["weird.", 749.8, 750.48]
+   ]
+  },
+  {
+   "text": "Are you deaf or something?",
+   "start": 750.48,
+   "end": 752.0,
+   "words": [
+    ["Are", 750.48, 750.6],
+    ["you", 750.6, 750.72],
+    ["deaf", 750.72, 751.04],
+    ["or", 751.04, 751.12],
+    ["something?", 751.12, 752.0]
+   ]
+  },
+  {
+   "text": "I don't usually talk back, but Mom looked so frozen that I felt like I had to say something.",
+   "start": 752.0,
+   "end": 757.88,
+   "words": [
+    ["I", 752.0, 752.08],
+    ["don't", 752.08, 752.36],
+    ["usually", 752.36, 752.76],
+    ["talk", 752.76, 753.04],
+    ["back,", 753.04, 753.64],
+    ["but", 753.64, 753.84],
+    ["Mom", 753.84, 754.12],
+    ["looked", 754.12, 754.44],
+    ["so", 754.44, 754.68],
+    ["frozen", 754.68, 755.36],
+    ["that", 755.6, 755.76],
+    ["I", 755.76, 755.84],
+    ["felt", 755.84, 756.04],
+    ["like", 756.04, 756.16],
+    ["I", 756.16, 756.21],
+    ["had", 756.2, 756.36],
+    ["to", 756.36, 756.44],
+    ["say", 756.44, 756.88],
+    ["something.", 756.88, 757.88]
+   ]
+  },
+  {
+   "text": "No, she just can't remember hearing about you.",
+   "start": 758.04,
+   "end": 761.2,
+   "words": [
+    ["No,", 758.04, 758.48],
+    ["she", 758.76, 759.04],
+    ["just", 759.04, 759.44],
+    ["can't", 759.44, 759.68],
+    ["remember", 759.68, 760.04],
+    ["hearing", 760.04, 760.36],
+    ["about", 760.36, 760.68],
+    ["you.", 760.68, 761.2]
+   ]
+  },
+  {
+   "text": "I guess your reputation wasn't as life-changing as you thought.",
+   "start": 761.4,
+   "end": 765.28,
+   "words": [
+    ["I", 761.4, 761.48],
+    ["guess", 761.48, 761.72],
+    ["your", 761.72, 761.84],
+    ["reputation", 761.84, 762.84],
+    ["wasn't", 763.0, 763.32],
+    ["as", 763.32, 763.48],
+    ["life-changing", 763.48, 764.2],
+    ["as", 764.2, 764.32],
+    ["you", 764.32, 764.44],
+    ["thought.", 764.44, 765.28]
+   ]
+  },
+  {
+   "text": "Ashley scoffed and shoved me.",
+   "start": 765.32,
+   "end": 767.4,
+   "words": [
+    ["Ashley", 765.32, 765.72],
+    ["scoffed", 765.72, 766.36],
+    ["and", 766.36, 766.56],
+    ["shoved", 766.56, 766.96],
+    ["me.", 766.96, 767.4]
+   ]
+  },
+  {
+   "text": "I shoved her back.",
+   "start": 767.68,
+   "end": 769.0,
+   "words": [
+    ["I", 767.68, 767.92],
+    ["shoved", 767.92, 768.28],
+    ["her", 768.28, 768.4],
+    ["back.", 768.4, 769.0]
+   ]
+  },
+  {
+   "text": "And a few kids quickly stepped in and pulled her away while she kept cursing and threatening us.",
+   "start": 769.48,
+   "end": 774.52,
+   "words": [
+    ["And", 769.48, 769.56],
+    ["a", 769.56, 769.61],
+    ["few", 769.6, 769.8],
+    ["kids", 769.8, 770.08],
+    ["quickly", 770.08, 770.48],
+    ["stepped", 770.48, 770.84],
+    ["in", 770.84, 770.96],
+    ["and", 770.96, 771.12],
+    ["pulled", 771.12, 771.36],
+    ["her", 771.36, 771.48],
+    ["away", 771.48, 772.0],
+    ["while", 772.04, 772.2],
+    ["she", 772.2, 772.4],
+    ["kept", 772.4, 772.76],
+    ["cursing", 772.76, 773.32],
+    ["and", 773.32, 773.48],
+    ["threatening", 773.48, 774.08],
+    ["us.", 774.08, 774.52]
+   ]
+  },
+  {
+   "text": "Mom didn't even try to protect me.",
+   "start": 774.76,
+   "end": 776.76,
+   "words": [
+    ["Mom", 774.76, 774.96],
+    ["didn't", 774.96, 775.2],
+    ["even", 775.2, 775.4],
+    ["try", 775.4, 775.72],
+    ["to", 775.72, 775.84],
+    ["protect", 775.84, 776.32],
+    ["me.", 776.32, 776.76]
+   ]
+  },
+  {
+   "text": "I turned to her and gave her a look like, \"Seriously?\" What?",
+   "start": 776.76,
+   "end": 780.96,
+   "words": [
+    ["I", 776.76, 776.88],
+    ["turned", 776.88, 777.2],
+    ["to", 777.2, 777.32],
+    ["her", 777.32, 777.48],
+    ["and", 777.48, 777.68],
+    ["gave", 777.68, 777.88],
+    ["her", 777.88, 778.0],
+    ["a", 778.0, 778.08],
+    ["look", 778.08, 778.48],
+    ["like,", 778.48, 779.08],
+    ["\"Seriously?\"", 779.32, 780.36],
+    ["What?", 780.36, 780.96]
+   ]
+  },
+  {
+   "text": "I let you handle it.",
+   "start": 781.12,
+   "end": 782.12,
+   "words": [
+    ["I", 781.12, 781.17],
+    ["let", 781.16, 781.36],
+    ["you", 781.36, 781.48],
+    ["handle", 781.48, 781.84],
+    ["it.", 781.84, 782.12]
+   ]
+  },
+  {
+   "text": "I'm not getting involved in teen drama.",
+   "start": 782.12,
+   "end": 784.08,
+   "words": [
+    ["I'm", 782.12, 782.24],
+    ["not", 782.24, 782.4],
+    ["getting", 782.4, 782.6],
+    ["involved", 782.6, 782.96],
+    ["in", 782.96, 783.08],
+    ["teen", 783.08, 783.4],
+    ["drama.", 783.4, 784.08]
+   ]
+  },
+  {
+   "text": "Now, let's go to class.",
+   "start": 784.24,
+   "end": 785.32,
+   "words": [
+    ["Now,", 784.24, 784.36],
+    ["let's", 784.36, 784.52],
+    ["go", 784.52, 784.64],
+    ["to", 784.64, 784.72],
+    ["class.", 784.72, 785.32]
+   ]
+  },
+  {
+   "text": "But something about that felt very weird, because my mom never backed away from drama.",
+   "start": 785.32,
+   "end": 791.52,
+   "words": [
+    ["But", 785.32, 785.56],
+    ["something", 785.56, 786.04],
+    ["about", 786.04, 786.4],
+    ["that", 786.4, 786.92],
+    ["felt", 786.92, 787.44],
+    ["very", 787.56, 788.0],
+    ["weird,", 788.0, 788.68],
+    ["because", 788.68, 788.92],
+    ["my", 788.92, 789.08],
+    ["mom", 789.08, 789.52],
+    ["never", 789.68, 790.16],
+    ["backed", 790.16, 790.48],
+    ["away", 790.48, 790.68],
+    ["from", 790.68, 790.84],
+    ["drama.", 790.84, 791.52]
+   ]
+  },
+  {
+   "text": "Days passed, and Grandma's health wasn't getting any better.",
+   "start": 791.84,
+   "end": 795.36,
+   "words": [
+    ["Days", 791.84, 792.16],
+    ["passed,", 792.16, 792.84],
+    ["and", 792.84, 793.0],
+    ["Grandma's", 793.0, 793.48],
+    ["health", 793.48, 793.88],
+    ["wasn't", 793.88, 794.2],
+    ["getting", 794.2, 794.44],
+    ["any", 794.44, 794.6],
+    ["better.", 794.6, 795.36]
+   ]
+  },
+  {
+   "text": "To make it worse, she didn't remember the exact date Mom had to be ready for the transformation.",
+   "start": 795.48,
+   "end": 800.76,
+   "words": [
+    ["To", 795.48, 795.6],
+    ["make", 795.6, 795.76],
+    ["it", 795.76, 795.96],
+    ["worse,", 795.96, 796.56],
+    ["she", 796.56, 796.76],
+    ["didn't", 796.76, 797.0],
+    ["remember", 797.0, 797.48],
+    ["the", 797.48, 797.6],
+    ["exact", 797.6, 798.16],
+    ["date", 798.16, 798.44],
+    ["Mom", 798.44, 798.68],
+    ["had", 798.68, 798.8],
+    ["to", 798.8, 798.88],
+    ["be", 798.88, 799.04],
+    ["ready", 799.04, 799.36],
+    ["for", 799.36, 799.48],
+    ["the", 799.48, 799.56],
+    ["transformation.", 799.56, 800.76]
+   ]
+  },
+  {
+   "text": "It's somewhere between December and February.",
+   "start": 801.04,
+   "end": 804.96,
+   "words": [
+    ["It's", 801.04, 801.48],
+    ["somewhere", 801.48, 802.24],
+    ["between", 802.24, 802.92],
+    ["December", 802.92, 803.76],
+    ["and", 803.8, 804.04],
+    ["February.", 804.04, 804.96]
+   ]
+  },
+  {
+   "text": "Great. Very specific.",
+   "start": 805.28,
+   "end": 807.36,
+   "words": [
+    ["Great.", 805.28, 805.96],
+    ["Very", 806.0, 806.44],
+    ["specific.", 806.44, 807.36]
+   ]
+  },
+  {
+   "text": "And I still hadn't gotten Miles to like me.",
+   "start": 807.64,
+   "end": 810.28,
+   "words": [
+    ["And", 807.64, 807.76],
+    ["I", 807.76, 807.84],
+    ["still", 807.84, 808.28],
+    ["hadn't", 808.28, 808.56],
+    ["gotten", 808.56, 808.88],
+    ["Miles", 808.88, 809.36],
+    ["to", 809.36, 809.52],
+    ["like", 809.52, 809.84],
+    ["me.", 809.84, 810.28]
+   ]
+  },
+  {
+   "text": "By the way, he had stopped talking to Mom, but he was still obsessed with his notebook.",
+   "start": 810.44,
+   "end": 815.28,
+   "words": [
+    ["By", 810.44, 810.6],
+    ["the", 810.6, 810.68],
+    ["way,", 810.68, 811.2],
+    ["he", 811.2, 811.36],
+    ["had", 811.36, 811.56],
+    ["stopped", 811.56, 811.92],
+    ["talking", 811.92, 812.28],
+    ["to", 812.28, 812.36],
+    ["Mom,", 812.36, 812.84],
+    ["but", 812.84, 812.96],
+    ["he", 812.96, 813.08],
+    ["was", 813.08, 813.32],
+    ["still", 813.32, 813.76],
+    ["obsessed", 813.76, 814.24],
+    ["with", 814.24, 814.36],
+    ["his", 814.36, 814.48],
+    ["notebook.", 814.48, 815.28]
+   ]
+  },
+  {
+   "text": "And even though he had short-term memory issues, he was really smart, especially in chemistry.",
+   "start": 815.28,
+   "end": 821.16,
+   "words": [
+    ["And", 815.28, 815.4],
+    ["even", 815.4, 815.64],
+    ["though", 815.64, 815.76],
+    ["he", 815.76, 815.92],
+    ["had", 815.92, 816.08],
+    ["short-term", 816.08, 816.6],
+    ["memory", 816.6, 816.96],
+    ["issues,", 816.96, 817.68],
+    ["he", 817.68, 817.84],
+    ["was", 817.84, 818.28],
+    ["really", 818.32, 818.84],
+    ["smart,", 818.84, 819.48],
+    ["especially", 819.48, 820.04],
+    ["in", 820.04, 820.16],
+    ["chemistry.", 820.16, 821.16]
+   ]
+  },
+  {
+   "text": "One day in chemistry class, I was assigned to work with Miles.",
+   "start": 821.24,
+   "end": 824.64,
+   "words": [
+    ["One", 821.24, 821.44],
+    ["day", 821.44, 821.64],
+    ["in", 821.64, 821.8],
+    ["chemistry", 821.8, 822.28],
+    ["class,", 822.28, 822.92],
+    ["I", 822.92, 822.97],
+    ["was", 822.96, 823.12],
+    ["assigned", 823.12, 823.52],
+    ["to", 823.52, 823.64],
+    ["work", 823.64, 823.8],
+    ["with", 823.8, 823.96],
+    ["Miles.", 823.96, 824.64]
+   ]
+  },
+  {
+   "text": "I tried to act nonchalant because if he wasn't going to notice me, then I wasn't going to notice him either.",
+   "start": 824.84,
+   "end": 831.16,
+   "words": [
+    ["I", 824.84, 824.92],
+    ["tried", 824.92, 825.2],
+    ["to", 825.2, 825.32],
+    ["act", 825.32, 825.6],
+    ["nonchalant", 825.6, 826.32],
+    ["because", 826.32, 826.96],
+    ["if", 826.96, 827.08],
+    ["he", 827.08, 827.16],
+    ["wasn't", 827.16, 827.44],
+    ["going", 827.44, 827.64],
+    ["to", 827.64, 827.72],
+    ["notice", 827.72, 828.16],
+    ["me,", 828.16, 828.6],
+    ["then", 828.64, 828.96],
+    ["I", 828.96, 829.24],
+    ["wasn't", 829.24, 829.6],
+    ["going", 829.6, 829.84],
+    ["to", 829.84, 829.92],
+    ["notice", 829.92, 830.2],
+    ["him", 830.2, 830.44],
+    ["either.", 830.44, 831.16]
+   ]
+  },
+  {
+   "text": "You're holding the beakers so steady.",
+   "start": 831.16,
+   "end": 833.08,
+   "words": [
+    ["You're", 831.16, 831.36],
+    ["holding", 831.36, 831.68],
+    ["the", 831.68, 831.8],
+    ["beakers", 831.8, 832.32],
+    ["so", 832.32, 832.48],
+    ["steady.", 832.48, 833.08]
+   ]
+  },
+  {
+   "text": "It's like you were born for this.",
+   "start": 833.08,
+   "end": 834.52,
+   "words": [
+    ["It's", 833.08, 833.2],
+    ["like", 833.2, 833.36],
+    ["you", 833.36, 833.44],
+    ["were", 833.44, 833.52],
+    ["born", 833.52, 833.8],
+    ["for", 833.8, 833.92],
+    ["this.", 833.92, 834.52]
+   ]
+  },
+  {
+   "text": "Oh, wow. Thank you.",
+   "start": 835.0,
+   "end": 837.4,
+   "words": [
+    ["Oh,", 835.0, 835.44],
+    ["wow.", 835.8, 836.32],
+    ["Thank", 836.56, 836.88],
+    ["you.", 836.88, 837.4]
+   ]
+  },
+  {
+   "text": "Aren't you the sweetest?",
+   "start": 837.56,
+   "end": 838.96,
+   "words": [
+    ["Aren't", 837.56, 837.84],
+    ["you", 837.84, 837.92],
+    ["the", 837.92, 838.04],
+    ["sweetest?", 838.04, 838.96]
+   ]
+  },
+  {
+   "text": "Then he pulled out his notebook and scribbled something down.",
+   "start": 839.2,
+   "end": 842.24,
+   "words": [
+    ["Then", 839.2, 839.32],
+    ["he", 839.32, 839.44],
+    ["pulled", 839.44, 839.68],
+    ["out", 839.68, 839.8],
+    ["his", 839.8, 839.92],
+    ["notebook", 839.92, 840.4],
+    ["and", 840.4, 840.64],
+    ["scribbled", 840.64, 841.28],
+    ["something", 841.28, 841.64],
+    ["down.", 841.64, 842.24]
+   ]
+  },
+  {
+   "text": "What? Did you write that I have magical beaker hands?",
+   "start": 842.4,
+   "end": 845.72,
+   "words": [
+    ["What?", 842.4, 842.96],
+    ["Did", 842.96, 843.16],
+    ["you", 843.16, 843.24],
+    ["write", 843.24, 843.48],
+    ["that", 843.48, 843.64],
+    ["I", 843.64, 843.69],
+    ["have", 843.68, 844.0],
+    ["magical", 844.0, 844.6],
+    ["beaker", 844.6, 845.04],
+    ["hands?", 845.04, 845.72]
+   ]
+  },
+  {
+   "text": "But when I glanced at his notebook, I saw the letter V written all over the page.",
+   "start": 845.84,
+   "end": 850.68,
+   "words": [
+    ["But", 845.84, 846.0],
+    ["when", 846.0, 846.16],
+    ["I", 846.16, 846.24],
+    ["glanced", 846.24, 846.64],
+    ["at", 846.64, 846.72],
+    ["his", 846.72, 846.84],
+    ["notebook,", 846.84, 847.52],
+    ["I", 847.52, 847.64],
+    ["saw", 847.64, 847.84],
+    ["the", 847.84, 847.96],
+    ["letter", 847.96, 848.28],
+    ["V", 848.28, 848.56],
+    ["written", 848.76, 849.12],
+    ["all", 849.12, 849.56],
+    ["over", 849.56, 849.92],
+    ["the", 849.92, 850.08],
+    ["page.", 850.08, 850.68]
+   ]
+  },
+  {
+   "text": "Okay, seriously, what do you want from V?",
+   "start": 851.04,
+   "end": 853.64,
+   "words": [
+    ["Okay,", 851.04, 851.56],
+    ["seriously,", 851.56, 852.52],
+    ["what", 852.52, 852.68],
+    ["do", 852.68, 852.8],
+    ["you", 852.8, 852.88],
+    ["want", 852.88, 853.08],
+    ["from", 853.08, 853.28],
+    ["V?", 853.28, 853.64]
+   ]
+  },
+  {
+   "text": "Why are you so obsessed with her? Obsessed? Me?",
+   "start": 853.88,
+   "end": 857.0,
+   "words": [
+    ["Why", 853.88, 854.12],
+    ["are", 854.12, 854.28],
+    ["you", 854.28, 854.4],
+    ["so", 854.4, 854.56],
+    ["obsessed", 854.56, 855.16],
+    ["with", 855.16, 855.28],
+    ["her?", 855.28, 855.8],
+    ["Obsessed?", 855.84, 856.56],
+    ["Me?", 856.56, 857.0]
+   ]
+  },
+  {
+   "text": "No, I just need to tell her something, but she won't listen to me.",
+   "start": 857.12,
+   "end": 860.28,
+   "words": [
+    ["No,", 857.12, 857.52],
+    ["I", 857.52, 857.68],
+    ["just", 857.68, 857.96],
+    ["need", 857.96, 858.12],
+    ["to", 858.12, 858.2],
+    ["tell", 858.2, 858.36],
+    ["her", 858.36, 858.44],
+    ["something,", 858.44, 858.88],
+    ["but", 858.88, 859.16],
+    ["she", 859.16, 859.32],
+    ["won't", 859.32, 859.52],
+    ["listen", 859.52, 859.76],
+    ["to", 859.76, 859.84],
+    ["me.", 859.84, 860.28]
+   ]
+  },
+  {
+   "text": "He looked around, then lowered his voice.",
+   "start": 860.36,
+   "end": 862.96,
+   "words": [
+    ["He", 860.36, 860.48],
+    ["looked", 860.48, 860.76],
+    ["around,", 860.76, 861.48],
+    ["then", 861.48, 861.76],
+    ["lowered", 861.76, 862.12],
+    ["his", 862.12, 862.28],
+    ["voice.", 862.28, 862.96]
+   ]
+  },
+  {
+   "text": "Something's wrong with her eyes.",
+   "start": 863.12,
+   "end": 864.72,
+   "words": [
+    ["Something's", 863.12, 863.52],
+    ["wrong", 863.52, 863.76],
+    ["with", 863.76, 863.88],
+    ["her", 863.88, 864.12],
+    ["eyes.", 864.12, 864.72]
+   ]
+  },
+  {
+   "text": "Most people wouldn't notice it, but the whites of her eyes aren't fully white.",
+   "start": 864.96,
+   "end": 868.76,
+   "words": [
+    ["Most", 864.96, 865.16],
+    ["people", 865.16, 865.48],
+    ["wouldn't", 865.48, 865.76],
+    ["notice", 865.76, 866.08],
+    ["it,", 866.08, 866.24],
+    ["but", 866.24, 866.36],
+    ["the", 866.36, 866.48],
+    ["whites", 866.48, 866.72],
+    ["of", 866.72, 866.8],
+    ["her", 866.8, 867.04],
+    ["eyes", 867.04, 867.4],
+    ["aren't", 867.4, 867.76],
+    ["fully", 867.76, 868.08],
+    ["white.", 868.08, 868.76]
+   ]
+  },
+  {
+   "text": "There's this faint silver shade around the edges.",
+   "start": 869.0,
+   "end": 871.44,
+   "words": [
+    ["There's", 869.0, 869.16],
+    ["this", 869.16, 869.36],
+    ["faint", 869.36, 869.68],
+    ["silver", 869.68, 870.08],
+    ["shade", 870.08, 870.44],
+    ["around", 870.44, 870.68],
+    ["the", 870.68, 870.76],
+    ["edges.", 870.76, 871.44]
+   ]
+  },
+  {
+   "text": "At first, I thought it was the lighting, but I saw it three times.",
+   "start": 871.64,
+   "end": 874.88,
+   "words": [
+    ["At", 871.64, 871.8],
+    ["first,", 871.8, 872.12],
+    ["I", 872.12, 872.17],
+    ["thought", 872.16, 872.44],
+    ["it", 872.44, 872.52],
+    ["was", 872.52, 872.64],
+    ["the", 872.64, 872.76],
+    ["lighting,", 872.76, 873.4],
+    ["but", 873.4, 873.52],
+    ["I", 873.52, 873.6],
+    ["saw", 873.6, 873.84],
+    ["it", 873.84, 873.92],
+    ["three", 873.92, 874.2],
+    ["times.", 874.2, 874.88]
+   ]
+  },
+  {
+   "text": "He flipped the notebook toward me.",
+   "start": 875.08,
+   "end": 876.76,
+   "words": [
+    ["He", 875.08, 875.16],
+    ["flipped", 875.16, 875.56],
+    ["the", 875.56, 875.64],
+    ["notebook", 875.64, 876.12],
+    ["toward", 876.12, 876.4],
+    ["me.", 876.4, 876.76]
+   ]
+  },
+  {
+   "text": "It said, \"Silver in eyes.",
+   "start": 876.76,
+   "end": 879.16,
+   "words": [
+    ["It", 876.76, 876.92],
+    ["said,", 876.92, 877.52],
+    ["\"Silver", 877.64, 878.24],
+    ["in", 878.24, 878.56],
+    ["eyes.", 878.56, 879.16]
+   ]
+  },
+  {
+   "text": "Getting stronger. Not normal.",
+   "start": 879.32,
+   "end": 881.8,
+   "words": [
+    ["Getting", 879.32, 879.64],
+    ["stronger.", 879.64, 880.56],
+    ["Not", 880.68, 881.04],
+    ["normal.", 881.04, 881.8]
+   ]
+  },
+  {
+   "text": "Tell her.\" Also, not to be mean, but doesn't she look a little older than 16?",
+   "start": 881.96,
+   "end": 886.04,
+   "words": [
+    ["Tell", 881.96, 882.36],
+    ["her.\"", 882.36, 882.96],
+    ["Also,", 882.96, 883.28],
+    ["not", 883.28, 883.56],
+    ["to", 883.56, 883.64],
+    ["be", 883.64, 883.76],
+    ["mean,", 883.76, 884.04],
+    ["but", 884.04, 884.24],
+    ["doesn't", 884.24, 884.52],
+    ["she", 884.52, 884.64],
+    ["look", 884.64, 884.84],
+    ["a", 884.84, 884.89],
+    ["little", 884.88, 885.16],
+    ["older", 885.16, 885.44],
+    ["than", 885.44, 885.6],
+    ["16?", 885.6, 886.04]
+   ]
+  },
+  {
+   "text": "Maybe she got held back a couple of years or three.",
+   "start": 886.76,
+   "end": 889.76,
+   "words": [
+    ["Maybe", 886.76, 887.0],
+    ["she", 887.0, 887.12],
+    ["got", 887.12, 887.32],
+    ["held", 887.32, 887.48],
+    ["back", 887.48, 887.72],
+    ["a", 887.72, 887.77],
+    ["couple", 887.76, 888.08],
+    ["of", 888.08, 888.2],
+    ["years", 888.2, 888.64],
+    ["or", 888.64, 889.0],
+    ["three.", 889.08, 889.76]
+   ]
+  },
+  {
+   "text": "Poor thing. Yeah, definitely.",
+   "start": 890.08,
+   "end": 892.92,
+   "words": [
+    ["Poor", 890.08, 890.28],
+    ["thing.", 890.28, 890.96],
+    ["Yeah,", 891.08, 891.68],
+    ["definitely.", 891.88, 892.92]
+   ]
+  },
+  {
+   "text": "She's just so dumb.",
+   "start": 892.92,
+   "end": 895.28,
+   "words": [
+    ["She's", 892.92, 893.28],
+    ["just", 893.28, 893.8],
+    ["so", 894.16, 894.52],
+    ["dumb.", 894.68, 895.28]
+   ]
+  },
+  {
+   "text": "I looked at Mom, and she flashed me a smile, then gestured for me to keep talking to Miles.",
+   "start": 895.56,
+   "end": 900.88,
+   "words": [
+    ["I", 895.56, 895.64],
+    ["looked", 895.64, 895.92],
+    ["at", 895.92, 896.08],
+    ["Mom,", 896.08, 896.6],
+    ["and", 896.6, 896.76],
+    ["she", 896.76, 896.92],
+    ["flashed", 896.92, 897.32],
+    ["me", 897.32, 897.44],
+    ["a", 897.44, 897.52],
+    ["smile,", 897.52, 898.2],
+    ["then", 898.4, 898.68],
+    ["gestured", 898.68, 899.2],
+    ["for", 899.2, 899.32],
+    ["me", 899.32, 899.44],
+    ["to", 899.44, 899.56],
+    ["keep", 899.56, 899.8],
+    ["talking", 899.8, 900.12],
+    ["to", 900.12, 900.2],
+    ["Miles.", 900.2, 900.88]
+   ]
+  },
+  {
+   "text": "But her face immediately dropped when Ashley walked up to her.",
+   "start": 901.08,
+   "end": 904.88,
+   "words": [
+    ["But", 901.08, 901.24],
+    ["her", 901.24, 901.4],
+    ["face", 901.4, 901.84],
+    ["immediately", 901.84, 902.56],
+    ["dropped", 902.56, 903.08],
+    ["when", 903.08, 903.36],
+    ["Ashley", 903.36, 903.84],
+    ["walked", 903.84, 904.12],
+    ["up", 904.12, 904.24],
+    ["to", 904.24, 904.36],
+    ["her.", 904.36, 904.88]
+   ]
+  },
+  {
+   "text": "Ashley suddenly shoved the beakers and test tubes off the table, and they shattered so loudly that the whole class froze.",
+   "start": 904.96,
+   "end": 911.56,
+   "words": [
+    ["Ashley", 904.96, 905.36],
+    ["suddenly", 905.36, 905.76],
+    ["shoved", 905.76, 906.2],
+    ["the", 906.2, 906.28],
+    ["beakers", 906.28, 906.64],
+    ["and", 906.64, 906.8],
+    ["test", 906.8, 907.08],
+    ["tubes", 907.08, 907.32],
+    ["off", 907.32, 907.48],
+    ["the", 907.48, 907.56],
+    ["table,", 907.56, 908.2],
+    ["and", 908.2, 908.32],
+    ["they", 908.32, 908.44],
+    ["shattered", 908.44, 908.88],
+    ["so", 908.88, 909.24],
+    ["loudly", 909.28, 909.92],
+    ["that", 909.92, 910.04],
+    ["the", 910.04, 910.16],
+    ["whole", 910.16, 910.44],
+    ["class", 910.44, 910.88],
+    ["froze.", 910.88, 911.56]
+   ]
+  },
+  {
+   "text": "Did you tell people that I was a dumb, useless, good-for-nothing witch?",
+   "start": 911.6,
+   "end": 915.68,
+   "words": [
+    ["Did", 911.6, 911.8],
+    ["you", 911.8, 911.96],
+    ["tell", 911.96, 912.28],
+    ["people", 912.28, 912.6],
+    ["that", 912.6, 912.72],
+    ["I", 912.72, 912.8],
+    ["was", 912.8, 912.96],
+    ["a", 912.96, 913.04],
+    ["dumb,", 913.04, 913.64],
+    ["useless,", 913.64, 914.2],
+    ["good-for-nothing", 914.2, 915.0],
+    ["witch?", 915.0, 915.68]
+   ]
+  },
+  {
+   "text": "Uh, not not in that particular order.",
+   "start": 916.24,
+   "end": 919.4,
+   "words": [
+    ["Uh,", 916.24, 916.68],
+    ["not", 917.48, 917.8],
+    ["not", 917.8, 918.04],
+    ["in", 918.04, 918.09],
+    ["that", 918.08, 918.24],
+    ["particular", 918.24, 918.72],
+    ["order.", 918.72, 919.4]
+   ]
+  },
+  {
+   "text": "Ashley gasped, her eyes widening, then grabbed Mom by the collar.",
+   "start": 919.48,
+   "end": 924.44,
+   "words": [
+    ["Ashley", 919.48, 920.16],
+    ["gasped,", 920.16, 920.88],
+    ["her", 920.88, 921.16],
+    ["eyes", 921.16, 921.52],
+    ["widening,", 921.52, 922.4],
+    ["then", 922.4, 922.6],
+    ["grabbed", 922.6, 923.16],
+    ["Mom", 923.16, 923.44],
+    ["by", 923.44, 923.56],
+    ["the", 923.56, 923.68],
+    ["collar.", 923.68, 924.44]
+   ]
+  },
+  {
+   "text": "That was when I rushed over and pushed her away.",
+   "start": 924.44,
+   "end": 926.92,
+   "words": [
+    ["That", 924.44, 924.68],
+    ["was", 924.68, 924.8],
+    ["when", 924.8, 925.0],
+    ["I", 925.0, 925.12],
+    ["rushed", 925.12, 925.56],
+    ["over", 925.56, 925.84],
+    ["and", 925.84, 925.96],
+    ["pushed", 925.96, 926.24],
+    ["her", 926.24, 926.32],
+    ["away.", 926.32, 926.92]
+   ]
+  },
+  {
+   "text": "What is your problem, dude?",
+   "start": 927.0,
+   "end": 928.92,
+   "words": [
+    ["What", 927.0, 927.28],
+    ["is", 927.28, 927.44],
+    ["your", 927.44, 927.6],
+    ["problem,", 927.6, 928.32],
+    ["dude?", 928.32, 928.92]
+   ]
+  },
+  {
+   "text": "Stay out of it, weirdo. Or what?",
+   "start": 928.92,
+   "end": 931.52,
+   "words": [
+    ["Stay", 928.92, 929.4],
+    ["out", 929.4, 929.6],
+    ["of", 929.6, 929.72],
+    ["it,", 929.72, 929.92],
+    ["weirdo.", 929.92, 930.64],
+    ["Or", 930.64, 930.92],
+    ["what?", 930.92, 931.52]
+   ]
+  },
+  {
+   "text": "I got so close to her that our foreheads touched and we were both breathing like angry bulls.",
+   "start": 931.6,
+   "end": 937.44,
+   "words": [
+    ["I", 931.6, 931.76],
+    ["got", 931.76, 932.08],
+    ["so", 932.08, 932.44],
+    ["close", 932.44, 932.8],
+    ["to", 932.8, 932.92],
+    ["her", 932.92, 933.04],
+    ["that", 933.04, 933.2],
+    ["our", 933.2, 933.32],
+    ["foreheads", 933.32, 933.92],
+    ["touched", 933.92, 934.52],
+    ["and", 934.52, 934.64],
+    ["we", 934.64, 934.76],
+    ["were", 934.76, 934.96],
+    ["both", 934.96, 935.48],
+    ["breathing", 935.52, 936.08],
+    ["like", 936.08, 936.36],
+    ["angry", 936.36, 936.76],
+    ["bulls.", 936.76, 937.44]
+   ]
+  },
+  {
+   "text": "Then the teacher came and pulled us apart.",
+   "start": 937.48,
+   "end": 939.72,
+   "words": [
+    ["Then", 937.48, 937.64],
+    ["the", 937.64, 937.76],
+    ["teacher", 937.76, 938.16],
+    ["came", 938.16, 938.44],
+    ["and", 938.44, 938.64],
+    ["pulled", 938.64, 938.92],
+    ["us", 938.92, 939.04],
+    ["apart.", 939.04, 939.72]
+   ]
+  },
+  {
+   "text": "While Ashley was still glaring at me like she wanted me dead, I turned around, but Mom wasn't there.",
+   "start": 939.72,
+   "end": 945.76,
+   "words": [
+    ["While", 939.72, 939.92],
+    ["Ashley", 939.92, 940.32],
+    ["was", 940.32, 940.44],
+    ["still", 940.44, 940.64],
+    ["glaring", 940.64, 941.08],
+    ["at", 941.08, 941.2],
+    ["me", 941.2, 941.28],
+    ["like", 941.28, 941.48],
+    ["she", 941.48, 941.64],
+    ["wanted", 941.64, 942.04],
+    ["me", 942.04, 942.16],
+    ["dead,", 942.16, 942.76],
+    ["I", 942.92, 943.0],
+    ["turned", 943.0, 943.32],
+    ["around,", 943.32, 944.08],
+    ["but", 944.16, 944.36],
+    ["Mom", 944.36, 944.76],
+    ["wasn't", 944.76, 945.08],
+    ["there.", 945.08, 945.76]
+   ]
+  },
+  {
+   "text": "I felt overwhelmed, so I went to the bathroom to wash my face.",
+   "start": 945.96,
+   "end": 949.48,
+   "words": [
+    ["I", 945.96, 946.2],
+    ["felt", 946.2, 946.64],
+    ["overwhelmed,", 946.64, 947.48],
+    ["so", 947.48, 947.6],
+    ["I", 947.6, 947.68],
+    ["went", 947.68, 947.88],
+    ["to", 947.88, 947.96],
+    ["the", 947.96, 948.04],
+    ["bathroom", 948.04, 948.4],
+    ["to", 948.4, 948.52],
+    ["wash", 948.52, 948.76],
+    ["my", 948.76, 948.88],
+    ["face.", 948.88, 949.48]
+   ]
+  },
+  {
+   "text": "I was standing by the sink, writing my initials and Miles' on the mirror, when I heard a faint crying sound.",
+   "start": 949.48,
+   "end": 956.24,
+   "words": [
+    ["I", 949.48, 949.56],
+    ["was", 949.56, 949.72],
+    ["standing", 949.72, 950.08],
+    ["by", 950.08, 950.2],
+    ["the", 950.2, 950.32],
+    ["sink,", 950.32, 950.92],
+    ["writing", 951.0, 951.32],
+    ["my", 951.32, 951.44],
+    ["initials", 951.44, 951.92],
+    ["and", 951.92, 952.24],
+    ["Miles'", 952.24, 952.72],
+    ["on", 952.72, 952.92],
+    ["the", 952.92, 953.04],
+    ["mirror,", 953.04, 953.8],
+    ["when", 953.88, 954.04],
+    ["I", 954.04, 954.16],
+    ["heard", 954.16, 954.64],
+    ["a", 954.64, 954.72],
+    ["faint", 954.72, 955.08],
+    ["crying", 955.08, 955.56],
+    ["sound.", 955.56, 956.24]
+   ]
+  },
+  {
+   "text": "I got closer and tried to open the stall door.",
+   "start": 956.28,
+   "end": 959.28,
+   "words": [
+    ["I", 956.28, 956.36],
+    ["got", 956.36, 956.64],
+    ["closer", 956.64, 957.32],
+    ["and", 957.36, 957.6],
+    ["tried", 957.6, 957.92],
+    ["to", 957.92, 958.04],
+    ["open", 958.04, 958.24],
+    ["the", 958.24, 958.32],
+    ["stall", 958.32, 958.68],
+    ["door.", 958.68, 959.28]
+   ]
+  },
+  {
+   "text": "Surprisingly, it was unlocked.",
+   "start": 959.48,
+   "end": 961.88,
+   "words": [
+    ["Surprisingly,", 959.48, 960.68],
+    ["it", 960.68, 960.84],
+    ["was", 960.84, 961.0],
+    ["unlocked.", 961.0, 961.88]
+   ]
+  },
+  {
+   "text": "And even more surprisingly, Mom was sitting there, crying like a little baby. Ma?",
+   "start": 961.88,
+   "end": 967.8,
+   "words": [
+    ["And", 961.88, 962.04],
+    ["even", 962.04, 962.32],
+    ["more", 962.32, 962.56],
+    ["surprisingly,", 962.56, 963.64],
+    ["Mom", 963.64, 964.04],
+    ["was", 964.04, 964.16],
+    ["sitting", 964.16, 964.48],
+    ["there,", 964.48, 965.04],
+    ["crying", 965.04, 965.68],
+    ["like", 965.68, 965.88],
+    ["a", 965.88, 965.93],
+    ["little", 965.92, 966.2],
+    ["baby.", 966.2, 966.8],
+    ["Ma?", 967.36, 967.8]
+   ]
+  },
+  {
+   "text": "Nothing. It's just onions. What onions?",
+   "start": 969.04,
+   "end": 972.6,
+   "words": [
+    ["Nothing.", 969.04, 969.88],
+    ["It's", 970.28, 970.48],
+    ["just", 970.48, 970.68],
+    ["onions.", 970.68, 971.44],
+    ["What", 971.48, 971.84],
+    ["onions?", 971.84, 972.6]
+   ]
+  },
+  {
+   "text": "We're in a school bathroom.",
+   "start": 972.68,
+   "end": 974.12,
+   "words": [
+    ["We're", 972.68, 972.8],
+    ["in", 972.8, 972.88],
+    ["a", 972.88, 972.93],
+    ["school", 972.92, 973.2],
+    ["bathroom.", 973.2, 974.12]
+   ]
+  },
+  {
+   "text": "Also, you haven't touched a stove since I was five.",
+   "start": 974.28,
+   "end": 977.2,
+   "words": [
+    ["Also,", 974.28, 974.88],
+    ["you", 974.92, 975.04],
+    ["haven't", 975.04, 975.32],
+    ["touched", 975.32, 975.68],
+    ["a", 975.68, 975.73],
+    ["stove", 975.72, 976.08],
+    ["since", 976.08, 976.32],
+    ["I", 976.32, 976.4],
+    ["was", 976.4, 976.6],
+    ["five.", 976.6, 977.2]
+   ]
+  },
+  {
+   "text": "Ma, are you okay?",
+   "start": 977.56,
+   "end": 979.16,
+   "words": [
+    ["Ma,", 977.56, 978.0],
+    ["are", 978.24, 978.36],
+    ["you", 978.36, 978.56],
+    ["okay?", 978.56, 979.16]
+   ]
+  },
+  {
+   "text": "I I just don't know how to stand up to bullies. What? You?",
+   "start": 979.28,
+   "end": 983.84,
+   "words": [
+    ["I", 979.28, 979.56],
+    ["I", 980.4, 980.48],
+    ["just", 980.48, 980.72],
+    ["don't", 980.72, 980.92],
+    ["know", 980.92, 981.0],
+    ["how", 981.0, 981.12],
+    ["to", 981.12, 981.24],
+    ["stand", 981.24, 981.52],
+    ["up", 981.52, 981.64],
+    ["to", 981.64, 981.76],
+    ["bullies.", 981.76, 982.6],
+    ["What?", 982.64, 983.24],
+    ["You?", 983.32, 983.84]
+   ]
+  },
+  {
+   "text": "You're the strongest, craziest woman I know.",
+   "start": 984.04,
+   "end": 987.72,
+   "words": [
+    ["You're", 984.04, 984.2],
+    ["the", 984.2, 984.64],
+    ["strongest,", 984.72, 985.72],
+    ["craziest", 985.88, 986.72],
+    ["woman", 986.76, 987.04],
+    ["I", 987.04, 987.12],
+    ["know.", 987.12, 987.72]
+   ]
+  },
+  {
+   "text": "Not when I was 16.",
+   "start": 987.92,
+   "end": 989.0,
+   "words": [
+    ["Not", 987.92, 988.16],
+    ["when", 988.16, 988.32],
+    ["I", 988.32, 988.4],
+    ["was", 988.4, 988.56],
+    ["16.", 988.56, 989.0]
+   ]
+  },
+  {
+   "text": "Back then I was insecure and weak.",
+   "start": 989.88,
+   "end": 992.0,
+   "words": [
+    ["Back", 989.88, 990.12],
+    ["then", 990.12, 990.36],
+    ["I", 990.36, 990.44],
+    ["was", 990.44, 990.8],
+    ["insecure", 990.8, 991.28],
+    ["and", 991.28, 991.4],
+    ["weak.", 991.4, 992.0]
+   ]
+  },
+  {
+   "text": "There were rumors that I came from a family of witches and I became an easy target.",
+   "start": 992.08,
+   "end": 996.56,
+   "words": [
+    ["There", 992.08, 992.24],
+    ["were", 992.24, 992.4],
+    ["rumors", 992.4, 992.92],
+    ["that", 992.92, 993.08],
+    ["I", 993.08, 993.2],
+    ["came", 993.2, 993.44],
+    ["from", 993.44, 993.6],
+    ["a", 993.6, 993.68],
+    ["family", 993.68, 994.04],
+    ["of", 994.04, 994.16],
+    ["witches", 994.16, 994.76],
+    ["and", 994.76, 995.04],
+    ["I", 995.04, 995.12],
+    ["became", 995.12, 995.48],
+    ["an", 995.48, 995.56],
+    ["easy", 995.56, 995.8],
+    ["target.", 995.8, 996.56]
+   ]
+  },
+  {
+   "text": "I didn't know how to defend myself.",
+   "start": 996.6,
+   "end": 998.24,
+   "words": [
+    ["I", 996.6, 996.72],
+    ["didn't", 996.72, 996.92],
+    ["know", 996.92, 997.08],
+    ["how", 997.08, 997.2],
+    ["to", 997.2, 997.28],
+    ["defend", 997.28, 997.56],
+    ["myself.", 997.56, 998.24]
+   ]
+  },
+  {
+   "text": "The day I was supposed to transform, I wasn't partying like Grandma thinks.",
+   "start": 998.24,
+   "end": 1002.56,
+   "words": [
+    ["The", 998.24, 998.36],
+    ["day", 998.36, 998.56],
+    ["I", 998.56, 998.64],
+    ["was", 998.64, 998.76],
+    ["supposed", 998.76, 999.08],
+    ["to", 999.08, 999.16],
+    ["transform,", 999.16, 1000.16],
+    ["I", 1000.32, 1000.4],
+    ["wasn't", 1000.4, 1000.76],
+    ["partying", 1000.76, 1001.24],
+    ["like", 1001.24, 1001.48],
+    ["Grandma", 1001.48, 1001.8],
+    ["thinks.", 1001.8, 1002.56]
+   ]
+  },
+  {
+   "text": "I was here, in a bathroom, crying because a bully had humiliated me.",
+   "start": 1002.56,
+   "end": 1007.08,
+   "words": [
+    ["I", 1002.56, 1002.64],
+    ["was", 1002.64, 1002.8],
+    ["here,", 1002.8, 1003.4],
+    ["in", 1003.64, 1003.76],
+    ["a", 1003.76, 1003.81],
+    ["bathroom,", 1003.8, 1004.48],
+    ["crying", 1004.48, 1004.96],
+    ["because", 1004.96, 1005.32],
+    ["a", 1005.32, 1005.44],
+    ["bully", 1005.44, 1005.88],
+    ["had", 1005.88, 1006.0],
+    ["humiliated", 1006.0, 1006.64],
+    ["me.", 1006.64, 1007.08]
+   ]
+  },
+  {
+   "text": "Mom told me that after high school, she and Grandma moved to another town…",
+   "start": 1007.28,
+   "end": 1011.28,
+   "words": [
+    ["Mom", 1007.28, 1007.56],
+    ["told", 1007.56, 1007.88],
+    ["me", 1007.88, 1008.0],
+    ["that", 1008.0, 1008.24],
+    ["after", 1008.24, 1008.52],
+    ["high", 1008.52, 1008.68],
+    ["school,", 1008.68, 1009.32],
+    ["she", 1009.32, 1009.52],
+    ["and", 1009.52, 1009.68],
+    ["Grandma", 1009.68, 1010.0],
+    ["moved", 1010.0, 1010.44],
+    ["to", 1010.44, 1010.52],
+    ["another", 1010.52, 1010.76],
+    ["town", 1010.76, 1011.28]
+   ]
+  },
+  {
+   "text": "and her way of dealing with her failure was making jokes, going out with guys,",
+   "start": 1011.48,
+   "end": 1016.08,
+   "words": [
+    ["and", 1011.48, 1011.64],
+    ["her", 1011.64, 1011.8],
+    ["way", 1011.8, 1012.04],
+    ["of", 1012.04, 1012.24],
+    ["dealing", 1012.24, 1012.56],
+    ["with", 1012.56, 1012.68],
+    ["her", 1012.68, 1012.84],
+    ["failure", 1012.84, 1013.32],
+    ["was", 1013.32, 1013.76],
+    ["making", 1014.04, 1014.36],
+    ["jokes,", 1014.36, 1015.0],
+    ["going", 1015.0, 1015.24],
+    ["out", 1015.24, 1015.32],
+    ["with", 1015.32, 1015.48],
+    ["guys,", 1015.48, 1016.08]
+   ]
+  },
+  {
+   "text": "and pretending nothing hurt her.",
+   "start": 1016.12,
+   "end": 1018.04,
+   "words": [
+    ["and", 1016.12, 1016.36],
+    ["pretending", 1016.36, 1016.92],
+    ["nothing", 1016.92, 1017.28],
+    ["hurt", 1017.28, 1017.52],
+    ["her.", 1017.52, 1018.04]
+   ]
+  },
+  {
+   "text": "But deep down, she knew she had disappointed Grandma.",
+   "start": 1018.08,
+   "end": 1021.44,
+   "words": [
+    ["But", 1018.08, 1018.24],
+    ["deep", 1018.24, 1018.48],
+    ["down,", 1018.48, 1019.08],
+    ["she", 1019.08, 1019.36],
+    ["knew", 1019.36, 1019.8],
+    ["she", 1019.8, 1019.96],
+    ["had", 1019.96, 1020.08],
+    ["disappointed", 1020.08, 1020.68],
+    ["Grandma.", 1020.68, 1021.44]
+   ]
+  },
+  {
+   "text": "I didn't know Mom had been holding all that inside.",
+   "start": 1021.44,
+   "end": 1024.16,
+   "words": [
+    ["I", 1021.44, 1021.52],
+    ["didn't", 1021.52, 1021.76],
+    ["know", 1021.76, 1021.96],
+    ["Mom", 1021.96, 1022.24],
+    ["had", 1022.24, 1022.4],
+    ["been", 1022.4, 1022.56],
+    ["holding", 1022.56, 1023.08],
+    ["all", 1023.08, 1023.2],
+    ["that", 1023.2, 1023.4],
+    ["inside.", 1023.4, 1024.16]
+   ]
+  },
+  {
+   "text": "So I walked over and hugged her tight.",
+   "start": 1024.32,
+   "end": 1026.88,
+   "words": [
+    ["So", 1024.32, 1024.52],
+    ["I", 1024.52, 1024.64],
+    ["walked", 1024.64, 1025.0],
+    ["over", 1025.0, 1025.52],
+    ["and", 1025.64, 1025.84],
+    ["hugged", 1025.84, 1026.08],
+    ["her", 1026.08, 1026.2],
+    ["tight.", 1026.2, 1026.88]
+   ]
+  },
+  {
+   "text": "It's okay, Ma.",
+   "start": 1026.88,
+   "end": 1027.76,
+   "words": [
+    ["It's", 1026.88, 1027.08],
+    ["okay,", 1027.08, 1027.32],
+    ["Ma.", 1027.32, 1027.76]
+   ]
+  },
+  {
+   "text": "We can fix this together.",
+   "start": 1027.92,
+   "end": 1029.64,
+   "words": [
+    ["We", 1027.92, 1028.04],
+    ["can", 1028.04, 1028.24],
+    ["fix", 1028.24, 1028.6],
+    ["this", 1028.6, 1028.88],
+    ["together.", 1028.88, 1029.64]
+   ]
+  },
+  {
+   "text": "Mom suddenly covered her mouth.",
+   "start": 1029.64,
+   "end": 1031.52,
+   "words": [
+    ["Mom", 1029.64, 1029.92],
+    ["suddenly", 1029.92, 1030.4],
+    ["covered", 1030.4, 1030.72],
+    ["her", 1030.72, 1030.84],
+    ["mouth.", 1030.84, 1031.52]
+   ]
+  },
+  {
+   "text": "Oh, honey, did you eat falafel?",
+   "start": 1031.52,
+   "end": 1034.16,
+   "words": [
+    ["Oh,", 1031.52, 1031.88],
+    ["honey,", 1031.88, 1032.56],
+    ["did", 1032.68, 1032.92],
+    ["you", 1032.92, 1033.08],
+    ["eat", 1033.08, 1033.32],
+    ["falafel?", 1033.32, 1034.16]
+   ]
+  },
+  {
+   "text": "Mom, I'm literally trying to comfort you.",
+   "start": 1034.28,
+   "end": 1036.88,
+   "words": [
+    ["Mom,", 1034.28, 1034.8],
+    ["I'm", 1034.84, 1035.28],
+    ["literally", 1035.28, 1035.68],
+    ["trying", 1035.68, 1035.92],
+    ["to", 1035.92, 1036.0],
+    ["comfort", 1036.0, 1036.36],
+    ["you.", 1036.36, 1036.88]
+   ]
+  },
+  {
+   "text": "Mom gently pushed my face away.",
+   "start": 1036.92,
+   "end": 1039.08,
+   "words": [
+    ["Mom", 1036.92, 1037.24],
+    ["gently", 1037.24, 1037.76],
+    ["pushed", 1037.76, 1038.04],
+    ["my", 1038.04, 1038.16],
+    ["face", 1038.16, 1038.48],
+    ["away.", 1038.48, 1039.08]
+   ]
+  },
+  {
+   "text": "That was beautiful.",
+   "start": 1039.08,
+   "end": 1040.08,
+   "words": [
+    ["That", 1039.08, 1039.2],
+    ["was", 1039.2, 1039.4],
+    ["beautiful.", 1039.4, 1040.08]
+   ]
+  },
+  {
+   "text": "Now, say it facing the wall.",
+   "start": 1040.08,
+   "end": 1041.92,
+   "words": [
+    ["Now,", 1040.08, 1040.56],
+    ["say", 1040.56, 1040.76],
+    ["it", 1040.76, 1040.88],
+    ["facing", 1040.88, 1041.2],
+    ["the", 1041.2, 1041.32],
+    ["wall.", 1041.32, 1041.92]
+   ]
+  },
+  {
+   "text": "For the next few weeks, Mom and I stuck together.",
+   "start": 1041.92,
+   "end": 1044.68,
+   "words": [
+    ["For", 1041.92, 1041.97],
+    ["the", 1041.96, 1042.08],
+    ["next", 1042.08, 1042.36],
+    ["few", 1042.36, 1042.52],
+    ["weeks,", 1042.52, 1043.2],
+    ["Mom", 1043.2, 1043.44],
+    ["and", 1043.44, 1043.56],
+    ["I", 1043.56, 1043.68],
+    ["stuck", 1043.68, 1044.0],
+    ["together.", 1044.0, 1044.68]
+   ]
+  },
+  {
+   "text": "But then I noticed the silver line around the edges of her eyes were getting bigger.",
+   "start": 1044.68,
+   "end": 1048.8,
+   "words": [
+    ["But", 1044.68, 1044.8],
+    ["then", 1044.8, 1045.0],
+    ["I", 1045.0, 1045.08],
+    ["noticed", 1045.08, 1045.52],
+    ["the", 1045.52, 1045.6],
+    ["silver", 1045.6, 1046.0],
+    ["line", 1046.0, 1046.28],
+    ["around", 1046.28, 1046.56],
+    ["the", 1046.56, 1046.68],
+    ["edges", 1046.68, 1047.0],
+    ["of", 1047.0, 1047.08],
+    ["her", 1047.08, 1047.32],
+    ["eyes", 1047.32, 1047.64],
+    ["were", 1047.64, 1047.76],
+    ["getting", 1047.76, 1048.04],
+    ["bigger.", 1048.04, 1048.8]
+   ]
+  },
+  {
+   "text": "So I suggested she wear sunglasses.",
+   "start": 1048.88,
+   "end": 1051.56,
+   "words": [
+    ["So", 1048.88, 1049.08],
+    ["I", 1049.08, 1049.2],
+    ["suggested", 1049.2, 1049.96],
+    ["she", 1049.96, 1050.24],
+    ["wear", 1050.24, 1050.48],
+    ["sunglasses.", 1050.48, 1051.56]
+   ]
+  },
+  {
+   "text": "A few days later, her hair started turning gray, too.",
+   "start": 1051.64,
+   "end": 1055.08,
+   "words": [
+    ["A", 1051.64, 1051.69],
+    ["few", 1051.68, 1051.92],
+    ["days", 1051.92, 1052.16],
+    ["later,", 1052.16, 1052.84],
+    ["her", 1053.0, 1053.2],
+    ["hair", 1053.2, 1053.6],
+    ["started", 1053.6, 1054.0],
+    ["turning", 1054.0, 1054.32],
+    ["gray,", 1054.32, 1054.56],
+    ["too.", 1054.56, 1055.08]
+   ]
+  },
+  {
+   "text": "No matter how many times she dyed it, the gray kept coming back.",
+   "start": 1055.48,
+   "end": 1059.2,
+   "words": [
+    ["No", 1055.48, 1055.6],
+    ["matter", 1055.6, 1055.84],
+    ["how", 1055.84, 1056.0],
+    ["many", 1056.0, 1056.16],
+    ["times", 1056.16, 1056.44],
+    ["she", 1056.44, 1056.6],
+    ["dyed", 1056.6, 1056.96],
+    ["it,", 1056.96, 1057.4],
+    ["the", 1057.4, 1057.52],
+    ["gray", 1057.52, 1058.0],
+    ["kept", 1058.0, 1058.28],
+    ["coming", 1058.28, 1058.6],
+    ["back.", 1058.6, 1059.2]
+   ]
+  },
+  {
+   "text": "So she started wearing hats every day.",
+   "start": 1059.48,
+   "end": 1061.6,
+   "words": [
+    ["So", 1059.48, 1059.72],
+    ["she", 1059.72, 1059.92],
+    ["started", 1059.92, 1060.24],
+    ["wearing", 1060.24, 1060.52],
+    ["hats", 1060.52, 1060.84],
+    ["every", 1060.84, 1061.08],
+    ["day.", 1061.08, 1061.6]
+   ]
+  },
+  {
+   "text": "But that will make Ashley pick on me even more.",
+   "start": 1061.72,
+   "end": 1063.96,
+   "words": [
+    ["But", 1061.72, 1061.8],
+    ["that", 1061.8, 1061.96],
+    ["will", 1061.96, 1062.08],
+    ["make", 1062.08, 1062.32],
+    ["Ashley", 1062.32, 1062.64],
+    ["pick", 1062.64, 1062.88],
+    ["on", 1062.88, 1063.0],
+    ["me", 1063.0, 1063.12],
+    ["even", 1063.12, 1063.36],
+    ["more.", 1063.36, 1063.96]
+   ]
+  },
+  {
+   "text": "And that was exactly what happened.",
+   "start": 1064.24,
+   "end": 1066.84,
+   "words": [
+    ["And", 1064.24, 1064.36],
+    ["that", 1064.36, 1064.88],
+    ["was", 1064.88, 1065.08],
+    ["exactly", 1065.08, 1065.84],
+    ["what", 1065.88, 1066.04],
+    ["happened.", 1066.04, 1066.84]
+   ]
+  },
+  {
+   "text": "Ashley had even more minions join her, and they all laughed at Mom.",
+   "start": 1066.84,
+   "end": 1070.96,
+   "words": [
+    ["Ashley", 1066.84, 1067.28],
+    ["had", 1067.28, 1067.48],
+    ["even", 1067.48, 1067.8],
+    ["more", 1067.8, 1068.2],
+    ["minions", 1068.2, 1068.6],
+    ["join", 1068.6, 1068.88],
+    ["her,", 1068.88, 1069.24],
+    ["and", 1069.24, 1069.36],
+    ["they", 1069.36, 1069.52],
+    ["all", 1069.52, 1069.88],
+    ["laughed", 1069.88, 1070.28],
+    ["at", 1070.28, 1070.44],
+    ["Mom.", 1070.44, 1070.96]
+   ]
+  },
+  {
+   "text": "Whenever I defended her, they laughed even harder.",
+   "start": 1071.12,
+   "end": 1073.96,
+   "words": [
+    ["Whenever", 1071.12, 1071.44],
+    ["I", 1071.44, 1071.49],
+    ["defended", 1071.48, 1072.0],
+    ["her,", 1072.0, 1072.48],
+    ["they", 1072.48, 1072.6],
+    ["laughed", 1072.6, 1072.96],
+    ["even", 1072.96, 1073.2],
+    ["harder.", 1073.2, 1073.96]
+   ]
+  },
+  {
+   "text": "Aw, look at that.",
+   "start": 1074.0,
+   "end": 1075.88,
+   "words": [
+    ["Aw,", 1074.0, 1074.44],
+    ["look", 1074.84, 1075.12],
+    ["at", 1075.12, 1075.28],
+    ["that.", 1075.28, 1075.88]
+   ]
+  },
+  {
+   "text": "So we Butterman is protecting this loser, Shady V and her body fart.",
+   "start": 1076.2,
+   "end": 1081.68,
+   "words": [
+    ["So", 1076.2, 1076.4],
+    ["we", 1076.4, 1076.6],
+    ["Butterman", 1076.6, 1077.16],
+    ["is", 1077.16, 1077.36],
+    ["protecting", 1077.36, 1078.12],
+    ["this", 1078.12, 1078.36],
+    ["loser,", 1078.36, 1079.04],
+    ["Shady", 1079.2, 1079.76],
+    ["V", 1079.76, 1080.04],
+    ["and", 1080.2, 1080.36],
+    ["her", 1080.36, 1080.56],
+    ["body", 1080.56, 1081.08],
+    ["fart.", 1081.08, 1081.68]
+   ]
+  },
+  {
+   "text": "When Ashley walked away, Mom looked completely defeated.",
+   "start": 1082.68,
+   "end": 1086.56,
+   "words": [
+    ["When", 1082.68, 1082.88],
+    ["Ashley", 1082.88, 1083.28],
+    ["walked", 1083.28, 1083.6],
+    ["away,", 1083.6, 1084.16],
+    ["Mom", 1084.16, 1084.52],
+    ["looked", 1084.52, 1084.84],
+    ["completely", 1084.84, 1085.64],
+    ["defeated.", 1085.64, 1086.56]
+   ]
+  },
+  {
+   "text": "I'm going to hide in the bathroom until I die.",
+   "start": 1087.32,
+   "end": 1089.48,
+   "words": [
+    ["I'm", 1087.32, 1087.4],
+    ["going", 1087.4, 1087.52],
+    ["to", 1087.52, 1087.64],
+    ["hide", 1087.64, 1087.88],
+    ["in", 1087.88, 1087.96],
+    ["the", 1087.96, 1088.04],
+    ["bathroom", 1088.04, 1088.52],
+    ["until", 1088.52, 1088.88],
+    ["I", 1088.88, 1088.96],
+    ["die.", 1088.96, 1089.48]
+   ]
+  },
+  {
+   "text": "But you'll miss your transformation.",
+   "start": 1090.32,
+   "end": 1092.2,
+   "words": [
+    ["But", 1090.32, 1090.44],
+    ["you'll", 1090.44, 1090.6],
+    ["miss", 1090.6, 1090.84],
+    ["your", 1090.84, 1091.0],
+    ["transformation.", 1091.0, 1092.2]
+   ]
+  },
+  {
+   "text": "Then Mom pulled me closer and put her hands on my shoulders.",
+   "start": 1092.44,
+   "end": 1095.92,
+   "words": [
+    ["Then", 1092.44, 1092.64],
+    ["Mom", 1092.64, 1092.92],
+    ["pulled", 1092.92, 1093.2],
+    ["me", 1093.2, 1093.32],
+    ["closer", 1093.32, 1093.88],
+    ["and", 1093.88, 1094.04],
+    ["put", 1094.04, 1094.2],
+    ["her", 1094.2, 1094.36],
+    ["hands", 1094.36, 1094.68],
+    ["on", 1094.68, 1094.8],
+    ["my", 1094.8, 1094.92],
+    ["shoulders.", 1094.92, 1095.92]
+   ]
+  },
+  {
+   "text": "Then help me.",
+   "start": 1096.28,
+   "end": 1097.24,
+   "words": [
+    ["Then", 1096.28, 1096.44],
+    ["help", 1096.44, 1096.8],
+    ["me.", 1096.8, 1097.24]
+   ]
+  },
+  {
+   "text": "So I tried talking to Miles.",
+   "start": 1097.64,
+   "end": 1099.76,
+   "words": [
+    ["So", 1097.64, 1098.0],
+    ["I", 1098.0, 1098.28],
+    ["tried", 1098.36, 1098.64],
+    ["talking", 1098.64, 1098.96],
+    ["to", 1098.96, 1099.08],
+    ["Miles.", 1099.08, 1099.76]
+   ]
+  },
+  {
+   "text": "Maybe he could help with all the chemistry mumbo jumbo.",
+   "start": 1099.88,
+   "end": 1103.24,
+   "words": [
+    ["Maybe", 1099.88, 1100.16],
+    ["he", 1100.16, 1100.32],
+    ["could", 1100.32, 1100.48],
+    ["help", 1100.48, 1100.72],
+    ["with", 1100.72, 1100.84],
+    ["all", 1100.84, 1101.04],
+    ["the", 1101.04, 1101.48],
+    ["chemistry", 1101.48, 1102.12],
+    ["mumbo", 1102.12, 1102.56],
+    ["jumbo.", 1102.56, 1103.24]
+   ]
+  },
+  {
+   "text": "Hey, so remember that faint silver line you noticed around V's eyes?",
+   "start": 1103.44,
+   "end": 1108.84,
+   "words": [
+    ["Hey,", 1103.44, 1103.96],
+    ["so", 1104.28, 1104.64],
+    ["remember", 1105.12, 1105.6],
+    ["that", 1105.6, 1106.04],
+    ["faint", 1106.04, 1106.52],
+    ["silver", 1106.52, 1106.88],
+    ["line", 1106.88, 1107.24],
+    ["you", 1107.24, 1107.32],
+    ["noticed", 1107.32, 1107.64],
+    ["around", 1107.64, 1107.92],
+    ["V's", 1107.92, 1108.24],
+    ["eyes?", 1108.24, 1108.84]
+   ]
+  },
+  {
+   "text": "Do you know any chemistry magic that could make it disappear? Yeah, sure.",
+   "start": 1108.96,
+   "end": 1113.4,
+   "words": [
+    ["Do", 1108.96, 1109.04],
+    ["you", 1109.04, 1109.12],
+    ["know", 1109.12, 1109.24],
+    ["any", 1109.24, 1109.68],
+    ["chemistry", 1109.92, 1110.44],
+    ["magic", 1110.44, 1110.92],
+    ["that", 1110.92, 1111.04],
+    ["could", 1111.04, 1111.16],
+    ["make", 1111.16, 1111.36],
+    ["it", 1111.36, 1111.68],
+    ["disappear?", 1111.68, 1112.68],
+    ["Yeah,", 1112.68, 1112.96],
+    ["sure.", 1112.96, 1113.4]
+   ]
+  },
+  {
+   "text": "Let me just grab the silver eye reversal potion I use every Tuesday.",
+   "start": 1113.4,
+   "end": 1116.92,
+   "words": [
+    ["Let", 1113.4, 1113.52],
+    ["me", 1113.52, 1113.6],
+    ["just", 1113.6, 1113.76],
+    ["grab", 1113.76, 1114.04],
+    ["the", 1114.04, 1114.16],
+    ["silver", 1114.16, 1114.56],
+    ["eye", 1114.56, 1114.64],
+    ["reversal", 1114.64, 1115.12],
+    ["potion", 1115.12, 1115.52],
+    ["I", 1115.52, 1115.6],
+    ["use", 1115.6, 1115.84],
+    ["every", 1115.84, 1116.08],
+    ["Tuesday.", 1116.08, 1116.92]
+   ]
+  },
+  {
+   "text": "Oh, please hurry.",
+   "start": 1116.92,
+   "end": 1118.16,
+   "words": [
+    ["Oh,", 1116.92, 1117.2],
+    ["please", 1117.2, 1117.48],
+    ["hurry.", 1117.48, 1118.16]
+   ]
+  },
+  {
+   "text": "I need it before Tuesday.",
+   "start": 1118.28,
+   "end": 1119.76,
+   "words": [
+    ["I", 1118.28, 1118.36],
+    ["need", 1118.36, 1118.56],
+    ["it", 1118.56, 1118.64],
+    ["before", 1118.64, 1118.92],
+    ["Tuesday.", 1118.92, 1119.76]
+   ]
+  },
+  {
+   "text": "We both laughed, and then I found myself asking him something.",
+   "start": 1119.92,
+   "end": 1124.32,
+   "words": [
+    ["We", 1119.92, 1120.08],
+    ["both", 1120.08, 1120.48],
+    ["laughed,", 1120.48, 1121.28],
+    ["and", 1121.28, 1121.44],
+    ["then", 1121.44, 1121.64],
+    ["I", 1121.64, 1121.72],
+    ["found", 1121.72, 1122.04],
+    ["myself", 1122.04, 1122.72],
+    ["asking", 1122.72, 1123.16],
+    ["him", 1123.16, 1123.32],
+    ["something.", 1123.32, 1124.32]
+   ]
+  },
+  {
+   "text": "Do you believe in witches?",
+   "start": 1124.72,
+   "end": 1127.44,
+   "words": [
+    ["Do", 1124.72, 1124.92],
+    ["you", 1124.92, 1125.36],
+    ["believe", 1126.04, 1126.36],
+    ["in", 1126.36, 1126.6],
+    ["witches?", 1126.6, 1127.44]
+   ]
+  },
+  {
+   "text": "Well, I have no reason not to.",
+   "start": 1127.68,
+   "end": 1129.8,
+   "words": [
+    ["Well,", 1127.68, 1128.28],
+    ["I", 1128.28, 1128.4],
+    ["have", 1128.4, 1128.68],
+    ["no", 1128.68, 1128.84],
+    ["reason", 1128.84, 1129.12],
+    ["not", 1129.12, 1129.36],
+    ["to.", 1129.36, 1129.8]
+   ]
+  },
+  {
+   "text": "Science explains a lot of things, but not everything.",
+   "start": 1129.84,
+   "end": 1132.8,
+   "words": [
+    ["Science", 1129.84, 1130.24],
+    ["explains", 1130.24, 1130.68],
+    ["a", 1130.68, 1130.73],
+    ["lot", 1130.72, 1130.92],
+    ["of", 1130.92, 1131.0],
+    ["things,", 1131.0, 1131.44],
+    ["but", 1131.44, 1131.68],
+    ["not", 1131.68, 1131.88],
+    ["everything.", 1131.88, 1132.8]
+   ]
+  },
+  {
+   "text": "I don't know why, but that made me feel closer to him.",
+   "start": 1132.8,
+   "end": 1136.4,
+   "words": [
+    ["I", 1132.8, 1132.88],
+    ["don't", 1132.88, 1133.12],
+    ["know", 1133.12, 1133.32],
+    ["why,", 1133.32, 1133.84],
+    ["but", 1134.0, 1134.36],
+    ["that", 1134.36, 1134.72],
+    ["made", 1134.72, 1134.96],
+    ["me", 1134.96, 1135.12],
+    ["feel", 1135.12, 1135.36],
+    ["closer", 1135.36, 1135.8],
+    ["to", 1135.8, 1135.92],
+    ["him.", 1135.92, 1136.4]
+   ]
+  },
+  {
+   "text": "Most people would have called me crazy, but Miles just accepted it like I had asked him to believe in Canada.",
+   "start": 1136.4,
+   "end": 1143.0,
+   "words": [
+    ["Most", 1136.4, 1136.68],
+    ["people", 1136.68, 1137.0],
+    ["would", 1137.0, 1137.12],
+    ["have", 1137.12, 1137.24],
+    ["called", 1137.24, 1137.44],
+    ["me", 1137.44, 1137.56],
+    ["crazy,", 1137.56, 1138.08],
+    ["but", 1138.08, 1138.52],
+    ["Miles", 1138.52, 1139.0],
+    ["just", 1139.0, 1139.52],
+    ["accepted", 1139.6, 1140.2],
+    ["it", 1140.2, 1140.36],
+    ["like", 1140.36, 1140.88],
+    ["I", 1140.96, 1141.08],
+    ["had", 1141.08, 1141.28],
+    ["asked", 1141.28, 1141.56],
+    ["him", 1141.56, 1141.68],
+    ["to", 1141.68, 1141.8],
+    ["believe", 1141.8, 1142.08],
+    ["in", 1142.08, 1142.24],
+    ["Canada.", 1142.24, 1143.0]
+   ]
+  },
+  {
+   "text": "Then Miles offered me some Fanta, and I drank it in one go.",
+   "start": 1143.36,
+   "end": 1147.6,
+   "words": [
+    ["Then", 1143.36, 1143.68],
+    ["Miles", 1143.68, 1144.12],
+    ["offered", 1144.12, 1144.48],
+    ["me", 1144.48, 1144.6],
+    ["some", 1144.6, 1144.76],
+    ["Fanta,", 1144.76, 1145.44],
+    ["and", 1145.8, 1146.0],
+    ["I", 1146.0, 1146.12],
+    ["drank", 1146.12, 1146.44],
+    ["it", 1146.44, 1146.64],
+    ["in", 1146.64, 1146.92],
+    ["one", 1146.92, 1147.16],
+    ["go.", 1147.16, 1147.6]
+   ]
+  },
+  {
+   "text": "I was so thirsty.",
+   "start": 1148.12,
+   "end": 1149.64,
+   "words": [
+    ["I", 1148.12, 1148.2],
+    ["was", 1148.2, 1148.48],
+    ["so", 1148.48, 1148.8],
+    ["thirsty.", 1148.8, 1149.64]
+   ]
+  },
+  {
+   "text": "Congrats, you just drank a love potion.",
+   "start": 1149.88,
+   "end": 1151.76,
+   "words": [
+    ["Congrats,", 1149.88, 1150.36],
+    ["you", 1150.36, 1150.48],
+    ["just", 1150.48, 1150.68],
+    ["drank", 1150.68, 1150.88],
+    ["a", 1150.88, 1150.93],
+    ["love", 1150.92, 1151.12],
+    ["potion.", 1151.12, 1151.76]
+   ]
+  },
+  {
+   "text": "Now you love me.",
+   "start": 1151.76,
+   "end": 1152.72,
+   "words": [
+    ["Now", 1151.76, 1151.96],
+    ["you", 1151.96, 1152.12],
+    ["love", 1152.12, 1152.32],
+    ["me.", 1152.32, 1152.72]
+   ]
+  },
+  {
+   "text": "Uh no, I don't think it's working.",
+   "start": 1152.72,
+   "end": 1156.16,
+   "words": [
+    ["Uh", 1152.72, 1153.08],
+    ["no,", 1153.84, 1154.28],
+    ["I", 1154.56, 1154.68],
+    ["don't", 1154.68, 1155.0],
+    ["think", 1155.0, 1155.24],
+    ["it's", 1155.24, 1155.44],
+    ["working.", 1155.44, 1156.16]
+   ]
+  },
+  {
+   "text": "By the way, I liked your hair and style before you copied that V girl.",
+   "start": 1156.16,
+   "end": 1160.32,
+   "words": [
+    ["By", 1156.16, 1156.4],
+    ["the", 1156.4, 1156.6],
+    ["way,", 1156.6, 1157.12],
+    ["I", 1157.28, 1157.36],
+    ["liked", 1157.36, 1157.64],
+    ["your", 1157.64, 1157.8],
+    ["hair", 1157.8, 1158.04],
+    ["and", 1158.04, 1158.16],
+    ["style", 1158.16, 1158.52],
+    ["before", 1158.52, 1158.88],
+    ["you", 1158.88, 1159.0],
+    ["copied", 1159.0, 1159.36],
+    ["that", 1159.36, 1159.56],
+    ["V", 1159.56, 1159.72],
+    ["girl.", 1159.72, 1160.32]
+   ]
+  },
+  {
+   "text": "I don't want to be mean, but how do you even remember how I looked?",
+   "start": 1160.52,
+   "end": 1165.68,
+   "words": [
+    ["I", 1160.52, 1160.8],
+    ["don't", 1160.8, 1161.2],
+    ["want", 1161.2, 1161.36],
+    ["to", 1161.36, 1161.44],
+    ["be", 1161.44, 1161.56],
+    ["mean,", 1161.56, 1162.16],
+    ["but", 1162.32, 1162.76],
+    ["how", 1163.08, 1163.32],
+    ["do", 1163.32, 1163.44],
+    ["you", 1163.44, 1163.52],
+    ["even", 1163.52, 1164.04],
+    ["remember", 1164.04, 1164.64],
+    ["how", 1164.64, 1164.84],
+    ["I", 1164.84, 1164.96],
+    ["looked?", 1164.96, 1165.68]
+   ]
+  },
+  {
+   "text": "I have short-term memory problems, not blindness.",
+   "start": 1165.68,
+   "end": 1168.24,
+   "words": [
+    ["I", 1165.68, 1165.73],
+    ["have", 1165.72, 1165.84],
+    ["short-term", 1165.84, 1166.36],
+    ["memory", 1166.36, 1166.64],
+    ["problems,", 1166.64, 1167.24],
+    ["not", 1167.24, 1167.44],
+    ["blindness.", 1167.44, 1168.24]
+   ]
+  },
+  {
+   "text": "Then he showed me a sketch in his notebook, and it was of me.",
+   "start": 1168.24,
+   "end": 1171.48,
+   "words": [
+    ["Then", 1168.24, 1168.4],
+    ["he", 1168.4, 1168.52],
+    ["showed", 1168.52, 1168.8],
+    ["me", 1168.8, 1168.92],
+    ["a", 1168.92, 1169.0],
+    ["sketch", 1169.0, 1169.44],
+    ["in", 1169.44, 1169.52],
+    ["his", 1169.52, 1169.64],
+    ["notebook,", 1169.64, 1170.44],
+    ["and", 1170.44, 1170.6],
+    ["it", 1170.6, 1170.72],
+    ["was", 1170.72, 1170.88],
+    ["of", 1170.88, 1171.04],
+    ["me.", 1171.04, 1171.48]
+   ]
+  },
+  {
+   "text": "Please don't think I'm some obsessive weirdo.",
+   "start": 1171.68,
+   "end": 1173.84,
+   "words": [
+    ["Please", 1171.68, 1171.92],
+    ["don't", 1171.92, 1172.16],
+    ["think", 1172.16, 1172.36],
+    ["I'm", 1172.36, 1172.48],
+    ["some", 1172.48, 1172.64],
+    ["obsessive", 1172.64, 1173.16],
+    ["weirdo.", 1173.16, 1173.84]
+   ]
+  },
+  {
+   "text": "I just draw things I like.",
+   "start": 1173.84,
+   "end": 1175.44,
+   "words": [
+    ["I", 1173.84, 1173.96],
+    ["just", 1173.96, 1174.24],
+    ["draw", 1174.24, 1174.44],
+    ["things", 1174.44, 1174.76],
+    ["I", 1174.76, 1174.84],
+    ["like.", 1174.84, 1175.44]
+   ]
+  },
+  {
+   "text": "We both laughed again, and somehow we ended up exchanging numbers.",
+   "start": 1175.56,
+   "end": 1180.2,
+   "words": [
+    ["We", 1175.56, 1175.76],
+    ["both", 1175.76, 1176.12],
+    ["laughed", 1176.12, 1176.44],
+    ["again,", 1176.44, 1177.12],
+    ["and", 1177.28, 1177.44],
+    ["somehow", 1177.44, 1178.2],
+    ["we", 1178.28, 1178.52],
+    ["ended", 1178.52, 1178.76],
+    ["up", 1178.76, 1178.84],
+    ["exchanging", 1178.84, 1179.36],
+    ["numbers.", 1179.36, 1180.2]
+   ]
+  },
+  {
+   "text": "Days turned into weeks, and I started getting closer to Miles.",
+   "start": 1180.36,
+   "end": 1184.32,
+   "words": [
+    ["Days", 1180.36, 1180.88],
+    ["turned", 1180.92, 1181.2],
+    ["into", 1181.2, 1181.4],
+    ["weeks,", 1181.4, 1182.08],
+    ["and", 1182.16, 1182.4],
+    ["I", 1182.4, 1182.48],
+    ["started", 1182.48, 1182.92],
+    ["getting", 1182.92, 1183.16],
+    ["closer", 1183.16, 1183.52],
+    ["to", 1183.52, 1183.64],
+    ["Miles.", 1183.64, 1184.32]
+   ]
+  },
+  {
+   "text": "I even helped him with his memory, but Mom still needed my help all the time.",
+   "start": 1184.4,
+   "end": 1189.0,
+   "words": [
+    ["I", 1184.4, 1184.48],
+    ["even", 1184.48, 1184.72],
+    ["helped", 1184.72, 1184.96],
+    ["him", 1184.96, 1185.12],
+    ["with", 1185.12, 1185.24],
+    ["his", 1185.24, 1185.36],
+    ["memory,", 1185.36, 1186.04],
+    ["but", 1186.04, 1186.4],
+    ["Mom", 1186.4, 1186.72],
+    ["still", 1186.72, 1187.08],
+    ["needed", 1187.08, 1187.36],
+    ["my", 1187.36, 1187.52],
+    ["help", 1187.52, 1187.96],
+    ["all", 1187.96, 1188.28],
+    ["the", 1188.28, 1188.4],
+    ["time.", 1188.4, 1189.0]
+   ]
+  },
+  {
+   "text": "Cuz I couldn't just stand there and let Ashley and her minions bully her.",
+   "start": 1189.12,
+   "end": 1192.64,
+   "words": [
+    ["Cuz", 1189.12, 1189.24],
+    ["I", 1189.24, 1189.32],
+    ["couldn't", 1189.32, 1189.52],
+    ["just", 1189.52, 1189.76],
+    ["stand", 1189.76, 1190.12],
+    ["there", 1190.12, 1190.28],
+    ["and", 1190.28, 1190.36],
+    ["let", 1190.36, 1190.64],
+    ["Ashley", 1190.64, 1191.08],
+    ["and", 1191.08, 1191.16],
+    ["her", 1191.16, 1191.24],
+    ["minions", 1191.24, 1191.72],
+    ["bully", 1191.72, 1192.12],
+    ["her.", 1192.12, 1192.64]
+   ]
+  },
+  {
+   "text": "I'm sorry, honey.",
+   "start": 1192.68,
+   "end": 1193.88,
+   "words": [
+    ["I'm", 1192.68, 1192.88],
+    ["sorry,", 1192.88, 1193.48],
+    ["honey.", 1193.48, 1193.88]
+   ]
+  },
+  {
+   "text": "I'm ruining your best years.",
+   "start": 1193.88,
+   "end": 1195.6,
+   "words": [
+    ["I'm", 1193.88, 1194.08],
+    ["ruining", 1194.08, 1194.4],
+    ["your", 1194.4, 1194.52],
+    ["best", 1194.52, 1194.92],
+    ["years.", 1194.92, 1195.6]
+   ]
+  },
+  {
+   "text": "Oh, Mom, don't say that.",
+   "start": 1195.88,
+   "end": 1197.88,
+   "words": [
+    ["Oh,", 1195.88, 1196.2],
+    ["Mom,", 1196.2, 1196.72],
+    ["don't", 1196.84, 1197.12],
+    ["say", 1197.12, 1197.28],
+    ["that.", 1197.28, 1197.88]
+   ]
+  },
+  {
+   "text": "If you think about it, you kind of made my life better.",
+   "start": 1198.0,
+   "end": 1201.32,
+   "words": [
+    ["If", 1198.0, 1198.16],
+    ["you", 1198.16, 1198.21],
+    ["think", 1198.2, 1198.4],
+    ["about", 1198.4, 1198.72],
+    ["it,", 1198.72, 1199.16],
+    ["you", 1199.2, 1199.48],
+    ["kind", 1199.48, 1199.84],
+    ["of", 1199.84, 1199.96],
+    ["made", 1199.96, 1200.2],
+    ["my", 1200.2, 1200.32],
+    ["life", 1200.32, 1200.56],
+    ["better.", 1200.56, 1201.32]
+   ]
+  },
+  {
+   "text": "I never had a reason to be strong or defend anyone before, but now look at me, getting into fights and stuff.",
+   "start": 1201.4,
+   "end": 1207.92,
+   "words": [
+    ["I", 1201.4, 1201.48],
+    ["never", 1201.48, 1201.76],
+    ["had", 1201.76, 1201.88],
+    ["a", 1201.88, 1201.93],
+    ["reason", 1201.92, 1202.2],
+    ["to", 1202.2, 1202.28],
+    ["be", 1202.28, 1202.6],
+    ["strong", 1202.6, 1203.2],
+    ["or", 1203.2, 1203.52],
+    ["defend", 1203.52, 1203.92],
+    ["anyone", 1203.92, 1204.24],
+    ["before,", 1204.24, 1205.0],
+    ["but", 1205.04, 1205.2],
+    ["now", 1205.2, 1205.36],
+    ["look", 1205.36, 1205.56],
+    ["at", 1205.56, 1205.68],
+    ["me,", 1205.68, 1206.12],
+    ["getting", 1206.2, 1206.44],
+    ["into", 1206.44, 1206.68],
+    ["fights", 1206.68, 1207.08],
+    ["and", 1207.08, 1207.24],
+    ["stuff.", 1207.24, 1207.92]
+   ]
+  },
+  {
+   "text": "The Zoe from a few months ago would never believe this.",
+   "start": 1208.04,
+   "end": 1211.36,
+   "words": [
+    ["The", 1208.04, 1208.12],
+    ["Zoe", 1208.12, 1208.44],
+    ["from", 1208.44, 1208.64],
+    ["a", 1208.64, 1208.69],
+    ["few", 1208.68, 1208.92],
+    ["months", 1208.92, 1209.2],
+    ["ago", 1209.2, 1209.64],
+    ["would", 1209.76, 1209.96],
+    ["never", 1209.96, 1210.32],
+    ["believe", 1210.32, 1210.76],
+    ["this.", 1210.76, 1211.36]
+   ]
+  },
+  {
+   "text": "I kept talking, but Mom suddenly noticed someone walking down the hallway.",
+   "start": 1211.6,
+   "end": 1215.52,
+   "words": [
+    ["I", 1211.6, 1211.68],
+    ["kept", 1211.68, 1211.96],
+    ["talking,", 1211.96, 1212.68],
+    ["but", 1212.68, 1212.84],
+    ["Mom", 1212.84, 1213.08],
+    ["suddenly", 1213.08, 1213.4],
+    ["noticed", 1213.4, 1213.88],
+    ["someone", 1213.88, 1214.16],
+    ["walking", 1214.16, 1214.44],
+    ["down", 1214.44, 1214.6],
+    ["the", 1214.6, 1214.68],
+    ["hallway.", 1214.68, 1215.52]
+   ]
+  },
+  {
+   "text": "He was a nice-looking man in his 40s, so Mom gently shoved me aside.",
+   "start": 1215.56,
+   "end": 1220.68,
+   "words": [
+    ["He", 1215.56, 1215.68],
+    ["was", 1215.68, 1215.84],
+    ["a", 1215.84, 1215.92],
+    ["nice-looking", 1215.92, 1216.64],
+    ["man", 1216.64, 1216.84],
+    ["in", 1216.84, 1216.96],
+    ["his", 1216.96, 1217.12],
+    ["40s,", 1217.12, 1217.64],
+    ["so", 1218.16, 1218.48],
+    ["Mom", 1218.48, 1218.92],
+    ["gently", 1218.96, 1219.48],
+    ["shoved", 1219.48, 1219.88],
+    ["me", 1219.88, 1220.0],
+    ["aside.", 1220.0, 1220.68]
+   ]
+  },
+  {
+   "text": "Later. Later.",
+   "start": 1222.04,
+   "end": 1223.24,
+   "words": [
+    ["Later.", 1222.04, 1222.56],
+    ["Later.", 1222.56, 1223.24]
+   ]
+  },
+  {
+   "text": "Hey, you. Are you lost, sir?",
+   "start": 1224.4,
+   "end": 1226.92,
+   "words": [
+    ["Hey,", 1224.4, 1224.84],
+    ["you.", 1224.84, 1225.36],
+    ["Are", 1225.64, 1225.8],
+    ["you", 1225.8, 1225.96],
+    ["lost,", 1225.96, 1226.4],
+    ["sir?", 1226.4, 1226.92]
+   ]
+  },
+  {
+   "text": "Yeah, actually, I'm Miles's dad.",
+   "start": 1227.04,
+   "end": 1229.6,
+   "words": [
+    ["Yeah,", 1227.04, 1227.52],
+    ["actually,", 1227.52, 1228.12],
+    ["I'm", 1228.12, 1228.48],
+    ["Miles's", 1228.48, 1229.08],
+    ["dad.", 1229.08, 1229.6]
+   ]
+  },
+  {
+   "text": "He forgot his notebook, and I really need to give it to him. Oh, Miles?",
+   "start": 1229.88,
+   "end": 1233.88,
+   "words": [
+    ["He", 1229.88, 1230.0],
+    ["forgot", 1230.0, 1230.28],
+    ["his", 1230.28, 1230.4],
+    ["notebook,", 1230.4, 1230.88],
+    ["and", 1230.88, 1231.04],
+    ["I", 1231.04, 1231.32],
+    ["really", 1231.32, 1231.72],
+    ["need", 1231.72, 1231.92],
+    ["to", 1231.92, 1232.0],
+    ["give", 1232.0, 1232.16],
+    ["it", 1232.16, 1232.24],
+    ["to", 1232.24, 1232.32],
+    ["him.", 1232.32, 1232.84],
+    ["Oh,", 1232.84, 1233.2],
+    ["Miles?", 1233.2, 1233.88]
+   ]
+  },
+  {
+   "text": "I'll walk miles to help you find Miles.",
+   "start": 1234.24,
+   "end": 1236.68,
+   "words": [
+    ["I'll", 1234.24, 1234.44],
+    ["walk", 1234.44, 1234.76],
+    ["miles", 1234.76, 1235.32],
+    ["to", 1235.32, 1235.4],
+    ["help", 1235.4, 1235.56],
+    ["you", 1235.56, 1235.68],
+    ["find", 1235.68, 1236.0],
+    ["Miles.", 1236.0, 1236.68]
+   ]
+  },
+  {
+   "text": "I do Miles' yards and feet, and eyes, and hair.",
+   "start": 1236.76,
+   "end": 1240.68,
+   "words": [
+    ["I", 1236.76, 1236.88],
+    ["do", 1236.88, 1237.04],
+    ["Miles'", 1237.04, 1237.48],
+    ["yards", 1237.48, 1237.88],
+    ["and", 1237.88, 1238.08],
+    ["feet,", 1238.08, 1238.68],
+    ["and", 1238.76, 1239.2],
+    ["eyes,", 1239.2, 1239.76],
+    ["and", 1239.76, 1240.08],
+    ["hair.", 1240.08, 1240.68]
+   ]
+  },
+  {
+   "text": "With that, Ashley walked by and snatched Mom's hat off while one of her minions yanked off her sunglasses.",
+   "start": 1241.44,
+   "end": 1247.84,
+   "words": [
+    ["With", 1241.44, 1241.6],
+    ["that,", 1241.6, 1242.16],
+    ["Ashley", 1242.16, 1242.56],
+    ["walked", 1242.56, 1242.84],
+    ["by", 1242.84, 1243.2],
+    ["and", 1243.36, 1243.6],
+    ["snatched", 1243.6, 1244.24],
+    ["Mom's", 1244.24, 1244.52],
+    ["hat", 1244.52, 1244.8],
+    ["off", 1244.8, 1245.2],
+    ["while", 1245.2, 1245.36],
+    ["one", 1245.36, 1245.52],
+    ["of", 1245.52, 1245.6],
+    ["her", 1245.6, 1245.72],
+    ["minions", 1245.72, 1246.24],
+    ["yanked", 1246.24, 1246.52],
+    ["off", 1246.52, 1246.64],
+    ["her", 1246.64, 1246.76],
+    ["sunglasses.", 1246.76, 1247.84]
+   ]
+  },
+  {
+   "text": "Mom's eyes were even more silver now, and everyone gasped.",
+   "start": 1247.92,
+   "end": 1252.2,
+   "words": [
+    ["Mom's", 1247.92, 1248.48],
+    ["eyes", 1248.48, 1248.8],
+    ["were", 1248.8, 1249.0],
+    ["even", 1249.0, 1249.32],
+    ["more", 1249.32, 1249.64],
+    ["silver", 1249.64, 1250.0],
+    ["now,", 1250.0, 1250.48],
+    ["and", 1250.48, 1250.84],
+    ["everyone", 1250.84, 1251.44],
+    ["gasped.", 1251.44, 1252.2]
+   ]
+  },
+  {
+   "text": "Jeez, somebody call 911.",
+   "start": 1252.2,
+   "end": 1253.8,
+   "words": [
+    ["Jeez,", 1252.2, 1252.68],
+    ["somebody", 1252.68, 1253.04],
+    ["call", 1253.04, 1253.28],
+    ["911.", 1253.28, 1253.8]
+   ]
+  },
+  {
+   "text": "Are you okay, kid?",
+   "start": 1254.4,
+   "end": 1255.48,
+   "words": [
+    ["Are", 1254.4, 1254.56],
+    ["you", 1254.56, 1254.68],
+    ["okay,", 1254.68, 1254.96],
+    ["kid?", 1254.96, 1255.48]
+   ]
+  },
+  {
+   "text": "But the kids started laughing and pointing at Mom while she sank to the floor hugging her knees with terrified silver eyes and wild gray hair.",
+   "start": 1255.48,
+   "end": 1264.76,
+   "words": [
+    ["But", 1255.48, 1255.6],
+    ["the", 1255.6, 1255.72],
+    ["kids", 1255.72, 1256.0],
+    ["started", 1256.0, 1256.4],
+    ["laughing", 1256.4, 1256.88],
+    ["and", 1256.88, 1257.04],
+    ["pointing", 1257.04, 1257.44],
+    ["at", 1257.44, 1257.56],
+    ["Mom", 1257.56, 1258.0],
+    ["while", 1258.28, 1258.44],
+    ["she", 1258.44, 1258.84],
+    ["sank", 1258.84, 1259.16],
+    ["to", 1259.16, 1259.28],
+    ["the", 1259.28, 1259.4],
+    ["floor", 1259.4, 1259.84],
+    ["hugging", 1259.84, 1260.2],
+    ["her", 1260.2, 1260.32],
+    ["knees", 1260.32, 1260.92],
+    ["with", 1260.92, 1261.2],
+    ["terrified", 1261.2, 1262.04],
+    ["silver", 1262.04, 1262.6],
+    ["eyes", 1262.6, 1263.0],
+    ["and", 1263.0, 1263.32],
+    ["wild", 1263.32, 1263.84],
+    ["gray", 1263.88, 1264.16],
+    ["hair.", 1264.16, 1264.76]
+   ]
+  },
+  {
+   "text": "I couldn't just stand there and watch her like that.",
+   "start": 1264.96,
+   "end": 1267.6,
+   "words": [
+    ["I", 1264.96, 1265.08],
+    ["couldn't", 1265.08, 1265.32],
+    ["just", 1265.32, 1265.64],
+    ["stand", 1265.64, 1266.0],
+    ["there", 1266.0, 1266.16],
+    ["and", 1266.16, 1266.36],
+    ["watch", 1266.36, 1266.64],
+    ["her", 1266.64, 1266.8],
+    ["like", 1266.8, 1267.0],
+    ["that.", 1267.0, 1267.6]
+   ]
+  },
+  {
+   "text": "So, I lunged at Ashley, but she fought back and shoved me against the lockers.",
+   "start": 1267.76,
+   "end": 1272.36,
+   "words": [
+    ["So,", 1267.76, 1268.04],
+    ["I", 1268.04, 1268.16],
+    ["lunged", 1268.16, 1268.72],
+    ["at", 1268.72, 1268.84],
+    ["Ashley,", 1268.84, 1269.52],
+    ["but", 1269.52, 1269.68],
+    ["she", 1269.68, 1269.84],
+    ["fought", 1269.84, 1270.2],
+    ["back", 1270.2, 1270.52],
+    ["and", 1270.52, 1270.72],
+    ["shoved", 1270.72, 1271.08],
+    ["me", 1271.08, 1271.2],
+    ["against", 1271.2, 1271.48],
+    ["the", 1271.48, 1271.56],
+    ["lockers.", 1271.56, 1272.36]
+   ]
+  },
+  {
+   "text": "Then, she pulled the hair stick out of her bun and came at me with it.",
+   "start": 1272.36,
+   "end": 1275.6,
+   "words": [
+    ["Then,", 1272.36, 1272.52],
+    ["she", 1272.52, 1272.68],
+    ["pulled", 1272.68, 1273.12],
+    ["the", 1273.12, 1273.2],
+    ["hair", 1273.2, 1273.4],
+    ["stick", 1273.4, 1273.64],
+    ["out", 1273.64, 1273.72],
+    ["of", 1273.72, 1273.8],
+    ["her", 1273.8, 1273.92],
+    ["bun", 1273.92, 1274.32],
+    ["and", 1274.32, 1274.48],
+    ["came", 1274.48, 1274.68],
+    ["at", 1274.68, 1274.84],
+    ["me", 1274.84, 1274.96],
+    ["with", 1274.96, 1275.16],
+    ["it.", 1275.16, 1275.6]
+   ]
+  },
+  {
+   "text": "I was too frozen to move.",
+   "start": 1275.64,
+   "end": 1277.16,
+   "words": [
+    ["I", 1275.64, 1275.76],
+    ["was", 1275.76, 1275.92],
+    ["too", 1275.92, 1276.08],
+    ["frozen", 1276.08, 1276.44],
+    ["to", 1276.44, 1276.56],
+    ["move.", 1276.56, 1277.16]
+   ]
+  },
+  {
+   "text": "I just closed my eyes.",
+   "start": 1277.24,
+   "end": 1279.04,
+   "words": [
+    ["I", 1277.24, 1277.32],
+    ["just", 1277.32, 1277.68],
+    ["closed", 1277.68, 1278.16],
+    ["my", 1278.16, 1278.44],
+    ["eyes.", 1278.44, 1279.04]
+   ]
+  },
+  {
+   "text": "Then, I heard Mom scream, \"Stay away from her.\"",
+   "start": 1279.16,
+   "end": 1282.64,
+   "words": [
+    ["Then,", 1279.16, 1279.64],
+    ["I", 1279.64, 1279.72],
+    ["heard", 1279.72, 1279.96],
+    ["Mom", 1279.96, 1280.16],
+    ["scream,", 1280.16, 1280.92],
+    ["\"Stay", 1281.12, 1281.52],
+    ["away", 1281.52, 1281.84],
+    ["from", 1281.84, 1282.04],
+    ["her.\"", 1282.04, 1282.64]
+   ]
+  },
+  {
+   "text": "When I opened my eyes, Ashley had already slashed Mom's arm, but Mom didn't care.",
+   "start": 1283.0,
+   "end": 1288.32,
+   "words": [
+    ["When", 1283.0, 1283.16],
+    ["I", 1283.16, 1283.24],
+    ["opened", 1283.24, 1283.56],
+    ["my", 1283.56, 1283.8],
+    ["eyes,", 1283.8, 1284.4],
+    ["Ashley", 1284.56, 1284.92],
+    ["had", 1284.92, 1285.16],
+    ["already", 1285.16, 1285.52],
+    ["slashed", 1285.52, 1286.0],
+    ["Mom's", 1286.0, 1286.28],
+    ["arm,", 1286.28, 1286.8],
+    ["but", 1286.84, 1287.04],
+    ["Mom", 1287.04, 1287.4],
+    ["didn't", 1287.4, 1287.72],
+    ["care.", 1287.72, 1288.32]
+   ]
+  },
+  {
+   "text": "She looked like a lioness protecting her cub.",
+   "start": 1288.52,
+   "end": 1291.52,
+   "words": [
+    ["She", 1288.52, 1288.96],
+    ["looked", 1288.96, 1289.28],
+    ["like", 1289.28, 1289.48],
+    ["a", 1289.48, 1289.6],
+    ["lioness", 1289.6, 1290.32],
+    ["protecting", 1290.32, 1290.84],
+    ["her", 1290.84, 1291.0],
+    ["cub.", 1291.0, 1291.52]
+   ]
+  },
+  {
+   "text": "She broke the hair stick in half,",
+   "start": 1291.96,
+   "end": 1293.88,
+   "words": [
+    ["She", 1291.96, 1292.24],
+    ["broke", 1292.24, 1292.68],
+    ["the", 1292.68, 1292.8],
+    ["hair", 1292.8, 1292.96],
+    ["stick", 1292.96, 1293.16],
+    ["in", 1293.16, 1293.28],
+    ["half,", 1293.28, 1293.88]
+   ]
+  },
+  {
+   "text": "grabbed Ashley's arm and twisted it behind her back.",
+   "start": 1295.4,
+   "end": 1298.56,
+   "words": [
+    ["grabbed", 1295.4, 1295.84],
+    ["Ashley's", 1295.84, 1296.28],
+    ["arm", 1296.28, 1296.72],
+    ["and", 1296.72, 1296.92],
+    ["twisted", 1296.92, 1297.48],
+    ["it", 1297.48, 1297.6],
+    ["behind", 1297.6, 1297.88],
+    ["her", 1297.88, 1297.96],
+    ["back.", 1297.96, 1298.56]
+   ]
+  },
+  {
+   "text": "You stay away from my baby.",
+   "start": 1298.64,
+   "end": 1300.16,
+   "words": [
+    ["You", 1298.64, 1298.8],
+    ["stay", 1298.8, 1299.0],
+    ["away", 1299.0, 1299.2],
+    ["from", 1299.2, 1299.4],
+    ["my", 1299.4, 1299.56],
+    ["baby.", 1299.56, 1300.16]
+   ]
+  },
+  {
+   "text": "Nobody touches my baby.",
+   "start": 1300.24,
+   "end": 1302.08,
+   "words": [
+    ["Nobody", 1300.24, 1300.92],
+    ["touches", 1300.92, 1301.32],
+    ["my", 1301.32, 1301.48],
+    ["baby.", 1301.48, 1302.08]
+   ]
+  },
+  {
+   "text": "Everyone stared, terrified.",
+   "start": 1302.24,
+   "end": 1304.72,
+   "words": [
+    ["Everyone", 1302.24, 1302.88],
+    ["stared,", 1302.88, 1303.64],
+    ["terrified.", 1303.72, 1304.72]
+   ]
+  },
+  {
+   "text": "Then, Mom shoved Ashley away, and Ashley stumbled back with pure fear on her face.",
+   "start": 1304.72,
+   "end": 1310.52,
+   "words": [
+    ["Then,", 1304.72, 1305.16],
+    ["Mom", 1305.16, 1305.44],
+    ["shoved", 1305.44, 1305.84],
+    ["Ashley", 1305.84, 1306.2],
+    ["away,", 1306.2, 1306.8],
+    ["and", 1306.92, 1307.16],
+    ["Ashley", 1307.16, 1307.56],
+    ["stumbled", 1307.56, 1307.96],
+    ["back", 1307.96, 1308.32],
+    ["with", 1308.32, 1308.6],
+    ["pure", 1308.6, 1309.12],
+    ["fear", 1309.16, 1309.68],
+    ["on", 1309.68, 1309.8],
+    ["her", 1309.8, 1309.92],
+    ["face.", 1309.92, 1310.52]
+   ]
+  },
+  {
+   "text": "Anyone else want to try me? Come on.",
+   "start": 1310.56,
+   "end": 1312.48,
+   "words": [
+    ["Anyone", 1310.56, 1310.92],
+    ["else", 1310.92, 1311.08],
+    ["want", 1311.08, 1311.28],
+    ["to", 1311.28, 1311.36],
+    ["try", 1311.36, 1311.56],
+    ["me?", 1311.56, 1311.96],
+    ["Come", 1311.96, 1312.16],
+    ["on.", 1312.16, 1312.48]
+   ]
+  },
+  {
+   "text": "I'm not scared of you anymore.",
+   "start": 1312.48,
+   "end": 1313.8,
+   "words": [
+    ["I'm", 1312.48, 1312.6],
+    ["not", 1312.6, 1312.8],
+    ["scared", 1312.8, 1313.08],
+    ["of", 1313.08, 1313.16],
+    ["you", 1313.16, 1313.28],
+    ["anymore.", 1313.28, 1313.8]
+   ]
+  },
+  {
+   "text": "Come at me if you dare, you useless, brainless bullies.",
+   "start": 1313.8,
+   "end": 1316.84,
+   "words": [
+    ["Come", 1313.8, 1314.0],
+    ["at", 1314.0, 1314.12],
+    ["me", 1314.12, 1314.2],
+    ["if", 1314.2, 1314.32],
+    ["you", 1314.32, 1314.44],
+    ["dare,", 1314.44, 1314.76],
+    ["you", 1314.76, 1315.0],
+    ["useless,", 1315.0, 1315.48],
+    ["brainless", 1315.48, 1316.0],
+    ["bullies.", 1316.0, 1316.84]
+   ]
+  },
+  {
+   "text": "Most of the kids ran.",
+   "start": 1316.84,
+   "end": 1318.08,
+   "words": [
+    ["Most", 1316.84, 1317.12],
+    ["of", 1317.12, 1317.2],
+    ["the", 1317.2, 1317.28],
+    ["kids", 1317.28, 1317.56],
+    ["ran.", 1317.56, 1318.08]
+   ]
+  },
+  {
+   "text": "A few teachers tried to calm Mom down, but she was too fired up.",
+   "start": 1318.16,
+   "end": 1322.44,
+   "words": [
+    ["A", 1318.16, 1318.24],
+    ["few", 1318.24, 1318.44],
+    ["teachers", 1318.44, 1318.84],
+    ["tried", 1318.84, 1319.08],
+    ["to", 1319.08, 1319.16],
+    ["calm", 1319.16, 1319.44],
+    ["Mom", 1319.44, 1319.68],
+    ["down,", 1319.68, 1320.28],
+    ["but", 1320.4, 1320.56],
+    ["she", 1320.56, 1320.76],
+    ["was", 1320.76, 1321.16],
+    ["too", 1321.16, 1321.6],
+    ["fired", 1321.6, 1322.04],
+    ["up.", 1322.04, 1322.44]
+   ]
+  },
+  {
+   "text": "She pushed past them and came straight to me, pulling me into the tightest hug.",
+   "start": 1322.44,
+   "end": 1327.6,
+   "words": [
+    ["She", 1322.44, 1322.64],
+    ["pushed", 1322.64, 1323.08],
+    ["past", 1323.08, 1323.36],
+    ["them", 1323.36, 1323.72],
+    ["and", 1323.72, 1323.88],
+    ["came", 1323.88, 1324.12],
+    ["straight", 1324.12, 1324.76],
+    ["to", 1324.76, 1324.88],
+    ["me,", 1324.88, 1325.32],
+    ["pulling", 1325.48, 1325.84],
+    ["me", 1325.84, 1326.12],
+    ["into", 1326.12, 1326.36],
+    ["the", 1326.36, 1326.52],
+    ["tightest", 1326.52, 1327.08],
+    ["hug.", 1327.08, 1327.6]
+   ]
+  },
+  {
+   "text": "Mom was a petite woman, but in that moment, her hug felt like the biggest, warmest shield in the world.",
+   "start": 1327.72,
+   "end": 1335.08,
+   "words": [
+    ["Mom", 1327.72, 1328.12],
+    ["was", 1328.12, 1328.36],
+    ["a", 1328.36, 1328.41],
+    ["petite", 1328.4, 1328.84],
+    ["woman,", 1328.84, 1329.52],
+    ["but", 1329.6, 1329.72],
+    ["in", 1329.72, 1329.84],
+    ["that", 1329.84, 1330.08],
+    ["moment,", 1330.08, 1330.76],
+    ["her", 1330.76, 1331.08],
+    ["hug", 1331.08, 1331.48],
+    ["felt", 1331.48, 1331.72],
+    ["like", 1331.72, 1331.92],
+    ["the", 1331.92, 1332.04],
+    ["biggest,", 1332.04, 1332.88],
+    ["warmest", 1332.96, 1333.68],
+    ["shield", 1333.68, 1334.16],
+    ["in", 1334.16, 1334.28],
+    ["the", 1334.28, 1334.4],
+    ["world.", 1334.4, 1335.08]
+   ]
+  },
+  {
+   "text": "Then, my phone buzzed.",
+   "start": 1335.24,
+   "end": 1336.72,
+   "words": [
+    ["Then,", 1335.24, 1335.6],
+    ["my", 1335.6, 1335.8],
+    ["phone", 1335.8, 1336.08],
+    ["buzzed.", 1336.08, 1336.72]
+   ]
+  },
+  {
+   "text": "It was a message from Grandma.",
+   "start": 1336.72,
+   "end": 1338.48,
+   "words": [
+    ["It", 1336.72, 1336.84],
+    ["was", 1336.84, 1336.96],
+    ["a", 1336.96, 1337.04],
+    ["message", 1337.04, 1337.48],
+    ["from", 1337.48, 1337.64],
+    ["Grandma.", 1337.64, 1338.48]
+   ]
+  },
+  {
+   "text": "Grandma says she remembers the transformation date.",
+   "start": 1338.6,
+   "end": 1341.12,
+   "words": [
+    ["Grandma", 1338.6, 1338.96],
+    ["says", 1338.96, 1339.16],
+    ["she", 1339.16, 1339.32],
+    ["remembers", 1339.32, 1339.72],
+    ["the", 1339.72, 1339.8],
+    ["transformation", 1339.8, 1340.52],
+    ["date.", 1340.52, 1341.12]
+   ]
+  },
+  {
+   "text": "Mom, it was 30 minutes ago.",
+   "start": 1341.4,
+   "end": 1343.64,
+   "words": [
+    ["Mom,", 1341.4, 1341.92],
+    ["it", 1342.2, 1342.36],
+    ["was", 1342.36, 1342.52],
+    ["30", 1342.52, 1342.8],
+    ["minutes", 1342.8, 1343.12],
+    ["ago.", 1343.12, 1343.64]
+   ]
+  },
+  {
+   "text": "You missed it.",
+   "start": 1343.84,
+   "end": 1344.84,
+   "words": [
+    ["You", 1343.84, 1344.0],
+    ["missed", 1344.0, 1344.4],
+    ["it.", 1344.4, 1344.84]
+   ]
+  },
+  {
+   "text": "Funny, the first time I missed it because I was hiding from a bully.",
+   "start": 1345.8,
+   "end": 1349.2,
+   "words": [
+    ["Funny,", 1345.8, 1346.4],
+    ["the", 1346.4, 1346.52],
+    ["first", 1346.52, 1346.76],
+    ["time", 1346.76, 1346.96],
+    ["I", 1346.96, 1347.04],
+    ["missed", 1347.04, 1347.36],
+    ["it", 1347.36, 1347.44],
+    ["because", 1347.44, 1347.8],
+    ["I", 1347.8, 1347.85],
+    ["was", 1347.84, 1348.04],
+    ["hiding", 1348.04, 1348.32],
+    ["from", 1348.32, 1348.48],
+    ["a", 1348.48, 1348.53],
+    ["bully.", 1348.52, 1349.2]
+   ]
+  },
+  {
+   "text": "This time I missed it because I finally stood up to one.",
+   "start": 1349.4,
+   "end": 1352.2,
+   "words": [
+    ["This", 1349.4, 1349.6],
+    ["time", 1349.6, 1349.84],
+    ["I", 1349.84, 1349.92],
+    ["missed", 1349.92, 1350.2],
+    ["it", 1350.2, 1350.28],
+    ["because", 1350.28, 1350.6],
+    ["I", 1350.6, 1350.68],
+    ["finally", 1350.68, 1351.12],
+    ["stood", 1351.12, 1351.4],
+    ["up", 1351.4, 1351.56],
+    ["to", 1351.56, 1351.68],
+    ["one.", 1351.68, 1352.2]
+   ]
+  },
+  {
+   "text": "Come on, baby.",
+   "start": 1352.28,
+   "end": 1353.0,
+   "words": [
+    ["Come", 1352.28, 1352.48],
+    ["on,", 1352.48, 1352.6],
+    ["baby.", 1352.6, 1353.0]
+   ]
+  },
+  {
+   "text": "Let's go home.",
+   "start": 1353.0,
+   "end": 1354.0,
+   "words": [
+    ["Let's", 1353.0, 1353.24],
+    ["go", 1353.24, 1353.4],
+    ["home.", 1353.4, 1354.0]
+   ]
+  },
+  {
+   "text": "When we got home, Grandma was in the kitchen cooking dinner like nothing had happened.",
+   "start": 1354.72,
+   "end": 1359.8,
+   "words": [
+    ["When", 1354.72, 1354.88],
+    ["we", 1354.88, 1355.04],
+    ["got", 1355.04, 1355.28],
+    ["home,", 1355.28, 1355.8],
+    ["Grandma", 1355.8, 1356.28],
+    ["was", 1356.28, 1356.44],
+    ["in", 1356.44, 1356.52],
+    ["the", 1356.52, 1356.64],
+    ["kitchen", 1356.64, 1357.32],
+    ["cooking", 1357.32, 1357.68],
+    ["dinner", 1357.68, 1358.08],
+    ["like", 1358.08, 1358.36],
+    ["nothing", 1358.36, 1358.76],
+    ["had", 1358.76, 1358.92],
+    ["happened.", 1358.92, 1359.8]
+   ]
+  },
+  {
+   "text": "Mom and I froze. What?",
+   "start": 1359.8,
+   "end": 1362.04,
+   "words": [
+    ["Mom", 1359.8, 1360.04],
+    ["and", 1360.04, 1360.16],
+    ["I", 1360.16, 1360.44],
+    ["froze.", 1360.56, 1361.24],
+    ["What?", 1361.44, 1362.04]
+   ]
+  },
+  {
+   "text": "I was sick, not dead.",
+   "start": 1362.44,
+   "end": 1364.88,
+   "words": [
+    ["I", 1362.44, 1362.6],
+    ["was", 1362.6, 1363.04],
+    ["sick,", 1363.08, 1363.68],
+    ["not", 1363.84, 1364.28],
+    ["dead.", 1364.28, 1364.88]
+   ]
+  },
+  {
+   "text": "Stop staring at me like I came back from the grave.",
+   "start": 1365.28,
+   "end": 1368.64,
+   "words": [
+    ["Stop", 1365.28, 1365.68],
+    ["staring", 1365.68, 1366.24],
+    ["at", 1366.24, 1366.4],
+    ["me", 1366.4, 1366.6],
+    ["like", 1366.6, 1366.84],
+    ["I", 1366.84, 1366.96],
+    ["came", 1366.96, 1367.32],
+    ["back", 1367.32, 1367.64],
+    ["from", 1367.64, 1367.8],
+    ["the", 1367.8, 1367.96],
+    ["grave.", 1367.96, 1368.64]
+   ]
+  },
+  {
+   "text": "I had some complications, but I'm only 72.",
+   "start": 1369.12,
+   "end": 1372.44,
+   "words": [
+    ["I", 1369.12, 1369.28],
+    ["had", 1369.28, 1369.56],
+    ["some", 1369.56, 1369.76],
+    ["complications,", 1369.76, 1370.96],
+    ["but", 1371.12, 1371.28],
+    ["I'm", 1371.28, 1371.52],
+    ["only", 1371.52, 1372.0],
+    ["72.", 1372.0, 1372.44]
+   ]
+  },
+  {
+   "text": "Mom turned to me, triumphant.",
+   "start": 1373.32,
+   "end": 1375.48,
+   "words": [
+    ["Mom", 1373.32, 1373.68],
+    ["turned", 1373.68, 1374.04],
+    ["to", 1374.04, 1374.16],
+    ["me,", 1374.16, 1374.4],
+    ["triumphant.", 1374.4, 1375.48]
+   ]
+  },
+  {
+   "text": "I knew it.",
+   "start": 1375.48,
+   "end": 1376.52,
+   "words": [
+    ["I", 1375.48, 1375.68],
+    ["knew", 1375.68, 1376.08],
+    ["it.", 1376.08, 1376.52]
+   ]
+  },
+  {
+   "text": "Told you she wasn't 67.",
+   "start": 1377.12,
+   "end": 1378.32,
+   "words": [
+    ["Told", 1377.12, 1377.4],
+    ["you", 1377.4, 1377.48],
+    ["she", 1377.48, 1377.6],
+    ["wasn't", 1377.6, 1377.88],
+    ["67.", 1377.88, 1378.32]
+   ]
+  },
+  {
+   "text": "Mom, really? Grandma, you said Mom had to become a witch to save you.",
+   "start": 1378.88,
+   "end": 1384.84,
+   "words": [
+    ["Mom,", 1378.88, 1379.4],
+    ["really?", 1379.64, 1380.4],
+    ["Grandma,", 1380.88, 1381.72],
+    ["you", 1381.84, 1382.08],
+    ["said", 1382.08, 1382.36],
+    ["Mom", 1382.36, 1382.64],
+    ["had", 1382.64, 1382.8],
+    ["to", 1382.8, 1382.92],
+    ["become", 1382.92, 1383.16],
+    ["a", 1383.16, 1383.24],
+    ["witch", 1383.24, 1383.76],
+    ["to", 1383.76, 1383.92],
+    ["save", 1383.92, 1384.36],
+    ["you.", 1384.36, 1384.84]
+   ]
+  },
+  {
+   "text": "And look at her.",
+   "start": 1384.84,
+   "end": 1386.12,
+   "words": [
+    ["And", 1384.84, 1385.16],
+    ["look", 1385.16, 1385.4],
+    ["at", 1385.4, 1385.6],
+    ["her.", 1385.6, 1386.12]
+   ]
+  },
+  {
+   "text": "She finally stood up for herself.",
+   "start": 1386.32,
+   "end": 1388.52,
+   "words": [
+    ["She", 1386.32, 1386.52],
+    ["finally", 1386.52, 1387.04],
+    ["stood", 1387.04, 1387.36],
+    ["up", 1387.36, 1387.52],
+    ["for", 1387.52, 1387.68],
+    ["herself.", 1387.68, 1388.52]
+   ]
+  },
+  {
+   "text": "So, yes, I'd say she transformed.",
+   "start": 1388.6,
+   "end": 1392.68,
+   "words": [
+    ["So,", 1388.6, 1388.92],
+    ["yes,", 1388.92, 1389.44],
+    ["I'd", 1389.96, 1390.4],
+    ["say", 1390.4, 1390.84],
+    ["she", 1391.12, 1391.52],
+    ["transformed.", 1391.52, 1392.68]
+   ]
+  },
+  {
+   "text": "Wait, so I'm a witch now?",
+   "start": 1393.2,
+   "end": 1395.0,
+   "words": [
+    ["Wait,", 1393.2, 1393.76],
+    ["so", 1393.76, 1394.04],
+    ["I'm", 1394.04, 1394.2],
+    ["a", 1394.2, 1394.25],
+    ["witch", 1394.24, 1394.48],
+    ["now?", 1394.48, 1395.0]
+   ]
+  },
+  {
+   "text": "Grandma stared at her for a second, then burst out laughing. A witch? Please.",
+   "start": 1395.12,
+   "end": 1400.92,
+   "words": [
+    ["Grandma", 1395.12, 1395.52],
+    ["stared", 1395.52, 1395.92],
+    ["at", 1395.92, 1396.0],
+    ["her", 1396.0, 1396.16],
+    ["for", 1396.16, 1396.28],
+    ["a", 1396.28, 1396.36],
+    ["second,", 1396.36, 1397.08],
+    ["then", 1397.08, 1397.32],
+    ["burst", 1397.32, 1397.8],
+    ["out", 1397.8, 1398.04],
+    ["laughing.", 1398.04, 1398.92],
+    ["A", 1398.92, 1399.08],
+    ["witch?", 1399.08, 1399.76],
+    ["Please.", 1400.16, 1400.92]
+   ]
+  },
+  {
+   "text": "The only thing you ever enchanted was stupid men.",
+   "start": 1401.8,
+   "end": 1405.6,
+   "words": [
+    ["The", 1401.8, 1402.0],
+    ["only", 1402.0, 1402.28],
+    ["thing", 1402.28, 1402.6],
+    ["you", 1402.6, 1402.8],
+    ["ever", 1402.8, 1403.08],
+    ["enchanted", 1403.08, 1403.84],
+    ["was", 1403.84, 1404.2],
+    ["stupid", 1404.2, 1404.88],
+    ["men.", 1405.08, 1405.6]
+   ]
+  },
+  {
+   "text": "So, none of it was real? The magic?",
+   "start": 1406.0,
+   "end": 1409.24,
+   "words": [
+    ["So,", 1406.0, 1406.44],
+    ["none", 1406.92, 1407.28],
+    ["of", 1407.28, 1407.4],
+    ["it", 1407.4, 1407.52],
+    ["was", 1407.52, 1407.72],
+    ["real?", 1407.72, 1408.32],
+    ["The", 1408.4, 1408.56],
+    ["magic?", 1408.56, 1409.24]
+   ]
+  },
+  {
+   "text": "No. The problem? Very real.",
+   "start": 1409.92,
+   "end": 1413.6,
+   "words": [
+    ["No.", 1409.92, 1410.36],
+    ["The", 1410.88, 1411.08],
+    ["problem?", 1411.08, 1411.92],
+    ["Very", 1412.36, 1412.88],
+    ["real.", 1413.0, 1413.6]
+   ]
+  },
+  {
+   "text": "After the bullying in high school, your mother never really recovered.",
+   "start": 1414.08,
+   "end": 1418.72,
+   "words": [
+    ["After", 1414.08, 1414.44],
+    ["the", 1414.44, 1414.6],
+    ["bullying", 1414.6, 1415.16],
+    ["in", 1415.16, 1415.32],
+    ["high", 1415.32, 1415.52],
+    ["school,", 1415.52, 1416.2],
+    ["your", 1416.2, 1416.44],
+    ["mother", 1416.44, 1416.8],
+    ["never", 1416.8, 1417.24],
+    ["really", 1417.24, 1417.72],
+    ["recovered.", 1417.72, 1418.72]
+   ]
+  },
+  {
+   "text": "That girl humiliated her so badly that Vicky stopped believing she could face anything hard.",
+   "start": 1419.2,
+   "end": 1426.76,
+   "words": [
+    ["That", 1419.2, 1419.56],
+    ["girl", 1419.56, 1420.08],
+    ["humiliated", 1420.08, 1421.08],
+    ["her", 1421.16, 1421.4],
+    ["so", 1421.4, 1421.76],
+    ["badly", 1421.92, 1422.52],
+    ["that", 1422.68, 1422.96],
+    ["Vicky", 1422.96, 1423.36],
+    ["stopped", 1423.36, 1423.88],
+    ["believing", 1423.88, 1424.48],
+    ["she", 1424.48, 1424.64],
+    ["could", 1424.64, 1424.88],
+    ["face", 1424.88, 1425.4],
+    ["anything", 1425.44, 1426.16],
+    ["hard.", 1426.16, 1426.76]
+   ]
+  },
+  {
+   "text": "So, she hid behind jokes, flirting, and pretending nothing mattered before anyone could hurt her first.",
+   "start": 1427.52,
+   "end": 1434.72,
+   "words": [
+    ["So,", 1427.52, 1427.72],
+    ["she", 1427.72, 1428.08],
+    ["hid", 1428.08, 1428.44],
+    ["behind", 1428.44, 1429.0],
+    ["jokes,", 1429.0, 1429.68],
+    ["flirting,", 1429.68, 1430.28],
+    ["and", 1430.28, 1430.44],
+    ["pretending", 1430.44, 1431.12],
+    ["nothing", 1431.12, 1431.6],
+    ["mattered", 1431.6, 1432.32],
+    ["before", 1432.32, 1432.72],
+    ["anyone", 1432.72, 1433.16],
+    ["could", 1433.16, 1433.4],
+    ["hurt", 1433.4, 1433.72],
+    ["her", 1433.72, 1434.04],
+    ["first.", 1434.04, 1434.72]
+   ]
+  },
+  {
+   "text": "Deep down, she was still that scared 16-year-old girl hiding in the bathroom.",
+   "start": 1435.68,
+   "end": 1443.52,
+   "words": [
+    ["Deep", 1435.68, 1436.12],
+    ["down,", 1436.12, 1436.72],
+    ["she", 1437.16, 1437.52],
+    ["was", 1437.52, 1437.88],
+    ["still", 1437.88, 1438.48],
+    ["that", 1438.52, 1438.96],
+    ["scared", 1438.96, 1439.64],
+    ["16-year-old", 1439.92, 1441.0],
+    ["girl", 1441.28, 1441.8],
+    ["hiding", 1441.8, 1442.36],
+    ["in", 1442.36, 1442.48],
+    ["the", 1442.48, 1442.6],
+    ["bathroom.", 1442.6, 1443.52]
+   ]
+  },
+  {
+   "text": "I tried everything to make her face herself, and I was almost out of hope.",
+   "start": 1444.36,
+   "end": 1450.04,
+   "words": [
+    ["I", 1444.36, 1444.64],
+    ["tried", 1444.64, 1445.16],
+    ["everything", 1445.16, 1445.8],
+    ["to", 1445.8, 1445.96],
+    ["make", 1445.96, 1446.2],
+    ["her", 1446.2, 1446.4],
+    ["face", 1446.4, 1446.72],
+    ["herself,", 1446.72, 1447.56],
+    ["and", 1448.0, 1448.16],
+    ["I", 1448.16, 1448.28],
+    ["was", 1448.28, 1448.52],
+    ["almost", 1448.52, 1449.16],
+    ["out", 1449.16, 1449.32],
+    ["of", 1449.32, 1449.44],
+    ["hope.", 1449.44, 1450.04]
+   ]
+  },
+  {
+   "text": "Then I found those medical test results she never bothered to open.",
+   "start": 1450.56,
+   "end": 1456.2,
+   "words": [
+    ["Then", 1450.56, 1451.04],
+    ["I", 1451.04, 1451.28],
+    ["found", 1451.28, 1451.84],
+    ["those", 1451.84, 1452.16],
+    ["medical", 1452.16, 1452.76],
+    ["test", 1452.76, 1453.28],
+    ["results", 1453.28, 1454.0],
+    ["she", 1454.0, 1454.24],
+    ["never", 1454.24, 1454.68],
+    ["bothered", 1454.68, 1455.4],
+    ["to", 1455.4, 1455.6],
+    ["open.", 1455.6, 1456.2]
+   ]
+  },
+  {
+   "text": "Medical results? Yes.",
+   "start": 1456.4,
+   "end": 1458.28,
+   "words": [
+    ["Medical", 1456.4, 1456.76],
+    ["results?", 1456.76, 1457.6],
+    ["Yes.", 1457.76, 1458.28]
+   ]
+  },
+  {
+   "text": "You have a rare pigment condition.",
+   "start": 1458.6,
+   "end": 1461.4,
+   "words": [
+    ["You", 1458.6, 1458.8],
+    ["have", 1458.8, 1459.0],
+    ["a", 1459.0, 1459.16],
+    ["rare", 1459.16, 1459.68],
+    ["pigment", 1459.68, 1460.4],
+    ["condition.", 1460.4, 1461.4]
+   ]
+  },
+  {
+   "text": "That's what caused the silver in your eyes and the gray in your hair. Not magic.",
+   "start": 1461.68,
+   "end": 1466.84,
+   "words": [
+    ["That's", 1461.68, 1461.92],
+    ["what", 1461.92, 1462.12],
+    ["caused", 1462.12, 1462.56],
+    ["the", 1462.56, 1462.68],
+    ["silver", 1462.68, 1463.24],
+    ["in", 1463.24, 1463.36],
+    ["your", 1463.36, 1463.64],
+    ["eyes", 1463.64, 1463.92],
+    ["and", 1463.92, 1464.04],
+    ["the", 1464.04, 1464.12],
+    ["gray", 1464.12, 1464.48],
+    ["in", 1464.48, 1464.64],
+    ["your", 1464.64, 1464.88],
+    ["hair.", 1464.88, 1465.48],
+    ["Not", 1465.8, 1466.16],
+    ["magic.", 1466.16, 1466.84]
+   ]
+  },
+  {
+   "text": "Not a curse.",
+   "start": 1467.24,
+   "end": 1468.36,
+   "words": [
+    ["Not", 1467.24, 1467.56],
+    ["a", 1467.56, 1467.68],
+    ["curse.", 1467.68, 1468.36]
+   ]
+  },
+  {
+   "text": "Just your body being dramatic, which honestly fits you.",
+   "start": 1469.04,
+   "end": 1474.52,
+   "words": [
+    ["Just", 1469.04, 1469.4],
+    ["your", 1469.4, 1469.76],
+    ["body", 1469.76, 1470.28],
+    ["being", 1470.52, 1471.0],
+    ["dramatic,", 1471.0, 1471.92],
+    ["which", 1472.24, 1472.52],
+    ["honestly", 1472.52, 1473.36],
+    ["fits", 1473.48, 1474.0],
+    ["you.", 1474.0, 1474.52]
+   ]
+  },
+  {
+   "text": "So, you used it to make us believe she was turning into a witch?",
+   "start": 1474.76,
+   "end": 1478.92,
+   "words": [
+    ["So,", 1474.76, 1475.08],
+    ["you", 1475.08, 1475.4],
+    ["used", 1475.4, 1475.92],
+    ["it", 1475.92, 1476.04],
+    ["to", 1476.04, 1476.16],
+    ["make", 1476.16, 1476.36],
+    ["us", 1476.36, 1476.52],
+    ["believe", 1476.52, 1477.0],
+    ["she", 1477.0, 1477.16],
+    ["was", 1477.16, 1477.36],
+    ["turning", 1477.36, 1477.76],
+    ["into", 1477.76, 1478.08],
+    ["a", 1478.08, 1478.24],
+    ["witch?", 1478.24, 1478.92]
+   ]
+  },
+  {
+   "text": "I used what I had, and it worked.",
+   "start": 1479.12,
+   "end": 1482.2,
+   "words": [
+    ["I", 1479.12, 1479.36],
+    ["used", 1479.36, 1479.8],
+    ["what", 1479.8, 1480.0],
+    ["I", 1480.0, 1480.16],
+    ["had,", 1480.16, 1480.68],
+    ["and", 1481.04, 1481.2],
+    ["it", 1481.2, 1481.44],
+    ["worked.", 1481.44, 1482.2]
+   ]
+  },
+  {
+   "text": "She went back as that scared 16-year-old girl, but this time, she didn't run.",
+   "start": 1482.56,
+   "end": 1489.08,
+   "words": [
+    ["She", 1482.56, 1482.8],
+    ["went", 1482.8, 1483.08],
+    ["back", 1483.08, 1483.4],
+    ["as", 1483.4, 1483.56],
+    ["that", 1483.56, 1483.84],
+    ["scared", 1483.84, 1484.4],
+    ["16-year-old", 1484.4, 1485.48],
+    ["girl,", 1485.48, 1486.08],
+    ["but", 1486.28, 1486.48],
+    ["this", 1486.48, 1486.8],
+    ["time,", 1486.8, 1487.4],
+    ["she", 1487.64, 1488.08],
+    ["didn't", 1488.12, 1488.56],
+    ["run.", 1488.56, 1489.08]
+   ]
+  },
+  {
+   "text": "She faced the thing that broke her and protected her daughter.",
+   "start": 1489.64,
+   "end": 1494.68,
+   "words": [
+    ["She", 1489.64, 1489.88],
+    ["faced", 1489.88, 1490.44],
+    ["the", 1490.44, 1490.6],
+    ["thing", 1490.6, 1491.0],
+    ["that", 1491.0, 1491.24],
+    ["broke", 1491.24, 1491.8],
+    ["her", 1491.8, 1492.24],
+    ["and", 1492.4, 1492.6],
+    ["protected", 1492.6, 1493.48],
+    ["her", 1493.48, 1493.76],
+    ["daughter.", 1493.76, 1494.68]
+   ]
+  },
+  {
+   "text": "That's more powerful than any spell.",
+   "start": 1495.08,
+   "end": 1498.44,
+   "words": [
+    ["That's", 1495.08, 1495.48],
+    ["more", 1495.48, 1496.0],
+    ["powerful", 1496.08, 1496.92],
+    ["than", 1496.92, 1497.28],
+    ["any", 1497.28, 1497.72],
+    ["spell.", 1497.76, 1498.44]
+   ]
+  },
+  {
+   "text": "Mom frowned like she wanted to argue, but then she looked at me, and I was smiling, and we both immediately started laughing.",
+   "start": 1498.88,
+   "end": 1507.84,
+   "words": [
+    ["Mom", 1498.88, 1499.24],
+    ["frowned", 1499.24, 1499.88],
+    ["like", 1499.88, 1500.08],
+    ["she", 1500.08, 1500.24],
+    ["wanted", 1500.24, 1500.56],
+    ["to", 1500.56, 1500.68],
+    ["argue,", 1500.68, 1501.36],
+    ["but", 1501.44, 1501.6],
+    ["then", 1501.6, 1501.76],
+    ["she", 1501.76, 1501.96],
+    ["looked", 1501.96, 1502.2],
+    ["at", 1502.2, 1502.32],
+    ["me,", 1502.32, 1502.76],
+    ["and", 1502.96, 1503.24],
+    ["I", 1503.24, 1503.36],
+    ["was", 1503.36, 1503.68],
+    ["smiling,", 1503.68, 1504.52],
+    ["and", 1504.64, 1504.84],
+    ["we", 1504.84, 1505.04],
+    ["both", 1505.04, 1505.56],
+    ["immediately", 1505.6, 1506.48],
+    ["started", 1506.48, 1506.92],
+    ["laughing.", 1506.92, 1507.84]
+   ]
+  },
+  {
+   "text": "Well, I guess I should go then.",
+   "start": 1508.12,
+   "end": 1510.36,
+   "words": [
+    ["Well,", 1508.12, 1508.72],
+    ["I", 1509.0, 1509.16],
+    ["guess", 1509.16, 1509.36],
+    ["I", 1509.36, 1509.44],
+    ["should", 1509.44, 1509.6],
+    ["go", 1509.6, 1509.76],
+    ["then.", 1509.76, 1510.36]
+   ]
+  },
+  {
+   "text": "It was a pleasure being your bestie, daughter.",
+   "start": 1510.52,
+   "end": 1513.04,
+   "words": [
+    ["It", 1510.52, 1510.68],
+    ["was", 1510.68, 1510.88],
+    ["a", 1510.88, 1510.96],
+    ["pleasure", 1510.96, 1511.36],
+    ["being", 1511.36, 1511.64],
+    ["your", 1511.64, 1511.76],
+    ["bestie,", 1511.76, 1512.12],
+    ["daughter.", 1512.12, 1513.04]
+   ]
+  },
+  {
+   "text": "You'll always be my bestie, Mom.",
+   "start": 1513.16,
+   "end": 1515.08,
+   "words": [
+    ["You'll", 1513.16, 1513.48],
+    ["always", 1513.48, 1513.88],
+    ["be", 1513.88, 1514.0],
+    ["my", 1514.0, 1514.16],
+    ["bestie,", 1514.16, 1514.56],
+    ["Mom.", 1514.56, 1515.08]
+   ]
+  },
+  {
+   "text": "I didn't even know I could be brave until I had to protect you.",
+   "start": 1515.2,
+   "end": 1518.92,
+   "words": [
+    ["I", 1515.2, 1515.32],
+    ["didn't", 1515.32, 1515.56],
+    ["even", 1515.56, 1515.8],
+    ["know", 1515.8, 1516.12],
+    ["I", 1516.12, 1516.2],
+    ["could", 1516.2, 1516.36],
+    ["be", 1516.36, 1516.52],
+    ["brave", 1516.52, 1517.12],
+    ["until", 1517.16, 1517.52],
+    ["I", 1517.52, 1517.64],
+    ["had", 1517.64, 1517.88],
+    ["to", 1517.88, 1517.96],
+    ["protect", 1517.96, 1518.4],
+    ["you.", 1518.4, 1518.92]
+   ]
+  },
+  {
+   "text": "Okay, off I go.",
+   "start": 1519.0,
+   "end": 1520.24,
+   "words": [
+    ["Okay,", 1519.0, 1519.48],
+    ["off", 1519.48, 1519.72],
+    ["I", 1519.72, 1519.8],
+    ["go.", 1519.8, 1520.24]
+   ]
+  },
+  {
+   "text": "Also, I heard Ashley's dad is rich and newly divorced.",
+   "start": 1520.68,
+   "end": 1523.56,
+   "words": [
+    ["Also,", 1520.68, 1521.0],
+    ["I", 1521.0, 1521.08],
+    ["heard", 1521.08, 1521.32],
+    ["Ashley's", 1521.32, 1521.72],
+    ["dad", 1521.72, 1521.92],
+    ["is", 1521.92, 1522.04],
+    ["rich", 1522.04, 1522.28],
+    ["and", 1522.28, 1522.4],
+    ["newly", 1522.4, 1522.64],
+    ["divorced.", 1522.64, 1523.56]
+   ]
+  },
+  {
+   "text": "Maybe I can become her stepmom. Oh, god.",
+   "start": 1523.6,
+   "end": 1526.36,
+   "words": [
+    ["Maybe", 1523.6, 1523.92],
+    ["I", 1523.92, 1524.0],
+    ["can", 1524.0, 1524.12],
+    ["become", 1524.12, 1524.4],
+    ["her", 1524.4, 1524.48],
+    ["stepmom.", 1524.48, 1525.32],
+    ["Oh,", 1525.48, 1525.84],
+    ["god.", 1525.84, 1526.36]
+   ]
+  }
+ ]
+}
