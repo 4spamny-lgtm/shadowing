@@ -1,0 +1,104 @@
+# 유튜브 주소를 받아 GitHub 서버에서 prep.py를 실행하고, 결과를 저장소에 올립니다.
+#
+# 실행 방법
+#   1) 저장소 Actions 탭 → "영상 추가" → Run workflow → 주소 입력 → Run workflow
+#   2) queue.txt에 주소를 적고 저장(Commit)하면 자동 실행
+#
+# 유튜브가 막아서 실패한 주소는 queue.txt에 남고,
+# 노트북에서 add.bat을 실행하면 이어서 처리됩니다.
+
+name: 영상 추가
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "유튜브 주소 (여러 개면 띄어쓰기로 구분, 비워두면 queue.txt만 처리)"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: [queue.txt]
+
+permissions:
+  contents: write
+  pages: write
+
+# 여러 번 실행돼도 한 번에 하나씩 차례로 처리
+concurrency:
+  group: add-video
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: 저장소 받기
+        uses: actions/checkout@v4
+
+      - name: 할 일 확인
+        id: check
+        env:
+          INPUT_URL: ${{ inputs.url }}
+        run: |
+          if [ -n "$INPUT_URL" ] || grep -qvE '^[[:space:]]*(#|$)' queue.txt 2>/dev/null; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "처리할 주소가 없어서 종료합니다."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Python 준비
+        if: steps.check.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Deno 준비 (yt-dlp에 필요)
+        if: steps.check.outputs.run == 'true'
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: 문장 부호 모델 캐시 (두 번째 실행부터 빨라짐)
+        if: steps.check.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: punct-model-v1
+
+      - name: 패키지 설치
+        if: steps.check.outputs.run == 'true'
+        run: |
+          pip install -U "yt-dlp[default,curl-cffi]"
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install deepmultilingualpunctuation
+
+      - name: 영상 처리
+        if: steps.check.outputs.run == 'true'
+        env:
+          INPUT_URL: ${{ inputs.url }}
+        run: |
+          set -f
+          python prep.py --queue $INPUT_URL
+
+      - name: 결과 저장
+        if: steps.check.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A videos queue.txt
+          if git diff --cached --quiet; then
+            echo "바뀐 파일이 없습니다."
+            exit 0
+          fi
+          git commit -m "Add videos (GitHub Actions)"
+          git pull --rebase
+          git push
+
+      - name: 사이트 새로고침
+        if: steps.check.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
