@@ -1,3 +1,4 @@
 # 여기에 유튜브 주소를 한 줄에 하나씩 적으면, 다음 처리 때 영상이 추가됩니다.
 # 처리에 성공한 주소는 자동으로 지워지고, 실패한 주소는 여기에 남습니다.
 https://youtube.com/shorts/T6JXtdEAEP8?si=pq_lO4Uyp5g7B0y7
+https://youtu.be/SENBwBe7bew?si=sRKAY0Ql8P4PiqLh
