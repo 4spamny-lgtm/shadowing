@@ -92,6 +92,13 @@ jobs:
           set -e
           if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit "$code"; fi
 
+      - name: 이중자막 번역 (실패해도 영상은 저장)
+        if: steps.check.outputs.run == 'true'
+        continue-on-error: true
+        env:
+          GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+        run: python translate_videos.py --target ko
+
       - name: 결과 저장 (충돌 시 최신 상태에 안전하게 재적용)
         if: steps.check.outputs.run == 'true'
         run: |
