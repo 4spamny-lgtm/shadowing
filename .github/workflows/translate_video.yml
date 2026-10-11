@@ -1,5 +1,10 @@
 name: 자막 번역
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'videos/*.json'
+      - '!videos/index.json'
   workflow_dispatch:
     inputs:
       target:
@@ -29,7 +34,7 @@ jobs:
       - name: Google Cloud Translation
         env:
           GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
-          TARGET: ${{ inputs.target }}
+          TARGET: ${{ inputs.target || 'ko' }}
           VIDEO_ID: ${{ inputs.video_id }}
         run: python translate_videos.py --target "$TARGET" --video-id "$VIDEO_ID"
       - name: 안전하게 저장
