@@ -12,6 +12,10 @@ name: 영상 추가
 on:
   workflow_dispatch:
     inputs:
+      lang:
+        description: '원어 자막 언어 (en/ja/zh/es/fr/de)'
+        required: false
+        default: 'en'
       url:
         description: "유튜브 주소 (여러 개면 띄어쓰기로 구분, 비워두면 queue.txt만 처리)"
         required: false
@@ -26,7 +30,7 @@ permissions:
 
 # 여러 번 실행돼도 한 번에 하나씩 차례로 처리
 concurrency:
-  group: add-video
+  group: shadowing-video-writes
   cancel-in-progress: false
 
 jobs:
@@ -79,10 +83,11 @@ jobs:
         if: steps.check.outputs.run == 'true'
         env:
           INPUT_URL: ${{ inputs.url }}
+          SOURCE_LANG: ${{ inputs.lang || 'en' }}
         run: |
           set -f
           set +e
-          python -c 'import os,subprocess,sys; u=os.environ.get("INPUT_URL", "").split(); sys.exit(subprocess.call([sys.executable,"prep.py","--queue",*u]))'
+          python -c 'import os,subprocess,sys; u=os.environ.get("INPUT_URL", "").split(); sys.exit(subprocess.call([sys.executable,"prep.py","--queue","--lang",os.environ.get("SOURCE_LANG","en"),*u]))'
           code=$?
           set -e
           if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit "$code"; fi

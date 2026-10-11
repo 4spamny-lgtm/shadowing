@@ -1,0 +1,39 @@
+name: 자막 번역
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: '번역할 언어'
+        type: choice
+        required: true
+        default: ko
+        options: [ko, en, ja, zh-CN, es, fr, de]
+      video_id:
+        description: '영상 ID (비우면 번역 안 된 모든 영상)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: shadowing-video-writes
+  cancel-in-progress: false
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Google Cloud Translation
+        env:
+          GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+          TARGET: ${{ inputs.target }}
+          VIDEO_ID: ${{ inputs.video_id }}
+        run: python translate_videos.py --target "$TARGET" --video-id "$VIDEO_ID"
+      - name: 안전하게 저장
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python publish_safe.py
