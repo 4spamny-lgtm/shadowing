@@ -93,17 +93,19 @@ def expand_urls(urls):
     return out
 
 
-def pick_subtitle(info):
-    """수동 영어 자막 우선, 없으면 자동 자막"""
-    subs = info.get("subtitles") or {}
-    for k in ["en", "en-US", "en-GB", "en-CA", "en-AU"] + sorted(subs):
-        if k in subs and k.lower().startswith("en"):
-            return k, "manual"
-    autos = info.get("automatic_captions") or {}
-    if "en-orig" in autos:
-        return "en-orig", "auto"
-    if "en" in autos:
-        return "en", "auto"
+def pick_subtitle(info, preferred="en"):
+    """Choose manual captions first, then automatic captions, for selected language."""
+    preferred = preferred.lower()
+    def matches(k):
+        return k.lower() == preferred or k.lower().startswith(preferred + "-")
+    for kind, captions in (("manual", info.get("subtitles") or {}),
+                           ("auto", info.get("automatic_captions") or {})):
+        keys = list(captions)
+        if preferred == "en" and kind == "auto" and "en-orig" in keys:
+            return "en-orig", kind
+        for k in keys:
+            if matches(k) and not k.lower().endswith("-orig"):
+                return k, kind
     return None, None
 
 
@@ -503,9 +505,9 @@ def process_video(url, seg, force):
         return True
 
     print(f"\n▶ {title} ({vid})")
-    lang, kind = pick_subtitle(info)
+    lang, kind = pick_subtitle(info, seg.get("lang", "en"))
     if not lang:
-        print("  영어 자막이 없는 영상이라 건너뜁니다. (대기 목록에서 제거)")
+        print("  선택한 언어의 자막이 없는 영상이라 건너뜁니다. (대기 목록에서 제거)")
         return True
     orig_lang = str(info.get("language") or "")
     if kind == "auto" and lang == "en" and orig_lang and not orig_lang.startswith("en"):
@@ -518,7 +520,10 @@ def process_video(url, seg, force):
         return True
     print(f"  단어 {len(words)}개")
 
-    if seg["mode"] != "claude" and has_punct(words):
+    if seg.get("lang", "en") != "en":
+        print("  비영어 언어: 규칙 기반 문장 분리를 사용합니다.")
+        ranges, method = segment_rules(words), "rules"
+    elif seg["mode"] != "claude" and has_punct(words):
         print("  자막에 문장 부호가 이미 있어 그대로 사용합니다.")
         ranges, method = segment_rules(words), "punctuation"
     elif seg["mode"] == "claude" and seg["client"]:
@@ -616,12 +621,13 @@ def main():
                     help="문장 나누기 방식 (기본: local)")
     ap.add_argument("--model", default=DEFAULT_MODEL, help="--seg claude일 때 사용할 모델")
     ap.add_argument("--force", action="store_true", help="이미 처리한 영상도 다시 처리")
+    ap.add_argument("--lang", choices=["en","ja","zh","es","fr","de"], default="en", help="추출할 원어 자막 언어")
     args = ap.parse_args()
 
     load_dotenv()
     OUT_DIR.mkdir(exist_ok=True)
 
-    seg = {"mode": args.seg, "model": args.model, "client": None,
+    seg = {"mode": args.seg, "model": args.model, "lang": args.lang, "client": None,
            "local": None, "local_failed": False}
 
     if args.seg == "claude":
