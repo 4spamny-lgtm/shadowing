@@ -453,11 +453,25 @@ def update_index():
         if p.name == "index.json":
             continue
         try:
-            d = json.loads(p.read_text(encoding="utf-8"))
+            d = json.loads(p.read_text(encoding="utf-8-sig"))
+            if not isinstance(d, dict):
+                continue
         except Exception:
             continue
+        # 비정상/빈 JSON 파일이 영상 목록에 들어가지 않도록 검증
+        vid = d.get("id")
+        if not isinstance(vid, str) or not re.fullmatch(r"[A-Za-z0-9_-]{11}", vid):
+            print(f"  무시: 유효하지 않은 영상 ID ({p.name})")
+            continue
+        if p.stem != vid or not isinstance(d.get("title"), str) or not d["title"].strip():
+            print(f"  무시: 영상 제목 또는 파일명 불일치 ({p.name})")
+            continue
+        sents = d.get("sentences")
+        if not isinstance(sents, list) or not any(isinstance(s, dict) and str(s.get("text", "")).strip() for s in sents):
+            print(f"  무시: 유효한 문장이 없음 ({p.name})")
+            continue
         items.append({
-            "id": d["id"],
+            "id": vid,
             "title": d.get("title", ""),
             "channel": d.get("channel", ""),
             "duration": d.get("duration"),
@@ -486,13 +500,13 @@ def process_video(url, seg, force):
     out_path = OUT_DIR / f"{vid}.json"
     if out_path.exists() and not force:
         print(f"- 이미 처리됨, 건너뜀 (다시 하려면 --force): {title}")
-        return
+        return True
 
     print(f"\n▶ {title} ({vid})")
     lang, kind = pick_subtitle(info)
     if not lang:
-        print("  영어 자막이 없는 영상이라 건너뜁니다.")
-        return
+        print("  영어 자막이 없는 영상이라 건너뜁니다. (대기 목록에서 제거)")
+        return True
     orig_lang = str(info.get("language") or "")
     if kind == "auto" and lang == "en" and orig_lang and not orig_lang.startswith("en"):
         print("  ⚠ 원래 언어가 영어가 아닌 영상이라, 자동 번역 자막일 수 있습니다.")
@@ -500,8 +514,8 @@ def process_video(url, seg, force):
 
     words = parse_json3(download_json3(url, lang, kind))
     if not words:
-        print("  자막에서 단어를 찾지 못했습니다.")
-        return
+        print("  자막에서 단어를 찾지 못했습니다. (대기 목록에서 제거)")
+        return True
     print(f"  단어 {len(words)}개")
 
     if seg["mode"] != "claude" and has_punct(words):
@@ -529,6 +543,10 @@ def process_video(url, seg, force):
             "words": [[w[0], round(w[1], 2), round(w[2], 2)] for w in ws],
         })
 
+    if not sentences:
+        print("  유효한 자막 문장이 없어 등록하지 않습니다.")
+        return True
+
     doc = {
         "id": vid,
         "title": title,
@@ -544,6 +562,7 @@ def process_video(url, seg, force):
     text = re.sub(r'\[\s*("(?:[^"\\]|\\.)*"),\s*([-\d.]+),\s*([-\d.]+)\s*\]', r"[\1, \2, \3]", text)
     out_path.write_text(text, encoding="utf-8")
     print(f"  ✓ 문장 {len(sentences)}개 ({method}) → videos/{vid}.json")
+    return True
 
 
 # ---------------------------------------------------------------- 대기 목록 (queue.txt)
@@ -580,7 +599,8 @@ def run_input(u, seg, force):
     ok = True
     for v in vids:
         try:
-            process_video(v, seg, force)
+            if process_video(v, seg, force) is False:
+                ok = False
         except Exception as e:
             print(f"  ✗ 실패: {e}")
             ok = False
@@ -634,7 +654,8 @@ def main():
             print(f"\n처리하지 못한 주소 {len(failed)}개는 queue.txt에 남겨 두었습니다.")
 
     update_index()
+    return 0 if not failed else 2
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
