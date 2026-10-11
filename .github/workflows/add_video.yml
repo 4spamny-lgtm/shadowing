@@ -81,21 +81,18 @@ jobs:
           INPUT_URL: ${{ inputs.url }}
         run: |
           set -f
-          python prep.py --queue $INPUT_URL
+          set +e
+          python -c 'import os,subprocess,sys; u=os.environ.get("INPUT_URL", "").split(); sys.exit(subprocess.call([sys.executable,"prep.py","--queue",*u]))'
+          code=$?
+          set -e
+          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit "$code"; fi
 
-      - name: 결과 저장
+      - name: 결과 저장 (충돌 시 최신 상태에 안전하게 재적용)
         if: steps.check.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A videos queue.txt
-          if git diff --cached --quiet; then
-            echo "바뀐 파일이 없습니다."
-            exit 0
-          fi
-          git commit -m "Add videos (GitHub Actions)"
-          git pull --rebase
-          git push
+          python publish_safe.py
 
       - name: 사이트 새로고침
         if: steps.check.outputs.run == 'true'
