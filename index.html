@@ -66,7 +66,8 @@ textarea{resize:vertical}
 .cur{grid-area:cur;padding:12px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
 .curMeta{display:flex;justify-content:space-between;color:var(--sub);font-size:13px;margin-bottom:6px;font-variant-numeric:tabular-nums}
 #curStatus{color:var(--warn)}
-.translatedText{font-size:16px;line-height:1.5;color:#f6d17b;margin-top:8px;white-space:pre-wrap}.translatedText.hidden{display:none!important}
+.translatedText{font-size:16px;line-height:1.5;color:#f6d17b;margin-top:8px;white-space:pre-wrap;cursor:pointer;transition:filter .2s}
+.translatedText.hidden{display:none!important}
 .curText{font-size:var(--fs);line-height:1.45;min-height:2.9em;cursor:pointer;transition:filter .2s}
 .blur{filter:blur(7px);user-select:none;-webkit-user-select:none}
 .edit{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
@@ -169,11 +170,11 @@ textarea{resize:vertical}
       <select id="sGap"><option value="0">없음</option><option value="0.8">0.8배</option><option value="1">1배</option><option value="1.2">1.2배</option><option value="1.5">1.5배</option><option value="2">2배</option></select></div>
     <div class="row"><span>자동으로 다음 문장</span>
       <select id="sAuto"><option value="1">켜기</option><option value="0">끄기</option></select></div>
-    <div class="row"><span>자막</span>
-      <select id="sHide"><option value="show">보이기</option><option value="hide">가리기</option><option value="first">처음 들을 때만 가리기</option></select></div>
+    <div class="row"><span>자막 가리기</span>
+      <select id="sCover"><option value="none">모두 보기</option><option value="orig">원문 가리기</option><option value="trans">번역 가리기</option><option value="both">모두 가리기</option></select></div>
+    <div class="row"><span>가리는 방식<br><small>처음만: 한 번 들은 뒤 보여줌</small></span>
+      <select id="sCoverWhen"><option value="always">계속 가리기</option><option value="first">처음 들을 때만</option></select></div>
     <p class="secTitle">이중자막</p>
-    <div class="row"><span>원어 자막</span><select id="sOriginalVisible"><option value="1">표시</option><option value="0">숨기기</option></select></div>
-    <div class="row"><span>번역 자막</span><select id="sTranslationVisible"><option value="1">표시</option><option value="0">숨기기</option></select></div>
     <div class="row"><span>번역 언어</span><select id="sTranslationLang"><option value="ko">한국어</option><option value="en">영어</option><option value="ja">일본어</option><option value="zh-CN">중국어(간체)</option><option value="es">스페인어</option><option value="fr">프랑스어</option><option value="de">독일어</option></select></div>
     <p class="small" id="translationInfo">번역이 저장된 언어만 표시됩니다. 추가 번역은 GitHub Actions의 '자막 번역'에서 생성할 수 있습니다.</p>
     <div class="row"><span>문장 앞 여유</span>
@@ -234,8 +235,21 @@ function toast(m, ms = 2800) {
 }
 
 // ---------------------------------------------------------------- 설정
-const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, hide: 'show', padBefore: 0.2, padAfter: 0.3, big: false, originalVisible: true, translationVisible: true, translationLang: 'ko' };
-const cfg = Object.assign({}, DEFAULTS, store.get('shadow:cfg', {}));
+// cover: 어떤 자막을 가릴지 (none 모두 보기 / orig 원문 / trans 번역 / both 모두)
+// coverWhen: always 계속 가리기 / first 처음 들을 때만 가리기
+const COVER_ORDER = ['none', 'orig', 'trans', 'both'];
+const COVER_LABEL = { none: '자막 모두 보기', orig: '원문 가리기', trans: '번역 가리기', both: '모두 가리기' };
+const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, cover: 'none', coverWhen: 'always', padBefore: 0.2, padAfter: 0.3, big: false, translationLang: 'ko' };
+const savedCfg = store.get('shadow:cfg', {});
+// 예전 설정(hide: show/hide/first)을 새 방식으로 옮김
+if (savedCfg.cover == null && savedCfg.hide) {
+  savedCfg.cover = savedCfg.hide === 'show' ? 'none' : 'orig';
+  savedCfg.coverWhen = savedCfg.hide === 'first' ? 'first' : 'always';
+}
+['hide', 'originalVisible', 'translationVisible'].forEach(k => delete savedCfg[k]);
+const cfg = Object.assign({}, DEFAULTS, savedCfg);
+if (!COVER_ORDER.includes(cfg.cover)) cfg.cover = 'none';
+if (cfg.coverWhen !== 'first') cfg.coverWhen = 'always';
 const saveCfg = () => store.set('shadow:cfg', cfg);
 
 // ---------------------------------------------------------------- GitHub 연결 (영상 추가·삭제)
@@ -493,15 +507,17 @@ async function keepAwake(on) {
 }
 
 // ---------------------------------------------------------------- 화면 그리기
-function isHidden() {
-  if (revealed || cfg.hide === 'show') return false;
-  if (cfg.hide === 'hide') return true;
-  return !heard;   // 'first': 한 번 들은 뒤에 보여줌
+// which: 'orig'(원문) 또는 'trans'(번역)이 지금 가려져야 하는지
+function isCovered(which) {
+  if (revealed || cfg.cover === 'none') return false;
+  if (cfg.cover !== 'both' && cfg.cover !== which) return false;
+  return cfg.coverWhen === 'first' ? !heard : true;
 }
+const coversOrig = () => cfg.cover === 'orig' || cfg.cover === 'both';
 
 function renderCur() {
   const s = sents[idx];
-  if (!s) { $('#curText').textContent = ''; $('#curNum').textContent = ''; return; }
+  if (!s) { $('#curText').textContent = ''; $('#translatedText').classList.add('hidden'); $('#curNum').textContent = ''; return; }
   $('#curNum').textContent = `${idx + 1} / ${sents.length} · ${fmt(s.start)}`;
   let status = '';
   if (phase === 'play') status = cfg.repeat > 1 ? `듣기 ${rep}/${cfg.repeat}` : '듣기';
@@ -509,14 +525,14 @@ function renderCur() {
   $('#curStatus').textContent = status;
   const ct = $('#curText');
   ct.textContent = s.text;
-  ct.classList.toggle('hidden', !cfg.originalVisible);
-  ct.classList.toggle('blur', isHidden());
+  ct.classList.toggle('blur', isCovered('orig'));
   const tr = $('#translatedText');
   const translations = (doc && doc.translations) || {};
   const arr = store.get('shadow:edit:' + vid, null) ? null : translations[cfg.translationLang];
   const translated = Array.isArray(arr) ? arr[idx] : null;
   tr.textContent = translated || '';
-  tr.classList.toggle('hidden', !cfg.translationVisible || !translated);
+  tr.classList.toggle('hidden', !translated);
+  tr.classList.toggle('blur', isCovered('trans'));
   const msg = $('#translationInfo');
   if (msg) msg.textContent = arr ? '선택한 번역 언어가 저장되어 있습니다.' : '이 영상에는 선택한 번역 언어가 없습니다. GitHub Actions의 자막 번역 기능으로 생성하세요.';
   $('#editPanel').classList.toggle('hidden', !editMode);
@@ -547,12 +563,12 @@ function markCur() {
   applyListBlur();
 }
 
-// 자막 가리기 중에는 아직 안 들은 문장을 목록에서도 흐리게
+// 원문을 가리는 중에는 아직 안 들은 문장을 목록에서도 흐리게
 function applyListBlur() {
-  const on = cfg.hide !== 'show';
+  const on = coversOrig();
   $('#list').querySelectorAll('.item').forEach(el => {
     const i = +el.dataset.i;
-    const b = on && (i > idx || (i === idx && isHidden()));
+    const b = on && (i > idx || (i === idx && isCovered('orig')));
     el.querySelector('.tx').classList.toggle('blur', b);
   });
 }
@@ -566,8 +582,8 @@ function scrollToCur(force) {
 
 function updateTool() {
   $('#autoBtn').classList.toggle('on', cfg.auto);
-  $('#hideBtn').textContent = { show: '자막 보기', hide: '자막 가리기', first: '처음만 가리기' }[cfg.hide];
-  $('#hideBtn').classList.toggle('on', cfg.hide !== 'show');
+  $('#hideBtn').textContent = COVER_LABEL[cfg.cover] + (cfg.cover !== 'none' && cfg.coverWhen === 'first' ? ' (처음만)' : '');
+  $('#hideBtn').classList.toggle('on', cfg.cover !== 'none');
   $('#repBtn').textContent = `반복 ${cfg.repeat}회`;
   $('#rateBtn').textContent = `${cfg.rate}x`;
   document.documentElement.style.setProperty('--fs', cfg.big ? '26px' : '20px');
@@ -680,7 +696,7 @@ async function openVideo(id) {
   if (vid === id && doc) { renderCur(); scrollToCur(true); return; }
   stopAll();
   vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
-  $('#ttl').textContent = ''; $('#curText').textContent = '';
+  $('#ttl').textContent = ''; $('#curText').textContent = ''; $('#translatedText').classList.add('hidden');
   $('#list').innerHTML = '<div class="msg">불러오는 중...</div>';
   try {
     const r = await fetch(`videos/${encodeURIComponent(id)}.json`, { cache: 'no-cache' });
@@ -736,7 +752,10 @@ $('#nextBtn').onclick = () => playSentence(idx + 1);
 $('#againBtn').onclick = () => playSentence(idx);
 $('#playBtn').onclick = togglePlay;
 
-$('#curText').onclick = () => { if (cfg.hide !== 'show') { revealed = !revealed; renderCur(); applyListBlur(); } };
+// 가린 자막(원문이든 번역이든)을 누르면 잠깐 보기
+const toggleReveal = () => { if (cfg.cover !== 'none') { revealed = !revealed; renderCur(); applyListBlur(); } };
+$('#curText').onclick = toggleReveal;
+$('#translatedText').onclick = toggleReveal;
 
 $('#list').addEventListener('click', e => { const it = e.target.closest('.item'); if (it) playSentence(+it.dataset.i); });
 ['touchstart', 'wheel'].forEach(ev => $('#list').addEventListener(ev, () => { userScrollAt = Date.now(); }, { passive: true }));
@@ -750,7 +769,7 @@ $('#splitBox').addEventListener('click', e => {
 // 툴바: 누를 때마다 다음 값으로
 $('#autoBtn').onclick = () => { cfg.auto = !cfg.auto; saveCfg(); updateTool(); toast(cfg.auto ? '자동으로 다음 문장으로 넘어가요' : '한 문장만 반복해요'); };
 $('#hideBtn').onclick = () => {
-  cfg.hide = { show: 'hide', hide: 'first', first: 'show' }[cfg.hide]; revealed = false;
+  cfg.cover = COVER_ORDER[(COVER_ORDER.indexOf(cfg.cover) + 1) % COVER_ORDER.length]; revealed = false;
   saveCfg(); updateTool(); renderCur(); applyListBlur();
 };
 $('#repBtn').onclick = () => { const o = [1, 2, 3, 5]; cfg.repeat = o[(o.indexOf(cfg.repeat) + 1) % o.length]; saveCfg(); updateTool(); };
@@ -762,11 +781,10 @@ $('#rateBtn').onclick = () => {
 // 설정 시트
 function openSheet() {
   $('#sRepeat').value = String(cfg.repeat); $('#sRate').value = String(cfg.rate); $('#sGap').value = String(cfg.gap);
-  $('#sAuto').value = cfg.auto ? '1' : '0'; $('#sHide').value = cfg.hide;
+  $('#sAuto').value = cfg.auto ? '1' : '0';
+  $('#sCover').value = cfg.cover; $('#sCoverWhen').value = cfg.coverWhen;
   $('#sPadB').value = String(cfg.padBefore); $('#sPadA').value = String(cfg.padAfter);
   $('#sBig').value = cfg.big ? '1' : '0'; $('#sEdit').value = editMode ? '1' : '0';
-  $('#sOriginalVisible').value = cfg.originalVisible ? '1' : '0';
-  $('#sTranslationVisible').value = cfg.translationVisible ? '1' : '0';
   $('#sTranslationLang').value = cfg.translationLang || 'ko';
   const g = ghCfg(); $('#sRepo').value = g.repo; $('#sToken').value = g.token;
   $('#sheet').classList.remove('hidden');
@@ -782,14 +800,13 @@ $('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeS
 const bind = (sel, key, conv) => $(sel).addEventListener('change', e => {
   cfg[key] = conv(e.target.value); saveCfg(); updateTool();
   if (key === 'rate' && playerReady) player.setPlaybackRate(cfg.rate);
-  if (key === 'hide') revealed = false;
+  if (key === 'cover' || key === 'coverWhen') revealed = false;
   renderCur(); applyListBlur();
 });
 bind('#sRepeat', 'repeat', Number); bind('#sRate', 'rate', Number); bind('#sGap', 'gap', Number);
-bind('#sAuto', 'auto', v => v === '1'); bind('#sHide', 'hide', v => v);
+bind('#sAuto', 'auto', v => v === '1');
+bind('#sCover', 'cover', v => v); bind('#sCoverWhen', 'coverWhen', v => v);
 bind('#sPadB', 'padBefore', Number); bind('#sPadA', 'padAfter', Number); bind('#sBig', 'big', v => v === '1');
-bind('#sOriginalVisible', 'originalVisible', v => v === '1');
-bind('#sTranslationVisible', 'translationVisible', v => v === '1');
 bind('#sTranslationLang', 'translationLang', v => v);
 $('#sEdit').addEventListener('change', e => { editMode = e.target.value === '1'; splitting = false; renderCur(); });
 $('#exportBtn').onclick = exportJson;
