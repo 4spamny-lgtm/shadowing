@@ -63,11 +63,9 @@ textarea{resize:vertical}
 .badge{font-size:12px;color:var(--warn);border:1px solid var(--warn);border-radius:999px;padding:2px 8px}
 .videoWrap{grid-area:video;background:#000;width:100%;aspect-ratio:16/9;max-height:56dvh}
 .videoWrap iframe,.videoWrap #yt{width:100%;height:100%;display:block;border:0}
-.cur{grid-area:cur;padding:12px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
+.cur{grid-area:cur;overflow-y:auto;max-height:46dvh;padding:12px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
 .curMeta{display:flex;justify-content:space-between;color:var(--sub);font-size:13px;margin-bottom:6px;font-variant-numeric:tabular-nums}
 #curStatus{color:var(--warn)}
-.translatedText{font-size:16px;line-height:1.5;color:#f6d17b;margin-top:8px;white-space:pre-wrap;cursor:pointer;transition:filter .2s}
-.translatedText.hidden{display:none!important}
 .curText{font-size:var(--fs);line-height:1.45;min-height:2.9em;cursor:pointer;transition:filter .2s}
 .blur{filter:blur(7px);user-select:none;-webkit-user-select:none}
 .edit{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
@@ -94,6 +92,22 @@ textarea{resize:vertical}
   .list{border-top:0;border-left:1px solid var(--line)}
 }
 
+/* ---------- 딕테이션 ---------- */
+.modebar{display:flex;gap:7px;padding:9px 12px 0;background:var(--panel)}
+.modebar button{flex:1;font-size:14px;padding:9px 6px}
+.modebar button.on{background:var(--accent);color:#fff}
+.dictArea{padding:12px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
+.dictArea textarea{min-height:82px;line-height:1.5}
+.dictButtons{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}
+.dictButtons button{font-size:14px;padding:9px 11px}
+.dictButtons .primary{background:var(--accent);border-color:var(--accent)}
+.dictInfo{font-size:13px;color:var(--sub);line-height:1.5;margin-top:7px}
+.dictFeedback{margin-top:10px;padding:12px;background:var(--panel2);border-radius:10px;line-height:1.65;overflow-wrap:anywhere}
+.dictFeedback .missing{background:#703a37;color:#fff;text-decoration:underline wavy #ffb4a9;text-underline-offset:3px}
+.dictFeedback .extra{background:#665127;color:#fff;text-decoration:line-through}
+.dictFeedback .correct{color:#8ee0ae}
+.dictFeedback .legend{font-size:12px;color:var(--sub);margin-top:6px}
+.dictHide{filter:blur(7px);user-select:none}
 /* ---------- 설정 시트 / 알림 ---------- */
 .sheetBg{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:flex-end;justify-content:center;z-index:10}
 .sheet{background:var(--panel);width:100%;max-width:560px;border-radius:16px 16px 0 0;
@@ -128,10 +142,26 @@ textarea{resize:vertical}
     <span id="editBadge" class="badge hidden">편집됨</span>
   </div>
   <div class="videoWrap"><div id="yt"></div></div>
-  <div class="cur">
+   <div class="cur">
+     <div class="modebar" id="modebar" style="padding:0 0 12px;background:transparent">
+       <button id="shadowModeBtn" class="on">쉐도잉</button>
+       <button id="typeModeBtn">⌨ 타이핑</button>
+       <button id="voiceModeBtn">🎙 음성 인식</button>
+     </div>
     <div class="curMeta"><span id="curNum"></span><span id="curStatus"></span></div>
-    <div id="curText" class="curText"></div><div id="translatedText" class="translatedText hidden"></div>
-    <div id="splitBox" class="hidden"></div>
+    <div id="curText" class="curText"></div>
+     <div id="dictArea" class="dictArea hidden" style="padding:12px 0 0;border:0">
+       <textarea id="dictInput" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="들은 영어 문장을 입력하세요."></textarea>
+       <div class="dictButtons">
+         <button id="micBtn" class="hidden">🎙 녹음 시작</button>
+         <button id="dictCheckBtn" class="primary">정답 확인</button>
+         <button id="dictRevealBtn">정답 보기</button>
+         <button id="dictRetryBtn">다시 풀기</button>
+       </div>
+       <div id="dictHint" class="dictInfo"></div>
+       <div id="dictFeedback" class="dictFeedback hidden" aria-live="polite"></div>
+     </div>
+     <div id="splitBox" class="hidden"></div>
     <div id="editPanel" class="edit hidden">
       <button data-act="mergePrev">↑ 앞과 합치기</button>
       <button data-act="mergeNext">↓ 뒤와 합치기</button>
@@ -170,13 +200,8 @@ textarea{resize:vertical}
       <select id="sGap"><option value="0">없음</option><option value="0.8">0.8배</option><option value="1">1배</option><option value="1.2">1.2배</option><option value="1.5">1.5배</option><option value="2">2배</option></select></div>
     <div class="row"><span>자동으로 다음 문장</span>
       <select id="sAuto"><option value="1">켜기</option><option value="0">끄기</option></select></div>
-    <div class="row"><span>자막 가리기</span>
-      <select id="sCover"><option value="none">모두 보기</option><option value="orig">원문 가리기</option><option value="trans">번역 가리기</option><option value="both">모두 가리기</option></select></div>
-    <div class="row"><span>가리는 방식<br><small>처음만: 한 번 들은 뒤 보여줌</small></span>
-      <select id="sCoverWhen"><option value="always">계속 가리기</option><option value="first">처음 들을 때만</option></select></div>
-    <p class="secTitle">이중자막</p>
-    <div class="row"><span>번역 언어</span><select id="sTranslationLang"><option value="ko">한국어</option><option value="en">영어</option><option value="ja">일본어</option><option value="zh-CN">중국어(간체)</option><option value="es">스페인어</option><option value="fr">프랑스어</option><option value="de">독일어</option></select></div>
-    <p class="small" id="translationInfo">번역이 저장된 언어만 표시됩니다. 추가 번역은 GitHub Actions의 '자막 번역'에서 생성할 수 있습니다.</p>
+    <div class="row"><span>자막</span>
+      <select id="sHide"><option value="show">보이기</option><option value="hide">가리기</option><option value="first">처음 들을 때만 가리기</option></select></div>
     <div class="row"><span>문장 앞 여유</span>
       <select id="sPadB"><option value="0">0초</option><option value="0.1">0.1초</option><option value="0.2">0.2초</option><option value="0.3">0.3초</option><option value="0.5">0.5초</option></select></div>
     <div class="row"><span>문장 뒤 여유</span>
@@ -235,21 +260,8 @@ function toast(m, ms = 2800) {
 }
 
 // ---------------------------------------------------------------- 설정
-// cover: 어떤 자막을 가릴지 (none 모두 보기 / orig 원문 / trans 번역 / both 모두)
-// coverWhen: always 계속 가리기 / first 처음 들을 때만 가리기
-const COVER_ORDER = ['none', 'orig', 'trans', 'both'];
-const COVER_LABEL = { none: '자막 모두 보기', orig: '원문 가리기', trans: '번역 가리기', both: '모두 가리기' };
-const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, cover: 'none', coverWhen: 'always', padBefore: 0.2, padAfter: 0.3, big: false, translationLang: 'ko' };
-const savedCfg = store.get('shadow:cfg', {});
-// 예전 설정(hide: show/hide/first)을 새 방식으로 옮김
-if (savedCfg.cover == null && savedCfg.hide) {
-  savedCfg.cover = savedCfg.hide === 'show' ? 'none' : 'orig';
-  savedCfg.coverWhen = savedCfg.hide === 'first' ? 'first' : 'always';
-}
-['hide', 'originalVisible', 'translationVisible'].forEach(k => delete savedCfg[k]);
-const cfg = Object.assign({}, DEFAULTS, savedCfg);
-if (!COVER_ORDER.includes(cfg.cover)) cfg.cover = 'none';
-if (cfg.coverWhen !== 'first') cfg.coverWhen = 'always';
+const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, hide: 'show', padBefore: 0.2, padAfter: 0.3, big: false };
+const cfg = Object.assign({}, DEFAULTS, store.get('shadow:cfg', {}));
 const saveCfg = () => store.set('shadow:cfg', cfg);
 
 // ---------------------------------------------------------------- GitHub 연결 (영상 추가·삭제)
@@ -353,6 +365,103 @@ let heard = false, revealed = false, splitting = false, editMode = false;
 let player = null, playerReady = false, selfPause = false;
 let lastRaw = -1, lastRawAt = 0, userScrollAt = 0, wakeLock = null, fromList = false;
 let lastVideos = [];
+ // 딕테이션 기록은 영상별/문장별/모드별로 이 브라우저에 저장
+let learningMode = store.get('shadow:learningMode', 'shadow');
+if (!['shadow','type','voice'].includes(learningMode)) learningMode = 'shadow';
+let dictRecords = {}, dictRevealed = false, dictChecked = false;
+let speech = null, listening = false, speechSerial = 0;
+const SpeechAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
+const dictKey = () => 'shadow:dict:' + vid;
+const recKey = () => `${idx}:${learningMode}`;
+function saveDict() { if (vid) store.set(dictKey(), dictRecords); }
+function wordsOf(t) { return String(t || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9'\s]/g, ' ').trim().split(/\s+/).filter(Boolean); }
+function stopMic() {
+  speechSerial++;
+  if (speech) { const old = speech; speech = null; old.onresult = null; old.onerror = null; old.onend = null; try { old.abort(); } catch(e) {} }
+  listening = false;
+  const b = $('#micBtn'); if (b) { b.textContent = '🎙 녹음 시작'; b.classList.remove('on'); }
+}
+function setLearningMode(m) {
+  if (!['shadow','type','voice'].includes(m) || m === learningMode) return;
+  stopMic(); stopAll(); learningMode = m; store.set('shadow:learningMode', m);
+  dictChecked = false; dictRevealed = false; renderCur(); updatePlayBtn(); applyListBlur();
+}
+function saveInput() {
+  if (learningMode === 'shadow' || !vid) return;
+  const r = dictRecords[recKey()] || {};
+  r.text = $('#dictInput').value; r.checked = false; r.revealed = false;
+  dictRecords[recKey()] = r; saveDict();
+}
+function diffAnswer(expected, entered) {
+  const a = wordsOf(expected), b = wordsOf(entered), n=a.length, m=b.length;
+  const dp=Array.from({length:n+1},()=>new Array(m+1).fill(0));
+  for(let i=n-1;i>=0;i--) for(let j=m-1;j>=0;j--)
+    dp[i][j]=a[i]===b[j]?1+dp[i+1][j+1]:Math.max(dp[i+1][j],dp[i][j+1]);
+  let i=0,j=0, html='', matched=0;
+  while(i<n || j<m){
+    if(i<n && j<m && a[i]===b[j]) { html+=`<span class="correct">${esc(a[i])}</span> `;matched++;i++;j++; }
+    else if(j<m && (i===n || dp[i][j+1]>=dp[i+1][j])) { html+=`<span class="extra">${esc(b[j])}</span> `;j++; }
+    else { html+=`<span class="missing">${esc(a[i])}</span> `;i++; }
+  }
+  return {html,score:n?Math.round(matched/n*100):100,perfect:n===m&&matched===n};
+}
+function checkDict(reveal=false) {
+  if (learningMode==='shadow' || !sents[idx]) return;
+  stopMic();
+  const r=dictRecords[recKey()] || {};
+  r.text=$('#dictInput').value.trim();
+  if (!r.text && !reveal) { toast('먼저 답안을 입력하거나 녹음해 주세요.'); return; }
+  r.checked=true; r.revealed=reveal; r.at=Date.now();
+  const result=diffAnswer(sents[idx].text,r.text);
+  r.score=result.score; r.perfect=result.perfect && !reveal;
+  dictRecords[recKey()]=r;saveDict();
+  dictChecked=true;dictRevealed=reveal;renderCur();applyListBlur();
+}
+function startMic() {
+  if (!SpeechAPI) { toast('이 브라우저는 음성 인식을 지원하지 않아요. Chrome 또는 Edge 최신 버전을 이용해 주세요.',5500); return; }
+  if (listening) { stopMic(); renderCur(); return; }
+  stopAll(); updatePlayBtn(); stopMic();
+  const serial=++speechSerial;
+  const r=new SpeechAPI(); speech=r;
+  r.lang='en-US';r.interimResults=true;r.continuous=false;r.maxAlternatives=1;
+  r.onresult=e=>{
+    if(serial!==speechSerial || learningMode!=='voice') return;
+    let transcript='';for(let k=0;k<e.results.length;k++) transcript+=e.results[k][0].transcript+' ';
+    $('#dictInput').value=transcript.trim(); saveInput();
+    if(e.results[e.results.length-1].isFinal) { listening=false; $('#micBtn').textContent='🎙 다시 녹음'; }
+  };
+  r.onerror=e=>{
+    if(serial!==speechSerial)return;
+    listening=false;$('#micBtn').textContent='🎙 녹음 시작';
+    const messages={'not-allowed':'마이크 권한이 거부됐어요. 브라우저 사이트 권한에서 마이크를 허용해 주세요.','no-speech':'음성이 감지되지 않았어요. 다시 시도해 주세요.','network':'음성 인식 서비스에 연결하지 못했어요.','audio-capture':'마이크를 사용할 수 없어요.'};
+    toast(messages[e.error]||'음성 인식 오류: '+e.error,4500);
+  };
+  r.onend=()=>{if(serial!==speechSerial)return;listening=false;speech=null;$('#micBtn').textContent='🎙 다시 녹음';$('#micBtn').classList.remove('on');};
+  try { r.start(); listening=true; $('#micBtn').textContent='■ 녹음 종료';$('#micBtn').classList.add('on'); }
+  catch(e){stopMic();toast('음성 인식을 시작하지 못했어요.');}
+}
+function renderDict() {
+  const active=learningMode!=='shadow';
+  $('#dictArea').classList.toggle('hidden',!active);
+  $('#shadowModeBtn').classList.toggle('on',!active);
+  $('#typeModeBtn').classList.toggle('on',learningMode==='type');
+  $('#voiceModeBtn').classList.toggle('on',learningMode==='voice');
+  if(!active)return;
+  const r=dictRecords[recKey()]||{};
+  $('#dictInput').value=r.text||'';
+  $('#dictInput').readOnly=learningMode==='voice';
+  $('#dictInput').placeholder=learningMode==='voice'?'녹음한 음성이 여기에 표시됩니다.':'들은 영어 문장을 입력하세요.';
+  $('#micBtn').classList.toggle('hidden',learningMode!=='voice');
+  $('#dictHint').textContent=learningMode==='voice' ? (SpeechAPI?'마이크 버튼을 눌러 영어로 말하세요. 음성 인식은 브라우저 및 네트워크 환경에 따라 달라질 수 있습니다.':'음성 인식 미지원 브라우저입니다. 최신 Chrome 또는 Edge를 사용해 주세요.') : '문장을 듣고 직접 입력하세요. 정답 확인은 타이핑과 음성 인식 모두 가능합니다.';
+  $('#dictCheckBtn').textContent='정답 확인';
+  const checked=!!r.checked;
+  $('#dictFeedback').classList.toggle('hidden',!checked);
+  if(checked){
+    const d=diffAnswer(sents[idx]?.text||'',r.text||'');
+    $('#dictFeedback').innerHTML=`<b>${r.revealed?'정답 공개':d.perfect?'정확해요!':'정답 비교'} · 일치 단어 ${d.score}%</b><div style="margin-top:7px">${d.html}</div><div class="legend">초록: 일치 · 빨간 밑줄: 빠진 단어 · 노란 취소선: 추가한 단어<br>대소문자와 문장부호는 채점에서 제외합니다.</div>`;
+  }
+}
+
 
 // ---------------------------------------------------------------- 유튜브 플레이어
 let ytResolve; const ytReady = new Promise(r => ytResolve = r);
@@ -432,7 +541,7 @@ window.addEventListener('blur', () => {
 
 // ---------------------------------------------------------------- 재생 흐름
 function setIdx(i) {
-  if (i !== idx) { heard = false; revealed = false; splitting = false; }
+   if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; dictChecked = false; dictRevealed = false; }
   idx = i; store.set('shadow:pos:' + vid, idx);
 }
 
@@ -466,7 +575,7 @@ function segmentEnd(tk) {
   if (tk !== token || phase !== 'play') return;
   selfPause = true; player.pauseVideo();
   heard = true;
-  if (once) { once = false; phase = 'idle'; renderCur(); updatePlayBtn(); applyListBlur(); return; }
+   if (once || learningMode !== 'shadow') { once = false; phase = 'idle'; renderCur(); updatePlayBtn(); applyListBlur(); return; }
   const dur = Math.max(0.5, (segEnd - segStart) / cfg.rate);
   const ms = cfg.gap > 0 ? Math.max(800, dur * cfg.gap * 1000) : 150;
   phase = 'gap'; gapUntil = performance.now() + ms;
@@ -507,34 +616,26 @@ async function keepAwake(on) {
 }
 
 // ---------------------------------------------------------------- 화면 그리기
-// which: 'orig'(원문) 또는 'trans'(번역)이 지금 가려져야 하는지
-function isCovered(which) {
-  if (revealed || cfg.cover === 'none') return false;
-  if (cfg.cover !== 'both' && cfg.cover !== which) return false;
-  return cfg.coverWhen === 'first' ? !heard : true;
+function isHidden() {
+  if (revealed || cfg.hide === 'show') return false;
+  if (cfg.hide === 'hide') return true;
+  return !heard;   // 'first': 한 번 들은 뒤에 보여줌
 }
-const coversOrig = () => cfg.cover === 'orig' || cfg.cover === 'both';
 
 function renderCur() {
   const s = sents[idx];
-  if (!s) { $('#curText').textContent = ''; $('#translatedText').classList.add('hidden'); $('#curNum').textContent = ''; return; }
+  if (!s) { $('#curText').textContent = ''; $('#curNum').textContent = ''; return; }
   $('#curNum').textContent = `${idx + 1} / ${sents.length} · ${fmt(s.start)}`;
   let status = '';
   if (phase === 'play') status = cfg.repeat > 1 ? `듣기 ${rep}/${cfg.repeat}` : '듣기';
   else if (phase === 'gap') status = '따라 말하기';
   $('#curStatus').textContent = status;
   const ct = $('#curText');
-  ct.textContent = s.text;
-  ct.classList.toggle('blur', isCovered('orig'));
-  const tr = $('#translatedText');
-  const translations = (doc && doc.translations) || {};
-  const arr = store.get('shadow:edit:' + vid, null) ? null : translations[cfg.translationLang];
-  const translated = Array.isArray(arr) ? arr[idx] : null;
-  tr.textContent = translated || '';
-  tr.classList.toggle('hidden', !translated);
-  tr.classList.toggle('blur', isCovered('trans'));
-  const msg = $('#translationInfo');
-  if (msg) msg.textContent = arr ? '선택한 번역 언어가 저장되어 있습니다.' : '이 영상에는 선택한 번역 언어가 없습니다. GitHub Actions의 자막 번역 기능으로 생성하세요.';
+   const dict=learningMode!=='shadow';
+   const r=dictRecords[recKey()]||{};
+   ct.textContent = dict && !r.checked ? '🔒 정답은 확인 후 표시됩니다.' : s.text;
+   ct.classList.toggle('blur', !dict && isHidden());
+   renderDict();
   $('#editPanel').classList.toggle('hidden', !editMode);
   const sb = $('#splitBox');
   if (editMode && splitting && s.words && s.words.length > 1) {
@@ -563,12 +664,12 @@ function markCur() {
   applyListBlur();
 }
 
-// 원문을 가리는 중에는 아직 안 들은 문장을 목록에서도 흐리게
+// 자막 가리기 중에는 아직 안 들은 문장을 목록에서도 흐리게
 function applyListBlur() {
-  const on = coversOrig();
+   const on = learningMode !== 'shadow' || cfg.hide !== 'show';
   $('#list').querySelectorAll('.item').forEach(el => {
     const i = +el.dataset.i;
-    const b = on && (i > idx || (i === idx && isCovered('orig')));
+     const b = on && (learningMode !== 'shadow' ? !(i === idx && dictRecords[recKey()]?.checked) : (i > idx || (i === idx && isHidden())));
     el.querySelector('.tx').classList.toggle('blur', b);
   });
 }
@@ -582,8 +683,8 @@ function scrollToCur(force) {
 
 function updateTool() {
   $('#autoBtn').classList.toggle('on', cfg.auto);
-  $('#hideBtn').textContent = COVER_LABEL[cfg.cover] + (cfg.cover !== 'none' && cfg.coverWhen === 'first' ? ' (처음만)' : '');
-  $('#hideBtn').classList.toggle('on', cfg.cover !== 'none');
+  $('#hideBtn').textContent = { show: '자막 보기', hide: '자막 가리기', first: '처음만 가리기' }[cfg.hide];
+  $('#hideBtn').classList.toggle('on', cfg.hide !== 'show');
   $('#repBtn').textContent = `반복 ${cfg.repeat}회`;
   $('#rateBtn').textContent = `${cfg.rate}x`;
   document.documentElement.style.setProperty('--fs', cfg.big ? '26px' : '20px');
@@ -670,7 +771,7 @@ function renderVideoList(vs) {
 }
 
 async function showList() {
-  stopAll();
+   stopMic(); stopAll();
   if (playerReady) { try { player.pauseVideo(); } catch (e) {} }
   $('#playerScreen').classList.add('hidden');
   $('#listScreen').classList.remove('hidden');
@@ -691,12 +792,14 @@ async function showList() {
 }
 
 async function openVideo(id) {
+   stopMic();
   $('#listScreen').classList.add('hidden');
   $('#playerScreen').classList.remove('hidden');
   if (vid === id && doc) { renderCur(); scrollToCur(true); return; }
   stopAll();
-  vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
-  $('#ttl').textContent = ''; $('#curText').textContent = ''; $('#translatedText').classList.add('hidden');
+   vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
+   dictRecords=store.get(dictKey(),{});dictChecked=false;dictRevealed=false;
+  $('#ttl').textContent = ''; $('#curText').textContent = '';
   $('#list').innerHTML = '<div class="msg">불러오는 중...</div>';
   try {
     const r = await fetch(`videos/${encodeURIComponent(id)}.json`, { cache: 'no-cache' });
@@ -751,11 +854,17 @@ $('#prevBtn').onclick = () => playSentence(idx - 1);
 $('#nextBtn').onclick = () => playSentence(idx + 1);
 $('#againBtn').onclick = () => playSentence(idx);
 $('#playBtn').onclick = togglePlay;
+$('#shadowModeBtn').onclick=()=>setLearningMode('shadow');
+$('#typeModeBtn').onclick=()=>setLearningMode('type');
+$('#voiceModeBtn').onclick=()=>setLearningMode('voice');
+$('#dictInput').addEventListener('input',()=>{saveInput();$('#dictFeedback').classList.add('hidden');$('#curText').textContent='🔒 정답은 확인 후 표시됩니다.';applyListBlur();});
+$('#dictCheckBtn').onclick=()=>checkDict(false);
+$('#dictRevealBtn').onclick=()=>checkDict(true);
+$('#dictRetryBtn').onclick=()=>{stopMic();delete dictRecords[recKey()];saveDict();renderCur();applyListBlur();};
+$('#micBtn').onclick=startMic;
 
-// 가린 자막(원문이든 번역이든)을 누르면 잠깐 보기
-const toggleReveal = () => { if (cfg.cover !== 'none') { revealed = !revealed; renderCur(); applyListBlur(); } };
-$('#curText').onclick = toggleReveal;
-$('#translatedText').onclick = toggleReveal;
+
+$('#curText').onclick = () => { if (learningMode !== 'shadow') return; if (cfg.hide !== 'show') { revealed = !revealed; renderCur(); applyListBlur(); } };
 
 $('#list').addEventListener('click', e => { const it = e.target.closest('.item'); if (it) playSentence(+it.dataset.i); });
 ['touchstart', 'wheel'].forEach(ev => $('#list').addEventListener(ev, () => { userScrollAt = Date.now(); }, { passive: true }));
@@ -769,7 +878,7 @@ $('#splitBox').addEventListener('click', e => {
 // 툴바: 누를 때마다 다음 값으로
 $('#autoBtn').onclick = () => { cfg.auto = !cfg.auto; saveCfg(); updateTool(); toast(cfg.auto ? '자동으로 다음 문장으로 넘어가요' : '한 문장만 반복해요'); };
 $('#hideBtn').onclick = () => {
-  cfg.cover = COVER_ORDER[(COVER_ORDER.indexOf(cfg.cover) + 1) % COVER_ORDER.length]; revealed = false;
+  cfg.hide = { show: 'hide', hide: 'first', first: 'show' }[cfg.hide]; revealed = false;
   saveCfg(); updateTool(); renderCur(); applyListBlur();
 };
 $('#repBtn').onclick = () => { const o = [1, 2, 3, 5]; cfg.repeat = o[(o.indexOf(cfg.repeat) + 1) % o.length]; saveCfg(); updateTool(); };
@@ -781,11 +890,9 @@ $('#rateBtn').onclick = () => {
 // 설정 시트
 function openSheet() {
   $('#sRepeat').value = String(cfg.repeat); $('#sRate').value = String(cfg.rate); $('#sGap').value = String(cfg.gap);
-  $('#sAuto').value = cfg.auto ? '1' : '0';
-  $('#sCover').value = cfg.cover; $('#sCoverWhen').value = cfg.coverWhen;
+  $('#sAuto').value = cfg.auto ? '1' : '0'; $('#sHide').value = cfg.hide;
   $('#sPadB').value = String(cfg.padBefore); $('#sPadA').value = String(cfg.padAfter);
   $('#sBig').value = cfg.big ? '1' : '0'; $('#sEdit').value = editMode ? '1' : '0';
-  $('#sTranslationLang').value = cfg.translationLang || 'ko';
   const g = ghCfg(); $('#sRepo').value = g.repo; $('#sToken').value = g.token;
   $('#sheet').classList.remove('hidden');
 }
@@ -800,14 +907,12 @@ $('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeS
 const bind = (sel, key, conv) => $(sel).addEventListener('change', e => {
   cfg[key] = conv(e.target.value); saveCfg(); updateTool();
   if (key === 'rate' && playerReady) player.setPlaybackRate(cfg.rate);
-  if (key === 'cover' || key === 'coverWhen') revealed = false;
+  if (key === 'hide') revealed = false;
   renderCur(); applyListBlur();
 });
 bind('#sRepeat', 'repeat', Number); bind('#sRate', 'rate', Number); bind('#sGap', 'gap', Number);
-bind('#sAuto', 'auto', v => v === '1');
-bind('#sCover', 'cover', v => v); bind('#sCoverWhen', 'coverWhen', v => v);
+bind('#sAuto', 'auto', v => v === '1'); bind('#sHide', 'hide', v => v);
 bind('#sPadB', 'padBefore', Number); bind('#sPadA', 'padAfter', Number); bind('#sBig', 'big', v => v === '1');
-bind('#sTranslationLang', 'translationLang', v => v);
 $('#sEdit').addEventListener('change', e => { editMode = e.target.value === '1'; splitting = false; renderCur(); });
 $('#exportBtn').onclick = exportJson;
 $('#resetBtn').onclick = resetEdits;
@@ -831,7 +936,7 @@ $('#ghClear').onclick = () => {
 document.addEventListener('keydown', e => {
   if ($('#playerScreen').classList.contains('hidden')) return;
   if (!$('#sheet').classList.contains('hidden') || !$('#addSheet').classList.contains('hidden')) return;
-  if (e.target.closest && e.target.closest('select,input,textarea')) return;
+   if (e.target.closest && e.target.closest('select,input,textarea')) return;
   if (e.ctrlKey || e.metaKey || e.altKey) return;
   const k = e.key;
   if (k === ' ' || k === 'Spacebar') { e.preventDefault(); togglePlay(); }
@@ -843,7 +948,7 @@ document.addEventListener('keydown', e => {
 
 // 다른 앱으로 가거나 화면이 꺼지면 멈춤
 document.addEventListener('visibilitychange', () => {
-  if (document.hidden && phase !== 'idle') { stopAll(); renderCur(); updatePlayBtn(); }
+   if (document.hidden) { stopMic(); if (phase !== 'idle') { stopAll(); renderCur(); updatePlayBtn(); } }
 });
 
 window.addEventListener('hashchange', route);
