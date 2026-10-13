@@ -98,6 +98,11 @@ textarea{resize:vertical}
     grid-template-rows:auto auto auto auto minmax(0,1fr);
     grid-template-areas:"head head" "video list" "cur list" "ctrl list" "tool list"}
   .list{border-top:0;border-left:1px solid var(--line)}
+  /* 옵션: 딕테이션할 때 문장·입력칸을 오른쪽 칸 위로 (영상 크기는 그대로) */
+  #playerScreen.dictRight{grid-template-rows:auto auto auto minmax(0,1fr);
+    grid-template-areas:"head head" "video cur" "ctrl list" "tool list"}
+  #playerScreen.dictRight .cur{height:0;min-height:100%;max-height:none;overflow-y:auto;border-bottom:0;border-left:1px solid var(--line)}
+  #playerScreen.dictRight .list{border-top:1px solid var(--line)}
 }
 
 /* ---------- 딕테이션 ---------- */
@@ -115,6 +120,14 @@ textarea{resize:vertical}
 .dictFeedback .extra{background:#665127;color:#fff;text-decoration:line-through}
 .dictFeedback .correct{color:#8ee0ae}
 .dictFeedback .legend{font-size:12px;color:var(--sub);margin-top:6px}
+/* 정답 비교는 원문 자리에 바로 표시 */
+.curText.answer{line-height:1.6}
+.curText.answer .correct{color:#8ee0ae}
+.curText.answer .missing{background:#703a37;color:#fff;text-decoration:underline wavy #ffb4a9;text-underline-offset:4px;border-radius:3px;padding:0 2px}
+.curText.answer .extra{background:#665127;color:#fff;text-decoration:line-through;border-radius:3px;padding:0 2px}
+.dictArea textarea.compact{min-height:46px;height:46px}
+.dictFeedback.slim{margin-top:8px;padding:8px 12px;font-size:14px}
+.dictFeedback.slim .tip{color:var(--sub);font-weight:400;font-size:12px;margin-left:6px}
 .dictHide{filter:blur(7px);user-select:none}
 /* ---------- 설정 시트 / 알림 ---------- */
 .sheetBg{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:flex-end;justify-content:center;z-index:10}
@@ -222,6 +235,8 @@ textarea{resize:vertical}
       <select id="sPadA"><option value="0">0초</option><option value="0.1">0.1초</option><option value="0.2">0.2초</option><option value="0.3">0.3초</option><option value="0.5">0.5초</option></select></div>
     <div class="row"><span>큰 글씨</span>
       <select id="sBig"><option value="0">끄기</option><option value="1">켜기</option></select></div>
+    <div class="row"><span>딕테이션 위치<br><small>아이패드 가로 화면·PC에서만 적용</small></span>
+      <select id="sDictSide"><option value="left">영상 아래</option><option value="right">오른쪽 칸 위</option></select></div>
     <div class="row"><span>문장 편집 모드</span>
       <select id="sEdit"><option value="0">끄기</option><option value="1">켜기</option></select></div>
     <div class="row"><span>편집한 문장</span>
@@ -237,6 +252,7 @@ textarea{resize:vertical}
     <p class="small">키보드: Space 재생/정지 · ← → 이전/다음 문장 · ↓ 또는 R 다시 듣기 · H 가린 자막 잠깐 보기 · F 즐겨찾기</p>
     <p class="small">타이핑·음성 인식: Enter 정답 확인, 한 번 더 Enter 다음 문장 · Ctrl+Enter 정답 보기 · M 녹음 시작/종료 · I 입력칸으로 · Esc 입력칸 빠져나오기<br>
     입력칸 안에서도: Ctrl+← → 이전/다음 문장 · Ctrl+↓ 다시 듣기</p>
+    <p class="small">정답 비교 색: 초록 맞은 단어 · 빨간 밑줄 빠뜨린 단어 · 노란 취소선 덧붙인 단어. 비교된 원문을 누르면 깨끗한 문장으로 볼 수 있어요.</p>
   </div>
 </div>
 
@@ -280,7 +296,7 @@ function toast(m, ms = 2800) {
 // coverWhen: always 계속 가리기 / first 처음 들을 때만 가리기
 const COVER_ORDER = ['none', 'orig', 'trans', 'both'];
 const COVER_LABEL = { none: '자막 모두 보기', orig: '원문 가리기', trans: '번역 가리기', both: '모두 가리기' };
-const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, cover: 'none', coverWhen: 'always', padBefore: 0.2, padAfter: 0.3, big: false, translationLang: 'ko', favOnly: false };
+const DEFAULTS = { repeat: 1, rate: 1, gap: 1.2, auto: true, cover: 'none', coverWhen: 'always', padBefore: 0.2, padAfter: 0.3, big: false, translationLang: 'ko', favOnly: false, dictSide: 'left' };
 const savedCfg = store.get('shadow:cfg', {});
 // 예전 설정(hide: show/hide/first)을 새 방식으로 옮김
 if (savedCfg.cover == null && savedCfg.hide) {
@@ -424,25 +440,30 @@ function saveInput() {
   dictRecords[recKey()] = r; saveDict();
 }
 function diffAnswer(expected, entered) {
-  const a = wordsOf(expected), b = wordsOf(entered), n=a.length, m=b.length;
-  const dp=Array.from({length:n+1},()=>new Array(m+1).fill(0));
-  for(let i=n-1;i>=0;i--) for(let j=m-1;j>=0;j--)
-    dp[i][j]=a[i]===b[j]?1+dp[i+1][j+1]:Math.max(dp[i+1][j],dp[i][j+1]);
-  let i=0,j=0, html='', matched=0;
-  while(i<n || j<m){
-    if(i<n && j<m && a[i]===b[j]) { html+=`<span class="correct">${esc(a[i])}</span> `;matched++;i++;j++; }
-    else if(j<m && (i===n || dp[i][j+1]>=dp[i+1][j])) { html+=`<span class="extra">${esc(b[j])}</span> `;j++; }
-    else { html+=`<span class="missing">${esc(a[i])}</span> `;i++; }
+  // 채점은 소문자·문장부호 제외로 하고, 화면에는 원래 표기 그대로 보여줌
+  const tok = t => String(t || '').trim().split(/\s+/).filter(Boolean)
+    .map(r => ({ r, n: r.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9']/g, '').replace(/^'+|'+$/g, '') }))
+    .filter(x => x.n);
+  const a = tok(expected), b = tok(entered), n = a.length, m = b.length;
+  const dp = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    dp[i][j] = a[i].n === b[j].n ? 1 + dp[i + 1][j + 1] : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  let i = 0, j = 0, html = '', matched = 0;
+  while (i < n || j < m) {
+    if (i < n && j < m && a[i].n === b[j].n) { html += `<span class="correct">${esc(a[i].r)}</span> `; matched++; i++; j++; }
+    else if (j < m && (i === n || dp[i][j + 1] >= dp[i + 1][j])) { html += `<span class="extra">${esc(b[j].r)}</span> `; j++; }
+    else { html += `<span class="missing">${esc(a[i].r)}</span> `; i++; }
   }
-  return {html,score:n?Math.round(matched/n*100):100,perfect:n===m&&matched===n};
+  return { html: html.trim(), score: n ? Math.round(matched / n * 100) : 100, perfect: n === m && matched === n };
 }
+let answerPlain = false;   // 비교된 원문을 누르면 깨끗한 문장으로 전환
 function checkDict(reveal=false) {
   if (learningMode==='shadow' || !sents[idx]) return;
   stopMic();
   const r=dictRecords[recKey()] || {};
   r.text=$('#dictInput').value.trim();
   if (!r.text && !reveal) { toast('먼저 답안을 입력하거나 녹음해 주세요.'); return; }
-  r.checked=true; r.revealed=reveal; r.at=Date.now();
+  r.checked=true; r.revealed=reveal; r.at=Date.now(); answerPlain=false;
   const result=diffAnswer(sents[idx].text,r.text);
   r.score=result.score; r.perfect=result.perfect && !reveal;
   dictRecords[recKey()]=r;saveDict();
@@ -473,6 +494,7 @@ function startMic() {
 }
 function renderDict() {
   const active=learningMode!=='shadow';
+  $('#playerScreen').classList.toggle('dictRight', active && cfg.dictSide === 'right');
   $('#dictArea').classList.toggle('hidden',!active);
   $('#shadowModeBtn').classList.toggle('on',!active);
   $('#typeModeBtn').classList.toggle('on',learningMode==='type');
@@ -483,12 +505,16 @@ function renderDict() {
   $('#dictInput').readOnly=learningMode==='voice';
   $('#dictInput').placeholder=learningMode==='voice'?'녹음한 음성이 여기에 표시됩니다.':'들은 영어 문장을 입력하세요.';
   $('#micBtn').classList.toggle('hidden',learningMode!=='voice');
-  $('#dictHint').textContent=learningMode==='voice' ? (SpeechAPI?'마이크 버튼(키보드 M)을 눌러 영어로 말하세요. Enter로 정답 확인, 한 번 더 Enter로 다음 문장이에요. 음성 인식은 브라우저 및 네트워크 환경에 따라 달라질 수 있습니다.':'음성 인식 미지원 브라우저입니다. 최신 Chrome 또는 Edge를 사용해 주세요.') : '문장을 듣고 직접 입력하세요. Enter로 정답 확인, 한 번 더 Enter로 다음 문장이에요.';
+  $('#dictHint').textContent=learningMode==='voice' ? (SpeechAPI?'마이크(M)로 말하고 Enter로 확인해요.':'음성 인식 미지원 브라우저입니다. 최신 Chrome 또는 Edge를 사용해 주세요.') : '듣고 입력한 뒤 Enter로 확인해요.';
   const checked=!!r.checked;
+  $('#dictHint').classList.toggle('hidden',checked);
+  $('#dictInput').classList.toggle('compact',checked);
   $('#dictFeedback').classList.toggle('hidden',!checked);
+  $('#dictFeedback').classList.add('slim');
   if(checked){
+    // 비교 결과는 원문 자리(curText)에 표시하고, 여기에는 점수 한 줄만
     const d=diffAnswer(sents[idx]?.text||'',r.text||'');
-    $('#dictFeedback').innerHTML=`<b>${r.revealed?'정답 공개':d.perfect?'정확해요!':'정답 비교'} · 일치 단어 ${d.score}%</b><div style="margin-top:7px">${d.html}</div><div class="legend">초록: 일치 · 빨간 밑줄: 빠진 단어 · 노란 취소선: 추가한 단어<br>대소문자와 문장부호는 채점에서 제외합니다.</div>`;
+    $('#dictFeedback').innerHTML=`<b>${r.revealed?'정답 공개':d.perfect?'정확해요!':'정답 비교'} · 일치 단어 ${d.score}%</b><span class="tip">Enter 다음 문장</span>`;
   }
 }
 
@@ -637,7 +663,7 @@ function dictEnter() {
 
 // ---------------------------------------------------------------- 재생 흐름
 function setIdx(i) {
-   if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; dictChecked = false; dictRevealed = false; }
+   if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; dictChecked = false; dictRevealed = false; answerPlain = false; }
   idx = i; store.set('shadow:pos:' + vid, idx);
 }
 
@@ -732,7 +758,11 @@ function renderCur() {
   const ct = $('#curText');
    const dict=learningMode!=='shadow';
    const r=dictRecords[recKey()]||{};
-   ct.textContent = dict && !r.checked ? '🔒 정답은 확인 후 표시됩니다.' : s.text;
+   const ans = dict && !!r.checked;
+   ct.classList.toggle('answer', ans && !answerPlain);
+   if (dict && !r.checked) ct.textContent = '🔒 정답은 확인 후 표시됩니다.';
+   else if (ans && !answerPlain) ct.innerHTML = diffAnswer(s.text, r.text || '').html;
+   else ct.textContent = s.text;
    ct.classList.toggle('blur', !dict && isCovered('orig'));
    // 번역(이중자막): 딕테이션 중에도 보여서 한국어를 힌트로 쓸 수 있음
    const tr = $('#translatedText');
@@ -986,7 +1016,10 @@ $('#playBtn').onclick = togglePlay;
 $('#shadowModeBtn').onclick=()=>setLearningMode('shadow');
 $('#typeModeBtn').onclick=()=>setLearningMode('type');
 $('#voiceModeBtn').onclick=()=>setLearningMode('voice');
-$('#dictInput').addEventListener('input',()=>{saveInput();$('#dictFeedback').classList.add('hidden');$('#curText').textContent='🔒 정답은 확인 후 표시됩니다.';applyListBlur();});
+$('#dictInput').addEventListener('input',()=>{
+  saveInput(); $('#dictFeedback').classList.add('hidden'); $('#dictHint').classList.remove('hidden'); $('#dictInput').classList.remove('compact');
+  const ct=$('#curText'); ct.classList.remove('answer'); ct.textContent='🔒 정답은 확인 후 표시됩니다.'; applyListBlur();
+});
 $('#dictCheckBtn').onclick=()=>checkDict(false);
 $('#dictRevealBtn').onclick=()=>checkDict(true);
 $('#dictRetryBtn').onclick=()=>{stopMic();delete dictRecords[recKey()];saveDict();renderCur();applyListBlur();};
@@ -995,7 +1028,10 @@ $('#micBtn').onclick=startMic;
 
 // 가린 자막을 누르면 잠깐 보기 (딕테이션 중 원문은 정답 확인으로만 볼 수 있음)
 const toggleReveal = () => { if (cfg.cover !== 'none') { revealed = !revealed; renderCur(); applyListBlur(); } };
-$('#curText').onclick = () => { if (learningMode !== 'shadow') return; toggleReveal(); };
+$('#curText').onclick = () => {
+  if (learningMode !== 'shadow') { if ((dictRecords[recKey()] || {}).checked) { answerPlain = !answerPlain; renderCur(); } return; }
+  toggleReveal();
+};
 $('#translatedText').onclick = toggleReveal;
 
 $('#list').addEventListener('click', e => {
@@ -1028,6 +1064,7 @@ function openSheet() {
   $('#sAuto').value = cfg.auto ? '1' : '0';
   $('#sCover').value = cfg.cover; $('#sCoverWhen').value = cfg.coverWhen;
   $('#sTranslationLang').value = cfg.translationLang || 'ko';
+  $('#sDictSide').value = cfg.dictSide === 'right' ? 'right' : 'left';
   $('#sPadB').value = String(cfg.padBefore); $('#sPadA').value = String(cfg.padAfter);
   $('#sBig').value = cfg.big ? '1' : '0'; $('#sEdit').value = editMode ? '1' : '0';
   const g = ghCfg(); $('#sRepo').value = g.repo; $('#sToken').value = g.token;
@@ -1051,6 +1088,7 @@ bind('#sRepeat', 'repeat', Number); bind('#sRate', 'rate', Number); bind('#sGap'
 bind('#sAuto', 'auto', v => v === '1');
 bind('#sCover', 'cover', v => v); bind('#sCoverWhen', 'coverWhen', v => v);
 bind('#sTranslationLang', 'translationLang', v => v);
+bind('#sDictSide', 'dictSide', v => v);
 bind('#sPadB', 'padBefore', Number); bind('#sPadA', 'padAfter', Number); bind('#sBig', 'big', v => v === '1');
 $('#sEdit').addEventListener('change', e => { editMode = e.target.value === '1'; splitting = false; renderCur(); });
 $('#exportBtn').onclick = exportJson;
