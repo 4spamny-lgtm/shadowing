@@ -107,7 +107,7 @@ textarea{resize:vertical}
 
 /* ---------- 딕테이션 ---------- */
 .modebar{display:flex;gap:7px;padding:9px 12px 0;background:var(--panel)}
-.modebar button{flex:1;font-size:14px;padding:9px 6px}
+.modebar button{flex:1;min-width:0;font-size:clamp(11px,2.8vw,14px);padding:9px 3px;white-space:nowrap}
 .modebar button.on{background:var(--accent);color:#fff}
 .dictArea{padding:12px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
 .dictArea textarea{min-height:82px;line-height:1.5}
@@ -128,7 +128,11 @@ textarea{resize:vertical}
 .dictArea textarea.compact{min-height:46px;height:46px}
 .dictFeedback.slim{margin-top:8px;padding:8px 12px;font-size:14px}
 .dictFeedback.slim .tip{color:var(--sub);font-weight:400;font-size:12px;margin-left:6px}
-.dictHide{filter:blur(7px);user-select:none}
+ .dictHide{filter:blur(7px);user-select:none}
+.quizMask{font-size:var(--fs);line-height:1.8;overflow-wrap:anywhere;letter-spacing:.02em}
+.quizMask .quizHidden{color:#b6c7dc;letter-spacing:.11em}
+.quizMask .quizKnown{color:#8ee0ae}
+.quizHintNote{font-size:12px;color:var(--sub);margin-top:6px}
 /* ---------- 설정 시트 / 알림 ---------- */
 .sheetBg{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:flex-end;justify-content:center;z-index:10}
 .sheet{background:var(--panel);width:100%;max-width:560px;border-radius:16px 16px 0 0;
@@ -167,6 +171,7 @@ textarea{resize:vertical}
      <div class="modebar" id="modebar" style="padding:0 0 12px;background:transparent">
        <button id="shadowModeBtn" class="on">쉐도잉</button>
        <button id="typeModeBtn">⌨ 타이핑</button>
+        <button id="quizModeBtn">✏️ 정답 맞히기</button>
        <button id="voiceModeBtn">🎙 음성 인식</button>
      </div>
     <div class="curMeta"><span><button id="favBtn" class="favBtn" aria-pressed="false" title="즐겨찾기 (F)">☆</button><span id="curNum"></span></span><span id="curStatus"></span></div>
@@ -175,7 +180,8 @@ textarea{resize:vertical}
        <textarea id="dictInput" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="들은 영어 문장을 입력하세요."></textarea>
        <div class="dictButtons">
          <button id="micBtn" class="hidden">🎙 녹음 시작<span class="key">M</span></button>
-         <button id="dictCheckBtn" class="primary">정답 확인<span class="key">Enter</span></button>
+         <button id="quizHintBtn" class="hidden">💡 힌트</button>
+          <button id="dictCheckBtn" class="primary">정답 확인<span class="key">Enter</span></button>
          <button id="dictRevealBtn">정답 보기<span class="key">Ctrl+Enter</span></button>
          <button id="dictRetryBtn">다시 풀기<span class="key">R</span></button>
        </div>
@@ -222,7 +228,7 @@ textarea{resize:vertical}
       <select id="sGap"><option value="0">없음</option><option value="0.8">0.8배</option><option value="1">1배</option><option value="1.2">1.2배</option><option value="1.5">1.5배</option><option value="2">2배</option></select></div>
     <div class="row"><span>자동으로 다음 문장</span>
       <select id="sAuto"><option value="1">켜기</option><option value="0">끄기</option></select></div>
-    <div class="row"><span>딕테이션 번역 표시<br><small>타이핑·음성 인식 모드에 적용</small></span>
+    <div class="row"><span>딕테이션 번역 표시<br><small>타이핑·정답 맞히기·음성 인식 모드에 적용</small></span>
       <select id="sDictTranslation"><option value="after">정답 확인 후 표시</option><option value="always">항상 표시</option><option value="never">표시 안 함</option></select></div>
     <div class="row"><span>자막 가리기</span>
       <select id="sCover"><option value="none">모두 보기</option><option value="orig">원문 가리기</option><option value="trans">번역 가리기</option><option value="both">모두 가리기</option></select></div>
@@ -415,7 +421,7 @@ let lastRaw = -1, lastRawAt = 0, userScrollAt = 0, wakeLock = null, fromList = f
 let lastVideos = [];
  // 딕테이션 기록은 영상별/문장별/모드별로 이 브라우저에 저장
 let learningMode = store.get('shadow:learningMode', 'shadow');
-if (!['shadow','type','voice'].includes(learningMode)) learningMode = 'shadow';
+if (!['shadow','type','voice','quiz'].includes(learningMode)) learningMode = 'shadow';
 let dictRecords = {}, dictRevealed = false, dictChecked = false;
 let speech = null, listening = false, speechSerial = 0;
 const SpeechAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -431,10 +437,10 @@ function stopMic() {
 }
 function setMic(label) { const b = $('#micBtn'); if (b) b.innerHTML = esc(label) + '<span class="key">M</span>'; }
 function setLearningMode(m) {
-  if (!['shadow','type','voice'].includes(m) || m === learningMode) return;
+  if (!['shadow','type','voice','quiz'].includes(m) || m === learningMode) return;
   stopMic(); stopAll(); learningMode = m; store.set('shadow:learningMode', m);
   dictChecked = false; dictRevealed = false; renderCur(); updatePlayBtn(); applyListBlur();
-  if (m === 'type' && kbMode) focusDict();
+  if ((m === 'type' || m === 'quiz') && kbMode) focusDict();
 }
 function saveInput() {
   if (learningMode === 'shadow' || !vid) return;
@@ -495,6 +501,30 @@ function startMic() {
   try { r.start(); listening=true; setMic('■ 녹음 종료');$('#micBtn').classList.add('on'); }
   catch(e){stopMic();toast('음성 인식을 시작하지 못했어요.');}
 }
+// 퀴즈: 기본적으로 첫 단어를 공개하고 나머지는 글자 수만큼 별표 표시.
+// 힌트를 누를 때마다 다음 단어를 한 개씩 공개하며 문장별로 진행 상태 저장.
+function quizTokens(text) { return String(text || '').match(/\S+/g) || []; }
+function quizMaskedHtml(text, hints=0) {
+  const tokens=quizTokens(text);
+  const shown=Math.min(tokens.length, 1 + Math.max(0,hints));
+  return '<div class="quizMask">'+tokens.map((w,i)=>{
+    if(i<shown) return '<span class="quizKnown">'+esc(w)+'</span>';
+    const n=(w.match(/[a-zA-Z0-9]/g)||[]).length;
+    return '<span class="quizHidden">'+('★'.repeat(Math.max(1,n)))+'</span>';
+  }).join(' ')+'</div><div class="quizHintNote">'+shown+' / '+tokens.length+'개 단어 공개 · 문장 전체를 입력하세요</div>';
+}
+function checkedQuizHintDone(){
+  if(learningMode!=='quiz') return false;
+  const r=dictRecords[recKey()]||{};
+  return !!r.checked || (r.hints||0)>=Math.max(0,quizTokens(sents[idx]?.text).length-1);
+}
+function showQuizHint(){
+  if(learningMode!=='quiz'||!sents[idx]||checkedQuizHintDone()) return;
+  const r=dictRecords[recKey()]||{};
+  r.hints=(r.hints||0)+1;
+  dictRecords[recKey()]=r;saveDict();renderCur();
+}
+
 function renderDict() {
   const active=learningMode!=='shadow';
   $('#playerScreen').classList.toggle('dictRight', active && cfg.dictSide === 'right');
@@ -502,13 +532,16 @@ function renderDict() {
   $('#shadowModeBtn').classList.toggle('on',!active);
   $('#typeModeBtn').classList.toggle('on',learningMode==='type');
   $('#voiceModeBtn').classList.toggle('on',learningMode==='voice');
+   $('#quizModeBtn').classList.toggle('on',learningMode==='quiz');
   if(!active)return;
   const r=dictRecords[recKey()]||{};
   $('#dictInput').value=r.text||'';
   $('#dictInput').readOnly=learningMode==='voice';
-  $('#dictInput').placeholder=learningMode==='voice'?'녹음한 음성이 여기에 표시됩니다.':'들은 영어 문장을 입력하세요.';
+  $('#dictInput').placeholder=learningMode==='voice'?'녹음한 음성이 여기에 표시됩니다.':learningMode==='quiz'?'가려진 영어 문장 전체를 입력하세요.':'들은 영어 문장을 입력하세요.';
   $('#micBtn').classList.toggle('hidden',learningMode!=='voice');
-  $('#dictHint').textContent=learningMode==='voice' ? (SpeechAPI?'마이크(M)로 말하고 Enter로 확인해요.':'음성 인식 미지원 브라우저입니다. 최신 Chrome 또는 Edge를 사용해 주세요.') : '듣고 입력한 뒤 Enter로 확인해요.';
+   $('#quizHintBtn').classList.toggle('hidden',learningMode!=='quiz');
+   $('#quizHintBtn').disabled=learningMode==='quiz' && checkedQuizHintDone();
+  $('#dictHint').textContent=learningMode==='voice' ? (SpeechAPI?'마이크(M)로 말하고 Enter로 확인해요.':'음성 인식 미지원 브라우저입니다. 최신 Chrome 또는 Edge를 사용해 주세요.') : learningMode==='quiz' ? '별표로 가린 문장을 완성해 보세요. 💡 힌트를 누르면 단어가 하나씩 공개돼요.' : '듣고 입력한 뒤 Enter로 확인해요.';
   const checked=!!r.checked;
   $('#dictHint').classList.toggle('hidden',checked);
   $('#dictInput').classList.toggle('compact',checked);
@@ -653,14 +686,14 @@ function goStep(dir) {
 let kbMode = false;
 document.addEventListener('pointerdown', e => { if (e.pointerType === 'touch') kbMode = false; }, true);
 function focusDict() {
-  if (learningMode !== 'type') return;
+  if (learningMode !== 'type' && learningMode !== 'quiz') return;
   const t = $('#dictInput');
   if (t && document.activeElement !== t) { t.focus(); const n = t.value.length; t.setSelectionRange(n, n); }
 }
 function dictEnter() {
   const r = dictRecords[recKey()] || {};
   if (r.checked) { goStep(1); return; }
-  if (learningMode === 'type' && document.activeElement !== $('#dictInput') && !$('#dictInput').value.trim()) { focusDict(); return; }
+  if ((learningMode === 'type' || learningMode === 'quiz') && document.activeElement !== $('#dictInput') && !$('#dictInput').value.trim()) { focusDict(); return; }
   checkDict(false);
 }
 
@@ -763,7 +796,8 @@ function renderCur() {
    const r=dictRecords[recKey()]||{};
    const ans = dict && !!r.checked;
    ct.classList.toggle('answer', ans && !answerPlain);
-   if (dict && !r.checked) ct.textContent = '🔒 정답은 확인 후 표시됩니다.';
+   if (dict && !r.checked && learningMode === 'quiz') ct.innerHTML = quizMaskedHtml(s.text, r.hints || 0);
+    else if (dict && !r.checked) ct.textContent = '🔒 정답은 확인 후 표시됩니다.';
    else if (ans && !answerPlain) ct.innerHTML = diffAnswer(s.text, r.text || '').html;
    else ct.textContent = s.text;
    ct.classList.toggle('blur', !dict && isCovered('orig'));
@@ -1021,9 +1055,13 @@ $('#playBtn').onclick = togglePlay;
 $('#shadowModeBtn').onclick=()=>setLearningMode('shadow');
 $('#typeModeBtn').onclick=()=>setLearningMode('type');
 $('#voiceModeBtn').onclick=()=>setLearningMode('voice');
+$('#quizModeBtn').onclick=()=>setLearningMode('quiz');
+$('#quizHintBtn').onclick=showQuizHint;
 $('#dictInput').addEventListener('input',()=>{
   saveInput(); $('#dictFeedback').classList.add('hidden'); $('#dictHint').classList.remove('hidden'); $('#dictInput').classList.remove('compact');
-  const ct=$('#curText'); ct.classList.remove('answer'); ct.textContent='🔒 정답은 확인 후 표시됩니다.';
+  const ct=$('#curText'); ct.classList.remove('answer');
+  if (learningMode === 'quiz') ct.innerHTML=quizMaskedHtml(sents[idx]?.text||'',(dictRecords[recKey()]||{}).hints||0);
+  else ct.textContent='🔒 정답은 확인 후 표시됩니다.';
   if (cfg.dictTranslation !== 'always') $('#translatedText').classList.add('hidden');
   applyListBlur();
 });
@@ -1170,11 +1208,11 @@ document.addEventListener('keydown', e => {
   else if (k === 'ArrowRight') { e.preventDefault(); goStep(1); }
   else if (keyIs(e, 'r') && dict) { e.preventDefault(); retryDict(); }   // 딕테이션: R 다시 풀기
   else if (k === 'ArrowDown' || keyIs(e, 'r')) { e.preventDefault(); playSentence(idx); }
-  else if (keyIs(e, 'h')) { revealed = !revealed; renderCur(); applyListBlur(); }
+  else if (keyIs(e, 'h')) { if (learningMode === 'quiz') showQuizHint(); else { revealed = !revealed; renderCur(); applyListBlur(); } }
   else if (keyIs(e, 'f')) { e.preventDefault(); toggleFav(); }
   else if (k === 'Enter' && dict) { e.preventDefault(); dictEnter(); }
   else if (keyIs(e, 'm') && learningMode === 'voice') { e.preventDefault(); startMic(); }
-  else if (keyIs(e, 'i') && learningMode === 'type') { e.preventDefault(); focusDict(); }
+  else if (keyIs(e, 'i') && (learningMode === 'type' || learningMode === 'quiz')) { e.preventDefault(); focusDict(); }
 });
 
 // 다른 앱으로 가거나 화면이 꺼지면 멈춤
