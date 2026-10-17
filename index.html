@@ -119,6 +119,30 @@ textarea{resize:vertical}
  }
  @media (min-width:900px){.listToggle{display:none}.listDock{border-top:0;border-left:1px solid var(--line)}}
 
+
+/* 모바일: 문제 풀이 모드에서는 맨 아래의 문장 이동 도구만 표시 */
+.mobileJump{display:none}
+@media(max-width:899px){
+  #playerScreen.jumpMode{grid-template-rows:auto auto minmax(110px,1fr) auto auto auto;overflow:hidden}
+  #playerScreen.jumpMode .cur{max-height:none;min-height:0;overflow-y:auto}
+  #playerScreen.jumpMode .listDock{display:none!important}
+  #playerScreen.jumpMode .mobileJump{display:flex!important;flex-direction:column;grid-area:list;min-height:0;background:var(--panel);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+  #playerScreen.jumpMode .mobileJump.open{max-height:min(55dvh,420px)}
+  .jumpToggle{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;text-align:left;border:0;border-radius:0;background:var(--panel);padding:11px 15px;min-height:44px;font-weight:600;font-size:14px}
+  #jumpPosition{margin-left:auto;font-size:13px;font-weight:400;color:var(--sub)}
+  .jumpPanel{padding:12px;overflow-y:auto;border-top:1px solid var(--line)}
+  .jumpForm{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .jumpForm label{font-size:13px;color:var(--sub);width:100%}
+  .jumpForm input{flex:1;width:0;min-width:60px}
+  .jumpForm button{padding:9px 20px}
+  .jumpActions{display:flex;gap:7px;margin-top:10px}
+  .jumpActions button{flex:1;font-size:13px;padding:9px 5px}
+  .jumpNumbers{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;max-height:150px;overflow-y:auto;margin-top:10px}
+  .jumpNumbers button{font-size:12px;padding:8px 0;border-radius:8px}
+  .jumpNumbers button.done{color:#8ee0ae;border-color:#35614a}
+  .jumpNumbers button.current{background:var(--accent);color:#fff}
+}
+
 /* 아이패드 가로 / PC: 왼쪽 영상, 오른쪽 문장 목록 */
 @media (min-width:900px) and (orientation:landscape){
   #playerScreen{grid-template-columns:minmax(0,1.4fr) minmax(320px,1fr);
@@ -243,6 +267,15 @@ textarea{resize:vertical}
     <button id="repBtn"></button>
     <button id="rateBtn"></button>
     <button id="setBtn">⚙&#xFE0E; 설정</button>
+  </div>
+  <div id="mobileJump" class="mobileJump hidden" aria-label="문장 이동">
+    <button id="jumpToggle" type="button" class="jumpToggle" aria-expanded="false"><span>☰ 문장 이동</span><span id="jumpPosition">1 / 1</span><span id="jumpArrow">⌃</span></button>
+    <div id="jumpPanel" class="jumpPanel hidden">
+      <form id="jumpForm" class="jumpForm"><label for="jumpNumber">이동할 문장 번호</label><input id="jumpNumber" type="number" inputmode="numeric" min="1" step="1" aria-label="문장 번호"><button class="on" type="submit">이동</button></form>
+      <div class="jumpActions"><button id="jumpUnfinished" type="button">다음 미완료 문장</button><button id="jumpAllNumbers" type="button">번호 목록 보기</button></div>
+      <div id="jumpNumbers" class="jumpNumbers hidden" aria-label="문장 번호 목록"></div>
+      <p class="small" style="margin:7px 0 0">정답 노출을 막기 위해 문장 내용은 표시하지 않습니다.</p>
+    </div>
   </div>
   <div id="listDock" class="listDock">
     <button id="listToggle" class="listToggle" type="button" aria-expanded="true">☰ 문장 리스트 <span id="listCount"></span><span id="listToggleIcon">⌄</span></button>
@@ -486,6 +519,7 @@ function renderProgress(){
     return `<div class="progressLine"><span>${label}</span><div class="progressTrack"><div class="progressFill" style="width:${percent}%"></div></div><span class="progressNum">${count}/${total} · ${percent}%</span></div>`;
   }).join('');
   $('#listCount').textContent=`${idx+1}/${total} · ${n}개 완료`;
+  $('#jumpPosition').textContent=`${idx+1} / ${total} · 완료 ${n}`;
 }
 function initProgress(){completed=store.get(progressKey(vid),{});renderProgress()}
 let listView = 'normal';
@@ -497,6 +531,28 @@ function setListView(next){
   $('#listToggleIcon').textContent=next==='expanded'?'⌄':next==='collapsed'?'⌃':'⌃';
   $('#listToggle').setAttribute('aria-expanded',String(next!=='collapsed'));
   if(next!=='collapsed') setTimeout(()=>scrollToCur(true),50);
+}
+function syncJumpMode(){
+  const enabled=learningMode!=='shadow';
+  $('#playerScreen').classList.toggle('jumpMode',enabled);
+  $('#mobileJump').classList.toggle('hidden',!enabled);
+  if(!enabled){closeJump();setListView('normal');}
+  else {setListView('collapsed');closeJump();}
+}
+function closeJump(){
+  $('#mobileJump').classList.remove('open');
+  $('#jumpPanel').classList.add('hidden');
+  $('#jumpToggle').setAttribute('aria-expanded','false');
+  $('#jumpArrow').textContent='⌃';
+}
+function jumpToNumber(num){
+  const n=Number(num);
+  if(!Number.isInteger(n)||n<1||n>sents.length){toast(`1~${sents.length}번 문장을 입력해 주세요.`);return;}
+  closeJump();$('#jumpNumbers').classList.add('hidden');
+  playSentence(n-1);
+}
+function renderJumpNumbers(){
+  $('#jumpNumbers').innerHTML=sents.map((_,i)=>`<button type="button" data-jump="${i+1}" class="${isDone(i,learningMode)?'done ':''}${i===idx?'current':''}">${i+1}${isDone(i,learningMode)?' ✓':''}</button>`).join('');
 }
 let speech = null, listening = false, speechSerial = 0;
 const SpeechAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -514,7 +570,7 @@ function setMic(label) { const b = $('#micBtn'); if (b) b.innerHTML = esc(label)
 function setLearningMode(m) {
   if (!['shadow','type','voice','quiz'].includes(m) || m === learningMode) return;
   stopMic(); stopAll(); learningMode = m; store.set('shadow:learningMode', m);
-  dictChecked = false; dictRevealed = false; renderCur(); renderProgress(); renderList(); updatePlayBtn(); applyListBlur();
+  dictChecked = false; dictRevealed = false; syncJumpMode(); renderCur(); renderProgress(); renderList(); updatePlayBtn(); applyListBlur();
   if ((m === 'type' || m === 'quiz') && kbMode) focusDict();
 }
 function saveInput() {
@@ -841,6 +897,7 @@ function dictEnter() {
 function setIdx(i) {
    if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; dictChecked = false; dictRevealed = false; answerPlain = false; }
   idx = i; store.set('shadow:pos:' + vid, idx);
+  if (!$('#jumpNumbers').classList.contains('hidden')) renderJumpNumbers();
   renderProgress();
 }
 
@@ -1131,11 +1188,11 @@ async function openVideo(id) {
    stopMic();
   $('#listScreen').classList.add('hidden');
   $('#playerScreen').classList.remove('hidden');
-  if (vid === id && doc) { renderCur(); renderProgress(); scrollToCur(true); return; }
+  if (vid === id && doc) { syncJumpMode(); renderCur(); renderProgress(); scrollToCur(true); return; }
   stopAll();
    vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
    dictRecords=store.get(dictKey(),{});dictChecked=false;dictRevealed=false;
-   completed=store.get(progressKey(id),{});setListView('normal');
+   completed=store.get(progressKey(id),{});syncJumpMode();
    favs=store.get(favKey(),{});
   $('#ttl').textContent = ''; $('#curText').textContent = ''; $('#translatedText').classList.add('hidden');
   $('#list').innerHTML = '<div class="msg">불러오는 중...</div>';
@@ -1238,6 +1295,31 @@ $('#curText').onclick = () => {
 };
 $('#translatedText').onclick = toggleReveal;
 
+$('#jumpToggle').onclick=()=>{
+  const open=$('#jumpPanel').classList.contains('hidden');
+  $('#jumpPanel').classList.toggle('hidden',!open);
+  $('#mobileJump').classList.toggle('open',open);
+  $('#jumpToggle').setAttribute('aria-expanded',String(open));
+  $('#jumpArrow').textContent=open?'⌄':'⌃';
+  if(open)$('#jumpNumber').value=String(idx+1);
+};
+$('#jumpForm').onsubmit=e=>{e.preventDefault();jumpToNumber($('#jumpNumber').value)};
+$('#jumpUnfinished').onclick=()=>{
+  if(!sents.length)return;
+  let found=-1;
+  for(let offset=1;offset<=sents.length;offset++){
+    const i=(idx+offset)%sents.length;
+    if(!isDone(i,learningMode)){found=i;break;}
+  }
+  if(found<0)toast('이 모드의 모든 문장을 완료했어요.');else jumpToNumber(found+1);
+};
+$('#jumpAllNumbers').onclick=()=>{
+  const el=$('#jumpNumbers'),show=el.classList.contains('hidden');
+  if(show)renderJumpNumbers();
+  el.classList.toggle('hidden',!show);
+  $('#jumpAllNumbers').textContent=show?'번호 목록 닫기':'번호 목록 보기';
+};
+$('#jumpNumbers').onclick=e=>{const b=e.target.closest('[data-jump]');if(b)jumpToNumber(b.dataset.jump)};
 let listSwipeAt=0;
 $('#listToggle').onclick=()=>{if(Date.now()-listSwipeAt<450)return;setListView(listView==='expanded'?'normal':listView==='normal'?'expanded':'normal')};
 $('#listToggle').addEventListener('contextmenu',e=>{e.preventDefault();setListView(listView==='collapsed'?'normal':'collapsed')});
@@ -1250,7 +1332,7 @@ $('#listToggle').addEventListener('touchend',e=>{
   if(Math.abs(delta)<35)return;
   listSwipeAt=Date.now();setListView(delta<0?'expanded':'collapsed');
 },{passive:true});
-$('#dictInput').addEventListener('focus',()=>{if(window.innerWidth<900&&listView==='expanded')setListView('normal')});
+$('#dictInput').addEventListener('focus',()=>{if(window.innerWidth<900){if(listView==='expanded')setListView('normal');closeJump();}});
 $('#list').addEventListener('click', e => {
   const st = e.target.closest('[data-fav]'); if (st) { toggleFav(+st.dataset.fav); return; }
   const it = e.target.closest('.item'); if (it) playSentence(+it.dataset.i);
