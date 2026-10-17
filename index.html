@@ -79,8 +79,11 @@ textarea{resize:vertical}
 #playBtn{background:var(--accent);border-color:var(--accent)}
 .tool{grid-area:tool;display:flex;gap:6px;padding:0 12px 10px;overflow-x:auto;align-self:start}
 .tool button{flex:none;padding:8px 13px;font-size:14px;border-radius:999px}
-.list{grid-area:list;position:relative;overflow-y:auto;-webkit-overflow-scrolling:touch;
-  padding:6px 8px calc(24px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+ .listDock{grid-area:list;min-height:0;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+ .listToggle{display:flex;justify-content:space-between;align-items:center;gap:8px;border:0;border-radius:0;background:var(--panel);padding:9px 13px;font-size:14px;font-weight:600;flex:none;width:100%;text-align:left}
+ #listCount{margin-left:auto;color:var(--sub);font-size:12px;font-weight:400}
+ .list{position:relative;min-height:0;flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  padding:6px 8px calc(24px + env(safe-area-inset-bottom))}
 .item{display:flex;gap:10px;padding:10px;border-radius:10px;cursor:pointer;line-height:1.45}
 .item .n{color:var(--sub);font-size:12px;min-width:42px;padding-top:3px;font-variant-numeric:tabular-nums}
 .item .tx{font-size:16px;flex:1}
@@ -90,19 +93,43 @@ textarea{resize:vertical}
 .item .star{flex:none;align-self:flex-start;color:var(--line);font-size:18px;line-height:1;padding:3px 6px;cursor:pointer}
 .item.fav .star{color:#f6d17b}
 .list.favonly .item:not(.fav){display:none}
-.item.cur{background:var(--cur)}
+ .item.cur{background:var(--cur)}
+ .doneDot{align-self:flex-start;font-size:12px;color:#8ee0ae;min-width:14px}
+ .progressSummary{font-size:12px;color:#b7c9e2;margin:0 0 5px;line-height:1.4}
+ .progressDetails{margin-bottom:9px;color:var(--sub);font-size:12px}
+ .progressDetails summary{cursor:pointer;padding:2px 0;user-select:none}
+ .progressLine{display:grid;grid-template-columns:75px 1fr 72px;align-items:center;gap:8px;margin:8px 0}
+ .progressTrack{height:7px;background:#364252;border-radius:8px;overflow:hidden}
+ .progressFill{height:100%;background:var(--accent);border-radius:8px}
+ .progressNum{text-align:right;font-variant-numeric:tabular-nums}
+ @media (max-width:899px){
+   #playerScreen{grid-template-rows:auto auto minmax(75px,auto) auto auto minmax(125px,1fr);overflow:hidden}
+   .videoWrap{max-height:34dvh}
+   .cur{max-height:23dvh;min-height:75px;padding:7px 12px}
+   .ctrl{padding:6px 10px;gap:5px}
+   .ctrl button{height:44px;font-size:14px;padding:5px}
+   .tool{padding:0 9px 5px}
+   .tool button{padding:6px 10px;font-size:12px}
+   .modebar{gap:4px!important;padding-bottom:7px!important}
+   .modebar button{padding:7px 2px}
+   .listDock.expanded{position:fixed;z-index:8;bottom:0;left:0;right:0;height:78dvh;background:var(--bg);border-top:2px solid var(--accent);box-shadow:0 -12px 40px rgba(0,0,0,.65);padding-bottom:env(safe-area-inset-bottom)}
+   .listDock.collapsed{min-height:0}
+   .listDock.collapsed .list{display:none}
+   #playerScreen.listCollapsed{grid-template-rows:auto auto minmax(75px,1fr) auto auto 39px}
+ }
+ @media (min-width:900px){.listToggle{display:none}.listDock{border-top:0;border-left:1px solid var(--line)}}
 
 /* 아이패드 가로 / PC: 왼쪽 영상, 오른쪽 문장 목록 */
 @media (min-width:900px) and (orientation:landscape){
   #playerScreen{grid-template-columns:minmax(0,1.4fr) minmax(320px,1fr);
     grid-template-rows:auto auto auto auto minmax(0,1fr);
     grid-template-areas:"head head" "video list" "cur list" "ctrl list" "tool list"}
-  .list{border-top:0;border-left:1px solid var(--line)}
+    .listDock{border-top:0;border-left:1px solid var(--line)}
   /* 옵션: 딕테이션할 때 문장·입력칸을 오른쪽 칸 위로 (영상 크기는 그대로) */
   #playerScreen.dictRight{grid-template-rows:auto auto auto minmax(0,1fr);
     grid-template-areas:"head head" "video cur" "ctrl list" "tool list"}
   #playerScreen.dictRight .cur{height:0;min-height:100%;max-height:none;overflow-y:auto;border-bottom:0;border-left:1px solid var(--line)}
-  #playerScreen.dictRight .list{border-top:1px solid var(--line)}
+    #playerScreen.dictRight .listDock{border-top:1px solid var(--line)}
 }
 
 /* ---------- 딕테이션 ---------- */
@@ -176,7 +203,9 @@ textarea{resize:vertical}
         <button id="quizModeBtn">✏️ 정답 맞히기</button>
        <button id="voiceModeBtn">🎙 음성 인식</button>
      </div>
-    <div class="curMeta"><span><button id="favBtn" class="favBtn" aria-pressed="false" title="즐겨찾기 (F)">☆</button><span id="curNum"></span></span><span id="curStatus"></span></div>
+          <div id="progressSummary" class="progressSummary" aria-live="polite"></div>
+      <details id="progressDetails" class="progressDetails"><summary>📊 모드별 학습 진행률 보기</summary><div id="progressBreakdown"></div></details>
+     <div class="curMeta"><span><button id="favBtn" class="favBtn" aria-pressed="false" title="즐겨찾기 (F)">☆</button><span id="curNum"></span></span><span id="curStatus"></span></div>
     <div id="curText" class="curText"></div><div id="translatedText" class="translatedText hidden"></div>
      <div id="dictArea" class="dictArea hidden" style="padding:12px 0 0;border:0">
        <textarea id="dictInput" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="들은 영어 문장을 입력하세요."></textarea>
@@ -215,7 +244,10 @@ textarea{resize:vertical}
     <button id="rateBtn"></button>
     <button id="setBtn">⚙&#xFE0E; 설정</button>
   </div>
-  <div id="list" class="list"></div>
+  <div id="listDock" class="listDock">
+    <button id="listToggle" class="listToggle" type="button" aria-expanded="true">☰ 문장 리스트 <span id="listCount"></span><span id="listToggleIcon">⌄</span></button>
+    <div id="list" class="list"></div>
+  </div>
 </div>
 
 <!-- 설정 -->
@@ -425,6 +457,47 @@ let lastVideos = [];
 let learningMode = store.get('shadow:learningMode', 'shadow');
 if (!['shadow','type','voice','quiz'].includes(learningMode)) learningMode = 'shadow';
 let dictRecords = {}, dictRevealed = false, dictChecked = false;
+let completed = {};
+const MODES = [['shadow','쉐도잉'],['type','타이핑'],['quiz','정답 맞히기'],['voice','음성 인식']];
+const progressKey = id => 'shadow:progress:' + id;
+const sentKey = i => sents[i] ? String(Math.round(sents[i].start*10)) : '';
+function isDone(i, mode) {
+  const key=sentKey(i);
+  if (completed[mode]?.[key]) return true;
+  // 이전 버전에서 기록한 타이핑·정답·음성 결과도 완료로 인정
+  const old=dictRecords[`${i}:${mode}`];
+  return !!(old && old.checked && !old.revealed);
+}
+function markDone(i, mode) {
+  const key=sentKey(i);
+  if (!vid || !key || completed[mode]?.[key]) return;
+  (completed[mode] ||= {})[key]=Date.now();
+  store.set(progressKey(vid),completed);
+  renderProgress(); markCur();
+}
+function progressCount(mode){return sents.reduce((n,_,i)=>n+(isDone(i,mode)?1:0),0)}
+function renderProgress(){
+  if (!sents.length) return;
+  const active=MODES.find(x=>x[0]===learningMode)?.[1]||'쉐도잉';
+  const n=progressCount(learningMode), total=sents.length;
+  $('#progressSummary').textContent=`${active} 완료 ${n}/${total}문장 (${Math.round(n/total*100)}%)`;
+  $('#progressBreakdown').innerHTML=MODES.map(([mode,label])=>{
+    const count=progressCount(mode),percent=Math.round(count/total*100);
+    return `<div class="progressLine"><span>${label}</span><div class="progressTrack"><div class="progressFill" style="width:${percent}%"></div></div><span class="progressNum">${count}/${total} · ${percent}%</span></div>`;
+  }).join('');
+  $('#listCount').textContent=`${idx+1}/${total} · ${n}개 완료`;
+}
+function initProgress(){completed=store.get(progressKey(vid),{});renderProgress()}
+let listView = 'normal';
+function setListView(next){
+  listView=next;
+  $('#listDock').classList.toggle('expanded',next==='expanded');
+  $('#listDock').classList.toggle('collapsed',next==='collapsed');
+  $('#playerScreen').classList.toggle('listCollapsed',next==='collapsed');
+  $('#listToggleIcon').textContent=next==='expanded'?'⌄':next==='collapsed'?'⌃':'⌃';
+  $('#listToggle').setAttribute('aria-expanded',String(next!=='collapsed'));
+  if(next!=='collapsed') setTimeout(()=>scrollToCur(true),50);
+}
 let speech = null, listening = false, speechSerial = 0;
 const SpeechAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
 const dictKey = () => 'shadow:dict:' + vid;
@@ -441,7 +514,7 @@ function setMic(label) { const b = $('#micBtn'); if (b) b.innerHTML = esc(label)
 function setLearningMode(m) {
   if (!['shadow','type','voice','quiz'].includes(m) || m === learningMode) return;
   stopMic(); stopAll(); learningMode = m; store.set('shadow:learningMode', m);
-  dictChecked = false; dictRevealed = false; renderCur(); updatePlayBtn(); applyListBlur();
+  dictChecked = false; dictRevealed = false; renderCur(); renderProgress(); renderList(); updatePlayBtn(); applyListBlur();
   if ((m === 'type' || m === 'quiz') && kbMode) focusDict();
 }
 function saveInput() {
@@ -480,6 +553,7 @@ function checkDict(reveal=false) {
   const result=diffAnswer(sents[idx].text,r.text);
   r.score=result.score; r.perfect=result.perfect && !reveal;
   dictRecords[recKey()]=r;saveDict();
+  if (!reveal) markDone(idx,learningMode);
   dictChecked=true;dictRevealed=reveal;renderCur();applyListBlur();
 }
 function startMic() {
@@ -568,7 +642,7 @@ function quizAccept(value) {
   if(next===target.length && target.length) {
     r.checked=true; r.perfect=true; r.score=100; r.at=Date.now();
   }
-  dictRecords[recKey()]=r;saveDict();quizRefresh();
+  dictRecords[recKey()]=r;saveDict();if(r.checked)markDone(idx,'quiz');quizRefresh();
 }
 function showQuizHint(){
   if(learningMode!=='quiz'||!sents[idx]) return;
@@ -578,7 +652,7 @@ function showQuizHint(){
   r.hints=(r.hints||0)+1;
   r.text=quizPrefix(expected,r.quizCount);
   if(r.quizCount===target.length) {r.checked=true;r.perfect=false;r.score=100;r.at=Date.now();}
-  dictRecords[recKey()]=r;saveDict();quizRefresh();
+  dictRecords[recKey()]=r;saveDict();if(r.checked)markDone(idx,'quiz');quizRefresh();
   if(!r.checked) $('#dictInput').focus();
 }
 
@@ -767,6 +841,7 @@ function dictEnter() {
 function setIdx(i) {
    if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; dictChecked = false; dictRevealed = false; answerPlain = false; }
   idx = i; store.set('shadow:pos:' + vid, idx);
+  renderProgress();
 }
 
 function playSentence(i, opt = {}) {
@@ -799,7 +874,8 @@ function playSentence(i, opt = {}) {
 function segmentEnd(tk) {
   if (tk !== token || phase !== 'play') return;
   selfPause = true; player.pauseVideo();
-  heard = true;
+     heard = true;
+   if (learningMode === 'shadow' && !once) markDone(idx,'shadow');
    if (once || learningMode !== 'shadow') { once = false; phase = 'idle'; renderCur(); updatePlayBtn(); applyListBlur(); return; }
   const dur = Math.max(0.5, (segEnd - segStart) / cfg.rate);
   const ms = cfg.gap > 0 ? Math.max(800, dur * cfg.gap * 1000) : 150;
@@ -897,7 +973,7 @@ function updatePlayBtn() {
 
 function renderList() {
   $('#list').innerHTML = sents.map((s, i) =>
-    `<div class="item${isFav(i) ? ' fav' : ''}" data-i="${i}"><span class="n">${i + 1}<br>${fmt(s.start)}</span><span class="tx">${esc(s.text)}</span><span class="star" data-fav="${i}" role="button" aria-label="즐겨찾기">★</span></div>`
+    `<div class="item${isFav(i) ? ' fav' : ''}" data-i="${i}"><span class="n">${i + 1}<br>${fmt(s.start)}</span><span class="tx">${esc(s.text)}</span><span class="doneDot">${isDone(i,learningMode) ? '✓' : ''}</span><span class="star" data-fav="${i}" role="button" aria-label="즐겨찾기">★</span></div>`
   ).join('');
   $('#list').classList.toggle('favonly', cfg.favOnly && favCount() > 0);
   markCur();
@@ -908,6 +984,8 @@ function markCur() {
   const old = L.querySelector('.item.cur'); if (old) old.classList.remove('cur');
   const el = L.querySelector(`.item[data-i="${idx}"]`); if (el) el.classList.add('cur');
   applyListBlur();
+  L.querySelectorAll('.item').forEach(el=>{const d=el.querySelector('.doneDot');if(d)d.textContent=isDone(+el.dataset.i,learningMode)?'✓':'';});
+  renderProgress();
 }
 
 // 자막 가리기 중에는 아직 안 들은 문장을 목록에서도 흐리게
@@ -1012,10 +1090,18 @@ function renderVideoList(vs) {
   box.innerHTML = list.map(v => {
     const pos = store.get('shadow:pos:' + v.id, 0);
     const nf = Object.keys(store.get('shadow:fav:' + v.id, {})).length;
+    const saved=store.get(progressKey(v.id),{}), old=store.get('shadow:dict:'+v.id,{});
+    const summary=MODES.map(([mode,label])=>{
+      const done=new Set(Object.keys(saved[mode]||{}));
+      // 이전 기록은 문장 번호 기준으로 보존
+      const legacy=Object.keys(old).filter(k=>k.endsWith(':'+mode)&&old[k]?.checked&&!old[k]?.revealed).length;
+      const count=Math.min(v.sentences||0,Math.max(done.size,legacy));
+      return `${label} ${count}/${v.sentences||0}`;
+    }).join(' · ');
     return `<div class="vcard" data-id="${esc(v.id)}" data-title="${esc(v.title)}">
       <img loading="lazy" src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/mqdefault.jpg" alt="">
       <div class="info"><div class="t">${esc(v.title)}</div>
-      <div class="m">${esc(v.channel || '')} · 문장 ${v.sentences}개${nf ? ` · ★ ${nf}` : ''}${pos > 0 ? ` · ${pos + 1}번째부터 이어서` : ''}</div></div>
+      <div class="m">${esc(v.channel || '')} · 문장 ${v.sentences}개${nf ? ` · ★ ${nf}` : ''}${pos > 0 ? ` · ${pos + 1}번째부터 이어서` : ''}</div><div class="m" style="color:#aac6e7">${summary}</div></div>
       ${canDel ? '<button class="del" data-del="1">삭제</button>' : ''}</div>`;
   }).join('');
 }
@@ -1045,10 +1131,11 @@ async function openVideo(id) {
    stopMic();
   $('#listScreen').classList.add('hidden');
   $('#playerScreen').classList.remove('hidden');
-  if (vid === id && doc) { renderCur(); scrollToCur(true); return; }
+  if (vid === id && doc) { renderCur(); renderProgress(); scrollToCur(true); return; }
   stopAll();
    vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
    dictRecords=store.get(dictKey(),{});dictChecked=false;dictRevealed=false;
+   completed=store.get(progressKey(id),{});setListView('normal');
    favs=store.get(favKey(),{});
   $('#ttl').textContent = ''; $('#curText').textContent = ''; $('#translatedText').classList.add('hidden');
   $('#list').innerHTML = '<div class="msg">불러오는 중...</div>';
@@ -1061,7 +1148,7 @@ async function openVideo(id) {
   sents = edited || doc.sentences.map(s => Object.assign({}, s, { words: (s.words || []).slice() }));
   idx = Math.max(0, Math.min(store.get('shadow:pos:' + id, 0), sents.length - 1));
   $('#ttl').textContent = doc.title || id;
-  renderList(); renderCur(); updateTool(); updatePlayBtn(); scrollToCur(true);
+  renderList(); renderCur(); initProgress(); updateTool(); updatePlayBtn(); scrollToCur(true);
 
   await ytReady;
   const startAt = Math.max(0, (sents[idx] ? sents[idx].start : 0) - cfg.padBefore);
@@ -1151,6 +1238,19 @@ $('#curText').onclick = () => {
 };
 $('#translatedText').onclick = toggleReveal;
 
+let listSwipeAt=0;
+$('#listToggle').onclick=()=>{if(Date.now()-listSwipeAt<450)return;setListView(listView==='expanded'?'normal':listView==='normal'?'expanded':'normal')};
+$('#listToggle').addEventListener('contextmenu',e=>{e.preventDefault();setListView(listView==='collapsed'?'normal':'collapsed')});
+// 버튼 위아래 스와이프로 목록을 확대하거나 접기
+let dockTouchY=null;
+$('#listToggle').addEventListener('touchstart',e=>{dockTouchY=e.touches[0].clientY},{passive:true});
+$('#listToggle').addEventListener('touchend',e=>{
+  if(dockTouchY===null)return;
+  const delta=e.changedTouches[0].clientY-dockTouchY;dockTouchY=null;
+  if(Math.abs(delta)<35)return;
+  listSwipeAt=Date.now();setListView(delta<0?'expanded':'collapsed');
+},{passive:true});
+$('#dictInput').addEventListener('focus',()=>{if(window.innerWidth<900&&listView==='expanded')setListView('normal')});
 $('#list').addEventListener('click', e => {
   const st = e.target.closest('[data-fav]'); if (st) { toggleFav(+st.dataset.fav); return; }
   const it = e.target.closest('.item'); if (it) playSentence(+it.dataset.i);
