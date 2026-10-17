@@ -317,6 +317,12 @@ textarea{resize:vertical}
     <div class="row"><span>편집한 문장</span>
       <span><button id="exportBtn">JSON 내보내기</button> <button id="resetBtn">원래대로</button></span></div>
 
+    <p class="secTitle">학습 기록 관리 · 현재 영상</p>
+    <div class="row"><span>처음부터 다시 학습<br><small>선택한 모드의 완료율을 유지하고 답안만 새로 시작</small></span><button id="restartModeBtn">처음부터 다시 학습</button></div>
+    <p class="small">모드별 전체 초기화는 해당 영상의 진행률과 답안을 삭제합니다. 다른 모드와 누적 학습 횟수는 유지됩니다.</p>
+    <div class="row"><span>타이핑1</span><button data-clear-mode="quiz">전체 초기화</button></div>
+    <div class="row"><span>타이핑2</span><button data-clear-mode="type">전체 초기화</button></div>
+    <div class="row"><span>음성 인식</span><button data-clear-mode="voice">전체 초기화</button></div>
     <p class="secTitle">GitHub 연결 (영상 추가·삭제용, 이 기기에만 저장)</p>
     <div class="row"><span>저장소</span>
       <input id="sRepo" class="inp" placeholder="아이디/저장소" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
@@ -491,6 +497,8 @@ let learningMode = store.get('shadow:learningMode', 'shadow');
 if (!['shadow','type','voice','quiz'].includes(learningMode)) learningMode = 'shadow';
 let dictRecords = {}, dictRevealed = false, dictChecked = false;
 let completed = {};
+let attempts = {};
+const attemptKey = id => 'shadow:attempts:' + id;
 const MODES = [['shadow','쉐도잉'],['quiz','타이핑1'],['type','타이핑2'],['voice','음성 인식']];
 const progressKey = id => 'shadow:progress:' + id;
 const sentKey = i => sents[i] ? String(Math.round(sents[i].start*10)) : '';
@@ -503,7 +511,9 @@ function isDone(i, mode) {
 }
 function markDone(i, mode) {
   const key=sentKey(i);
-  if (!vid || !key || completed[mode]?.[key]) return;
+  if (!vid || !key) return;
+  (attempts[mode] ||= {})[key] = (attempts[mode]?.[key] || 0) + 1;
+  store.set(attemptKey(vid), attempts);
   (completed[mode] ||= {})[key]=Date.now();
   store.set(progressKey(vid),completed);
   renderProgress(); markCur();
@@ -521,7 +531,7 @@ function renderProgress(){
   $('#listCount').textContent=`${idx+1}/${total} · ${n}개 완료`;
   $('#jumpPosition').textContent=`${idx+1} / ${total} · 완료 ${n}`;
 }
-function initProgress(){completed=store.get(progressKey(vid),{});renderProgress()}
+function initProgress(){completed=store.get(progressKey(vid),{});attempts=store.get(attemptKey(vid),{});renderProgress()}
 let listView = 'normal';
 function setListView(next){
   listView=next;
@@ -609,7 +619,7 @@ function checkDict(reveal=false) {
   const result=diffAnswer(sents[idx].text,r.text);
   r.score=result.score; r.perfect=result.perfect && !reveal;
   dictRecords[recKey()]=r;saveDict();
-  if (!reveal) markDone(idx,learningMode);
+  if (!reveal && !dictChecked) markDone(idx,learningMode);
   dictChecked=true;dictRevealed=reveal;renderCur();applyListBlur();
 }
 function startMic() {
@@ -1192,7 +1202,7 @@ async function openVideo(id) {
   stopAll();
    vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
    dictRecords=store.get(dictKey(),{});dictChecked=false;dictRevealed=false;
-   completed=store.get(progressKey(id),{});syncJumpMode();
+   completed=store.get(progressKey(id),{});attempts=store.get(attemptKey(id),{});syncJumpMode();
    favs=store.get(favKey(),{});
   $('#ttl').textContent = ''; $('#curText').textContent = ''; $('#translatedText').classList.add('hidden');
   $('#list').innerHTML = '<div class="msg">불러오는 중...</div>';
@@ -1281,9 +1291,39 @@ $('#dictRevealBtn').onclick=()=>checkDict(true);
 function retryDict() {
   if (learningMode === 'shadow') return;
   stopMic(); delete dictRecords[recKey()]; saveDict(); answerPlain = false;
+  dictChecked=false;dictRevealed=false;
   renderCur(); applyListBlur(); playSentence(idx);
 }
 $('#dictRetryBtn').onclick=retryDict;
+
+// 완료율과 누적 학습 횟수는 유지한 채 선택 모드 답안을 지우고 1번부터 재학습
+function restartLearningMode() {
+  if (!vid || !sents.length) { toast('먼저 영상을 열어주세요.'); return; }
+  if (learningMode === 'shadow') { toast('타이핑1·타이핑2·음성 인식 중 하나를 선택하세요.'); return; }
+  if (!confirm(`${MODES.find(x=>x[0]===learningMode)[1]}을(를) 1번 문장부터 다시 학습할까요?\n완료율과 누적 학습 횟수는 유지됩니다.`)) return;
+  stopMic();stopAll();
+  Object.keys(dictRecords).forEach(k=>{if(k.endsWith(':'+learningMode)) delete dictRecords[k]});
+  saveDict();dictChecked=false;dictRevealed=false;answerPlain=false;
+  $('#sheet').classList.add('hidden');
+  playSentence(0);
+  toast('완료 기록은 유지하고 1번 문장부터 다시 시작합니다.',3500);
+}
+function clearLearningMode(mode) {
+  if (!vid || !sents.length) {toast('먼저 영상을 열어주세요.');return;}
+  const label=MODES.find(x=>x[0]===mode)?.[1];
+  if (!label || mode==='shadow') return;
+  if (!confirm(`현재 영상의 ${label} 전체 학습 기록을 초기화할까요?\n완료율은 0%가 되고 저장된 답안도 삭제됩니다.\n다른 모드와 누적 학습 횟수는 유지됩니다.`)) return;
+  stopMic();stopAll();
+  delete completed[mode];store.set(progressKey(vid),completed);
+  Object.keys(dictRecords).forEach(k=>{if(k.endsWith(':'+mode))delete dictRecords[k]});
+  saveDict();dictChecked=false;dictRevealed=false;answerPlain=false;
+  if(learningMode===mode) {setIdx(0);renderCur();}
+  renderList();renderProgress();renderJumpNumbers();updatePlayBtn();
+  toast(`${label} 진행률을 초기화했습니다.`,3200);
+}
+$('#restartModeBtn').onclick=restartLearningMode;
+document.querySelectorAll('[data-clear-mode]').forEach(b=>b.addEventListener('click',()=>clearLearningMode(b.dataset.clearMode)));
+
 $('#micBtn').onclick=startMic;
 
 
