@@ -120,8 +120,19 @@ def main():
                         'commit', '-m', 'Update processed videos and queue', cwd=wd)
                     result = git('push', 'origin', 'HEAD:main', cwd=wd, check=False)
                     if result.returncode:
-                        print(f'GitHub changed again. Retrying {attempt}/6...')
-                        continue
+                        details = (result.stderr or result.stdout).strip()
+                        lower = details.lower()
+                        if 'gh007' in lower or 'private email address' in lower:
+                            raise RuntimeError(
+                                'GitHub가 비공개 이메일이 포함된 커밋을 거부했습니다. '
+                                'GitHub noreply 이메일 설정을 확인하세요.\n' + details
+                            )
+                        if ('non-fast-forward' in lower or 'fetch first' in lower
+                                or 'stale info' in lower
+                                or ('rejected' in lower and 'behind' in lower)):
+                            print(f'GitHub main이 먼저 갱신되었습니다. 재시도 {attempt}/6...')
+                            continue
+                        raise RuntimeError('GitHub 업로드 실패:\n' + details)
                 print('GitHub update succeeded.')
                 # No data is discarded locally before a successful push.
                 git('fetch', 'origin', 'main')
