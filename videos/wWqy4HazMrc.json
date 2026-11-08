@@ -30,7 +30,7 @@
   {
    "text": "- Hi, everyone, it's your girl Jenn and today I am finally filming my favorite books of all time video.",
    "start": 5.39,
-   "end": 12.0,
+   "end": 12,
    "words": [
     [
      "-",
@@ -130,18 +130,18 @@
     [
      "video.",
      11.52,
-     12.0
+     12
     ]
    ]
   },
   {
    "text": "This is actually one of my most requested videos and I thought I would just buckle down,",
-   "start": 12.0,
+   "start": 12,
    "end": 16.66,
    "words": [
     [
      "This",
-     12.0,
+     12,
      12.24
     ],
     [
@@ -842,9 +842,9 @@
    ]
   },
   {
-   "text": "I mean, there's a reason why this is assigned reading in school but I know it's not fun…",
+   "text": "I mean, there's a reason why this is assigned reading in school",
    "start": 49.49,
-   "end": 53.79,
+   "end": 52.81,
    "words": [
     [
      "I",
@@ -905,7 +905,14 @@
      "school",
      52.41,
      52.81
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "but I know it's not fun when you're forced to read it and you're getting graded on it",
+   "start": 52.81,
+   "end": 56.47,
+   "words": [
     [
      "but",
      52.81,
@@ -935,14 +942,7 @@
      "fun",
      53.63,
      53.79
-    ]
-   ]
-  },
-  {
-   "text": "when you're forced to read it and you're getting graded on it but I swear,",
-   "start": 53.79,
-   "end": 57.16,
-   "words": [
+    ],
     [
      "when",
      53.79,
@@ -966,11 +966,11 @@
     [
      "read",
      54.78,
-     55.0
+     55
     ],
     [
      "it",
-     55.0,
+     55,
      55.1
     ],
     [
@@ -1002,7 +1002,14 @@
      "it",
      56.36,
      56.47
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "but I swear, with fresh eyes and reading recreationally, this book is gonna take you on a journey.",
+   "start": 56.47,
+   "end": 61.85,
+   "words": [
     [
      "but",
      56.47,
@@ -1017,14 +1024,7 @@
      "swear,",
      56.75,
      57.16
-    ]
-   ]
-  },
-  {
-   "text": "with fresh eyes and reading recreationally, this book is gonna take you on a journey.",
-   "start": 57.16,
-   "end": 61.85,
-   "words": [
+    ],
     [
      "with",
      57.16,
@@ -1319,9 +1319,9 @@
    ]
   },
   {
-   "text": "It's got guilt, it's got rivalry, it's got the struggle to be loved and finding acceptance and also,",
+   "text": "It's got guilt, it's got rivalry, it's got the struggle to be loved and finding acceptance",
    "start": 73.81,
-   "end": 80.05,
+   "end": 79.43,
    "words": [
     [
      "It's",
@@ -1402,7 +1402,14 @@
      "acceptance",
      78.75,
      79.43
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and also, I feel like this book has the best villain of all time, Cathy.",
+   "start": 79.43,
+   "end": 84.85,
+   "words": [
     [
      "and",
      79.43,
@@ -1412,14 +1419,7 @@
      "also,",
      79.66,
      80.05
-    ]
-   ]
-  },
-  {
-   "text": "I feel like this book has the best villain of all time, Cathy.",
-   "start": 80.05,
-   "end": 84.85,
-   "words": [
+    ],
     [
      "I",
      80.05,
@@ -1704,11 +1704,11 @@
     [
      "clear,",
      97.63,
-     98.0
+     98
     ],
     [
      "easy",
-     98.0,
+     98,
      98.25
     ],
     [
@@ -1719,11 +1719,11 @@
     [
      "understand",
      98.38,
-     99.0
+     99
     ],
     [
      "and",
-     99.0,
+     99,
      99.24
     ],
     [
@@ -2141,11 +2141,11 @@
     [
      "this",
      121.75,
-     122.0
+     122
     ],
     [
      "little",
-     122.0,
+     122,
      122.39
     ],
     [
@@ -2447,7 +2447,7 @@
     [
      "vivid",
      139.4,
-     140.0
+     140
     ],
     [
      "scenes",
@@ -2865,9 +2865,9 @@
    ]
   },
   {
-   "text": "I've never met an author or I've never read an author like Murakami and so I think it's…",
+   "text": "I've never met an author or I've never read an author like Murakami",
    "start": 159.84,
-   "end": 164.06,
+   "end": 163.09,
    "words": [
     [
      "I've",
@@ -2933,7 +2933,14 @@
      "Murakami",
      162.57,
      163.09
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and so I think it's so cool that he has his own distinct way of writing and storytelling.",
+   "start": 163.09,
+   "end": 167.74,
+   "words": [
     [
      "and",
      163.09,
@@ -2958,14 +2965,7 @@
      "it's",
      163.8,
      164.06
-    ]
-   ]
-  },
-  {
-   "text": "so cool that he has his own distinct way of writing and storytelling.",
-   "start": 164.06,
-   "end": 167.74,
-   "words": [
+    ],
     [
      "so",
      164.06,
@@ -3071,11 +3071,11 @@
     [
      "that",
      168.78,
-     169.0
+     169
     ],
     [
      "needs",
-     169.0,
+     169,
      169.29
     ],
     [
@@ -3213,11 +3213,11 @@
     [
      "the",
      175.8,
-     176.0
+     176
     ],
     [
      "journey",
-     176.0,
+     176,
      176.49
     ],
     [
@@ -3260,7 +3260,7 @@
   {
    "text": "My next book is The Five People You Meet in Heaven by Mitch Albom.",
    "start": 179.71,
-   "end": 184.0,
+   "end": 184,
    "words": [
     [
      "My",
@@ -3330,7 +3330,7 @@
     [
      "Albom.",
      183.32,
-     184.0
+     184
     ]
    ]
   },
@@ -3479,9 +3479,9 @@
    ]
   },
   {
-   "text": "It's about an old man named Eddie and he just kinda lived a dull,",
+   "text": "It's about an old man named Eddie and he just kinda lived a dull, meaningless life and on his 83rd birthday, he dies",
    "start": 191.6,
-   "end": 195.94,
+   "end": 199.61,
    "words": [
     [
      "It's",
@@ -3506,11 +3506,11 @@
     [
      "man",
      192.76,
-     193.0
+     193
     ],
     [
      "named",
-     193.0,
+     193,
      193.41
     ],
     [
@@ -3552,14 +3552,7 @@
      "dull,",
      195.52,
      195.94
-    ]
-   ]
-  },
-  {
-   "text": "meaningless life and on his 83rd birthday, he dies and that's not a spoiler alert.",
-   "start": 195.94,
-   "end": 201.09,
-   "words": [
+    ],
     [
      "meaningless",
      195.94,
@@ -3604,7 +3597,14 @@
      "dies",
      199.25,
      199.61
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and that's not a spoiler alert.",
+   "start": 199.61,
+   "end": 201.09,
+   "words": [
     [
      "and",
      199.61,
@@ -3638,9 +3638,9 @@
    ]
   },
   {
-   "text": "It happens within the first chapter and also clearly he dies because heaven is in the title but each one of these people he meets,",
+   "text": "It happens within the first chapter and also clearly he dies because heaven is in the title",
    "start": 201.09,
-   "end": 209.63,
+   "end": 207.42,
    "words": [
     [
      "It",
@@ -3726,7 +3726,14 @@
      "title",
      207.02,
      207.42
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "but each one of these people he meets, they explain his connection with him and how they changed his life or vice versa knowingly or unknowingly.",
+   "start": 207.42,
+   "end": 216.8,
+   "words": [
     [
      "but",
      207.42,
@@ -3766,14 +3773,7 @@
      "meets,",
      209.2,
      209.63
-    ]
-   ]
-  },
-  {
-   "text": "they explain his connection with him and how they changed his life or vice versa knowingly or unknowingly.",
-   "start": 209.63,
-   "end": 216.8,
-   "words": [
+    ],
     [
      "they",
      209.63,
@@ -4110,7 +4110,7 @@
   {
    "text": "My next book is Ready Player One by Ernest Cline and this was actually recommended by a bunch of you guys so thank you.",
    "start": 230.04,
-   "end": 237.0,
+   "end": 237,
    "words": [
     [
      "My",
@@ -4160,11 +4160,11 @@
     [
      "Cline",
      232.62,
-     233.0
+     233
     ],
     [
      "and",
-     233.0,
+     233,
      233.18
     ],
     [
@@ -4230,18 +4230,18 @@
     [
      "you.",
      236.56,
-     237.0
+     237
     ]
    ]
   },
   {
    "text": "You know me so well.",
-   "start": 237.0,
+   "start": 237,
    "end": 238.39,
    "words": [
     [
      "You",
-     237.0,
+     237,
      237.26
     ],
     [
@@ -4309,9 +4309,9 @@
    ]
   },
   {
-   "text": "This is a sci-fi dystopian novel which is right up my alley.",
+   "text": "This is a sci-fi dystopian novel which is right up my alley. I love books like this",
    "start": 240.12,
-   "end": 244.93,
+   "end": 247.01,
    "words": [
     [
      "This",
@@ -4372,14 +4372,7 @@
      "alley.",
      244.43,
      244.93
-    ]
-   ]
-  },
-  {
-   "text": "I love books like this and it is in a world where just everything is in shambles.",
-   "start": 244.94,
-   "end": 251.89,
-   "words": [
+    ],
     [
      "I",
      244.94,
@@ -4404,7 +4397,14 @@
      "this",
      246.55,
      247.01
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and it is in a world where just everything is in shambles.",
+   "start": 247.01,
+   "end": 251.89,
+   "words": [
     [
      "and",
      247.01,
@@ -4776,9 +4776,9 @@
    ]
   },
   {
-   "text": "and he is dying to play this scavenger hunt game because the winner of that game,",
+   "text": "and he is dying to play this scavenger hunt game because the winner of that game, it's kinda like winning the lottery",
    "start": 269.74,
-   "end": 276.15,
+   "end": 277.79,
    "words": [
     [
      "and",
@@ -4803,11 +4803,11 @@
     [
      "to",
      270.82,
-     271.0
+     271
     ],
     [
      "play",
-     271.0,
+     271,
      271.36
     ],
     [
@@ -4859,14 +4859,7 @@
      "game,",
      275.62,
      276.15
-    ]
-   ]
-  },
-  {
-   "text": "it's kinda like winning the lottery so a lot of people see that as their way out of poverty…",
-   "start": 276.15,
-   "end": 281.27,
-   "words": [
+    ],
     [
      "it's",
      276.15,
@@ -4896,7 +4889,14 @@
      "lottery",
      277.41,
      277.79
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "so a lot of people see that as their way out of poverty…",
+   "start": 277.79,
+   "end": 281.27,
+   "words": [
     [
      "so",
      277.79,
@@ -5302,9 +5302,9 @@
    ]
   },
   {
-   "text": "It's about a world where the government controls absolutely everything even the way people think and there's no sense of individuality.",
+   "text": "It's about a world where the government controls absolutely everything even the way people think",
    "start": 301.62,
-   "end": 309.1,
+   "end": 307.29,
    "words": [
     [
      "It's",
@@ -5380,7 +5380,14 @@
      "think",
      306.9,
      307.29
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and there's no sense of individuality. There's no speaking up.",
+   "start": 307.29,
+   "end": 310.13,
+   "words": [
     [
      "and",
      307.29,
@@ -5410,14 +5417,7 @@
      "individuality.",
      308.34,
      309.1
-    ]
-   ]
-  },
-  {
-   "text": "There's no speaking up.",
-   "start": 309.11,
-   "end": 310.13,
-   "words": [
+    ],
     [
      "There's",
      309.11,
@@ -5478,11 +5478,11 @@
     [
      "the",
      311.8,
-     312.0
+     312
     ],
     [
      "government",
-     312.0,
+     312,
      312.67
     ],
     [
@@ -5684,9 +5684,9 @@
    ]
   },
   {
-   "text": "From an outside perspective, Winston's a good man following and showing face but in actuality,",
+   "text": "From an outside perspective, Winston's a good man following and showing face",
    "start": 327.52,
-   "end": 333.9,
+   "end": 332.5,
    "words": [
     [
      "From",
@@ -5747,7 +5747,14 @@
      "face",
      332.13,
      332.5
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "but in actuality, he is just freaking miserable and he's trying to find a way to rebel and resist.",
+   "start": 332.5,
+   "end": 338.52,
+   "words": [
     [
      "but",
      332.5,
@@ -5762,14 +5769,7 @@
      "actuality,",
      332.97,
      333.9
-    ]
-   ]
-  },
-  {
-   "text": "he is just freaking miserable and he's trying to find a way to rebel and resist.",
-   "start": 333.9,
-   "end": 338.52,
-   "words": [
+    ],
     [
      "he",
      333.9,
@@ -6604,9 +6604,9 @@
    ]
   },
   {
-   "text": "They're all assigned to these roles and some women are wives.",
+   "text": "They're all assigned to these roles and some women are wives. Those are the better off women",
    "start": 382.53,
-   "end": 386.17,
+   "end": 387.66,
    "words": [
     [
      "They're",
@@ -6662,14 +6662,7 @@
      "wives.",
      385.74,
      386.17
-    ]
-   ]
-  },
-  {
-   "text": "Those are the better off women and then some of them are aunts which are kinda like the maids,",
-   "start": 386.17,
-   "end": 391.53,
-   "words": [
+    ],
     [
      "Those",
      386.17,
@@ -6699,7 +6692,14 @@
      "women",
      387.36,
      387.66
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and then some of them are aunts which are kinda like the maids, facilitators and then there are handmaids",
+   "start": 387.66,
+   "end": 393.94,
+   "words": [
     [
      "and",
      387.66,
@@ -6764,14 +6764,7 @@
      "maids,",
      391.01,
      391.53
-    ]
-   ]
-  },
-  {
-   "text": "facilitators and then there are handmaids and the handmaids are the ones that literally just have to give birth and I mean, it's not a good role.",
-   "start": 391.53,
-   "end": 400.18,
-   "words": [
+    ],
     [
      "facilitators",
      391.53,
@@ -6801,7 +6794,14 @@
      "handmaids",
      393.43,
      393.94
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and the handmaids are the ones that literally just have to give birth and I mean, it's not a good role. These women get raped every month",
+   "start": 393.94,
+   "end": 402.17,
+   "words": [
     [
      "and",
      393.94,
@@ -6906,14 +6906,7 @@
      "role.",
      399.69,
      400.18
-    ]
-   ]
-  },
-  {
-   "text": "These women get raped every month and this is also a TV show on Hulu so if you are not gonna read this book,",
-   "start": 400.18,
-   "end": 407.43,
-   "words": [
+    ],
     [
      "These",
      400.18,
@@ -6943,7 +6936,14 @@
      "month",
      401.81,
      402.17
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and this is also a TV show on Hulu so if you are not gonna read this book, I highly recommend the TV show.",
+   "start": 402.17,
+   "end": 409.6,
+   "words": [
     [
      "and",
      402.17,
@@ -7012,11 +7012,11 @@
     [
      "not",
      405.76,
-     406.0
+     406
     ],
     [
      "gonna",
-     406.0,
+     406,
      406.39
     ],
     [
@@ -7033,14 +7033,7 @@
      "book,",
      407.03,
      407.43
-    ]
-   ]
-  },
-  {
-   "text": "I highly recommend the TV show.",
-   "start": 407.43,
-   "end": 409.6,
-   "words": [
+    ],
     [
      "I",
      407.43,
@@ -7454,9 +7447,9 @@
    ]
   },
   {
-   "text": "The main character is named Richard and he doesn't come from money so he's just kind of plopped into this world…",
+   "text": "The main character is named Richard and he doesn't come from money",
    "start": 432.92,
-   "end": 439.27,
+   "end": 436.31,
    "words": [
     [
      "The",
@@ -7517,7 +7510,14 @@
      "money",
      435.99,
      436.31
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "so he's just kind of plopped into this world where just, where everyone's just wealthy and everyone's super posh",
+   "start": 436.31,
+   "end": 443.27,
+   "words": [
     [
      "so",
      436.31,
@@ -7562,14 +7562,7 @@
      "world",
      438.86,
      439.27
-    ]
-   ]
-  },
-  {
-   "text": "where just, where everyone's just wealthy and everyone's super posh and he's in a class,",
-   "start": 439.27,
-   "end": 444.67,
-   "words": [
+    ],
     [
      "where",
      439.27,
@@ -7619,7 +7612,14 @@
      "posh",
      443.01,
      443.27
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and he's in a class, a very small class that studies ancient history",
+   "start": 443.27,
+   "end": 448.04,
+   "words": [
     [
      "and",
      443.27,
@@ -7644,14 +7644,7 @@
      "class,",
      444.15,
      444.67
-    ]
-   ]
-  },
-  {
-   "text": "a very small class that studies ancient history and one of the students dies but you don't know…",
-   "start": 444.67,
-   "end": 451.47,
-   "words": [
+    ],
     [
      "a",
      444.67,
@@ -7691,7 +7684,14 @@
      "history",
      447.46,
      448.04
-    ],
+    ]
+   ]
+  },
+  {
+   "text": "and one of the students dies but you don't know who did it or why so that's where the story just kinda takes off.",
+   "start": 448.04,
+   "end": 455.87,
+   "words": [
     [
      "and",
      448.04,
@@ -7741,14 +7741,7 @@
      "know",
      451.06,
      451.47
-    ]
-   ]
-  },
-  {
-   "text": "who did it or why so that's where the story just kinda takes off.",
-   "start": 451.47,
-   "end": 455.87,
-   "words": [
+    ],
     [
      "who",
      451.47,
@@ -7936,11 +7929,11 @@
     [
      "long",
      461.78,
-     462.0
+     462
     ],
     [
      "ago",
-     462.0,
+     462,
      462.17
     ],
     [
@@ -8753,11 +8746,11 @@
     [
      "is",
      511.87,
-     512.0
+     512
     ],
     [
      "the",
-     512.0,
+     512,
      512.21
     ],
     [
@@ -10568,11 +10561,11 @@
     [
      "attached",
      614.42,
-     615.0
+     615
     ],
     [
      "with",
-     615.0,
+     615,
      615.29
     ],
     [
@@ -10650,11 +10643,11 @@
     [
      "time",
      618.82,
-     619.0
+     619
     ],
     [
      "reading",
-     619.0,
+     619,
      619.32
     ],
     [
@@ -10869,11 +10862,11 @@
     [
      "my",
      628.85,
-     629.0
+     629
     ],
     [
      "top",
-     629.0,
+     629,
      629.23
     ],
     [
@@ -11757,11 +11750,11 @@
     [
      "because",
      678.47,
-     679.0
+     679
     ],
     [
      "the",
-     679.0,
+     679,
      679.22
     ],
     [
@@ -12181,8 +12174,8 @@
    "제가 다음에 읽을 책은 미치 앨봄의 『천국에서 만난 다섯 사람』입니다.",
    "이 책은 하루 만에 다 읽거나 휴가 중에 읽기 좋은 책 중 하나입니다.",
    "이 책은 기분 좋고 행복한 책 중 하나입니다.",
-   "이 이야기는 에디라는 노인에 관한 것인데, 그는 그저 따분한 삶을 살았다.",
-   "무의미한 삶을 살다가 83번째 생일에 세상을 떠났는데, 이건 스포일러가 아닙니다.",
+   "이 이야기는 에디라는 노인에 관한 것인데, 그는 그저 따분한 삶을 살았다. 무의미한 삶을 살다가 83번째 생일에 세상을 떠났는데, 이건 스포일러가 아닙니다.",
+   "",
    "첫 장 안에서 벌어지는 일이고, 제목에 천국이 들어가 있는 걸 보면 그가 죽는다는 건 분명하지만, 그가 만나는 모든 사람들은...",
    "그들은 그와의 관계, 그리고 그들이 어떻게 그의 삶을 의도적으로든 무의식적으로든 변화시켰는지, 혹은 그 반대로 그의 삶이 그들에게 어떤 영향을 미쳤는지 설명합니다.",
    "어떤 사람들은 이 책이 유치하거나 촌스럽다고 생각할지도 모르지만, 저는 이 책을 정말 좋아합니다.",
@@ -12191,14 +12184,14 @@
    "제가 다음에 읽을 책은 어니스트 클라인의 '레디 플레이어 원'인데, 여러분들이 많이 추천해 주셔서 정말 감사해요.",
    "당신은 저를 너무 잘 알아요.",
    "이건 이제 제가 가장 좋아하는 것 중 하나예요.",
-   "이 소설은 제가 딱 좋아하는 SF 디스토피아 소설입니다.",
-   "저는 이런 종류의 책을 좋아하는데, 이 책의 배경은 모든 것이 엉망진창인 세상이에요.",
+   "이 소설은 제가 딱 좋아하는 SF 디스토피아 소설입니다. 저는 이런 종류의 책을 좋아하는데, 이 책의 배경은 모든 것이 엉망진창인 세상이에요.",
+   "",
    "지구 온난화 때문에 거의 모든 사람들이 가난하게 살고 있어요…",
    "많은 사람들이 오아시스라고 불리는 가상현실 속으로 들어가 현실 세계에서 벗어나곤 합니다.",
    "마치 영화 '매트릭스'와 인터넷의 조합 같아요.",
    "주인공은 웨이드라는 십대 소년이고, 그는 모든 시간을 오아시스에서 보낸다…",
-   "그리고 그는 이 보물찾기 게임을 너무나 하고 싶어하는데, 그 게임의 승자가...",
-   "복권에 당첨되는 것과 비슷해서 많은 사람들이 그걸 가난에서 벗어나는 길로 생각해요…",
+   "그리고 그는 이 보물찾기 게임을 너무나 하고 싶어하는데, 그 게임의 승자가... 복권에 당첨되는 것과 비슷해서 많은 사람들이 그걸 가난에서 벗어나는 길로 생각해요…",
+   "",
    "그리고 웨이드는 온갖 기상천외한 모험을 겪어야 하는데, 80년대 관련 요소들이 정말 많아서 너무 좋아요.",
    "정말 짜릿한 모험을 선사합니다.",
    "재미있고 모험 가득한 책을 찾으신다면 꼭 추천드립니다.",
@@ -12221,8 +12214,7 @@
    "마거릿 애트우드의 '핸드메이드 테일'을 언급하지 않을 수 없네요. 이 책을 읽으셨다면 당신을 다섯 배 더 좋아하게 될 거예요.",
    "이 세상에서 여성은 아무런 권리도 없다.",
    "그들은 직업을 가질 수도 없고, 돈을 벌 수도 없고, 글을 읽을 수도 없고, 쓸 수도 없습니다.",
-   "그들은 모두 이러한 역할에 배정되며, 여성 중에는 아내도 있습니다.",
-   "저분들은 형편이 좀 더 나은 여성들이고, 그중 일부는 이모들인데, 이모들은 하녀 같은 존재죠.",
+   "그들은 모두 이러한 역할에 배정되며, 여성 중에는 아내도 있습니다. 저분들은 형편이 좀 더 나은 여성들이고, 그중 일부는 이모들인데, 이모들은 하녀 같은 존재죠.",
    "조력자들이 있고, 그 다음에는 시녀들이 있는데, 시녀들은 말 그대로 출산만 해야 하는 사람들이고, 솔직히 말해서 좋은 역할은 아니죠.",
    "이 여성들은 매달 강간을 당하고 있으며, 이는 Hulu에서 방영되는 TV 프로그램으로도 제작되고 있으니, 이 책을 읽지 않을 거라면,",
    "저는 그 TV 프로그램을 강력 추천합니다.",
@@ -12285,5 +12277,6 @@
    "오늘 하루도 즐겁게 보내시고, 다음에 또 뵙겠습니다. 안녕히 계세요.",
    "무아. (신나는 음악)…"
   ]
- }
+ },
+ "edited": "2026-11-08T06:50:55.263Z"
 }
