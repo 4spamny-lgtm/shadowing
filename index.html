@@ -74,6 +74,9 @@ textarea{resize:vertical}
 .edit button{padding:7px 10px;font-size:14px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chips button{padding:6px 9px;font-size:15px}
+.textEdit{margin-top:10px;display:grid;gap:4px}
+.textEdit textarea{min-height:64px;line-height:1.45}
+.textEdit .small{margin-top:4px}
 .ctrl{grid-area:ctrl;display:grid;grid-template-columns:1fr 1fr 1.3fr 1fr;gap:8px;padding:10px 12px}
 .ctrl button{height:58px;font-size:17px;font-weight:600;white-space:nowrap}
 #playBtn{background:var(--accent);border-color:var(--accent)}
@@ -218,7 +221,7 @@ textarea{resize:vertical}
   <div class="head">
     <button id="backBtn">‹ 목록</button>
     <div class="ttl" id="ttl"></div>
-    <span id="editBadge" class="badge hidden">편집됨</span>
+    <span id="editBadge" class="badge hidden">이 기기에서 편집됨</span>
   </div>
   <div class="videoWrap"><div id="yt"></div></div>
    <div class="cur">
@@ -246,6 +249,7 @@ textarea{resize:vertical}
      </div>
      <div id="splitBox" class="hidden"></div>
     <div id="editPanel" class="edit hidden">
+      <button data-act="text">✏️ 문장·번역 고치기</button>
       <button data-act="mergePrev">↑ 앞과 합치기</button>
       <button data-act="mergeNext">↓ 뒤와 합치기</button>
       <button data-act="split">✂ 나누기</button>
@@ -253,6 +257,7 @@ textarea{resize:vertical}
       <button data-act="s+">시작 +0.1</button>
       <button data-act="e-">끝 −0.1</button>
       <button data-act="e+">끝 +0.1</button>
+      <button data-act="sync">☁ 모든 기기에 저장</button>
     </div>
   </div>
   <div class="ctrl">
@@ -315,8 +320,9 @@ textarea{resize:vertical}
       <select id="sDictSide"><option value="left">영상 아래</option><option value="right">오른쪽 칸 위</option></select></div>
     <div class="row"><span>문장 편집 모드</span>
       <select id="sEdit"><option value="0">끄기</option><option value="1">켜기</option></select></div>
-    <div class="row"><span>편집한 문장</span>
-      <span><button id="exportBtn">JSON 내보내기</button> <button id="resetBtn">원래대로</button></span></div>
+    <div class="row"><span>편집한 문장<br><small>원래대로: 서버에 저장된 버전으로 되돌림</small></span>
+      <span><button id="syncBtn">모든 기기에 저장</button> <button id="exportBtn">JSON 내보내기</button> <button id="resetBtn">원래대로</button></span></div>
+    <p class="small">편집 내용은 먼저 이 기기에만 저장돼요. "모든 기기에 저장"을 누르면 GitHub의 영상 파일이 바뀌어서 다른 기기에도 1~2분 뒤 반영돼요.</p>
 
     <p class="secTitle">학습 기록 관리 · 현재 영상</p>
     <div class="row"><span>처음부터 다시 학습<br><small>선택한 모드의 완료율을 유지하고 답안만 새로 시작</small></span><button id="restartModeBtn">처음부터 다시 학습</button></div>
@@ -324,7 +330,7 @@ textarea{resize:vertical}
     <div class="row"><span>타이핑1</span><button data-clear-mode="quiz">전체 초기화</button></div>
     <div class="row"><span>타이핑2</span><button data-clear-mode="type">전체 초기화</button></div>
     <div class="row"><span>음성 인식</span><button data-clear-mode="voice">전체 초기화</button></div>
-    <p class="secTitle">GitHub 연결 (영상 추가·삭제용, 이 기기에만 저장)</p>
+    <p class="secTitle">GitHub 연결 (영상 추가·삭제·편집 저장용, 이 기기에만 저장)</p>
     <div class="row"><span>저장소</span>
       <input id="sRepo" class="inp" placeholder="아이디/저장소" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
     <div class="row"><span>토큰</span>
@@ -417,6 +423,7 @@ async function gh(path, opt = {}) {
     let m = ''; try { m = (await r.json()).message; } catch (e) {}
     if (r.status === 401) throw new Error('토큰이 올바르지 않거나 만료됐어요.');
     if (r.status === 403 || r.status === 404) throw new Error(`권한이 없어요. 저장소 이름과 토큰 권한(Contents: Read and write)을 확인하세요. (${r.status})`);
+    if (r.status === 409) throw new Error('GitHub의 파일이 그사이 바뀌었어요. 잠시 후 다시 시도해 주세요.');
     throw new Error(`GitHub 오류 ${r.status}${m ? ': ' + m : ''}`);
   }
   return r.status === 204 ? null : r.json();
@@ -447,7 +454,7 @@ async function deleteVideo(id, title) {
     }
     const f = await getFile(`videos/${id}.json`);
     if (f) await delFile(`videos/${id}.json`, f.sha, `Remove video ${id}`);
-    hideLocal(id); store.del('shadow:pos:' + id); store.del('shadow:edit:' + id);
+    hideLocal(id); store.del('shadow:pos:' + id); store.del('shadow:edit:' + id); store.del(syncedKey(id));
     renderVideoList(lastVideos);
     toast('삭제했어요. 다른 기기에는 1~2분 뒤 반영돼요.', 4000);
   } catch (e) { toast(e.message, 6000); }
@@ -489,7 +496,7 @@ let phase = 'idle';          // idle(멈춤) | play(듣는 중) | gap(따라 말
 let rep = 1, once = false, token = 0;
 let segStart = 0, segEnd = 0, armed = false;
 let gapTimer = null, gapUntil = 0;
-let heard = false, revealed = false, splitting = false, editMode = false;
+let heard = false, revealed = false, splitting = false, editMode = false, textEditing = false;
 let player = null, playerReady = false, selfPause = false;
 let lastRaw = -1, lastRawAt = 0, userScrollAt = 0, wakeLock = null, fromList = false;
 let lastVideos = [];
@@ -893,6 +900,7 @@ let kbMode = false;
 document.addEventListener('pointerdown', e => { if (e.pointerType === 'touch') kbMode = false; }, true);
 function focusDict() {
   if (learningMode !== 'type' && learningMode !== 'quiz') return;
+  if (textEditing) return;
   const t = $('#dictInput');
   if (t && document.activeElement !== t) { t.focus(); const n = t.value.length; t.setSelectionRange(n, n); }
 }
@@ -906,7 +914,7 @@ function dictEnter() {
 
 // ---------------------------------------------------------------- 재생 흐름
 function setIdx(i) {
-   if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; dictChecked = false; dictRevealed = false; answerPlain = false; }
+   if (i !== idx) { stopMic(); heard = false; revealed = false; splitting = false; textEditing = false; dictChecked = false; dictRevealed = false; answerPlain = false; }
   idx = i; store.set('shadow:pos:' + vid, idx);
   if (!$('#jumpNumbers').classList.contains('hidden')) renderJumpNumbers();
   renderProgress();
@@ -992,6 +1000,8 @@ function isCovered(which) {
   return cfg.coverWhen === 'first' ? !heard : true;
 }
 const coversOrig = () => cfg.cover === 'orig' || cfg.cover === 'both';
+const tokensOf = t => String(t || '').trim().split(/\s+/).filter(Boolean);
+const langName = () => { const o = $('#sTranslationLang').querySelector(`option[value="${cfg.translationLang}"]`); return o ? o.textContent : cfg.translationLang; };
 
 function renderCur() {
   const s = sents[idx];
@@ -1011,28 +1021,41 @@ function renderCur() {
    else if (ans && !answerPlain) ct.innerHTML = diffAnswer(s.text, r.text || '').html;
    else ct.textContent = s.text;
    ct.classList.toggle('blur', !dict && isCovered('orig'));
-   // 번역(이중자막): 딕테이션 중에도 보여서 한국어를 힌트로 쓸 수 있음
+   // 번역(이중자막): 번역은 문장마다 붙어 있어서, 합치거나 나눠도 함께 따라감
    const tr = $('#translatedText');
-   const translations = (doc && doc.translations) || {};
-   const arr = store.get('shadow:edit:' + vid, null) ? null : translations[cfg.translationLang];
-   const translated = Array.isArray(arr) ? arr[idx] : null;
+   const translated = (s.tr && s.tr[cfg.translationLang]) || null;
    tr.textContent = translated || '';
     // 쉐도잉에서는 기존 자막 설정 유지, 딕테이션에서는 정답 확인 여부로 번역 표시
     const dictTranslationHidden = dict && (cfg.dictTranslation === 'never' || (cfg.dictTranslation === 'after' && !r.checked));
     tr.classList.toggle('hidden', !translated || dictTranslationHidden);
    tr.classList.toggle('blur', dict ? false : isCovered('trans'));
    const msg = $('#translationInfo');
-   if (msg) msg.textContent = arr ? '선택한 번역 언어가 저장되어 있습니다.' : (store.get('shadow:edit:' + vid, null) ? '문장을 편집한 영상은 번역 순서가 어긋나서 번역을 표시하지 않습니다. "원래대로"를 누르면 다시 보입니다.' : '이 영상에는 선택한 번역 언어가 없습니다. GitHub Actions의 자막 번역 기능으로 생성하세요.');
+   if (msg) msg.textContent = translated ? '선택한 번역 언어가 저장되어 있습니다.' : '이 문장에는 선택한 언어의 번역이 없습니다. 편집 모드의 "✏️ 문장·번역 고치기"로 직접 넣거나, GitHub Actions의 자막 번역으로 생성할 수 있어요.';
    renderDict();
    refreshFavStar();
   $('#editPanel').classList.toggle('hidden', !editMode);
   const sb = $('#splitBox');
-  if (editMode && splitting && s.words && s.words.length > 1) {
+  const toks = tokensOf(s.text);
+  if (editMode && textEditing) {
+    // 입력 중인 내용이 다시 그려지면서 지워지지 않도록, 같은 문장이면 그대로 둠
+    const key = 'text:' + idx + ':' + cfg.translationLang;
+    if (sb.dataset.mode !== key) {
+      sb.innerHTML = `<div class="textEdit">
+        <div class="small">원문 · 단어를 직접 고칠 수 있어요</div>
+        <textarea id="edText" rows="3" spellcheck="false" autocapitalize="off" autocomplete="off">${esc(s.text)}</textarea>
+        <div class="small">번역 · ${esc(langName())}</div>
+        <textarea id="edTr" rows="2">${esc(translated || '')}</textarea>
+        <div class="chips"><button data-k="saveText" class="on">저장</button><button data-k="cancelText">취소</button></div></div>`;
+      sb.dataset.mode = key;
+    }
+    sb.classList.remove('hidden');
+  } else if (editMode && splitting && toks.length > 1) {
+    sb.dataset.mode = 'split:' + idx;
     sb.innerHTML = '<div class="small" style="margin-top:8px">어느 단어 뒤에서 나눌까요?</div><div class="chips">' +
-      s.words.slice(0, -1).map((w, k) => `<button data-k="${k}">${esc(w[0])}</button>`).join('') +
+      toks.slice(0, -1).map((w, k) => `<button data-k="${k}">${esc(w)}</button>`).join('') +
       '<button data-k="cancel">취소</button></div>';
     sb.classList.remove('hidden');
-  } else { sb.innerHTML = ''; sb.classList.add('hidden'); }
+  } else { sb.dataset.mode = ''; sb.innerHTML = ''; sb.classList.add('hidden'); }
 }
 
 function updatePlayBtn() {
@@ -1087,37 +1110,112 @@ function updateTool() {
   $('#addBtn').classList.toggle('hidden', !ghReady());
 }
 
+// ---------------------------------------------------------------- 번역을 문장에 붙여 두기
+// 예전에는 번역을 "몇 번째 문장"으로 찾아서, 문장을 하나라도 합치거나 나누면 순서가 어긋나 번역을 모두 숨겼음.
+// 이제는 문장마다 번역(tr)을 직접 들고 있어서, 편집해도 번역이 같이 따라감.
+function baseSents() {
+  const T = (doc && doc.translations) || {};
+  return doc.sentences.map((s, i) => {
+    const o = Object.assign({}, s, { words: (s.words || []).slice() });
+    const tr = {};
+    for (const l in T) if (Array.isArray(T[l]) && T[l][i]) tr[l] = T[l][i];
+    o.tr = Object.assign(tr, s.tr || {});
+    return o;
+  });
+}
+// 이전 버전에서 편집해 번역이 빠진 문장은, 원래 문장의 시작 시간을 보고 번역을 다시 찾아 붙임
+function restoreTr(list) {
+  const base = baseSents();
+  list.forEach(s => {
+    if (s.tr) return;
+    s.tr = {};
+    base.filter(b => b.start >= s.start - 0.05 && b.start < s.end - 0.05).forEach(b => {
+      for (const l in b.tr) s.tr[l] = s.tr[l] ? s.tr[l] + ' ' + b.tr[l] : b.tr[l];
+    });
+  });
+  return list;
+}
+function mergeTr(a, b) {
+  const t = {};
+  new Set([...Object.keys(a.tr || {}), ...Object.keys(b.tr || {})])
+    .forEach(l => { t[l] = [a.tr?.[l], b.tr?.[l]].filter(Boolean).join(' '); });
+  return t;
+}
+// 번역을 문장부호(. ? ! 등) 기준으로 나눠, 원문을 나눈 비율과 가장 가까운 곳에서 자름.
+// 번역이 한 문장뿐이면 자를 곳이 없으니 앞 문장에 그대로 두고 뒤 문장은 비워 둠.
+function splitTr(t, ratio) {
+  t = String(t || '');
+  const parts = t.match(/[^.!?。？！]+[.!?。？！]+["'”’)\]]*\s*|[^.!?。？！]+$/g);
+  if (!parts || parts.length < 2) return [t, ''];
+  let acc = 0, best = 1, bestD = Infinity;
+  for (let i = 1; i < parts.length; i++) {
+    acc += parts[i - 1].length;
+    const d = Math.abs(acc / t.length - ratio);
+    if (d < bestD) { bestD = d; best = i; }
+  }
+  return [parts.slice(0, best).join('').trim(), parts.slice(best).join('').trim()];
+}
+
 // ---------------------------------------------------------------- 문장 편집
 function saveEdits() { store.set('shadow:edit:' + vid, sents); updateTool(); }
 function afterEdit() { saveEdits(); renderList(); renderCur(); scrollToCur(true); store.set('shadow:pos:' + vid, idx); }
 
 function merge(a, b) {
   return { text: a.text.replace(/…$/, '') + ' ' + b.text, start: a.start, end: b.end,
-           words: [...(a.words || []), ...(b.words || [])] };
+           words: [...(a.words || []), ...(b.words || [])], tr: mergeTr(a, b) };
 }
 
+// k: 원문을 띄어쓰기로 나눈 단어 중 몇 번째 단어 뒤에서 자를지
 function splitAt(k) {
-  const s = sents[idx], w = s.words || [];
-  if (w.length < 2 || k < 0 || k >= w.length - 1) return;
-  const L = w.slice(0, k + 1), R = w.slice(k + 1);
-  const toks = s.text.split(/\s+/);
-  let lt, rt;
-  if (toks.length === w.length) { lt = toks.slice(0, k + 1).join(' '); rt = toks.slice(k + 1).join(' '); }
-  else { lt = L.map(x => x[0]).join(' '); rt = R.map(x => x[0]).join(' '); }
+  const s = sents[idx], toks = tokensOf(s.text), w = s.words || [];
+  if (toks.length < 2 || k < 0 || k >= toks.length - 1) return;
+  const lt = toks.slice(0, k + 1).join(' '), rt = toks.slice(k + 1).join(' ');
+  const ratio = lt.length / (lt.length + rt.length);
+  // 단어별 시간 정보가 있으면 그 시간으로, 단어 수가 달라졌으면 비슷한 위치의 시간으로, 없으면 글자 비율로 추정
+  let L = [], R = [];
+  if (w.length === toks.length) { L = w.slice(0, k + 1); R = w.slice(k + 1); }
+  else if (w.length > 1) {
+    const j = Math.min(w.length - 2, Math.max(0, Math.round((k + 1) / toks.length * w.length) - 1));
+    L = w.slice(0, j + 1); R = w.slice(j + 1);
+  }
+  const cut = s.start + (s.end - s.start) * ratio;
+  const lEnd = L.length ? L[L.length - 1][2] : cut;
+  const rStart = R.length ? R[0][1] : cut;
+  const trL = {}, trR = {};
+  for (const l in (s.tr || {})) { const [a, b] = splitTr(s.tr[l], ratio); trL[l] = a; if (b) trR[l] = b; }
+  const lostTr = Object.keys(s.tr || {}).some(l => !trR[l]);
   keepFav([idx], () => sents.splice(idx, 1,
-    { text: lt, start: s.start, end: L[L.length - 1][2], words: L },
-    { text: rt, start: R[0][1], end: s.end, words: R }), () => [idx, idx + 1]);
+    { text: lt, start: s.start, end: lEnd, words: L, tr: trL },
+    { text: rt, start: rStart, end: s.end, words: R, tr: trR }), () => [idx, idx + 1]);
   splitting = false; afterEdit();
+  if (lostTr) toast('번역을 나눌 곳이 없어서 앞 문장에 그대로 뒀어요. 뒤 문장 번역은 "✏️ 문장·번역 고치기"로 넣을 수 있어요.', 5000);
+}
+
+function saveTextEdit() {
+  const s = sents[idx];
+  const t = $('#edText').value.replace(/\s+/g, ' ').trim();
+  const tv = $('#edTr').value.trim();
+  if (!t) { toast('원문을 비울 수는 없어요.'); return; }
+  const toks = tokensOf(t);
+  // 단어 수가 그대로면 단어별 시간 정보에 고친 글자를 그대로 옮겨 둠
+  if (s.words && s.words.length === toks.length) s.words = s.words.map((w, k) => [toks[k], ...w.slice(1)]);
+  s.text = t;
+  s.tr = Object.assign({}, s.tr);
+  if (tv) s.tr[cfg.translationLang] = tv; else delete s.tr[cfg.translationLang];
+  textEditing = false; afterEdit();
+  toast('문장을 고쳤어요.', 1400);
 }
 
 function editAction(act) {
   stopAll();
   const s = sents[idx];
-  if (act === 'mergePrev' && idx > 0) { keepFav([idx - 1, idx], () => { sents.splice(idx - 1, 2, merge(sents[idx - 1], s)); idx--; }, () => [idx]); afterEdit(); }
+  if (act === 'text') { textEditing = !textEditing; splitting = false; renderCur(); if (textEditing) setTimeout(() => $('#edText')?.focus(), 30); }
+  else if (act === 'sync') syncEdits();
+  else if (act === 'mergePrev' && idx > 0) { keepFav([idx - 1, idx], () => { sents.splice(idx - 1, 2, merge(sents[idx - 1], s)); idx--; }, () => [idx]); afterEdit(); }
   else if (act === 'mergeNext' && idx < sents.length - 1) { keepFav([idx, idx + 1], () => sents.splice(idx, 2, merge(s, sents[idx + 1])), () => [idx]); afterEdit(); }
   else if (act === 'split') {
-    if (!s.words || s.words.length < 2) { toast('이 문장은 나눌 수 없어요.'); return; }
-    splitting = !splitting; renderCur();
+    if (tokensOf(s.text).length < 2) { toast('이 문장은 나눌 수 없어요.'); return; }
+    splitting = !splitting; textEditing = false; renderCur();
   } else if (act === 's-' || act === 's+') {
     keepFav([idx], () => { s.start = Math.max(0, Math.min(s.end - 0.2, +(s.start + (act === 's+' ? 0.1 : -0.1)).toFixed(2))); }, () => [idx]);
     afterEdit(); playSentence(idx, { once: true });
@@ -1128,9 +1226,21 @@ function editAction(act) {
   updatePlayBtn();
 }
 
+// 서버(GitHub)에 올릴 형식으로 정리: 문장 목록과 언어별 번역 목록을 원래 파일 모양 그대로
+function buildDoc() {
+  const langs = new Set(Object.keys(doc.translations || {}));
+  sents.forEach(s => Object.keys(s.tr || {}).forEach(l => langs.add(l)));
+  const translations = {};
+  langs.forEach(l => { translations[l] = sents.map(s => (s.tr && s.tr[l]) || ''); });
+  const sentences = sents.map(({ tr, ...rest }) => rest);
+  const out = Object.assign({}, doc, { sentences, edited: new Date().toISOString() });
+  if (langs.size) out.translations = translations;
+  return out;
+}
+
 function exportJson() {
   if (!doc) { toast('영상을 연 상태에서 사용할 수 있어요.'); return; }
-  const out = Object.assign({}, doc, { sentences: sents, edited: new Date().toISOString() });
+  const out = buildDoc();
   const blob = new Blob([JSON.stringify(out, null, 1)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob); a.download = vid + '.json';
@@ -1138,13 +1248,45 @@ function exportJson() {
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
 }
 
+// ---------------------------------------------------------------- 편집 내용을 모든 기기에 저장
+// GitHub의 videos/영상ID.json을 직접 바꿈. 사이트가 갱신되기 전(1~2분)에 다시 열어도
+// 옛 버전이 보이지 않도록, 올린 내용을 이 기기에 잠깐 보관해 둠.
+const syncedKey = id => 'shadow:synced:' + id;
+async function syncEdits() {
+  if (!doc) { toast('영상을 연 상태에서 사용할 수 있어요.'); return; }
+  if (!ghReady()) { toast('설정의 GitHub 연결에 저장소와 토큰을 먼저 넣어주세요.', 4500); return; }
+  if (!store.get('shadow:edit:' + vid, null)) { toast('이 기기에서 편집한 내용이 없어요.'); return; }
+  if (!confirm('편집한 문장을 GitHub에 저장할까요?\n모든 기기에 반영되고, 이 영상의 기본 문장이 이 버전으로 바뀌어요.')) return;
+  toast('저장하는 중...', 20000);
+  try {
+    const out = buildDoc();
+    const f = await getFile(`videos/${vid}.json`);
+    await putFile(`videos/${vid}.json`, JSON.stringify(out, null, 1), f ? f.sha : undefined, `Edit sentences ${vid}`);
+    // 목록에 보이는 문장 수도 맞춰 둠
+    const ix = await getFile('videos/index.json');
+    if (ix) {
+      const j = JSON.parse(ix.text), v = (j.videos || []).find(x => x.id === vid);
+      if (v && v.sentences !== sents.length) {
+        v.sentences = sents.length;
+        await putFile('videos/index.json', JSON.stringify(j, null, 1), ix.sha, `Update sentence count ${vid}`);
+      }
+    }
+    doc = out;
+    store.set(syncedKey(vid), { at: Date.now(), doc: out });
+    store.del('shadow:edit:' + vid);
+    updateTool(); renderCur();
+    toast('모든 기기에 저장했어요. 다른 기기에는 1~2분 뒤 반영돼요.', 4500);
+  } catch (e) { toast(e.message, 6000); }
+}
+
 function resetEdits() {
   if (!doc) { toast('영상을 연 상태에서 사용할 수 있어요.'); return; }
-  if (!confirm('이 영상에서 편집한 내용을 지우고 원래 문장으로 되돌릴까요?')) return;
+  if (!confirm('이 기기에서 편집한 내용을 지우고, 서버에 저장된 문장으로 되돌릴까요?')) return;
   stopAll();
   store.del('shadow:edit:' + vid);
-  sents = doc.sentences.map(s => Object.assign({}, s, { words: (s.words || []).slice() }));
+  sents = baseSents();
   idx = Math.min(idx, sents.length - 1);
+  textEditing = false; splitting = false;
   renderList(); renderCur(); updateTool(); scrollToCur(true);
 }
 
@@ -1201,7 +1343,7 @@ async function openVideo(id) {
   $('#playerScreen').classList.remove('hidden');
   if (vid === id && doc) { syncJumpMode(); renderCur(); renderProgress(); scrollToCur(true); return; }
   stopAll();
-   vid = id; doc = null; sents = []; idx = 0; splitting = false; heard = false; revealed = false;
+   vid = id; doc = null; sents = []; idx = 0; splitting = false; textEditing = false; heard = false; revealed = false;
    dictRecords=store.get(dictKey(),{});dictChecked=false;dictRevealed=false;
    completed=store.get(progressKey(id),{});attempts=store.get(attemptKey(id),{});syncJumpMode();
    favs=store.get(favKey(),{});
@@ -1212,11 +1354,18 @@ async function openVideo(id) {
     if (!r.ok) throw new Error(r.status);
     doc = await r.json();
   } catch (e) { $('#list').innerHTML = '<div class="msg">영상 데이터를 불러오지 못했어요.</div>'; return; }
+  // 방금 이 기기에서 서버에 저장했는데 사이트가 아직 옛 파일을 주면, 저장한 버전을 대신 씀
+  const sy = store.get(syncedKey(id), null);
+  if (sy) {
+    if (doc.edited === sy.doc.edited || Date.now() - sy.at > 20 * 60 * 1000) store.del(syncedKey(id));
+    else doc = sy.doc;
+  }
   const edited = store.get('shadow:edit:' + id, null);
-  sents = edited || doc.sentences.map(s => Object.assign({}, s, { words: (s.words || []).slice() }));
+  sents = edited ? restoreTr(edited) : baseSents();
   idx = Math.max(0, Math.min(store.get('shadow:pos:' + id, 0), sents.length - 1));
   $('#ttl').textContent = doc.title || id;
   renderList(); renderCur(); initProgress(); updateTool(); updatePlayBtn(); scrollToCur(true);
+  if (edited && doc.edited) toast('이 기기에 따로 편집한 내용이 있어서 그 버전을 보여줘요. 서버에 저장된 버전을 보려면 설정의 "원래대로"를 누르세요.', 6000);
 
   await ytReady;
   const startAt = Math.max(0, (sents[idx] ? sents[idx].start : 0) - cfg.padBefore);
@@ -1383,7 +1532,11 @@ $('#list').addEventListener('click', e => {
 $('#editPanel').addEventListener('click', e => { const b = e.target.closest('button'); if (b) editAction(b.dataset.act); });
 $('#splitBox').addEventListener('click', e => {
   const b = e.target.closest('button'); if (!b) return;
-  if (b.dataset.k === 'cancel') { splitting = false; renderCur(); } else splitAt(+b.dataset.k);
+  const k = b.dataset.k;
+  if (k === 'saveText') saveTextEdit();
+  else if (k === 'cancelText') { textEditing = false; renderCur(); }
+  else if (k === 'cancel') { splitting = false; renderCur(); }
+  else if (k != null) splitAt(+k);
 });
 
 // 툴바: 누를 때마다 다음 값으로
@@ -1432,7 +1585,8 @@ bind('#sDictTranslation', 'dictTranslation', v => v);
 bind('#sTranslationLang', 'translationLang', v => v);
 bind('#sDictSide', 'dictSide', v => v);
 bind('#sPadB', 'padBefore', Number); bind('#sPadA', 'padAfter', Number); bind('#sBig', 'big', v => v === '1');
-$('#sEdit').addEventListener('change', e => { editMode = e.target.value === '1'; splitting = false; renderCur(); });
+$('#sEdit').addEventListener('change', e => { editMode = e.target.value === '1'; splitting = false; textEditing = false; renderCur(); });
+$('#syncBtn').onclick = syncEdits;
 $('#exportBtn').onclick = exportJson;
 $('#resetBtn').onclick = resetEdits;
 
@@ -1442,7 +1596,7 @@ $('#sRepo').addEventListener('change', saveGh);
 $('#sToken').addEventListener('change', saveGh);
 $('#ghTest').onclick = async () => {
   saveGh();
-  try { await gh('contents/videos/index.json?ref=main'); toast('연결됐어요! 이제 영상 추가와 삭제를 할 수 있어요.', 4000); }
+  try { await gh('contents/videos/index.json?ref=main'); toast('연결됐어요! 이제 영상 추가·삭제와 편집 저장을 할 수 있어요.', 4000); }
   catch (e) { toast(e.message, 6000); }
 };
 $('#ghClear').onclick = () => {
@@ -1464,6 +1618,13 @@ document.addEventListener('keydown', e => {
   const inDict = e.target.id === 'dictInput';
   const inField = !!(e.target.closest && e.target.closest('select,input,textarea'));
   const dict = learningMode !== 'shadow';
+
+  // 문장 고치기 칸: Ctrl/Cmd+Enter 저장, Esc 취소
+  if (e.target.id === 'edText' || e.target.id === 'edTr') {
+    if (k === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); saveTextEdit(); }
+    else if (k === 'Escape') { e.preventDefault(); textEditing = false; renderCur(); }
+    return;
+  }
 
   // 타이핑 중에도 Alt+P(아이패드 Option+P)로 영상 재생·정지
   if (dict && e.altKey && !e.ctrlKey && !e.metaKey && keyIs(e, 'p')) {
