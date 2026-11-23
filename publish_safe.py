@@ -1,6 +1,8 @@
 """Safely publish prep.py changes while preserving newer GitHub queue requests/deletions.
 Uses a temporary detached worktree and retries if origin/main advances.
 Requires a clean working tree BEFORE prep.py runs, and a checkout of main.
+
+Video IDs: 11-character YouTube IDs, or local videos named like "local-x3h654".
 """
 import json
 import re
@@ -13,7 +15,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 HEADER = ('# 여기에 유튜브 주소를 한 줄에 하나씩 적으면, 다음 처리 때 영상이 추가됩니다.\n'
           '# 처리에 성공한 주소는 자동으로 지워지고, 실패한 주소는 여기에 남습니다.\n')
-ID = re.compile(r'^[A-Za-z0-9_-]{11}$')
+
+ID_PATTERN = r'(?:[A-Za-z0-9_-]{11}|local-[a-z0-9]{3,20})'
+ID = re.compile(rf'^{ID_PATTERN}$')
+VIDEO_PATH = re.compile(rf'videos/{ID_PATTERN}\.json')
 
 
 def git(*args, cwd=ROOT, check=True):
@@ -53,9 +58,12 @@ def rebuild_index(folder):
         d = load_doc(file)
         if not d:
             continue
-        vids.append(dict(id=d['id'], title=d['title'], channel=d.get('channel', ''),
-                         duration=d.get('duration'), sentences=len(d['sentences']),
-                         created=d.get('created', '')))
+        item = dict(id=d['id'], title=d['title'], channel=d.get('channel', ''),
+                    duration=d.get('duration'), sentences=len(d['sentences']),
+                    created=d.get('created', ''))
+        if d.get('source'):
+            item['source'] = d['source']
+        vids.append(item)
     vids.sort(key=lambda v: str(v['created']), reverse=True)
     (folder / 'index.json').write_text(json.dumps({'videos': vids}, ensure_ascii=False, indent=1), encoding='utf-8')
 
@@ -74,7 +82,7 @@ def main():
     modified = []
     for line in changed:
         rel = line[3:].strip().replace('\\', '/')
-        if re.fullmatch(r'videos/[A-Za-z0-9_-]{11}\.json', rel) and load_doc(ROOT / rel):
+        if VIDEO_PATH.fullmatch(rel) and load_doc(ROOT / rel):
             modified.append(rel)
     baseline_ids = set()
     old_idx = git('show', 'HEAD:videos/index.json', check=False)
