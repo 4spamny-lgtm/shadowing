@@ -46,6 +46,8 @@ textarea{resize:vertical}
 .vcard{display:flex;gap:12px;align-items:center;background:var(--panel);border:1px solid var(--line);
   border-radius:14px;padding:10px;margin-bottom:10px;cursor:pointer}
 .vcard img{width:128px;aspect-ratio:16/9;object-fit:cover;border-radius:8px;flex:none;background:#000}
+.vcard .vthumb{width:128px;aspect-ratio:16/9;border-radius:8px;flex:none;background:#243044;
+  display:flex;align-items:center;justify-content:center;font-size:28px}
 .vcard .info{flex:1;min-width:0}
 .vcard .t{font-weight:600;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .vcard .m{color:var(--sub);font-size:13px;margin-top:4px}
@@ -61,8 +63,14 @@ textarea{resize:vertical}
 .head button{padding:6px 12px}
 .head .ttl{flex:1;font-size:14px;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .badge{font-size:12px;color:var(--warn);border:1px solid var(--warn);border-radius:999px;padding:2px 8px}
-.videoWrap{grid-area:video;background:#000;width:100%;aspect-ratio:16/9;max-height:56dvh}
+.videoWrap{grid-area:video;background:#000;width:100%;aspect-ratio:16/9;max-height:56dvh;position:relative}
 .videoWrap iframe,.videoWrap #yt{width:100%;height:100%;display:block;border:0}
+#ytBox{width:100%;height:100%}
+.videoWrap video{width:100%;height:100%;display:block;background:#000}
+.pickBox{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;
+  background:rgba(10,12,16,.94);padding:12px}
+.pickBox b{display:block;margin-bottom:6px}
+.pickBox button{margin-top:10px}
 .cur{grid-area:cur;overflow-y:auto;max-height:46dvh;padding:12px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
 .curMeta{display:flex;justify-content:space-between;color:var(--sub);font-size:13px;margin-bottom:6px;font-variant-numeric:tabular-nums}
 #curStatus{color:var(--warn)}
@@ -209,7 +217,7 @@ textarea{resize:vertical}
   <div class="listHead">
     <h1>쉐도잉</h1>
     <button id="refreshBtn" title="새로고침">↻</button>
-    <button id="addBtn" class="hidden">+ 영상 추가</button>
+    <button id="addBtn">+ 영상 추가</button>
     <button id="listSetBtn" title="설정">⚙&#xFE0E;</button>
   </div>
   <div id="queueInfo" class="small hidden"></div>
@@ -223,7 +231,18 @@ textarea{resize:vertical}
     <div class="ttl" id="ttl"></div>
     <span id="editBadge" class="badge hidden">이 기기에서 편집됨</span>
   </div>
-  <div class="videoWrap"><div id="yt"></div></div>
+  <div class="videoWrap">
+    <div id="ytBox"><div id="yt"></div></div>
+    <video id="lv" class="hidden" playsinline preload="auto"></video>
+    <div id="pickBox" class="pickBox hidden">
+      <div>
+        <b>영상 파일을 선택하세요</b>
+        <div class="small" id="pickInfo"></div>
+        <button id="pickBtn" class="on" type="button">📂 영상 파일 고르기</button>
+      </div>
+    </div>
+    <input type="file" id="videoFile" accept="video/*,.mp4,.m4v,.mov,.webm" class="hidden">
+  </div>
    <div class="cur">
      <div class="modebar" id="modebar" style="padding:0 0 12px;background:transparent">
        <button id="shadowModeBtn" class="on">쉐도잉</button>
@@ -272,6 +291,7 @@ textarea{resize:vertical}
     <button id="hideBtn"></button>
     <button id="repBtn"></button>
     <button id="rateBtn"></button>
+    <button id="fileBtn" class="hidden">📂 영상 파일 변경</button>
     <button id="setBtn">⚙&#xFE0E; 설정</button>
   </div>
   <div id="mobileJump" class="mobileJump hidden" aria-label="문장 이동">
@@ -348,6 +368,15 @@ textarea{resize:vertical}
 <div id="addSheet" class="sheetBg hidden">
   <div class="sheet">
     <div class="row"><b>영상 추가</b><button id="closeAdd">닫기</button></div>
+
+    <p class="secTitle" style="margin-top:8px">🎬 로컬 영상 (수집기 JSON)</p>
+    <p class="small">문장 수집기에서 받은 <b>쉐도잉용 JSON</b>을 선택하세요. 영상 파일은 올라가지 않고, 영상을 열 때 이 기기에서 직접 고릅니다.
+      GitHub 연결이 되어 있으면 모든 기기에 올라가고, 없으면 이 기기에만 저장돼요.</p>
+    <input type="text" id="impTitle" placeholder="제목 (비우면 JSON 안의 제목 사용, 파일 하나일 때만 적용)" autocomplete="off" style="margin-bottom:8px">
+    <div style="display:flex;justify-content:flex-end"><button id="impBtn" class="on" type="button">📂 JSON 파일 선택</button></div>
+    <input type="file" id="impFile" accept=".json,application/json" multiple class="hidden">
+
+    <p class="secTitle">▶ 유튜브 영상 (GitHub 연결 필요)</p>
     <p class="small">유튜브 주소를 붙여넣으세요. 여러 개면 줄을 바꿔서 넣으면 돼요.</p>
     <textarea id="addUrls" rows="4" placeholder="https://youtu.be/..." autocapitalize="off" autocomplete="off" spellcheck="false"></textarea>
     <div style="display:flex;justify-content:flex-end;margin-top:10px"><button id="addGo" class="on">추가 요청</button></div>
@@ -441,28 +470,50 @@ const delFile = (p, sha, msg) =>
 const hiddenNow = () => { const h = store.get('shadow:hidden', {}), now = Date.now(); for (const k in h) if (now - h[k] > 15 * 60 * 1000) delete h[k]; return h; };
 const hideLocal = id => { const h = hiddenNow(); h[id] = Date.now(); store.set('shadow:hidden', h); };
 
+// ---------------------------------------------------------------- 로컬 영상 목록·문서 보관
+// shadow:localindex : [{id,title,channel,sentences,source:'local',uploaded,at}]
+//   uploaded=false → 이 기기에만 있는 영상 (문장 데이터는 shadow:localdoc:ID)
+//   uploaded=true  → GitHub에 올렸고, 사이트가 갱신되기 전까지만 목록에 임시로 보여줌
+const LI_KEY = 'shadow:localindex';
+const localDocKey = id => 'shadow:localdoc:' + id;
+const syncedKey = id => 'shadow:synced:' + id;
+
 async function deleteVideo(id, title) {
-  if (!ghReady()) { toast('삭제하려면 설정에서 GitHub 토큰을 넣어주세요.', 4000); return; }
-  if (!confirm(`"${title}"\n\n이 영상을 목록에서 삭제할까요? 모든 기기에서 사라져요.`)) return;
+  const li = store.get(LI_KEY, []);
+  const mine = li.find(x => x.id === id);
+  const localOnly = !!(mine && !mine.uploaded);
+  if (!localOnly && !ghReady()) { toast('삭제하려면 설정에서 GitHub 토큰을 넣어주세요.', 4000); return; }
+  const msg = localOnly
+    ? `"${title}"\n\n이 기기에서 삭제할까요? (이 기기에만 저장된 영상이에요)`
+    : `"${title}"\n\n이 영상을 목록에서 삭제할까요? 모든 기기에서 사라져요.`;
+  if (!confirm(msg)) return;
   toast('삭제하는 중...', 15000);
   try {
-    const ix = await getFile('videos/index.json');
-    if (ix) {
-      const j = JSON.parse(ix.text);
-      j.videos = (j.videos || []).filter(v => v.id !== id);
-      await putFile('videos/index.json', JSON.stringify(j, null, 1), ix.sha, `Remove video ${id}`);
+    if (!localOnly) {
+      const ix = await getFile('videos/index.json');
+      if (ix) {
+        const j = JSON.parse(ix.text);
+        j.videos = (j.videos || []).filter(v => v.id !== id);
+        await putFile('videos/index.json', JSON.stringify(j, null, 1), ix.sha, `Remove video ${id}`);
+      }
+      const f = await getFile(`videos/${id}.json`);
+      if (f) await delFile(`videos/${id}.json`, f.sha, `Remove video ${id}`);
     }
-    const f = await getFile(`videos/${id}.json`);
-    if (f) await delFile(`videos/${id}.json`, f.sha, `Remove video ${id}`);
+    store.set(LI_KEY, li.filter(x => x.id !== id));
+    store.del(localDocKey(id));
+    if (localUrls[id]) { try { URL.revokeObjectURL(localUrls[id]); } catch (e) {} delete localUrls[id]; }
+    if (vid === id) { vid = null; doc = null; }
     hideLocal(id); store.del('shadow:pos:' + id); store.del('shadow:edit:' + id); store.del(syncedKey(id));
+    lastVideos = lastVideos.filter(v => v.id !== id);
     renderVideoList(lastVideos);
-    toast('삭제했어요. 다른 기기에는 1~2분 뒤 반영돼요.', 4000);
+    toast(localOnly ? '삭제했어요.' : '삭제했어요. 다른 기기에는 1~2분 뒤 반영돼요.', 4000);
   } catch (e) { toast(e.message, 6000); }
 }
 
 async function queueAdd(text) {
   const urls = text.split(/\s+/).filter(u => /youtu\.?be/.test(u));
   if (!urls.length) { toast('유튜브 주소를 넣어주세요.'); return; }
+  if (!ghReady()) { toast('유튜브 영상 추가는 설정에서 GitHub 토큰을 먼저 넣어야 해요.', 4500); return; }
   toast('추가 요청 중...', 15000);
   try {
     const q = await getFile('queue.txt');
@@ -490,6 +541,63 @@ async function loadQueueInfo() {
   } catch (e) { el.classList.add('hidden'); }
 }
 
+// 수집기 JSON 불러오기 (로컬 영상 등록)
+async function saveLocalDoc(d) {
+  const meta = { id: d.id, title: d.title, channel: d.channel, sentences: d.sentences.length, source: 'local', at: Date.now() };
+  let uploaded = false;
+  if (ghReady()) {
+    const f = await getFile(`videos/${d.id}.json`);
+    await putFile(`videos/${d.id}.json`, JSON.stringify(d, null, 1), f ? f.sha : undefined, `Add local video ${d.id}`);
+    const ix = await getFile('videos/index.json');
+    const j = ix ? JSON.parse(ix.text) : { videos: [] };
+    j.videos = (j.videos || []).filter(v => v.id !== d.id);
+    j.videos.unshift({ id: d.id, title: d.title, channel: d.channel, sentences: d.sentences.length, source: 'local' });
+    await putFile('videos/index.json', JSON.stringify(j, null, 1), ix ? ix.sha : undefined, `Add video ${d.id}`);
+    uploaded = true;
+    store.set(syncedKey(d.id), { at: Date.now(), doc: d });   // 사이트가 갱신되기 전에도 열리게
+    store.del(localDocKey(d.id));
+  } else {
+    try { localStorage.setItem(localDocKey(d.id), JSON.stringify(d)); }
+    catch (e) { throw new Error('이 기기의 저장 공간이 부족해요. GitHub 연결 후 다시 시도해 주세요.'); }
+  }
+  meta.uploaded = uploaded;
+  const li = store.get(LI_KEY, []).filter(x => x.id !== d.id);
+  li.unshift(meta); store.set(LI_KEY, li);
+  const h = hiddenNow(); delete h[d.id]; store.set('shadow:hidden', h);
+  if (vid === d.id) { vid = null; doc = null; }
+  return uploaded;
+}
+
+async function importFiles(files) {
+  const one = files.length === 1, tOver = $('#impTitle').value.trim();
+  toast('불러오는 중...', 20000);
+  let ok = 0, up = 0; const fail = [];
+  for (const f of files) {
+    try {
+      const d = JSON.parse((await f.text()).replace(/^\ufeff/, ''));
+      if (!d || !Array.isArray(d.sentences) || !d.sentences.length) throw new Error('sentences가 없어요.');
+      d.sentences.forEach((s, i) => {
+        if (typeof s.text !== 'string' || !isFinite(s.start) || !isFinite(s.end)) throw new Error(`${i + 1}번째 문장에 text/start/end가 없어요.`);
+        if (!Array.isArray(s.words)) s.words = [];
+      });
+      let id = String(d.id || '').trim();
+      if (!/^[\w-]+$/.test(id)) id = 'local-' + Date.now().toString(36);
+      d.id = id; d.source = 'local';
+      d.title = (one && tOver) || d.title || id;
+      d.channel = d.channel || '로컬 영상';
+      if (await saveLocalDoc(d)) up++;
+      ok++;
+    } catch (e) { fail.push(`${f.name}: ${e.message}`); }
+  }
+  if (ok) {
+    $('#impTitle').value = '';
+    $('#addSheet').classList.add('hidden');
+    showList();
+  }
+  if (fail.length) toast(`${ok}개 추가, ${fail.length}개 실패\n${fail.join('\n')}`, 8000);
+  else toast(up ? `${ok}개를 추가했어요. 다른 기기에는 1~2분 뒤 보여요.` : `${ok}개를 이 기기에 추가했어요.`, 4500);
+}
+
 // ---------------------------------------------------------------- 상태
 let doc = null, sents = [], vid = null, idx = 0;
 let phase = 'idle';          // idle(멈춤) | play(듣는 중) | gap(따라 말하는 중)
@@ -500,6 +608,9 @@ let heard = false, revealed = false, splitting = false, editMode = false, textEd
 let player = null, playerReady = false, selfPause = false;
 let lastRaw = -1, lastRawAt = 0, userScrollAt = 0, wakeLock = null, fromList = false;
 let lastVideos = [];
+// 플레이어 종류: 'yt'(유튜브) | 'local'(내 영상 파일)
+let curKind = 'yt', ytPlayer = null, ytIsReady = false, localLoaded = false;
+const localUrls = {};        // 영상ID → 이번 접속에서 고른 파일의 주소 (새로고침하면 사라짐)
  // 딕테이션 기록은 영상별/문장별/모드별로 이 브라우저에 저장
 let learningMode = store.get('shadow:learningMode', 'shadow');
 if (!['shadow','type','voice','quiz'].includes(learningMode)) learningMode = 'shadow';
@@ -768,15 +879,116 @@ function renderDict() {
 }
 
 
-// ---------------------------------------------------------------- 유튜브 플레이어
+// ---------------------------------------------------------------- 플레이어 (유튜브 / 로컬 영상)
 let ytResolve; const ytReady = new Promise(r => ytResolve = r);
 window.onYouTubeIframeAPIReady = () => ytResolve();
 (() => {
   const s = document.createElement('script');
   s.src = 'https://www.youtube.com/iframe_api';
-  s.onerror = () => toast('유튜브 플레이어를 불러오지 못했어요. 인터넷 연결을 확인하세요.');
+  s.onerror = () => { if (curKind !== 'local') toast('유튜브 플레이어를 불러오지 못했어요. 인터넷 연결을 확인하세요.'); };
   document.head.appendChild(s);
 })();
+
+// 로컬 영상: <video>를 유튜브 플레이어와 같은 모양(어댑터)으로 감쌈. 나머지 코드는 그대로 player만 바라봄.
+const lv = $('#lv');
+const localAdapter = {
+  precise: true,   // currentTime이 정확해서 보정이 필요 없음
+  setPlaybackRate(r) { lv.playbackRate = r; },
+  seekTo(t) { try { lv.currentTime = t; } catch (e) {} },
+  playVideo() {
+    const p = lv.play();
+    if (p && p.catch) p.catch(() => toast('재생이 시작되지 않으면 영상을 한 번 직접 눌러 주세요.', 4000));
+  },
+  pauseVideo() { lv.pause(); },
+  getCurrentTime() { return lv.currentTime; },
+  getPlayerState() {
+    if (!lv.getAttribute('src')) return -1;
+    if (lv.ended) return 0;
+    return lv.paused ? 2 : 1;
+  }
+};
+lv.addEventListener('play', () => { if (curKind === 'local') onState({ data: 1 }); });
+lv.addEventListener('pause', () => { if (curKind === 'local' && !lv.ended) onState({ data: 2 }); });
+lv.addEventListener('ended', () => { if (curKind === 'local') onState({ data: 0 }); });
+lv.addEventListener('loadedmetadata', () => {
+  if (curKind !== 'local') return;
+  localLoaded = true; playerReady = true;
+  $('#pickBox').classList.add('hidden');
+  lv.playbackRate = cfg.rate;
+  const last = sents.length ? sents[sents.length - 1].end : 0;
+  if (isFinite(lv.duration) && last > lv.duration + 5)
+    toast('영상 길이가 자막보다 짧아요. 다른 파일을 고른 것 같으면 "📂 영상 파일 변경"으로 다시 골라 주세요.', 6000);
+  const s = sents[idx]; if (s) lv.currentTime = Math.max(0, s.start - cfg.padBefore);
+  updateTool();
+});
+lv.addEventListener('error', () => {
+  if (curKind !== 'local' || !lv.getAttribute('src')) return;
+  playerReady = false; localLoaded = false;
+  stopAll(); updatePlayBtn();
+  toast('이 파일은 재생할 수 없어요. mp4(H.264 영상 + AAC 오디오)로 변환해서 다시 골라 주세요.', 7000);
+  showPick();
+});
+
+function showPick() {
+  $('#pickInfo').textContent = (doc && doc.title ? `「${doc.title}」` : '') + ' 같은 영상의 mp4 파일을 골라 주세요. (mkv는 재생되지 않을 수 있어요)';
+  $('#pickBox').classList.remove('hidden');
+}
+
+function useKind(k) {
+  curKind = k; selfPause = false;
+  $('#ytBox').classList.toggle('hidden', k !== 'yt');
+  lv.classList.toggle('hidden', k !== 'local');
+  if (k === 'local') {
+    try { if (ytIsReady && ytPlayer) ytPlayer.pauseVideo(); } catch (e) {}
+    player = localAdapter; playerReady = localLoaded;
+  } else {
+    try { lv.pause(); } catch (e) {}
+    $('#pickBox').classList.add('hidden');
+    player = ytPlayer; playerReady = ytIsReady;
+  }
+  updateTool();
+}
+
+function setupLocal(id) {
+  useKind('local');
+  localLoaded = false; playerReady = false;
+  const url = localUrls[id];
+  if (url) { lv.src = url; lv.load(); $('#pickBox').classList.add('hidden'); }
+  else { lv.removeAttribute('src'); try { lv.load(); } catch (e) {} showPick(); }
+}
+
+function loadLocalFile(file) {
+  if (!vid || !doc || doc.source !== 'local') return;
+  if (localUrls[vid]) { try { URL.revokeObjectURL(localUrls[vid]); } catch (e) {} }
+  const url = URL.createObjectURL(file);
+  localUrls[vid] = url;
+  localLoaded = false; playerReady = false;
+  stopAll();
+  lv.src = url; lv.load();
+}
+
+async function setupYT(id) {
+  useKind('yt');
+  await ytReady;
+  if (vid !== id || curKind !== 'yt') return;
+  const startAt = Math.max(0, (sents[idx] ? sents[idx].start : 0) - cfg.padBefore);
+  if (!ytPlayer) {
+    ytPlayer = new YT.Player('yt', {
+      videoId: id,
+      playerVars: { playsinline: 1, rel: 0, iv_load_policy: 3, cc_load_policy: 0, disablekb: 1,
+                    start: Math.floor(startAt), origin: location.origin },
+      events: {
+        onReady: () => { ytIsReady = true; if (curKind === 'yt') playerReady = true; ytPlayer.setPlaybackRate(cfg.rate); },
+        onStateChange: e => { if (curKind === 'yt') onState(e); },
+        onError: e => { if (curKind === 'yt') onErr(e); }
+      }
+    });
+    player = ytPlayer;
+  } else if (ytIsReady) {
+    player = ytPlayer; playerReady = true;
+    ytPlayer.cueVideoById({ videoId: id, startSeconds: startAt });
+  }
+}
 
 function onState(e) {
   const st = e.data;
@@ -799,9 +1011,11 @@ function onErr(e) {
   stopAll(); renderCur(); updatePlayBtn();
 }
 
-// 유튜브가 알려주는 재생 시간은 띄엄띄엄 갱신돼서, 그 사이 시간을 추정
+// 유튜브가 알려주는 재생 시간은 띄엄띄엄 갱신돼서, 그 사이 시간을 추정 (로컬 영상은 정확하므로 그대로 사용)
 function curTime() {
-  const raw = player.getCurrentTime(), now = performance.now();
+  const raw = player.getCurrentTime();
+  if (player.precise) return raw;
+  const now = performance.now();
   if (raw !== lastRaw) { lastRaw = raw; lastRawAt = now; return raw; }
   if (player.getPlayerState() === 1) return raw + Math.min(0.5, (now - lastRawAt) / 1000 * cfg.rate);
   return raw;
@@ -815,7 +1029,7 @@ function findIdx(t) {
 
 // 50ms마다 재생 위치를 확인해서 문장 끝에서 멈춤
 setInterval(() => {
-  if (!playerReady || !doc) return;
+  if (!playerReady || !doc || !player) return;
   let st; try { st = player.getPlayerState(); } catch (e) { return; }
   if (st !== 1) return;
   const t = curTime();
@@ -932,7 +1146,11 @@ function playSentence(i, opt = {}) {
   segEnd = s.end + cfg.padAfter;
   renderCur(); markCur(); scrollToCur();
   if (kbMode) focusDict();
-  if (!playerReady) { toast('플레이어 준비 중이에요. 잠시 후 다시 눌러 주세요.'); return; }
+  if (!playerReady) {
+    if (curKind === 'local') { showPick(); toast('영상 파일을 먼저 선택해 주세요.'); }
+    else toast('플레이어 준비 중이에요. 잠시 후 다시 눌러 주세요.');
+    return;
+  }
   phase = 'play'; token++; armed = false; lastRaw = -1;
   player.setPlaybackRate(cfg.rate);
   player.seekTo(segStart, true);
@@ -973,7 +1191,7 @@ function clearGap() { if (gapTimer) { clearTimeout(gapTimer); gapTimer = null; }
 
 function stopAll() {
   token++; clearGap();
-  if (phase === 'play' && playerReady) { selfPause = true; player.pauseVideo(); }
+  if (phase === 'play' && playerReady && player) { selfPause = true; player.pauseVideo(); }
   phase = 'idle'; keepAwake(false);
 }
 
@@ -1107,7 +1325,7 @@ function updateTool() {
   $('#rateBtn').textContent = `${cfg.rate}x`;
   document.documentElement.style.setProperty('--fs', cfg.big ? '26px' : '20px');
   $('#editBadge').classList.toggle('hidden', !vid || !store.get('shadow:edit:' + vid, null));
-  $('#addBtn').classList.toggle('hidden', !ghReady());
+  $('#fileBtn').classList.toggle('hidden', !(curKind === 'local' && doc && doc.source === 'local'));
 }
 
 // ---------------------------------------------------------------- 번역을 문장에 붙여 두기
@@ -1251,7 +1469,21 @@ function exportJson() {
 // ---------------------------------------------------------------- 편집 내용을 모든 기기에 저장
 // GitHub의 videos/영상ID.json을 직접 바꿈. 사이트가 갱신되기 전(1~2분)에 다시 열어도
 // 옛 버전이 보이지 않도록, 올린 내용을 이 기기에 잠깐 보관해 둠.
-const syncedKey = id => 'shadow:synced:' + id;
+async function ensureIndexEntry(d) {
+  const ix = await getFile('videos/index.json');
+  const j = ix ? JSON.parse(ix.text) : { videos: [] };
+  j.videos = j.videos || [];
+  let v = j.videos.find(x => x.id === d.id);
+  if (!v) {
+    if (d.source !== 'local') return;   // 유튜브 영상은 원래 목록에 있어야 함
+    j.videos.unshift({ id: d.id, title: d.title || d.id, channel: d.channel || '로컬 영상', sentences: d.sentences.length, source: 'local' });
+  } else {
+    if (v.sentences === d.sentences.length) return;
+    v.sentences = d.sentences.length;
+  }
+  await putFile('videos/index.json', JSON.stringify(j, null, 1), ix ? ix.sha : undefined, `Update index ${d.id}`);
+}
+
 async function syncEdits() {
   if (!doc) { toast('영상을 연 상태에서 사용할 수 있어요.'); return; }
   if (!ghReady()) { toast('설정의 GitHub 연결에 저장소와 토큰을 먼저 넣어주세요.', 4500); return; }
@@ -1262,18 +1494,13 @@ async function syncEdits() {
     const out = buildDoc();
     const f = await getFile(`videos/${vid}.json`);
     await putFile(`videos/${vid}.json`, JSON.stringify(out, null, 1), f ? f.sha : undefined, `Edit sentences ${vid}`);
-    // 목록에 보이는 문장 수도 맞춰 둠
-    const ix = await getFile('videos/index.json');
-    if (ix) {
-      const j = JSON.parse(ix.text), v = (j.videos || []).find(x => x.id === vid);
-      if (v && v.sentences !== sents.length) {
-        v.sentences = sents.length;
-        await putFile('videos/index.json', JSON.stringify(j, null, 1), ix.sha, `Update sentence count ${vid}`);
-      }
-    }
+    // 목록에 보이는 문장 수도 맞춰 둠 (이 기기에만 있던 로컬 영상이면 목록에도 등록)
+    await ensureIndexEntry(out);
     doc = out;
     store.set(syncedKey(vid), { at: Date.now(), doc: out });
     store.del('shadow:edit:' + vid);
+    const li = store.get(LI_KEY, []), me = li.find(x => x.id === vid);
+    if (me) { me.uploaded = true; me.at = Date.now(); me.sentences = out.sentences.length; store.set(LI_KEY, li); store.del(localDocKey(vid)); }
     updateTool(); renderCur();
     toast('모든 기기에 저장했어요. 다른 기기에는 1~2분 뒤 반영돼요.', 4500);
   } catch (e) { toast(e.message, 6000); }
@@ -1295,8 +1522,8 @@ function renderVideoList(vs) {
   const box = $('#videoList');
   const hid = hiddenNow();
   const list = vs.filter(v => !hid[v.id]);
-  if (!list.length) { box.innerHTML = '<div class="msg">아직 영상이 없어요. "+ 영상 추가"나 PC의 add.bat으로 영상을 추가하세요.</div>'; return; }
-  const canDel = ghReady();
+  if (!list.length) { box.innerHTML = '<div class="msg">아직 영상이 없어요. "+ 영상 추가"에서 수집기 JSON(로컬 영상)을 불러오거나 유튜브 주소를 추가하세요.</div>'; return; }
+  const gh = ghReady();
   box.innerHTML = list.map(v => {
     const pos = store.get('shadow:pos:' + v.id, 0);
     const nf = Object.keys(store.get('shadow:fav:' + v.id, {})).length;
@@ -1308,40 +1535,55 @@ function renderVideoList(vs) {
       const count=Math.min(v.sentences||0,Math.max(done.size,legacy));
       return `${label} ${count}/${v.sentences||0}`;
     }).join(' · ');
+    const isLocal = v.source === 'local';
+    const thumb = isLocal ? '<div class="vthumb">🎬</div>'
+      : `<img loading="lazy" src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/mqdefault.jpg" alt="">`;
+    const canDel = gh || v.localOnly;
     return `<div class="vcard" data-id="${esc(v.id)}" data-title="${esc(v.title)}">
-      <img loading="lazy" src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/mqdefault.jpg" alt="">
+      ${thumb}
       <div class="info"><div class="t">${esc(v.title)}</div>
-      <div class="m">${esc(v.channel || '')} · 문장 ${v.sentences}개${nf ? ` · ★ ${nf}` : ''}${pos > 0 ? ` · ${pos + 1}번째부터 이어서` : ''}</div><div class="m" style="color:#aac6e7">${summary}</div></div>
+      <div class="m">${esc(v.channel || '')} · 문장 ${v.sentences}개${nf ? ` · ★ ${nf}` : ''}${pos > 0 ? ` · ${pos + 1}번째부터 이어서` : ''}${v.localOnly ? ' · 이 기기에만 저장' : ''}</div><div class="m" style="color:#aac6e7">${summary}</div></div>
       ${canDel ? '<button class="del" data-del="1">삭제</button>' : ''}</div>`;
   }).join('');
 }
 
 async function showList() {
    stopMic(); stopAll();
-  if (playerReady) { try { player.pauseVideo(); } catch (e) {} }
+  if (playerReady && player) { try { player.pauseVideo(); } catch (e) {} }
   $('#playerScreen').classList.add('hidden');
   $('#listScreen').classList.remove('hidden');
   updateTool();
   const box = $('#videoList');
   box.innerHTML = '<div class="msg">불러오는 중...</div>';
   loadQueueInfo();
+  let server = [], failed = false;
   try {
     const r = await fetch('videos/index.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error(r.status);
-    lastVideos = (await r.json()).videos || [];
-    renderVideoList(lastVideos);
-  } catch (e) {
+    server = (await r.json()).videos || [];
+  } catch (e) { failed = true; }
+  // 이 기기의 로컬 영상 목록을 합침 (사이트가 아직 갱신되지 않았거나, 이 기기에만 있는 영상)
+  const ids = new Set(server.map(v => v.id));
+  const li = store.get(LI_KEY, []);
+  const keep = li.filter(e => !(e.uploaded && (ids.has(e.id) || Date.now() - e.at > 30 * 60 * 1000)));
+  if (keep.length !== li.length) store.set(LI_KEY, keep);
+  const extra = keep.filter(e => !ids.has(e.id)).map(e => Object.assign({}, e, { localOnly: !e.uploaded }));
+  lastVideos = [...extra, ...server];
+  if (failed && !lastVideos.length) {
     box.innerHTML = `<div class="msg">videos/index.json을 불러오지 못했어요.<br>
       PC에서 index.html을 더블클릭해서 열었다면, 폴더에서 <b>python -m http.server</b>를 실행한 뒤
       브라우저로 <b>http://localhost:8000</b>을 여세요.</div>`;
+    return;
   }
+  if (failed) toast('서버 목록을 불러오지 못해서 이 기기에 저장된 영상만 보여요.', 4000);
+  renderVideoList(lastVideos);
 }
 
 async function openVideo(id) {
    stopMic();
   $('#listScreen').classList.add('hidden');
   $('#playerScreen').classList.remove('hidden');
-  if (vid === id && doc) { syncJumpMode(); renderCur(); renderProgress(); scrollToCur(true); return; }
+  if (vid === id && doc) { syncJumpMode(); renderCur(); renderProgress(); scrollToCur(true); updateTool(); return; }
   stopAll();
    vid = id; doc = null; sents = []; idx = 0; splitting = false; textEditing = false; heard = false; revealed = false;
    dictRecords=store.get(dictKey(),{});dictChecked=false;dictRevealed=false;
@@ -1349,14 +1591,25 @@ async function openVideo(id) {
    favs=store.get(favKey(),{});
   $('#ttl').textContent = ''; $('#curText').textContent = ''; $('#translatedText').classList.add('hidden');
   $('#list').innerHTML = '<div class="msg">불러오는 중...</div>';
+  let fromSynced = false;
   try {
-    const r = await fetch(`videos/${encodeURIComponent(id)}.json`, { cache: 'no-cache' });
-    if (!r.ok) throw new Error(r.status);
-    doc = await r.json();
+    const ld = store.get(localDocKey(id), null);     // 이 기기에만 저장된 로컬 영상
+    if (ld) doc = ld;
+    else {
+      try {
+        const r = await fetch(`videos/${encodeURIComponent(id)}.json`, { cache: 'no-cache' });
+        if (!r.ok) throw new Error(r.status);
+        doc = await r.json();
+      } catch (e) {
+        // 방금 올려서 사이트가 아직 갱신되지 않았을 수 있음
+        const sy0 = store.get(syncedKey(id), null);
+        if (sy0 && sy0.doc) { doc = sy0.doc; fromSynced = true; } else throw e;
+      }
+    }
   } catch (e) { $('#list').innerHTML = '<div class="msg">영상 데이터를 불러오지 못했어요.</div>'; return; }
   // 방금 이 기기에서 서버에 저장했는데 사이트가 아직 옛 파일을 주면, 저장한 버전을 대신 씀
   const sy = store.get(syncedKey(id), null);
-  if (sy) {
+  if (sy && !fromSynced) {
     if (doc.edited === sy.doc.edited || Date.now() - sy.at > 20 * 60 * 1000) store.del(syncedKey(id));
     else doc = sy.doc;
   }
@@ -1367,22 +1620,8 @@ async function openVideo(id) {
   renderList(); renderCur(); initProgress(); updateTool(); updatePlayBtn(); scrollToCur(true);
   if (edited && doc.edited) toast('이 기기에 따로 편집한 내용이 있어서 그 버전을 보여줘요. 서버에 저장된 버전을 보려면 설정의 "원래대로"를 누르세요.', 6000);
 
-  await ytReady;
-  const startAt = Math.max(0, (sents[idx] ? sents[idx].start : 0) - cfg.padBefore);
-  if (!player) {
-    player = new YT.Player('yt', {
-      videoId: id,
-      playerVars: { playsinline: 1, rel: 0, iv_load_policy: 3, cc_load_policy: 0, disablekb: 1,
-                    start: Math.floor(startAt), origin: location.origin },
-      events: {
-        onReady: () => { playerReady = true; player.setPlaybackRate(cfg.rate); },
-        onStateChange: onState,
-        onError: onErr
-      }
-    });
-  } else if (playerReady) {
-    player.cueVideoById({ videoId: id, startSeconds: startAt });
-  }
+  if (doc.source === 'local') setupLocal(id);
+  else await setupYT(id);
 }
 
 function route() {
@@ -1400,10 +1639,17 @@ $('#videoList').addEventListener('click', e => {
 });
 $('#backBtn').onclick = () => { if (fromList) { fromList = false; history.back(); } else location.hash = ''; };
 $('#refreshBtn').onclick = () => showList();
-$('#addBtn').onclick = () => { $('#addSheet').classList.remove('hidden'); setTimeout(() => $('#addUrls').focus(), 50); };
+$('#addBtn').onclick = () => { $('#addSheet').classList.remove('hidden'); };
 $('#closeAdd').onclick = () => $('#addSheet').classList.add('hidden');
 $('#addSheet').addEventListener('click', e => { if (e.target.id === 'addSheet') $('#addSheet').classList.add('hidden'); });
 $('#addGo').onclick = () => queueAdd($('#addUrls').value);
+$('#impBtn').onclick = () => $('#impFile').click();
+$('#impFile').addEventListener('change', e => { const fs = [...e.target.files]; e.target.value = ''; if (fs.length) importFiles(fs); });
+
+// 로컬 영상 파일 선택
+$('#pickBtn').onclick = () => $('#videoFile').click();
+$('#fileBtn').onclick = () => $('#videoFile').click();
+$('#videoFile').addEventListener('change', e => { const f = e.target.files[0]; e.target.value = ''; if (f) loadLocalFile(f); });
 
 $('#prevBtn').onclick = () => goStep(-1);
 $('#nextBtn').onclick = () => goStep(1);
@@ -1548,7 +1794,7 @@ $('#hideBtn').onclick = () => {
 $('#repBtn').onclick = () => { const o = [1, 2, 3, 5]; cfg.repeat = o[(o.indexOf(cfg.repeat) + 1) % o.length]; saveCfg(); updateTool(); };
 $('#rateBtn').onclick = () => {
   const o = [0.5, 0.75, 1, 1.25]; cfg.rate = o[(o.indexOf(cfg.rate) + 1) % o.length];
-  saveCfg(); updateTool(); if (playerReady) player.setPlaybackRate(cfg.rate);
+  saveCfg(); updateTool(); if (playerReady && player) player.setPlaybackRate(cfg.rate);
 };
 
 // 설정 시트
@@ -1574,7 +1820,7 @@ $('#closeSheet').onclick = closeSheet;
 $('#sheet').addEventListener('click', e => { if (e.target.id === 'sheet') closeSheet(); });
 const bind = (sel, key, conv) => $(sel).addEventListener('change', e => {
   cfg[key] = conv(e.target.value); saveCfg(); updateTool();
-  if (key === 'rate' && playerReady) player.setPlaybackRate(cfg.rate);
+  if (key === 'rate' && playerReady && player) player.setPlaybackRate(cfg.rate);
   if (key === 'cover' || key === 'coverWhen') revealed = false;
   renderCur(); applyListBlur();
 });
