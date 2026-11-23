@@ -1,6 +1,15 @@
 {
  "videos": [
   {
+   "id": "local-eidss0",
+   "title": "Children in war zones",
+   "channel": "로컬 영상",
+   "duration": null,
+   "sentences": 55,
+   "created": "2026-11-23T10:20:00+00:00",
+   "source": "local"
+  },
+  {
    "id": "zsEgP2gvxTs",
    "title": "Young Voters Helped Trump Win. How Do They Feel Now? | WSJ",
    "channel": "The Wall Street Journal",
@@ -63,15 +72,6 @@
    "duration": 964,
    "sentences": 247,
    "created": "2026-10-05T16:44:12"
-  },
-  {
-   "id": "local-eidss0",
-   "title": "Children in war zones",
-   "channel": "로컬 영상",
-   "duration": null,
-   "sentences": 55,
-   "created": "",
-   "source": "local"
   }
  ]
 }
