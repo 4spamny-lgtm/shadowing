@@ -3,6 +3,8 @@ Uses a temporary detached worktree and retries if origin/main advances.
 Requires a clean working tree BEFORE prep.py runs, and a checkout of main.
 
 Video IDs: 11-character YouTube IDs, or local videos named like "local-x3h654".
+Local videos get a "created" timestamp the first time they are indexed,
+so they sort by date like YouTube videos.
 """
 import json
 import re
@@ -10,6 +12,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -58,9 +61,15 @@ def rebuild_index(folder):
         d = load_doc(file)
         if not d:
             continue
+        created = d.get('created', '')
+        if not created and d.get('source') == 'local':
+            # 로컬 영상은 created가 없으므로 처음 인덱스에 들어간 시각을 기록해 둔다
+            created = datetime.now(timezone.utc).isoformat(timespec='seconds')
+            d['created'] = created
+            file.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
         item = dict(id=d['id'], title=d['title'], channel=d.get('channel', ''),
                     duration=d.get('duration'), sentences=len(d['sentences']),
-                    created=d.get('created', ''))
+                    created=created)
         if d.get('source'):
             item['source'] = d['source']
         vids.append(item)
