@@ -1,0 +1,5481 @@
+{
+ "id": "7G8404vvKK0",
+ "title": "Your Home Doesn't Need More Bins, It Needs Stations - 20 Ways To Get Organized",
+ "channel": "Clutterbug",
+ "duration": 1111,
+ "subtitle": {
+  "lang": "en-orig",
+  "kind": "auto"
+ },
+ "segmenter": "punctuation",
+ "created": "2026-11-26T08:54:14",
+ "sentences": [
+  {
+   "text": "Forget buying more bins.",
+   "start": 0.4,
+   "end": 2.0,
+   "words": [
+    ["Forget", 0.4, 0.8],
+    ["buying", 0.8, 1.2],
+    ["more", 1.2, 1.4],
+    ["bins.", 1.4, 2.0]
+   ]
+  },
+  {
+   "text": "Forget complicated organizing systems.",
+   "start": 2.5,
+   "end": 5.34,
+   "words": [
+    ["Forget", 2.5, 2.9],
+    ["complicated", 2.9, 3.8],
+    ["organizing", 3.8, 4.5],
+    ["systems.", 4.5, 5.34]
+   ]
+  },
+  {
+   "text": "The secret to home organization isn' having more storage, it's having smarter storage.",
+   "start": 6.0,
+   "end": 12.14,
+   "words": [
+    ["The", 6.0, 6.1],
+    ["secret", 6.1, 6.5],
+    ["to", 6.5, 6.6],
+    ["home", 6.6, 6.8],
+    ["organization", 6.8, 7.6],
+    ["isn'", 7.6, 8.0],
+    ["having", 8.0, 8.4],
+    ["more", 8.4, 8.9],
+    ["storage,", 8.9, 9.7],
+    ["it's", 9.7, 9.8],
+    ["having", 9.8, 10.2],
+    ["smarter", 10.2, 10.96],
+    ["storage.", 11.3, 12.14]
+   ]
+  },
+  {
+   "text": "Hey there, pal.",
+   "start": 12.7,
+   "end": 13.62,
+   "words": [
+    ["Hey", 12.7, 12.8],
+    ["there,", 12.8, 13.1],
+    ["pal.", 13.1, 13.62]
+   ]
+  },
+  {
+   "text": "Why so glum?",
+   "start": 13.7,
+   "end": 14.7,
+   "words": [
+    ["Why", 13.7, 13.9],
+    ["so", 13.9, 14.1],
+    ["glum?", 14.1, 14.7]
+   ]
+  },
+  {
+   "text": "Have you been feeling completely overwhelmed in your own home?",
+   "start": 14.8,
+   "end": 18.4,
+   "words": [
+    ["Have", 14.8, 15.1],
+    ["you", 15.1, 15.2],
+    ["been", 15.2, 15.4],
+    ["feeling", 15.4, 15.8],
+    ["completely", 15.8, 16.5],
+    ["overwhelmed", 16.5, 17.2],
+    ["in", 17.2, 17.3],
+    ["your", 17.3, 17.5],
+    ["own", 17.5, 17.8],
+    ["home?", 17.8, 18.4]
+   ]
+  },
+  {
+   "text": "Maybe you're spending more time searching for your stuff than actually living your life.",
+   "start": 18.4,
+   "end": 22.6,
+   "words": [
+    ["Maybe", 18.4, 18.6],
+    ["you're", 18.6, 18.8],
+    ["spending", 18.8, 19.2],
+    ["more", 19.2, 19.4],
+    ["time", 19.4, 19.7],
+    ["searching", 19.7, 20.1],
+    ["for", 20.1, 20.2],
+    ["your", 20.2, 20.4],
+    ["stuff", 20.4, 20.9],
+    ["than", 20.9, 21.1],
+    ["actually", 21.1, 21.6],
+    ["living", 21.6, 21.8],
+    ["your", 21.8, 22.0],
+    ["life.", 22.0, 22.6]
+   ]
+  },
+  {
+   "text": "Introducing the Stations Method, the revolutionary fix for your household chaos.",
+   "start": 22.6,
+   "end": 27.88,
+   "words": [
+    ["Introducing", 22.6, 23.68],
+    ["the", 23.7, 23.8],
+    ["Stations", 23.8, 24.4],
+    ["Method,", 24.4, 24.9],
+    ["the", 24.9, 25.0],
+    ["revolutionary", 25.0, 25.8],
+    ["fix", 25.8, 26.2],
+    ["for", 26.2, 26.4],
+    ["your", 26.4, 26.7],
+    ["household", 26.7, 27.2],
+    ["chaos.", 27.2, 27.88]
+   ]
+  },
+  {
+   "text": "Stop organizing your stuff and start organizing your life. Call 1-800-STATIONS.",
+   "start": 27.9,
+   "end": 32.9,
+   "words": [
+    ["Stop", 27.9, 28.4],
+    ["organizing", 28.4, 28.9],
+    ["your", 28.9, 29.1],
+    ["stuff", 29.1, 29.6],
+    ["and", 29.6, 29.7],
+    ["start", 29.7, 30.1],
+    ["organizing", 30.1, 30.7],
+    ["your", 30.7, 30.9],
+    ["life.", 30.9, 31.5],
+    ["Call", 31.5, 31.7],
+    ["1-800-STATIONS.", 31.7, 32.9]
+   ]
+  },
+  {
+   "text": "There really are stations, and I'm going to show you 20 of them that can magically make your home and yourself more organized.",
+   "start": 33.4,
+   "end": 40.5,
+   "words": [
+    ["There", 33.4, 33.5],
+    ["really", 33.5, 33.9],
+    ["are", 33.9, 34.1],
+    ["stations,", 34.1, 34.9],
+    ["and", 34.9, 35.0],
+    ["I'm", 35.0, 35.1],
+    ["going", 35.1, 35.2],
+    ["to", 35.2, 35.3],
+    ["show", 35.3, 35.4],
+    ["you", 35.4, 35.6],
+    ["20", 35.6, 35.96],
+    ["of", 36.1, 36.2],
+    ["them", 36.2, 36.5],
+    ["that", 36.5, 36.6],
+    ["can", 36.6, 36.9],
+    ["magically", 36.9, 37.8],
+    ["make", 37.8, 38.0],
+    ["your", 38.0, 38.1],
+    ["home", 38.1, 38.6],
+    ["and", 38.6, 38.7],
+    ["yourself", 38.7, 39.3],
+    ["more", 39.3, 39.5],
+    ["organized.", 39.5, 40.5]
+   ]
+  },
+  {
+   "text": "What is a station?",
+   "start": 40.7,
+   "end": 42.54,
+   "words": [
+    ["What", 40.7, 41.2],
+    ["is", 41.2, 41.56],
+    ["a", 41.6, 41.7],
+    ["station?", 41.7, 42.54]
+   ]
+  },
+  {
+   "text": "Basically, a station is gathering all the things you use for different categories and storing them together where you use it all in one place.",
+   "start": 42.7,
+   "end": 52.38,
+   "words": [
+    ["Basically,", 42.7, 43.2],
+    ["a", 43.2, 43.3],
+    ["station", 43.3, 43.9],
+    ["is", 43.9, 44.26],
+    ["gathering", 44.4, 45.1],
+    ["all", 45.1, 45.4],
+    ["the", 45.4, 45.6],
+    ["things", 45.6, 45.8],
+    ["you", 45.8, 46.0],
+    ["use", 46.0, 46.4],
+    ["for", 46.4, 46.5],
+    ["different", 46.5, 46.8],
+    ["categories", 46.8, 47.6],
+    ["and", 47.6, 47.8],
+    ["storing", 47.8, 48.1],
+    ["them", 48.1, 48.3],
+    ["together", 48.3, 49.14],
+    ["where", 49.2, 49.7],
+    ["you", 49.7, 49.9],
+    ["use", 49.9, 50.3],
+    ["it", 50.3, 50.66],
+    ["all", 51.2, 51.4],
+    ["in", 51.4, 51.5],
+    ["one", 51.5, 51.7],
+    ["place.", 51.7, 52.38]
+   ]
+  },
+  {
+   "text": "It doesn't have to be complicated.",
+   "start": 52.4,
+   "end": 53.6,
+   "words": [
+    ["It", 52.4, 52.45],
+    ["doesn't", 52.44, 52.6],
+    ["have", 52.6, 52.7],
+    ["to", 52.7, 52.8],
+    ["be", 52.8, 52.9],
+    ["complicated.", 52.9, 53.6]
+   ]
+  },
+  {
+   "text": "You definitely should not and don't need to buy anything.",
+   "start": 53.6,
+   "end": 56.7,
+   "words": [
+    ["You", 53.6, 53.8],
+    ["definitely", 53.8, 54.3],
+    ["should", 54.3, 54.6],
+    ["not", 54.6, 54.9],
+    ["and", 54.9, 55.1],
+    ["don't", 55.1, 55.3],
+    ["need", 55.3, 55.5],
+    ["to", 55.5, 55.7],
+    ["buy", 55.7, 56.0],
+    ["anything.", 56.0, 56.7]
+   ]
+  },
+  {
+   "text": "It's just moving things around to make your home more efficient.",
+   "start": 56.7,
+   "end": 60.0,
+   "words": [
+    ["It's", 56.7, 56.8],
+    ["just", 56.8, 57.1],
+    ["moving", 57.1, 57.5],
+    ["things", 57.5, 57.7],
+    ["around", 57.7, 58.1],
+    ["to", 58.1, 58.2],
+    ["make", 58.2, 58.4],
+    ["your", 58.4, 58.5],
+    ["home", 58.5, 58.8],
+    ["more", 58.8, 59.0],
+    ["efficient.", 59.0, 60.0]
+   ]
+  },
+  {
+   "text": "I feel like that's really the secret of organization, and thinking of it in these stations, these 20 stations will make it easy for you, super fast.",
+   "start": 60.0,
+   "end": 68.7,
+   "words": [
+    ["I", 60.0, 60.1],
+    ["feel", 60.1, 60.3],
+    ["like", 60.3, 60.5],
+    ["that's", 60.5, 60.8],
+    ["really", 60.8, 61.1],
+    ["the", 61.1, 61.3],
+    ["secret", 61.3, 61.6],
+    ["of", 61.6, 61.7],
+    ["organization,", 61.7, 62.6],
+    ["and", 62.6, 62.8],
+    ["thinking", 62.8, 63.2],
+    ["of", 63.2, 63.3],
+    ["it", 63.3, 63.5],
+    ["in", 63.5, 63.7],
+    ["these", 63.7, 64.0],
+    ["stations,", 64.0, 64.7],
+    ["these", 64.7, 65.0],
+    ["20", 65.0, 65.36],
+    ["stations", 65.8, 66.64],
+    ["will", 66.8, 66.9],
+    ["make", 66.9, 67.0],
+    ["it", 67.0, 67.1],
+    ["easy", 67.1, 67.3],
+    ["for", 67.3, 67.5],
+    ["you,", 67.5, 68.0],
+    ["super", 68.0, 68.3],
+    ["fast.", 68.3, 68.7]
+   ]
+  },
+  {
+   "text": "And by the end of video, I hope this you're feeling so inspired to have the most organized home ever.",
+   "start": 68.7,
+   "end": 74.7,
+   "words": [
+    ["And", 68.7, 68.9],
+    ["by", 68.9, 69.0],
+    ["the", 69.0, 69.1],
+    ["end", 69.1, 69.3],
+    ["of", 69.3, 69.5],
+    ["video,", 69.5, 69.9],
+    ["I", 69.9, 70.0],
+    ["hope", 70.0, 70.1],
+    ["this", 70.1, 70.2],
+    ["you're", 70.2, 70.3],
+    ["feeling", 70.3, 70.7],
+    ["so", 70.7, 71.0],
+    ["inspired", 71.0, 71.7],
+    ["to", 71.7, 71.8],
+    ["have", 71.8, 72.0],
+    ["the", 72.0, 72.1],
+    ["most", 72.1, 72.62],
+    ["organized", 72.8, 73.5],
+    ["home", 73.5, 74.02],
+    ["ever.", 74.1, 74.7]
+   ]
+  },
+  {
+   "text": "The most common struggle to keep a house tidy is the pile on the kitchen counter all day.",
+   "start": 75.5,
+   "end": 80.32,
+   "words": [
+    ["The", 75.5, 75.6],
+    ["most", 75.6, 75.7],
+    ["common", 75.7, 76.0],
+    ["struggle", 76.0, 76.8],
+    ["to", 76.8, 76.87],
+    ["keep", 76.87, 77.0],
+    ["a", 77.0, 77.1],
+    ["house", 77.1, 77.2],
+    ["tidy", 77.2, 77.72],
+    ["is", 77.8, 78.1],
+    ["the", 78.1, 78.2],
+    ["pile", 78.2, 78.6],
+    ["on", 78.6, 78.65],
+    ["the", 78.64, 78.7],
+    ["kitchen", 78.7, 79.0],
+    ["counter", 79.0, 79.5],
+    ["all", 79.5, 79.8],
+    ["day.", 79.8, 80.32]
+   ]
+  },
+  {
+   "text": "It's where you drop stuff, or maybe that's in your entrance way.",
+   "start": 80.4,
+   "end": 83.7,
+   "words": [
+    ["It's", 80.4, 80.5],
+    ["where", 80.5, 80.6],
+    ["you", 80.6, 80.8],
+    ["drop", 80.8, 81.32],
+    ["stuff,", 81.4, 81.8],
+    ["or", 81.8, 81.9],
+    ["maybe", 81.9, 82.2],
+    ["that's", 82.2, 82.5],
+    ["in", 82.5, 82.6],
+    ["your", 82.6, 82.9],
+    ["entrance", 82.9, 83.3],
+    ["way.", 83.3, 83.7]
+   ]
+  },
+  {
+   "text": "Enter a drop station.",
+   "start": 83.7,
+   "end": 85.64,
+   "words": [
+    ["Enter", 83.7, 84.3],
+    ["a", 84.3, 84.4],
+    ["drop", 84.4, 84.8],
+    ["station.", 84.8, 85.64]
+   ]
+  },
+  {
+   "text": "Here's the secret.",
+   "start": 85.8,
+   "end": 86.7,
+   "words": [
+    ["Here's", 85.8, 86.0],
+    ["the", 86.0, 86.1],
+    ["secret.", 86.1, 86.7]
+   ]
+  },
+  {
+   "text": "Don't change where you're naturally putting stuff down.",
+   "start": 86.7,
+   "end": 89.6,
+   "words": [
+    ["Don't", 86.7, 87.1],
+    ["change", 87.1, 87.7],
+    ["where", 87.7, 87.9],
+    ["you're", 87.9, 88.0],
+    ["naturally", 88.0, 88.5],
+    ["putting", 88.5, 88.9],
+    ["stuff", 88.9, 89.2],
+    ["down.", 89.2, 89.6]
+   ]
+  },
+  {
+   "text": "Grab a Amazon box or a basket, something, and just give it an actual home.",
+   "start": 89.6,
+   "end": 94.9,
+   "words": [
+    ["Grab", 89.6, 89.9],
+    ["a", 89.9, 90.18],
+    ["Amazon", 90.2, 90.6],
+    ["box", 90.6, 91.04],
+    ["or", 91.1, 91.2],
+    ["a", 91.2, 91.25],
+    ["basket,", 91.2, 91.96],
+    ["something,", 92.0, 93.0],
+    ["and", 93.0, 93.1],
+    ["just", 93.1, 93.3],
+    ["give", 93.3, 93.5],
+    ["it", 93.5, 93.6],
+    ["an", 93.6, 93.8],
+    ["actual", 93.8, 94.3],
+    ["home.", 94.3, 94.9]
+   ]
+  },
+  {
+   "text": "If you're like me and you have all the things, the papers that you don't have to like pay the bill,",
+   "start": 95.0,
+   "end": 100.0,
+   "words": [
+    ["If", 95.0, 95.2],
+    ["you're", 95.2, 95.3],
+    ["like", 95.3, 95.5],
+    ["me", 95.5, 95.6],
+    ["and", 95.6, 95.8],
+    ["you", 95.8, 95.85],
+    ["have", 95.8, 96.1],
+    ["all", 96.1, 96.3],
+    ["the", 96.3, 96.5],
+    ["things,", 96.5, 97.1],
+    ["the", 97.1, 97.2],
+    ["papers", 97.2, 97.88],
+    ["that", 97.9, 98.2],
+    ["you", 98.2, 98.4],
+    ["don't", 98.4, 98.6],
+    ["have", 98.6, 98.7],
+    ["to", 98.7, 98.8],
+    ["like", 98.8, 99.0],
+    ["pay", 99.0, 99.2],
+    ["the", 99.2, 99.4],
+    ["bill,", 99.4, 100.0]
+   ]
+  },
+  {
+   "text": "but you do have to remember where they are, whether it's a schedule or the invitation or the form you want to fill out,",
+   "start": 100.1,
+   "end": 106.52,
+   "words": [
+    ["but", 100.1, 100.3],
+    ["you", 100.3, 100.4],
+    ["do", 100.4, 100.5],
+    ["have", 100.5, 100.7],
+    ["to", 100.7, 100.8],
+    ["remember", 100.8, 101.3],
+    ["where", 101.3, 101.5],
+    ["they", 101.5, 101.7],
+    ["are,", 101.7, 102.0],
+    ["whether", 102.0, 102.2],
+    ["it's", 102.2, 102.4],
+    ["a", 102.4, 102.48],
+    ["schedule", 102.48, 103.1],
+    ["or", 103.1, 103.3],
+    ["the", 103.3, 103.74],
+    ["invitation", 103.8, 104.7],
+    ["or", 104.7, 104.8],
+    ["the", 104.8, 104.9],
+    ["form", 104.9, 105.3],
+    ["you", 105.3, 105.4],
+    ["want", 105.4, 105.6],
+    ["to", 105.6, 105.7],
+    ["fill", 105.7, 106.0],
+    ["out,", 106.0, 106.52]
+   ]
+  },
+  {
+   "text": "put that in your drop center, too.",
+   "start": 106.8,
+   "end": 108.32,
+   "words": [
+    ["put", 106.8, 106.9],
+    ["that", 106.9, 107.1],
+    ["in", 107.1, 107.2],
+    ["your", 107.2, 107.3],
+    ["drop", 107.3, 107.5],
+    ["center,", 107.5, 107.8],
+    ["too.", 107.8, 108.32]
+   ]
+  },
+  {
+   "text": "Basically, take a look at your messy pile and just give a quick home for that stuff right where you're naturally piling it.",
+   "start": 108.8,
+   "end": 115.9,
+   "words": [
+    ["Basically,", 108.8, 109.4],
+    ["take", 109.4, 109.6],
+    ["a", 109.6, 109.7],
+    ["look", 109.7, 109.9],
+    ["at", 109.9, 110.0],
+    ["your", 110.0, 110.1],
+    ["messy", 110.1, 110.5],
+    ["pile", 110.5, 111.02],
+    ["and", 111.4, 111.5],
+    ["just", 111.5, 112.0],
+    ["give", 112.0, 112.2],
+    ["a", 112.2, 112.27],
+    ["quick", 112.27, 112.6],
+    ["home", 112.6, 113.0],
+    ["for", 113.0, 113.1],
+    ["that", 113.1, 113.4],
+    ["stuff", 113.4, 114.0],
+    ["right", 114.1, 114.6],
+    ["where", 114.6, 114.7],
+    ["you're", 114.7, 114.8],
+    ["naturally", 114.8, 115.3],
+    ["piling", 115.3, 115.6],
+    ["it.", 115.6, 115.9]
+   ]
+  },
+  {
+   "text": "A drop station will change your freaking life, honestly. Look Ta-da-da-da. Organization.",
+   "start": 115.9,
+   "end": 122.89,
+   "words": [
+    ["A", 115.9, 116.0],
+    ["drop", 116.0, 116.2],
+    ["station", 116.2, 116.6],
+    ["will", 116.6, 116.7],
+    ["change", 116.7, 116.9],
+    ["your", 116.9, 117.0],
+    ["freaking", 117.0, 117.4],
+    ["life,", 117.4, 118.0],
+    ["honestly.", 118.0, 118.8],
+    ["Look", 118.8, 119.32],
+    ["Ta-da-da-da.", 119.7, 120.86],
+    ["Organization.", 121.69, 122.89]
+   ]
+  },
+  {
+   "text": "See this beast?",
+   "start": 129.09,
+   "end": 130.17,
+   "words": [
+    ["See", 129.09, 129.19],
+    ["this", 129.19, 129.49],
+    ["beast?", 129.49, 130.17]
+   ]
+  },
+  {
+   "text": "This is a fix it station.",
+   "start": 130.29,
+   "end": 132.13,
+   "words": [
+    ["This", 130.29, 130.39],
+    ["is", 130.39, 130.49],
+    ["a", 130.49, 130.59],
+    ["fix", 130.59, 131.03],
+    ["it", 131.09, 131.29],
+    ["station.", 131.29, 132.13]
+   ]
+  },
+  {
+   "text": "It's just a tool backpack, but it has everything you would need to do home repairs together.",
+   "start": 132.39,
+   "end": 137.79,
+   "words": [
+    ["It's", 132.39, 132.59],
+    ["just", 132.59, 132.79],
+    ["a", 132.79, 132.89],
+    ["tool", 132.89, 133.29],
+    ["backpack,", 133.29, 133.89],
+    ["but", 133.89, 133.99],
+    ["it", 133.99, 134.19],
+    ["has", 134.19, 134.59],
+    ["everything", 134.59, 135.29],
+    ["you", 135.29, 135.39],
+    ["would", 135.39, 135.59],
+    ["need", 135.59, 135.89],
+    ["to", 135.89, 135.99],
+    ["do", 135.99, 136.19],
+    ["home", 136.19, 136.59],
+    ["repairs", 136.59, 137.29],
+    ["together.", 137.29, 137.79]
+   ]
+  },
+  {
+   "text": "There is a drill in here.",
+   "start": 137.79,
+   "end": 139.39,
+   "words": [
+    ["There", 137.79, 137.99],
+    ["is", 137.99, 138.09],
+    ["a", 138.09, 138.19],
+    ["drill", 138.19, 138.79],
+    ["in", 138.89, 139.09],
+    ["here.", 139.09, 139.39]
+   ]
+  },
+  {
+   "text": "There is tape, duct tape, measuring tapes, anchors, screws.",
+   "start": 139.39,
+   "end": 143.75,
+   "words": [
+    ["There", 139.39, 139.59],
+    ["is", 139.59, 139.89],
+    ["tape,", 139.89, 140.49],
+    ["duct", 140.59, 140.79],
+    ["tape,", 140.79, 141.29],
+    ["measuring", 141.29, 141.69],
+    ["tapes,", 141.69, 142.29],
+    ["anchors,", 142.29, 142.99],
+    ["screws.", 142.99, 143.75]
+   ]
+  },
+  {
+   "text": "Literally everything. That's why it weighs a ton, but it's so handy because you have everything together.",
+   "start": 144.29,
+   "end": 150.59,
+   "words": [
+    ["Literally", 144.29, 144.89],
+    ["everything.", 144.89, 145.69],
+    ["That's", 145.69, 145.89],
+    ["why", 145.89, 146.09],
+    ["it", 146.09, 146.19],
+    ["weighs", 146.19, 146.49],
+    ["a", 146.49, 146.57],
+    ["ton,", 146.57, 146.89],
+    ["but", 146.89, 147.19],
+    ["it's", 147.19, 147.49],
+    ["so", 147.49, 147.85],
+    ["handy", 147.89, 148.39],
+    ["because", 148.39, 148.69],
+    ["you", 148.69, 148.99],
+    ["have", 148.99, 149.29],
+    ["everything", 149.29, 149.79],
+    ["together.", 149.79, 150.59]
+   ]
+  },
+  {
+   "text": "So if something is needs fixing,",
+   "start": 150.59,
+   "end": 151.99,
+   "words": [
+    ["So", 150.59, 150.69],
+    ["if", 150.69, 150.79],
+    ["something", 150.79, 151.09],
+    ["is", 151.09, 151.39],
+    ["needs", 151.39, 151.69],
+    ["fixing,", 151.69, 151.99]
+   ]
+  },
+  {
+   "text": "like right now our dishwasher is broken because of course it is, you just have to find one thing and everything is organized.",
+   "start": 151.99,
+   "end": 158.59,
+   "words": [
+    ["like", 151.99, 152.19],
+    ["right", 152.19, 152.29],
+    ["now", 152.29, 152.49],
+    ["our", 152.49, 152.59],
+    ["dishwasher", 152.59, 153.09],
+    ["is", 153.09, 153.19],
+    ["broken", 153.19, 153.59],
+    ["because", 153.59, 153.89],
+    ["of", 153.89, 153.99],
+    ["course", 153.99, 154.29],
+    ["it", 154.29, 154.39],
+    ["is,", 154.39, 154.83],
+    ["you", 155.29, 155.39],
+    ["just", 155.39, 155.49],
+    ["have", 155.49, 155.59],
+    ["to", 155.59, 155.69],
+    ["find", 155.69, 155.99],
+    ["one", 155.99, 156.29],
+    ["thing", 156.29, 156.79],
+    ["and", 156.79, 157.09],
+    ["everything", 157.09, 157.49],
+    ["is", 157.49, 157.59],
+    ["organized.", 157.59, 158.59]
+   ]
+  },
+  {
+   "text": "If you've been watching me, you know I'm a big old nerd for a tidy tote.",
+   "start": 158.79,
+   "end": 162.19,
+   "words": [
+    ["If", 158.79, 158.89],
+    ["you've", 158.89, 158.99],
+    ["been", 158.99, 159.09],
+    ["watching", 159.09, 159.39],
+    ["me,", 159.39, 159.59],
+    ["you", 159.59, 159.69],
+    ["know", 159.69, 159.99],
+    ["I'm", 159.99, 160.09],
+    ["a", 160.09, 160.29],
+    ["big", 160.29, 160.59],
+    ["old", 160.59, 160.89],
+    ["nerd", 160.89, 161.29],
+    ["for", 161.29, 161.49],
+    ["a", 161.49, 161.57],
+    ["tidy", 161.57, 161.89],
+    ["tote.", 161.89, 162.19]
+   ]
+  },
+  {
+   "text": "Think of it as a cleaning station.",
+   "start": 162.19,
+   "end": 163.99,
+   "words": [
+    ["Think", 162.19, 162.29],
+    ["of", 162.29, 162.39],
+    ["it", 162.39, 162.59],
+    ["as", 162.59, 162.69],
+    ["a", 162.69, 162.79],
+    ["cleaning", 162.79, 163.39],
+    ["station.", 163.39, 163.99]
+   ]
+  },
+  {
+   "text": "So not every cleaner you own, but the ones you love and use all the time, just keep it together.",
+   "start": 163.99,
+   "end": 169.99,
+   "words": [
+    ["So", 163.99, 164.29],
+    ["not", 164.29, 164.59],
+    ["every", 164.59, 164.89],
+    ["cleaner", 164.89, 165.39],
+    ["you", 165.39, 165.59],
+    ["own,", 165.59, 165.99],
+    ["but", 165.99, 166.09],
+    ["the", 166.09, 166.19],
+    ["ones", 166.19, 166.49],
+    ["you", 166.49, 166.69],
+    ["love", 166.69, 167.09],
+    ["and", 167.09, 167.29],
+    ["use", 167.29, 167.69],
+    ["all", 167.69, 167.99],
+    ["the", 167.99, 168.09],
+    ["time,", 168.09, 168.69],
+    ["just", 168.89, 169.09],
+    ["keep", 169.09, 169.29],
+    ["it", 169.29, 169.39],
+    ["together.", 169.39, 169.99]
+   ]
+  },
+  {
+   "text": "My tidy tote is humongous, but I also have like a little baby emergency one.",
+   "start": 169.99,
+   "end": 175.31,
+   "words": [
+    ["My", 169.99, 170.35],
+    ["tidy", 170.39, 170.89],
+    ["tote", 170.89, 171.19],
+    ["is", 171.19, 171.39],
+    ["humongous,", 171.39, 172.39],
+    ["but", 172.49, 172.59],
+    ["I", 172.59, 172.65],
+    ["also", 172.65, 172.89],
+    ["have", 172.89, 173.19],
+    ["like", 173.19, 173.39],
+    ["a", 173.39, 173.44],
+    ["little", 173.43, 173.69],
+    ["baby", 173.69, 174.19],
+    ["emergency", 174.19, 174.79],
+    ["one.", 174.79, 175.31]
+   ]
+  },
+  {
+   "text": "And I love this because as you're cleaning your house, it also gives a spot to all the things that don't belong.",
+   "start": 175.39,
+   "end": 180.69,
+   "words": [
+    ["And", 175.39, 175.49],
+    ["I", 175.49, 175.59],
+    ["love", 175.59, 176.09],
+    ["this", 176.09, 176.29],
+    ["because", 176.29, 176.89],
+    ["as", 176.89, 177.19],
+    ["you're", 177.19, 177.29],
+    ["cleaning", 177.29, 177.69],
+    ["your", 177.69, 177.79],
+    ["house,", 177.79, 178.29],
+    ["it", 178.29, 178.39],
+    ["also", 178.39, 178.69],
+    ["gives", 178.69, 178.89],
+    ["a", 178.89, 178.99],
+    ["spot", 178.99, 179.29],
+    ["to", 179.29, 179.39],
+    ["all", 179.39, 179.49],
+    ["the", 179.49, 179.59],
+    ["things", 179.59, 179.89],
+    ["that", 179.89, 179.99],
+    ["don't", 179.99, 180.19],
+    ["belong.", 180.19, 180.69]
+   ]
+  },
+  {
+   "text": "So when you move from room to room and you find toys or dishes or paper,",
+   "start": 180.69,
+   "end": 184.97,
+   "words": [
+    ["So", 180.69, 180.99],
+    ["when", 180.99, 181.19],
+    ["you", 181.19, 181.29],
+    ["move", 181.29, 181.49],
+    ["from", 181.49, 181.69],
+    ["room", 181.69, 181.89],
+    ["to", 181.89, 182.09],
+    ["room", 182.09, 182.29],
+    ["and", 182.29, 182.39],
+    ["you", 182.39, 182.49],
+    ["find", 182.49, 183.01],
+    ["toys", 183.29, 183.69],
+    ["or", 183.69, 183.79],
+    ["dishes", 183.79, 184.19],
+    ["or", 184.19, 184.29],
+    ["paper,", 184.29, 184.97]
+   ]
+  },
+  {
+   "text": "you can put it in the middle and then empty it as you go.",
+   "start": 184.99,
+   "end": 187.63,
+   "words": [
+    ["you", 184.99, 185.09],
+    ["can", 185.09, 185.19],
+    ["put", 185.19, 185.29],
+    ["it", 185.29, 185.39],
+    ["in", 185.39, 185.49],
+    ["the", 185.49, 185.73],
+    ["middle", 185.73, 186.19],
+    ["and", 186.19, 186.29],
+    ["then", 186.29, 186.49],
+    ["empty", 186.49, 186.79],
+    ["it", 186.79, 186.89],
+    ["as", 186.89, 187.09],
+    ["you", 187.09, 187.19],
+    ["go.", 187.19, 187.63]
+   ]
+  },
+  {
+   "text": "So I mean, everybody needs a cleaning station.",
+   "start": 187.79,
+   "end": 190.49,
+   "words": [
+    ["So", 187.79, 187.89],
+    ["I", 187.89, 187.99],
+    ["mean,", 187.99, 188.49],
+    ["everybody", 188.49, 188.99],
+    ["needs", 188.99, 189.29],
+    ["a", 189.29, 189.34],
+    ["cleaning", 189.29, 189.89],
+    ["station.", 189.89, 190.49]
+   ]
+  },
+  {
+   "text": "Again, not every cleaning product you own, just the essentials.",
+   "start": 190.49,
+   "end": 195.37,
+   "words": [
+    ["Again,", 190.49, 191.09],
+    ["not", 191.09, 191.49],
+    ["every", 191.49, 191.99],
+    ["cleaning", 191.99, 192.39],
+    ["product", 192.39, 192.79],
+    ["you", 192.79, 192.89],
+    ["own,", 192.89, 193.39],
+    ["just", 193.39, 193.91],
+    ["the", 194.19, 194.29],
+    ["essentials.", 194.29, 195.37]
+   ]
+  },
+  {
+   "text": "This station is a must and it takes like a few seconds and every day it will save you time.",
+   "start": 196.29,
+   "end": 201.49,
+   "words": [
+    ["This", 196.29, 196.49],
+    ["station", 196.49, 197.19],
+    ["is", 197.19, 197.39],
+    ["a", 197.39, 197.49],
+    ["must", 197.49, 197.99],
+    ["and", 197.99, 198.09],
+    ["it", 198.09, 198.19],
+    ["takes", 198.19, 198.39],
+    ["like", 198.39, 198.59],
+    ["a", 198.59, 198.69],
+    ["few", 198.69, 198.89],
+    ["seconds", 198.89, 199.49],
+    ["and", 199.49, 199.69],
+    ["every", 199.69, 200.09],
+    ["day", 200.09, 200.49],
+    ["it", 200.49, 200.69],
+    ["will", 200.69, 200.79],
+    ["save", 200.79, 200.99],
+    ["you", 200.99, 201.19],
+    ["time.", 201.19, 201.49]
+   ]
+  },
+  {
+   "text": "And that's a beverage station.",
+   "start": 201.49,
+   "end": 204.03,
+   "words": [
+    ["And", 201.49, 201.59],
+    ["that's", 201.59, 202.09],
+    ["a", 202.09, 202.29],
+    ["beverage", 202.29, 203.13],
+    ["station.", 203.19, 204.03]
+   ]
+  },
+  {
+   "text": "Maybe you don't drink coffee, but think about do you make a smoothie every day or tea or hot cocoa?",
+   "start": 204.19,
+   "end": 209.57,
+   "words": [
+    ["Maybe", 204.19, 204.39],
+    ["you", 204.39, 204.49],
+    ["don't", 204.49, 204.69],
+    ["drink", 204.69, 204.99],
+    ["coffee,", 204.99, 205.49],
+    ["but", 205.49, 205.89],
+    ["think", 205.89, 206.09],
+    ["about", 206.09, 206.39],
+    ["do", 206.39, 206.49],
+    ["you", 206.49, 206.58],
+    ["make", 206.58, 206.69],
+    ["a", 206.69, 206.97],
+    ["smoothie", 207.1, 207.19],
+    ["every", 207.19, 207.49],
+    ["day", 207.49, 207.89],
+    ["or", 207.89, 208.09],
+    ["tea", 208.09, 208.49],
+    ["or", 208.49, 208.69],
+    ["hot", 208.69, 208.89],
+    ["cocoa?", 208.89, 209.57]
+   ]
+  },
+  {
+   "text": "Whatever your thing is, gather all the supplies together.",
+   "start": 209.89,
+   "end": 213.89,
+   "words": [
+    ["Whatever", 209.89, 210.39],
+    ["your", 210.39, 210.79],
+    ["thing", 210.79, 211.19],
+    ["is,", 211.19, 211.63],
+    ["gather", 211.79, 212.19],
+    ["all", 212.19, 212.49],
+    ["the", 212.49, 212.69],
+    ["supplies", 212.69, 213.19],
+    ["together.", 213.19, 213.89]
+   ]
+  },
+  {
+   "text": "You don't have to buy anything.",
+   "start": 213.89,
+   "end": 214.89,
+   "words": [
+    ["You", 213.89, 213.99],
+    ["don't", 213.99, 214.09],
+    ["have", 214.09, 214.19],
+    ["to", 214.19, 214.29],
+    ["buy", 214.29, 214.49],
+    ["anything.", 214.49, 214.89]
+   ]
+  },
+  {
+   "text": "This doesn't cost money.",
+   "start": 214.89,
+   "end": 216.17,
+   "words": [
+    ["This", 214.89, 214.99],
+    ["doesn't", 214.99, 215.29],
+    ["cost", 215.29, 215.49],
+    ["money.", 215.49, 216.17]
+   ]
+  },
+  {
+   "text": "Just have the coffee and the tea and the mugs and everything so you don't have to move your feet.",
+   "start": 216.19,
+   "end": 221.09,
+   "words": [
+    ["Just", 216.19, 216.39],
+    ["have", 216.39, 216.69],
+    ["the", 216.69, 216.79],
+    ["coffee", 216.79, 217.29],
+    ["and", 217.29, 217.49],
+    ["the", 217.49, 217.74],
+    ["tea", 217.74, 217.99],
+    ["and", 217.99, 218.09],
+    ["the", 218.09, 218.19],
+    ["mugs", 218.19, 218.69],
+    ["and", 218.69, 218.89],
+    ["everything", 218.89, 219.69],
+    ["so", 219.69, 219.79],
+    ["you", 219.79, 219.89],
+    ["don't", 219.89, 220.09],
+    ["have", 220.09, 220.19],
+    ["to", 220.19, 220.29],
+    ["move", 220.29, 220.59],
+    ["your", 220.59, 220.69],
+    ["feet.", 220.69, 221.09]
+   ]
+  },
+  {
+   "text": "That's what these stations are all about.",
+   "start": 221.09,
+   "end": 222.79,
+   "words": [
+    ["That's", 221.09, 221.29],
+    ["what", 221.29, 221.39],
+    ["these", 221.39, 221.59],
+    ["stations", 221.59, 221.99],
+    ["are", 221.99, 222.19],
+    ["all", 222.19, 222.39],
+    ["about.", 222.39, 222.79]
+   ]
+  },
+  {
+   "text": "It's using what you have, containing all the things that go within that category and storing it exactly where you use it.",
+   "start": 222.79,
+   "end": 230.43,
+   "words": [
+    ["It's", 222.79, 222.99],
+    ["using", 222.99, 223.49],
+    ["what", 223.49, 223.79],
+    ["you", 223.79, 223.99],
+    ["have,", 223.99, 224.59],
+    ["containing", 224.89, 225.59],
+    ["all", 225.59, 225.99],
+    ["the", 225.99, 226.09],
+    ["things", 226.09, 226.39],
+    ["that", 226.39, 226.49],
+    ["go", 226.49, 226.69],
+    ["within", 226.69, 226.89],
+    ["that", 226.89, 226.99],
+    ["category", 226.99, 227.83],
+    ["and", 227.99, 228.29],
+    ["storing", 228.29, 228.69],
+    ["it", 228.69, 228.89],
+    ["exactly", 228.89, 229.39],
+    ["where", 229.39, 229.59],
+    ["you", 229.59, 229.69],
+    ["use", 229.69, 229.99],
+    ["it.", 229.99, 230.43]
+   ]
+  },
+  {
+   "text": "If I only had to pick one station that you could try today, it would be this one.",
+   "start": 230.89,
+   "end": 235.49,
+   "words": [
+    ["If", 230.89, 231.09],
+    ["I", 231.09, 231.14],
+    ["only", 231.13, 231.29],
+    ["had", 231.29, 231.49],
+    ["to", 231.49, 231.59],
+    ["pick", 231.59, 231.79],
+    ["one", 231.79, 232.23],
+    ["station", 232.49, 233.09],
+    ["that", 233.09, 233.29],
+    ["you", 233.29, 233.39],
+    ["could", 233.39, 233.49],
+    ["try", 233.49, 233.79],
+    ["today,", 233.79, 234.29],
+    ["it", 234.29, 234.49],
+    ["would", 234.49, 234.69],
+    ["be", 234.69, 234.79],
+    ["this", 234.79, 235.09],
+    ["one.", 235.09, 235.49]
+   ]
+  },
+  {
+   "text": "And that's a get ready station.",
+   "start": 235.49,
+   "end": 237.99,
+   "words": [
+    ["And", 235.49, 235.59],
+    ["that's", 235.59, 235.99],
+    ["a", 235.99, 236.19],
+    ["get", 236.19, 236.63],
+    ["ready", 236.79, 237.39],
+    ["station.", 237.39, 237.99]
+   ]
+  },
+  {
+   "text": "This is actually mine.",
+   "start": 237.99,
+   "end": 238.99,
+   "words": [
+    ["This", 237.99, 238.29],
+    ["is", 238.29, 238.39],
+    ["actually", 238.39, 238.69],
+    ["mine.", 238.69, 238.99]
+   ]
+  },
+  {
+   "text": "It's like itty bitty, but it's all the things I use to get ready in the morning or get ready for bed.",
+   "start": 238.99,
+   "end": 244.59,
+   "words": [
+    ["It's", 238.99, 239.19],
+    ["like", 239.19, 239.49],
+    ["itty", 239.49, 239.69],
+    ["bitty,", 239.69, 240.09],
+    ["but", 240.09, 240.53],
+    ["it's", 240.69, 240.89],
+    ["all", 240.89, 241.09],
+    ["the", 241.09, 241.19],
+    ["things", 241.19, 241.49],
+    ["I", 241.49, 241.59],
+    ["use", 241.59, 242.03],
+    ["to", 242.09, 242.14],
+    ["get", 242.09, 242.29],
+    ["ready", 242.29, 242.69],
+    ["in", 242.69, 242.79],
+    ["the", 242.79, 242.89],
+    ["morning", 242.89, 243.29],
+    ["or", 243.29, 243.39],
+    ["get", 243.39, 243.49],
+    ["ready", 243.49, 243.79],
+    ["for", 243.79, 244.14],
+    ["bed.", 244.14, 244.59]
+   ]
+  },
+  {
+   "text": "And it used to be in drawers and in cabinets and now I just contained it all into one. Why?",
+   "start": 244.59,
+   "end": 250.41,
+   "words": [
+    ["And", 244.59, 244.89],
+    ["it", 244.89, 244.99],
+    ["used", 244.99, 245.19],
+    ["to", 245.19, 245.29],
+    ["be", 245.29, 245.59],
+    ["in", 245.59, 245.79],
+    ["drawers", 245.79, 246.39],
+    ["and", 246.39, 246.59],
+    ["in", 246.59, 246.69],
+    ["cabinets", 246.69, 247.49],
+    ["and", 247.49, 247.59],
+    ["now", 247.59, 247.89],
+    ["I", 247.89, 247.94],
+    ["just", 247.93, 248.09],
+    ["contained", 248.09, 248.69],
+    ["it", 248.69, 248.79],
+    ["all", 248.79, 248.99],
+    ["into", 248.99, 249.29],
+    ["one.", 249.29, 249.81],
+    ["Why?", 249.89, 250.41]
+   ]
+  },
+  {
+   "text": "Because I'm lazy.",
+   "start": 250.69,
+   "end": 251.79,
+   "words": [
+    ["Because", 250.69, 250.99],
+    ["I'm", 250.99, 251.19],
+    ["lazy.", 251.19, 251.79]
+   ]
+  },
+  {
+   "text": "And I used to leave all the things out on the counter and I'd have to put away 15 different things.",
+   "start": 251.89,
+   "end": 257.35,
+   "words": [
+    ["And", 251.89, 252.09],
+    ["I", 252.09, 252.14],
+    ["used", 252.13, 252.29],
+    ["to", 252.29, 252.49],
+    ["leave", 252.49, 252.79],
+    ["all", 252.79, 252.89],
+    ["the", 252.89, 252.99],
+    ["things", 252.99, 253.29],
+    ["out", 253.29, 253.49],
+    ["on", 253.49, 253.59],
+    ["the", 253.59, 253.69],
+    ["counter", 253.69, 254.19],
+    ["and", 254.19, 254.29],
+    ["I'd", 254.29, 254.39],
+    ["have", 254.39, 254.59],
+    ["to", 254.59, 254.69],
+    ["put", 254.69, 254.89],
+    ["away", 254.89, 255.29],
+    ["15", 255.29, 255.65],
+    ["different", 256.09, 256.59],
+    ["things.", 256.59, 257.35]
+   ]
+  },
+  {
+   "text": "Now I only have to put away one thing.",
+   "start": 257.39,
+   "end": 259.19,
+   "words": [
+    ["Now", 257.39, 257.59],
+    ["I", 257.59, 257.69],
+    ["only", 257.69, 257.89],
+    ["have", 257.89, 257.99],
+    ["to", 257.99, 258.09],
+    ["put", 258.09, 258.19],
+    ["away", 258.19, 258.39],
+    ["one", 258.39, 258.69],
+    ["thing.", 258.69, 259.19]
+   ]
+  },
+  {
+   "text": "It's literally just like this.",
+   "start": 259.19,
+   "end": 260.89,
+   "words": [
+    ["It's", 259.19, 259.39],
+    ["literally", 259.39, 259.79],
+    ["just", 259.79, 260.09],
+    ["like", 260.09, 260.29],
+    ["this.", 260.29, 260.89]
+   ]
+  },
+  {
+   "text": "Plus I have medication in here to remind me to take my meds.",
+   "start": 260.99,
+   "end": 264.49,
+   "words": [
+    ["Plus", 260.99, 261.39],
+    ["I", 261.39, 261.67],
+    ["have", 261.79, 261.99],
+    ["medication", 261.99, 262.49],
+    ["in", 262.49, 262.69],
+    ["here", 262.69, 262.99],
+    ["to", 262.99, 263.09],
+    ["remind", 263.09, 263.49],
+    ["me", 263.49, 263.59],
+    ["to", 263.59, 263.69],
+    ["take", 263.69, 263.89],
+    ["my", 263.89, 264.09],
+    ["meds.", 264.09, 264.49]
+   ]
+  },
+  {
+   "text": "It's just helpful.",
+   "start": 264.49,
+   "end": 265.79,
+   "words": [
+    ["It's", 264.49, 264.69],
+    ["just", 264.69, 265.19],
+    ["helpful.", 265.19, 265.79]
+   ]
+  },
+  {
+   "text": "And I just went on a show and I have TV like a stage prop one that I used.",
+   "start": 265.79,
+   "end": 270.59,
+   "words": [
+    ["And", 265.79, 266.09],
+    ["I", 266.09, 266.19],
+    ["just", 266.19, 266.69],
+    ["went", 266.69, 266.99],
+    ["on", 266.99, 267.29],
+    ["a", 267.29, 267.57],
+    ["show", 267.59, 267.89],
+    ["and", 267.89, 267.99],
+    ["I", 267.99, 268.09],
+    ["have", 268.09, 268.16],
+    ["TV", 268.16, 268.21],
+    ["like", 268.19, 268.39],
+    ["a", 268.39, 268.49],
+    ["stage", 268.49, 269.09],
+    ["prop", 269.19, 269.69],
+    ["one", 269.69, 269.89],
+    ["that", 269.89, 269.99],
+    ["I", 269.99, 270.09],
+    ["used.", 270.09, 270.59]
+   ]
+  },
+  {
+   "text": "This again was everyone's favorite tip.",
+   "start": 270.59,
+   "end": 273.81,
+   "words": [
+    ["This", 270.59, 270.99],
+    ["again", 270.99, 271.59],
+    ["was", 271.69, 271.99],
+    ["everyone's", 271.99, 272.79],
+    ["favorite", 272.79, 273.29],
+    ["tip.", 273.29, 273.81]
+   ]
+  },
+  {
+   "text": "It's great for teens.",
+   "start": 273.99,
+   "end": 274.89,
+   "words": [
+    ["It's", 273.99, 274.09],
+    ["great", 274.09, 274.29],
+    ["for", 274.29, 274.39],
+    ["teens.", 274.39, 274.89]
+   ]
+  },
+  {
+   "text": "I mean we used to do this when we went away to school.",
+   "start": 274.89,
+   "end": 276.99,
+   "words": [
+    ["I", 274.89, 274.94],
+    ["mean", 274.89, 275.09],
+    ["we", 275.09, 275.19],
+    ["used", 275.19, 275.39],
+    ["to", 275.39, 275.49],
+    ["do", 275.49, 275.59],
+    ["this", 275.59, 275.69],
+    ["when", 275.69, 275.79],
+    ["we", 275.79, 275.89],
+    ["went", 275.89, 276.09],
+    ["away", 276.09, 276.39],
+    ["to", 276.39, 276.49],
+    ["school.", 276.49, 276.99]
+   ]
+  },
+  {
+   "text": "I didn't go to school, but if you went to school, you know, like a caddy in university.",
+   "start": 276.99,
+   "end": 280.69,
+   "words": [
+    ["I", 276.99, 277.09],
+    ["didn't", 277.09, 277.19],
+    ["go", 277.19, 277.29],
+    ["to", 277.29, 277.39],
+    ["school,", 277.39, 277.59],
+    ["but", 277.59, 277.69],
+    ["if", 277.69, 277.89],
+    ["you", 277.89, 277.99],
+    ["went", 277.99, 278.09],
+    ["to", 278.09, 278.19],
+    ["school,", 278.19, 278.49],
+    ["you", 278.49, 278.59],
+    ["know,", 278.59, 278.89],
+    ["like", 278.89, 279.09],
+    ["a", 279.09, 279.19],
+    ["caddy", 279.19, 279.69],
+    ["in", 279.69, 279.79],
+    ["university.", 279.79, 280.69]
+   ]
+  },
+  {
+   "text": "But why did we ever stop?",
+   "start": 280.69,
+   "end": 282.49,
+   "words": [
+    ["But", 280.69, 280.79],
+    ["why", 280.79, 281.09],
+    ["did", 281.09, 281.29],
+    ["we", 281.29, 281.59],
+    ["ever", 281.59, 281.89],
+    ["stop?", 281.89, 282.49]
+   ]
+  },
+  {
+   "text": "This is actually such a smart station that you need to have.",
+   "start": 282.49,
+   "end": 287.09,
+   "words": [
+    ["This", 282.49, 282.79],
+    ["is", 282.79, 282.99],
+    ["actually", 282.99, 283.69],
+    ["such", 283.69, 284.19],
+    ["a", 284.19, 284.29],
+    ["smart", 284.29, 284.89],
+    ["station", 285.49, 285.99],
+    ["that", 285.99, 286.19],
+    ["you", 286.19, 286.29],
+    ["need", 286.29, 286.59],
+    ["to", 286.59, 286.69],
+    ["have.", 286.69, 287.09]
+   ]
+  },
+  {
+   "text": "It'll make life easier.",
+   "start": 287.09,
+   "end": 288.39,
+   "words": [
+    ["It'll", 287.09, 287.29],
+    ["make", 287.29, 287.49],
+    ["life", 287.49, 287.69],
+    ["easier.", 287.69, 288.39]
+   ]
+  },
+  {
+   "text": "It'll keep your bathroom tidier and it'll save you too.",
+   "start": 288.39,
+   "end": 291.36,
+   "words": [
+    ["It'll", 288.39, 288.49],
+    ["keep", 288.49, 288.69],
+    ["your", 288.69, 288.79],
+    ["bathroom", 288.79, 289.19],
+    ["tidier", 289.19, 289.87],
+    ["and", 289.99, 290.09],
+    ["it'll", 290.09, 290.29],
+    ["save", 290.29, 290.49],
+    ["you", 290.49, 290.89],
+    ["too.", 290.89, 291.36]
+   ]
+  },
+  {
+   "text": "Time, Organization solves problems.",
+   "start": 291.36,
+   "end": 294.79,
+   "words": [
+    ["time,", 291.36, 291.96],
+    ["Organization", 292.79, 293.89],
+    ["solves", 293.89, 294.29],
+    ["problems.", 294.29, 294.79]
+   ]
+  },
+  {
+   "text": "That's that's what it honestly is.",
+   "start": 294.79,
+   "end": 296.69,
+   "words": [
+    ["That's", 294.79, 295.19],
+    ["that's", 295.19, 295.49],
+    ["what", 295.49, 295.59],
+    ["it", 295.59, 295.79],
+    ["honestly", 295.79, 296.29],
+    ["is.", 296.29, 296.69]
+   ]
+  },
+  {
+   "text": "And your stations might not look like my stations,",
+   "start": 296.69,
+   "end": 299.69,
+   "words": [
+    ["And", 296.69, 297.13],
+    ["your", 297.19, 297.39],
+    ["stations", 297.39, 297.89],
+    ["might", 297.89, 298.09],
+    ["not", 298.09, 298.29],
+    ["look", 298.29, 298.49],
+    ["like", 298.49, 298.69],
+    ["my", 298.69, 298.99],
+    ["stations,", 298.99, 299.69]
+   ]
+  },
+  {
+   "text": "but I have a brain dump or a reminder station because I have squirrel brain and I'm distracted and I forget everything and that was a big problem.",
+   "start": 299.69,
+   "end": 309.03,
+   "words": [
+    ["but", 299.69, 299.99],
+    ["I", 299.99, 300.09],
+    ["have", 300.09, 300.49],
+    ["a", 300.49, 300.59],
+    ["brain", 300.59, 301.09],
+    ["dump", 301.09, 301.49],
+    ["or", 301.49, 301.69],
+    ["a", 301.69, 301.74],
+    ["reminder", 301.69, 302.29],
+    ["station", 302.29, 302.89],
+    ["because", 302.89, 303.65],
+    ["I", 303.69, 303.74],
+    ["have", 303.73, 303.89],
+    ["squirrel", 303.89, 304.19],
+    ["brain", 304.19, 304.69],
+    ["and", 304.69, 304.89],
+    ["I'm", 304.89, 304.99],
+    ["distracted", 304.99, 305.79],
+    ["and", 305.79, 305.99],
+    ["I", 305.99, 306.09],
+    ["forget", 306.09, 306.69],
+    ["everything", 306.69, 307.29],
+    ["and", 307.29, 307.39],
+    ["that", 307.39, 307.59],
+    ["was", 307.59, 307.69],
+    ["a", 307.69, 307.79],
+    ["big", 307.79, 308.19],
+    ["problem.", 308.19, 309.03]
+   ]
+  },
+  {
+   "text": "So I gave a zone in my home…",
+   "start": 309.09,
+   "end": 311.41,
+   "words": [
+    ["So", 309.09, 309.29],
+    ["I", 309.29, 309.49],
+    ["gave", 309.49, 309.89],
+    ["a", 309.89, 309.99],
+    ["zone", 309.99, 310.51],
+    ["in", 310.59, 310.79],
+    ["my", 310.79, 310.89],
+    ["home", 310.89, 311.41]
+   ]
+  },
+  {
+   "text": "where I brain dump every morning and I write my to-dos and then I have sticky notes for that visual cue of the really important things.",
+   "start": 311.69,
+   "end": 319.29,
+   "words": [
+    ["where", 311.69, 312.09],
+    ["I", 312.09, 312.37],
+    ["brain", 312.39, 312.69],
+    ["dump", 312.69, 312.89],
+    ["every", 312.89, 313.09],
+    ["morning", 313.09, 313.49],
+    ["and", 313.49, 313.69],
+    ["I", 313.69, 313.74],
+    ["write", 313.73, 313.89],
+    ["my", 313.89, 314.09],
+    ["to-dos", 314.09, 314.77],
+    ["and", 314.79, 314.89],
+    ["then", 314.89, 314.99],
+    ["I", 314.99, 315.04],
+    ["have", 315.03, 315.19],
+    ["sticky", 315.19, 315.69],
+    ["notes", 315.69, 316.19],
+    ["for", 316.19, 316.29],
+    ["that", 316.29, 316.59],
+    ["visual", 316.59, 317.09],
+    ["cue", 317.09, 317.53],
+    ["of", 317.69, 317.79],
+    ["the", 317.79, 317.89],
+    ["really", 317.89, 318.19],
+    ["important", 318.19, 318.59],
+    ["things.", 318.59, 319.29]
+   ]
+  },
+  {
+   "text": "And I keep it here so it's contained.",
+   "start": 319.29,
+   "end": 321.49,
+   "words": [
+    ["And", 319.29, 319.39],
+    ["I", 319.39, 319.45],
+    ["keep", 319.45, 319.69],
+    ["it", 319.69, 319.89],
+    ["here", 319.89, 320.29],
+    ["so", 320.29, 320.39],
+    ["it's", 320.39, 320.49],
+    ["contained.", 320.49, 321.49]
+   ]
+  },
+  {
+   "text": "I used to just write notes everywhere and then forget about them.",
+   "start": 321.59,
+   "end": 325.69,
+   "words": [
+    ["I", 321.59, 321.69],
+    ["used", 321.69, 321.89],
+    ["to", 321.89, 321.96],
+    ["just", 321.96, 322.09],
+    ["write", 322.09, 322.69],
+    ["notes", 322.79, 323.39],
+    ["everywhere", 323.39, 324.19],
+    ["and", 324.19, 324.29],
+    ["then", 324.29, 324.49],
+    ["forget", 324.49, 324.89],
+    ["about", 324.89, 325.09],
+    ["them.", 325.09, 325.69]
+   ]
+  },
+  {
+   "text": "So I'm literally just creating a station for my thoughts, which sounds bonkers to say out loud, but it's actually really helpful.",
+   "start": 325.69,
+   "end": 334.73,
+   "words": [
+    ["So", 325.69, 325.79],
+    ["I'm", 325.79, 325.99],
+    ["literally", 325.99, 326.39],
+    ["just", 326.39, 326.91],
+    ["creating", 327.09, 327.79],
+    ["a", 327.79, 327.89],
+    ["station", 327.89, 328.59],
+    ["for", 328.59, 328.79],
+    ["my", 328.79, 328.99],
+    ["thoughts,", 328.99, 329.89],
+    ["which", 329.89, 330.09],
+    ["sounds", 330.09, 330.59],
+    ["bonkers", 330.59, 331.09],
+    ["to", 331.09, 331.29],
+    ["say", 331.29, 331.49],
+    ["out", 331.49, 331.69],
+    ["loud,", 331.69, 331.99],
+    ["but", 331.99, 332.19],
+    ["it's", 332.19, 332.39],
+    ["actually", 332.39, 333.23],
+    ["really", 333.39, 333.89],
+    ["helpful.", 333.89, 334.73]
+   ]
+  },
+  {
+   "text": "If you are like me and you're a little scatterbrained, a brain dump or a reminder station is actually insanely helpful.",
+   "start": 334.79,
+   "end": 342.33,
+   "words": [
+    ["If", 334.79, 334.89],
+    ["you", 334.89, 335.09],
+    ["are", 335.09, 335.22],
+    ["like", 335.22, 335.39],
+    ["me", 335.39, 335.75],
+    ["and", 335.79, 336.19],
+    ["you're", 336.19, 336.39],
+    ["a", 336.39, 336.44],
+    ["little", 336.39, 336.69],
+    ["scatterbrained,", 336.69, 337.79],
+    ["a", 337.79, 337.89],
+    ["brain", 337.89, 338.09],
+    ["dump", 338.09, 338.39],
+    ["or", 338.39, 338.49],
+    ["a", 338.49, 338.59],
+    ["reminder", 338.59, 339.19],
+    ["station", 339.19, 339.95],
+    ["is", 340.09, 340.29],
+    ["actually", 340.29, 340.79],
+    ["insanely", 340.79, 341.49],
+    ["helpful.", 341.49, 342.33]
+   ]
+  },
+  {
+   "text": "This tech station is a total lifesaver.",
+   "start": 342.89,
+   "end": 345.49,
+   "words": [
+    ["This", 342.89, 343.09],
+    ["tech", 343.09, 343.29],
+    ["station", 343.29, 343.79],
+    ["is", 343.79, 343.89],
+    ["a", 343.89, 343.99],
+    ["total", 343.99, 344.49],
+    ["lifesaver.", 344.49, 345.49]
+   ]
+  },
+  {
+   "text": "One because I'm always losing my phone and my chargers and my iPad and my AirPods.",
+   "start": 345.49,
+   "end": 351.09,
+   "words": [
+    ["One", 345.49, 345.69],
+    ["because", 345.69, 345.99],
+    ["I'm", 345.99, 346.19],
+    ["always", 346.19, 346.69],
+    ["losing", 346.69, 346.99],
+    ["my", 346.99, 347.19],
+    ["phone", 347.19, 347.79],
+    ["and", 347.89, 348.09],
+    ["my", 348.09, 348.19],
+    ["chargers", 348.19, 349.03],
+    ["and", 349.09, 349.19],
+    ["my", 349.19, 349.29],
+    ["iPad", 349.29, 349.81],
+    ["and", 350.09, 350.19],
+    ["my", 350.19, 350.29],
+    ["AirPods.", 350.29, 351.09]
+   ]
+  },
+  {
+   "text": "So now it's all in one place and I love this because it hides the cords and cables,",
+   "start": 351.09,
+   "end": 355.89,
+   "words": [
+    ["So", 351.09, 351.19],
+    ["now", 351.19, 351.49],
+    ["it's", 351.49, 351.69],
+    ["all", 351.69, 352.09],
+    ["in", 352.09, 352.29],
+    ["one", 352.29, 352.69],
+    ["place", 352.69, 353.29],
+    ["and", 353.29, 353.39],
+    ["I", 353.39, 353.49],
+    ["love", 353.49, 353.79],
+    ["this", 353.79, 353.89],
+    ["because", 353.89, 354.39],
+    ["it", 354.39, 354.49],
+    ["hides", 354.49, 354.89],
+    ["the", 354.89, 355.09],
+    ["cords", 355.09, 355.39],
+    ["and", 355.39, 355.49],
+    ["cables,", 355.49, 355.89]
+   ]
+  },
+  {
+   "text": "but it also has an extra spot for the things I'm always looking for like extra chargers or the cleaner.",
+   "start": 355.89,
+   "end": 362.63,
+   "words": [
+    ["but", 355.89, 356.09],
+    ["it", 356.09, 356.29],
+    ["also", 356.29, 356.69],
+    ["has", 356.69, 356.89],
+    ["an", 356.89, 357.09],
+    ["extra", 357.09, 357.49],
+    ["spot", 357.49, 357.89],
+    ["for", 357.89, 357.99],
+    ["the", 357.99, 358.09],
+    ["things", 358.09, 358.49],
+    ["I'm", 358.49, 358.69],
+    ["always", 358.69, 358.99],
+    ["looking", 358.99, 359.29],
+    ["for", 359.29, 359.59],
+    ["like", 359.59, 359.99],
+    ["extra", 359.99, 360.39],
+    ["chargers", 360.39, 361.23],
+    ["or", 361.39, 361.69],
+    ["the", 361.69, 361.79],
+    ["cleaner.", 361.79, 362.63]
+   ]
+  },
+  {
+   "text": "Whether it's your pen, your phone, your AirPods, your watch, charge it all in the same spot.",
+   "start": 362.99,
+   "end": 368.3,
+   "words": [
+    ["Whether", 362.99, 363.29],
+    ["it's", 363.29, 363.59],
+    ["your", 363.59, 363.69],
+    ["pen,", 363.69, 364.09],
+    ["your", 364.09, 364.29],
+    ["phone,", 364.29, 364.69],
+    ["your", 364.69, 364.89],
+    ["AirPods,", 364.89, 365.5],
+    ["your", 365.5, 365.59],
+    ["watch,", 365.59, 366.27],
+    ["charge", 366.6, 366.9],
+    ["it", 366.9, 367.0],
+    ["all", 367.0, 367.3],
+    ["in", 367.3, 367.4],
+    ["the", 367.4, 367.5],
+    ["same", 367.5, 367.9],
+    ["spot.", 367.9, 368.3]
+   ]
+  },
+  {
+   "text": "Give it an actual home.",
+   "start": 368.3,
+   "end": 369.8,
+   "words": [
+    ["Give", 368.3, 368.5],
+    ["it", 368.5, 368.6],
+    ["an", 368.6, 368.7],
+    ["actual", 368.7, 369.3],
+    ["home.", 369.3, 369.8]
+   ]
+  },
+  {
+   "text": "You're not going to lose it, and it's no longer going to be clutter.",
+   "start": 369.8,
+   "end": 373.73,
+   "words": [
+    ["You're", 369.8, 370.0],
+    ["not", 370.0, 370.2],
+    ["going", 370.2, 370.3],
+    ["to", 370.3, 370.4],
+    ["lose", 370.4, 370.69],
+    ["it,", 370.69, 371.0],
+    ["and", 371.0, 371.39],
+    ["it's", 371.39, 371.59],
+    ["no", 371.59, 371.8],
+    ["longer", 371.8, 372.19],
+    ["going", 372.19, 372.5],
+    ["to", 372.5, 372.69],
+    ["be", 372.69, 372.89],
+    ["clutter.", 372.89, 373.73]
+   ]
+  },
+  {
+   "text": "I just don't like leaving the house, so I buy a lot of things on Amazon, which means sometimes things have to be returned.",
+   "start": 374.1,
+   "end": 379.39,
+   "words": [
+    ["I", 374.1, 374.2],
+    ["just", 374.2, 374.5],
+    ["don't", 374.5, 374.6],
+    ["like", 374.6, 374.8],
+    ["leaving", 374.8, 375.1],
+    ["the", 375.1, 375.2],
+    ["house,", 375.2, 375.5],
+    ["so", 375.5, 375.6],
+    ["I", 375.6, 375.7],
+    ["buy", 375.7, 375.9],
+    ["a", 375.9, 376.0],
+    ["lot", 376.0, 376.3],
+    ["of", 376.3, 376.4],
+    ["things", 376.4, 376.6],
+    ["on", 376.6, 376.7],
+    ["Amazon,", 376.7, 377.1],
+    ["which", 377.1, 377.3],
+    ["means", 377.3, 377.6],
+    ["sometimes", 377.6, 378.1],
+    ["things", 378.1, 378.3],
+    ["have", 378.3, 378.5],
+    ["to", 378.5, 378.6],
+    ["be", 378.6, 378.69],
+    ["returned.", 378.69, 379.39]
+   ]
+  },
+  {
+   "text": "So we have a shipping station, which I know is crazy, but I return a lot of things.",
+   "start": 379.39,
+   "end": 387.09,
+   "words": [
+    ["So", 379.39, 379.69],
+    ["we", 379.69, 379.89],
+    ["have", 379.89, 380.3],
+    ["a", 380.3, 380.5],
+    ["shipping", 380.5, 381.33],
+    ["station,", 381.69, 382.53],
+    ["which", 382.8, 383.4],
+    ["I", 383.69, 383.9],
+    ["know", 383.9, 384.4],
+    ["is", 384.4, 384.69],
+    ["crazy,", 384.69, 385.19],
+    ["but", 385.19, 385.5],
+    ["I", 385.5, 385.69],
+    ["return", 385.69, 386.1],
+    ["a", 386.1, 386.19],
+    ["lot", 386.19, 386.5],
+    ["of", 386.5, 386.69],
+    ["things.", 386.69, 387.09]
+   ]
+  },
+  {
+   "text": "So it has the envelopes, packing tape, extra boxes, and the stuff that I need to return.",
+   "start": 387.09,
+   "end": 392.75,
+   "words": [
+    ["So", 387.09, 387.19],
+    ["it", 387.19, 387.3],
+    ["has", 387.3, 387.74],
+    ["the", 387.89, 388.0],
+    ["envelopes,", 388.0, 388.6],
+    ["packing", 388.6, 388.9],
+    ["tape,", 388.9, 389.3],
+    ["extra", 389.3, 389.6],
+    ["boxes,", 389.6, 390.28],
+    ["and", 390.3, 390.7],
+    ["the", 390.7, 390.8],
+    ["stuff", 390.8, 391.1],
+    ["that", 391.1, 391.3],
+    ["I", 391.3, 391.4],
+    ["need", 391.4, 391.8],
+    ["to", 391.8, 392.0],
+    ["return.", 392.0, 392.75]
+   ]
+  },
+  {
+   "text": "Like I definitely forgot to return this shirt.",
+   "start": 393.1,
+   "end": 396.18,
+   "words": [
+    ["Like", 393.1, 393.62],
+    ["I", 394.1, 394.2],
+    ["definitely", 394.2, 394.6],
+    ["forgot", 394.6, 394.9],
+    ["to", 394.9, 395.0],
+    ["return", 395.0, 395.3],
+    ["this", 395.3, 395.5],
+    ["shirt.", 395.5, 396.18]
+   ]
+  },
+  {
+   "text": "I have a reminder every week to do the Amazon returns, but at least it has a home, so it's not on the kitchen counter.",
+   "start": 396.5,
+   "end": 402.94,
+   "words": [
+    ["I", 396.5, 396.6],
+    ["have", 396.6, 396.8],
+    ["a", 396.8, 396.89],
+    ["reminder", 396.89, 397.6],
+    ["every", 397.6, 398.0],
+    ["week", 398.0, 398.39],
+    ["to", 398.39, 398.5],
+    ["do", 398.5, 398.8],
+    ["the", 398.8, 399.0],
+    ["Amazon", 399.0, 399.39],
+    ["returns,", 399.39, 399.89],
+    ["but", 399.89, 400.1],
+    ["at", 400.1, 400.18],
+    ["least", 400.18, 400.39],
+    ["it", 400.39, 400.5],
+    ["has", 400.5, 400.69],
+    ["a", 400.69, 400.8],
+    ["home,", 400.8, 401.19],
+    ["so", 401.19, 401.3],
+    ["it's", 401.3, 401.5],
+    ["not", 401.5, 401.69],
+    ["on", 401.69, 401.8],
+    ["the", 401.8, 401.9],
+    ["kitchen", 401.9, 402.1],
+    ["counter.", 402.1, 402.94]
+   ]
+  },
+  {
+   "text": "If you're like me and you have an addiction to buying things online, you need a return center.",
+   "start": 403.0,
+   "end": 407.36,
+   "words": [
+    ["If", 403.0, 403.1],
+    ["you're", 403.1, 403.3],
+    ["like", 403.3, 403.4],
+    ["me", 403.4, 403.6],
+    ["and", 403.6, 403.7],
+    ["you", 403.7, 403.8],
+    ["have", 403.8, 403.89],
+    ["an", 403.89, 404.0],
+    ["addiction", 404.0, 404.5],
+    ["to", 404.5, 404.57],
+    ["buying", 404.57, 404.79],
+    ["things", 404.79, 405.0],
+    ["online,", 405.0, 405.5],
+    ["you", 405.5, 405.69],
+    ["need", 405.69, 406.0],
+    ["a", 406.0, 406.1],
+    ["return", 406.1, 406.6],
+    ["center.", 406.6, 407.36]
+   ]
+  },
+  {
+   "text": "This is a station I haven't actually created yet, but I'm so excited to.",
+   "start": 407.69,
+   "end": 412.0,
+   "words": [
+    ["This", 407.69, 407.89],
+    ["is", 407.89, 408.09],
+    ["a", 408.09, 408.18],
+    ["station", 408.18, 408.8],
+    ["I", 408.8, 408.89],
+    ["haven't", 408.89, 409.3],
+    ["actually", 409.3, 409.69],
+    ["created", 409.69, 410.09],
+    ["yet,", 410.09, 410.39],
+    ["but", 410.39, 410.59],
+    ["I'm", 410.59, 410.69],
+    ["so", 410.69, 411.06],
+    ["excited", 411.09, 411.59],
+    ["to.", 411.59, 412.0]
+   ]
+  },
+  {
+   "text": "It's my it's my weekend project, and that is a gift-giving station.",
+   "start": 412.0,
+   "end": 416.7,
+   "words": [
+    ["It's", 412.0, 412.3],
+    ["my", 412.3, 412.5],
+    ["it's", 412.5, 412.6],
+    ["my", 412.6, 412.69],
+    ["weekend", 412.69, 413.0],
+    ["project,", 413.0, 413.69],
+    ["and", 413.69, 413.8],
+    ["that", 413.8, 414.0],
+    ["is", 414.0, 414.36],
+    ["a", 414.6, 414.8],
+    ["gift-giving", 414.8, 415.88],
+    ["station.", 415.9, 416.7]
+   ]
+  },
+  {
+   "text": "I have this closet that's kind of like for decor and memories, and it's awesome, but there are things I don't use.",
+   "start": 416.7,
+   "end": 421.89,
+   "words": [
+    ["I", 416.7, 416.8],
+    ["have", 416.8, 417.0],
+    ["this", 417.0, 417.19],
+    ["closet", 417.19, 417.5],
+    ["that's", 417.5, 417.8],
+    ["kind", 417.8, 418.0],
+    ["of", 418.0, 418.09],
+    ["like", 418.09, 418.39],
+    ["for", 418.39, 418.5],
+    ["decor", 418.5, 419.0],
+    ["and", 419.0, 419.1],
+    ["memories,", 419.1, 419.5],
+    ["and", 419.5, 419.6],
+    ["it's", 419.6, 419.8],
+    ["awesome,", 419.8, 420.5],
+    ["but", 420.5, 420.6],
+    ["there", 420.6, 420.69],
+    ["are", 420.69, 420.8],
+    ["things", 420.8, 421.09],
+    ["I", 421.09, 421.19],
+    ["don't", 421.19, 421.5],
+    ["use.", 421.5, 421.89]
+   ]
+  },
+  {
+   "text": "And what I really need is a spot to hide the Christmas gifts and a spot for my cards and wrapping paper.",
+   "start": 421.89,
+   "end": 427.3,
+   "words": [
+    ["And", 421.89, 422.09],
+    ["what", 422.09, 422.19],
+    ["I", 422.19, 422.3],
+    ["really", 422.3, 422.69],
+    ["need", 422.69, 422.9],
+    ["is", 422.9, 423.1],
+    ["a", 423.1, 423.16],
+    ["spot", 423.16, 423.4],
+    ["to", 423.4, 423.5],
+    ["hide", 423.5, 423.69],
+    ["the", 423.69, 423.8],
+    ["Christmas", 423.8, 424.1],
+    ["gifts", 424.1, 424.5],
+    ["and", 424.5, 424.69],
+    ["a", 424.69, 424.8],
+    ["spot", 424.8, 425.1],
+    ["for", 425.1, 425.3],
+    ["my", 425.3, 425.5],
+    ["cards", 425.5, 426.1],
+    ["and", 426.19, 426.39],
+    ["wrapping", 426.39, 426.8],
+    ["paper.", 426.8, 427.3]
+   ]
+  },
+  {
+   "text": "And you know like when you buy something for someone and you're like, this is so perfect.",
+   "start": 427.3,
+   "end": 431.39,
+   "words": [
+    ["And", 427.3, 427.74],
+    ["you", 427.89, 428.0],
+    ["know", 428.0, 428.09],
+    ["like", 428.09, 428.3],
+    ["when", 428.3, 428.4],
+    ["you", 428.4, 428.5],
+    ["buy", 428.5, 428.69],
+    ["something", 428.69, 429.0],
+    ["for", 429.0, 429.1],
+    ["someone", 429.1, 429.4],
+    ["and", 429.4, 429.5],
+    ["you're", 429.5, 429.6],
+    ["like,", 429.6, 429.69],
+    ["this", 429.69, 430.1],
+    ["is", 430.1, 430.3],
+    ["so", 430.3, 430.66],
+    ["perfect.", 430.69, 431.39]
+   ]
+  },
+  {
+   "text": "I'm going to put it in a good space until their birthday or the next holiday.",
+   "start": 431.39,
+   "end": 436.24,
+   "words": [
+    ["I'm", 431.39, 431.6],
+    ["going", 431.6, 431.7],
+    ["to", 431.7, 431.8],
+    ["put", 431.8, 432.1],
+    ["it", 432.1, 432.2],
+    ["in", 432.2, 432.3],
+    ["a", 432.3, 432.38],
+    ["good", 432.38, 432.7],
+    ["space", 432.7, 433.3],
+    ["until", 433.5, 433.8],
+    ["their", 433.8, 433.9],
+    ["birthday", 433.9, 434.74],
+    ["or", 434.9, 435.1],
+    ["the", 435.1, 435.22],
+    ["next", 435.22, 435.4],
+    ["holiday.", 435.4, 436.24]
+   ]
+  },
+  {
+   "text": "And then you forget about it and you forget where that good spot is.",
+   "start": 436.3,
+   "end": 439.84,
+   "words": [
+    ["And", 436.3, 436.5],
+    ["then", 436.5, 436.69],
+    ["you", 436.69, 437.0],
+    ["forget", 437.0, 437.3],
+    ["about", 437.3, 437.5],
+    ["it", 437.5, 437.69],
+    ["and", 437.69, 437.8],
+    ["you", 437.8, 437.89],
+    ["forget", 437.89, 438.1],
+    ["where", 438.1, 438.3],
+    ["that", 438.3, 438.4],
+    ["good", 438.4, 438.6],
+    ["spot", 438.6, 439.12],
+    ["is.", 439.4, 439.84]
+   ]
+  },
+  {
+   "text": "I'm going to give a whole shelf in here just for that.",
+   "start": 440.5,
+   "end": 442.69,
+   "words": [
+    ["I'm", 440.5, 440.6],
+    ["going", 440.6, 440.69],
+    ["to", 440.69, 440.75],
+    ["give", 440.73, 440.8],
+    ["a", 440.8, 440.89],
+    ["whole", 440.89, 441.1],
+    ["shelf", 441.1, 441.5],
+    ["in", 441.5, 441.6],
+    ["here", 441.6, 441.89],
+    ["just", 441.89, 442.09],
+    ["for", 442.09, 442.19],
+    ["that.", 442.19, 442.69]
+   ]
+  },
+  {
+   "text": "So where is your gift-giving station?",
+   "start": 442.69,
+   "end": 445.0,
+   "words": [
+    ["So", 442.69, 442.79],
+    ["where", 442.79, 443.09],
+    ["is", 443.09, 443.29],
+    ["your", 443.29, 443.5],
+    ["gift-giving", 443.5, 444.39],
+    ["station?", 444.39, 445.0]
+   ]
+  },
+  {
+   "text": "It doesn't have to be something elaborate.",
+   "start": 445.0,
+   "end": 446.6,
+   "words": [
+    ["It", 445.0, 445.1],
+    ["doesn't", 445.1, 445.39],
+    ["have", 445.39, 445.5],
+    ["to", 445.5, 445.6],
+    ["be", 445.6, 445.7],
+    ["something", 445.7, 446.0],
+    ["elaborate.", 446.0, 446.6]
+   ]
+  },
+  {
+   "text": "It can be basket a or a box or one shelf like me,",
+   "start": 446.6,
+   "end": 449.8,
+   "words": [
+    ["It", 446.6, 446.7],
+    ["can", 446.7, 446.8],
+    ["be", 446.8, 447.16],
+    ["basket", 447.19, 447.25],
+    ["a", 447.2, 447.48],
+    ["or", 447.69, 447.76],
+    ["a", 447.76, 447.81],
+    ["box", 447.8, 448.24],
+    ["or", 448.3, 448.39],
+    ["one", 448.39, 448.8],
+    ["shelf", 448.8, 449.39],
+    ["like", 449.39, 449.5],
+    ["me,", 449.5, 449.8]
+   ]
+  },
+  {
+   "text": "but let me know in the comments below where First of all, if you have one, and if not,",
+   "start": 449.8,
+   "end": 455.12,
+   "words": [
+    ["but", 449.8, 450.24],
+    ["let", 450.3, 450.4],
+    ["me", 450.4, 450.5],
+    ["know", 450.5, 450.6],
+    ["in", 450.6, 450.69],
+    ["the", 450.69, 450.8],
+    ["comments", 450.8, 451.19],
+    ["below", 451.19, 451.69],
+    ["where", 451.69, 452.3],
+    ["First", 452.5, 452.69],
+    ["of", 452.69, 452.8],
+    ["all,", 452.8, 452.89],
+    ["if", 452.89, 453.09],
+    ["you", 453.09, 453.18],
+    ["have", 453.18, 453.3],
+    ["one,", 453.3, 453.81],
+    ["and", 453.89, 454.33],
+    ["if", 454.5, 454.6],
+    ["not,", 454.6, 455.12]
+   ]
+  },
+  {
+   "text": "where you're going to put yours.",
+   "start": 455.3,
+   "end": 456.57,
+   "words": [
+    ["where", 455.3, 455.5],
+    ["you're", 455.5, 455.6],
+    ["going", 455.6, 455.69],
+    ["to", 455.69, 455.8],
+    ["put", 455.8, 455.89],
+    ["yours.", 455.89, 456.57]
+   ]
+  },
+  {
+   "text": "We need this.",
+   "start": 456.8,
+   "end": 457.8,
+   "words": [
+    ["We", 456.8, 457.0],
+    ["need", 457.0, 457.19],
+    ["this.", 457.19, 457.8]
+   ]
+  },
+  {
+   "text": "A lunch-making or a leftover station.",
+   "start": 458.19,
+   "end": 461.39,
+   "words": [
+    ["A", 458.19, 458.39],
+    ["lunch-making", 458.39, 459.39],
+    ["or", 459.39, 459.75],
+    ["a", 460.09, 460.3],
+    ["leftover", 460.3, 460.89],
+    ["station.", 460.89, 461.39]
+   ]
+  },
+  {
+   "text": "So if you don't make a lunch every day, you might not need a lunch-making station, but when my kids were little, it was a lifesaver.",
+   "start": 461.39,
+   "end": 467.89,
+   "words": [
+    ["So", 461.39, 461.5],
+    ["if", 461.5, 461.6],
+    ["you", 461.6, 461.8],
+    ["don't", 461.8, 462.1],
+    ["make", 462.1, 462.19],
+    ["a", 462.19, 462.3],
+    ["lunch", 462.3, 462.5],
+    ["every", 462.5, 462.8],
+    ["day,", 462.8, 463.0],
+    ["you", 463.0, 463.1],
+    ["might", 463.1, 463.3],
+    ["not", 463.3, 463.5],
+    ["need", 463.5, 463.8],
+    ["a", 463.8, 463.9],
+    ["lunch-making", 463.9, 464.5],
+    ["station,", 464.5, 465.0],
+    ["but", 465.0, 465.19],
+    ["when", 465.19, 465.3],
+    ["my", 465.3, 465.5],
+    ["kids", 465.5, 465.69],
+    ["were", 465.69, 465.8],
+    ["little,", 465.8, 466.3],
+    ["it", 466.3, 466.5],
+    ["was", 466.5, 466.8],
+    ["a", 466.8, 466.89],
+    ["lifesaver.", 466.89, 467.89]
+   ]
+  },
+  {
+   "text": "Their lunch bags and their snacks and their water bottles all stored in the same place.",
+   "start": 468.5,
+   "end": 473.8,
+   "words": [
+    ["Their", 468.5, 469.1],
+    ["lunch", 469.1, 469.3],
+    ["bags", 469.3, 469.69],
+    ["and", 469.69, 469.89],
+    ["their", 469.89, 470.0],
+    ["snacks", 470.0, 470.68],
+    ["and", 470.69, 471.1],
+    ["their", 471.1, 471.3],
+    ["water", 471.3, 471.5],
+    ["bottles", 471.5, 472.1],
+    ["all", 472.1, 472.4],
+    ["stored", 472.4, 472.9],
+    ["in", 472.9, 473.0],
+    ["the", 473.0, 473.1],
+    ["same", 473.1, 473.4],
+    ["place.", 473.4, 473.8]
+   ]
+  },
+  {
+   "text": "And now I have a leftover station where all our food storage containers are and the baggies and tin foil.",
+   "start": 473.8,
+   "end": 480.6,
+   "words": [
+    ["And", 473.8, 474.0],
+    ["now", 474.0, 474.44],
+    ["I", 474.5, 474.6],
+    ["have", 474.6, 474.8],
+    ["a", 474.8, 474.9],
+    ["leftover", 474.9, 475.39],
+    ["station", 475.39, 476.0],
+    ["where", 476.0, 476.29],
+    ["all", 476.29, 476.5],
+    ["our", 476.5, 476.69],
+    ["food", 476.69, 477.0],
+    ["storage", 477.0, 477.3],
+    ["containers", 477.3, 477.9],
+    ["are", 477.9, 478.19],
+    ["and", 478.19, 478.63],
+    ["the", 478.69, 478.9],
+    ["baggies", 478.9, 479.5],
+    ["and", 479.5, 479.69],
+    ["tin", 479.69, 480.0],
+    ["foil.", 480.0, 480.6]
+   ]
+  },
+  {
+   "text": "Don't the move your feet, friends. Be lazy.",
+   "start": 480.69,
+   "end": 483.89,
+   "words": [
+    ["Don't", 480.69, 481.2],
+    ["the", 481.2, 481.3],
+    ["move", 481.3, 481.59],
+    ["your", 481.59, 481.69],
+    ["feet,", 481.69, 482.3],
+    ["friends.", 482.3, 482.89],
+    ["Be", 482.89, 483.25],
+    ["lazy.", 483.29, 483.89]
+   ]
+  },
+  {
+   "text": "And this is something that costs you nothing.",
+   "start": 483.89,
+   "end": 485.8,
+   "words": [
+    ["And", 483.89, 484.0],
+    ["this", 484.0, 484.09],
+    ["is", 484.09, 484.29],
+    ["something", 484.29, 484.59],
+    ["that", 484.59, 484.8],
+    ["costs", 484.8, 485.19],
+    ["you", 485.19, 485.4],
+    ["nothing.", 485.4, 485.8]
+   ]
+  },
+  {
+   "text": "You just think about in your home where you stand when you make lunch or you pack leftovers and make sure everything is stored…",
+   "start": 485.8,
+   "end": 493.18,
+   "words": [
+    ["You", 485.8, 485.9],
+    ["just", 485.9, 486.19],
+    ["think", 486.19, 486.4],
+    ["about", 486.4, 486.89],
+    ["in", 486.89, 487.09],
+    ["your", 487.09, 487.19],
+    ["home", 487.19, 487.59],
+    ["where", 487.59, 487.8],
+    ["you", 487.8, 488.0],
+    ["stand", 488.0, 488.5],
+    ["when", 488.5, 488.6],
+    ["you", 488.6, 488.7],
+    ["make", 488.7, 489.0],
+    ["lunch", 489.0, 489.3],
+    ["or", 489.3, 489.4],
+    ["you", 489.4, 489.5],
+    ["pack", 489.5, 489.8],
+    ["leftovers", 489.8, 490.72],
+    ["and", 490.8, 491.0],
+    ["make", 491.0, 491.2],
+    ["sure", 491.2, 491.7],
+    ["everything", 491.7, 492.3],
+    ["is", 492.3, 492.5],
+    ["stored", 492.5, 493.18]
+   ]
+  },
+  {
+   "text": "where you don't have to move to access it.",
+   "start": 493.5,
+   "end": 495.84,
+   "words": [
+    ["where", 493.5, 493.7],
+    ["you", 493.7, 493.75],
+    ["don't", 493.7, 493.9],
+    ["have", 493.9, 494.0],
+    ["to", 494.0, 494.1],
+    ["move", 494.1, 494.62],
+    ["to", 494.9, 495.0],
+    ["access", 495.0, 495.4],
+    ["it.", 495.4, 495.84]
+   ]
+  },
+  {
+   "text": "A laundry station.",
+   "start": 496.6,
+   "end": 497.84,
+   "words": [
+    ["A", 496.6, 496.7],
+    ["laundry", 496.7, 497.0],
+    ["station.", 497.0, 497.84]
+   ]
+  },
+  {
+   "text": "It's just gathering all the things you use for laundry again so you don't have to move your feet.",
+   "start": 497.9,
+   "end": 502.7,
+   "words": [
+    ["It's", 497.9, 498.1],
+    ["just", 498.1, 498.5],
+    ["gathering", 498.5, 499.0],
+    ["all", 499.0, 499.2],
+    ["the", 499.2, 499.3],
+    ["things", 499.3, 499.6],
+    ["you", 499.6, 499.7],
+    ["use", 499.7, 500.0],
+    ["for", 500.0, 500.2],
+    ["laundry", 500.2, 500.7],
+    ["again", 500.7, 501.1],
+    ["so", 501.1, 501.2],
+    ["you", 501.2, 501.3],
+    ["don't", 501.3, 501.6],
+    ["have", 501.6, 501.8],
+    ["to", 501.8, 501.9],
+    ["move", 501.9, 502.1],
+    ["your", 502.1, 502.2],
+    ["feet.", 502.2, 502.7]
+   ]
+  },
+  {
+   "text": "And don't forget things like sticky roller and stain remover.",
+   "start": 502.7,
+   "end": 505.4,
+   "words": [
+    ["And", 502.7, 502.75],
+    ["don't", 502.7, 502.9],
+    ["forget", 502.9, 503.1],
+    ["things", 503.1, 503.3],
+    ["like", 503.3, 503.5],
+    ["sticky", 503.5, 503.8],
+    ["roller", 503.8, 504.2],
+    ["and", 504.2, 504.3],
+    ["stain", 504.3, 504.6],
+    ["remover.", 504.6, 505.4]
+   ]
+  },
+  {
+   "text": "All of it, one spot.",
+   "start": 505.4,
+   "end": 506.8,
+   "words": [
+    ["All", 505.4, 505.6],
+    ["of", 505.6, 505.7],
+    ["it,", 505.7, 506.0],
+    ["one", 506.0, 506.2],
+    ["spot.", 506.2, 506.8]
+   ]
+  },
+  {
+   "text": "That's the secret.",
+   "start": 506.8,
+   "end": 507.86,
+   "words": [
+    ["That's", 506.8, 507.0],
+    ["the", 507.0, 507.1],
+    ["secret.", 507.1, 507.86]
+   ]
+  },
+  {
+   "text": "Memory station. It's a spot in your home not for long-term memories but for you to toss the stuff like report cards or photos or obituaries,",
+   "start": 508.3,
+   "end": 516.8,
+   "words": [
+    ["Memory", 508.3, 508.98],
+    ["station.", 509.6, 510.4],
+    ["It's", 510.4, 510.6],
+    ["a", 510.6, 510.66],
+    ["spot", 510.66, 510.9],
+    ["in", 510.9, 510.96],
+    ["your", 510.96, 511.1],
+    ["home", 511.1, 511.3],
+    ["not", 511.3, 511.6],
+    ["for", 511.6, 511.8],
+    ["long-term", 511.8, 512.3],
+    ["memories", 512.3, 512.8],
+    ["but", 512.8, 513.0],
+    ["for", 513.0, 513.1],
+    ["you", 513.1, 513.2],
+    ["to", 513.2, 513.3],
+    ["toss", 513.3, 513.6],
+    ["the", 513.6, 513.7],
+    ["stuff", 513.7, 514.0],
+    ["like", 514.0, 514.5],
+    ["report", 514.5, 514.8],
+    ["cards", 514.8, 515.1],
+    ["or", 515.1, 515.2],
+    ["photos", 515.2, 515.7],
+    ["or", 515.7, 516.06],
+    ["obituaries,", 516.1, 516.8]
+   ]
+  },
+  {
+   "text": "things that are special but you're too lazy to put them in their forever special home.",
+   "start": 516.8,
+   "end": 520.6,
+   "words": [
+    ["things", 516.8, 517.0],
+    ["that", 517.0, 517.1],
+    ["are", 517.1, 517.2],
+    ["special", 517.2, 517.8],
+    ["but", 517.8, 518.0],
+    ["you're", 518.0, 518.1],
+    ["too", 518.1, 518.3],
+    ["lazy", 518.3, 518.7],
+    ["to", 518.7, 518.8],
+    ["put", 518.8, 519.0],
+    ["them", 519.0, 519.1],
+    ["in", 519.1, 519.2],
+    ["their", 519.2, 519.4],
+    ["forever", 519.4, 519.8],
+    ["special", 519.8, 520.1],
+    ["home.", 520.1, 520.6]
+   ]
+  },
+  {
+   "text": "A little memory station.",
+   "start": 520.6,
+   "end": 522.04,
+   "words": [
+    ["A", 520.6, 520.85],
+    ["little", 520.85, 520.9],
+    ["memory", 520.9, 521.2],
+    ["station.", 521.2, 522.04]
+   ]
+  },
+  {
+   "text": "Awesome. And keep it right where you would naturally put that stuff down which is why it's in the entrance way.",
+   "start": 522.4,
+   "end": 527.4,
+   "words": [
+    ["Awesome.", 522.4, 523.2],
+    ["And", 523.2, 523.3],
+    ["keep", 523.3, 523.6],
+    ["it", 523.6, 523.9],
+    ["right", 523.9, 524.1],
+    ["where", 524.1, 524.3],
+    ["you", 524.3, 524.4],
+    ["would", 524.4, 524.5],
+    ["naturally", 524.5, 525.1],
+    ["put", 525.1, 525.3],
+    ["that", 525.3, 525.4],
+    ["stuff", 525.4, 525.7],
+    ["down", 525.7, 526.0],
+    ["which", 526.0, 526.1],
+    ["is", 526.1, 526.3],
+    ["why", 526.3, 526.4],
+    ["it's", 526.4, 526.5],
+    ["in", 526.5, 526.6],
+    ["the", 526.6, 526.7],
+    ["entrance", 526.7, 527.1],
+    ["way.", 527.1, 527.4]
+   ]
+  },
+  {
+   "text": "Also bonus sock station because we're too lazy to go back upstairs when we forget socks.",
+   "start": 527.4,
+   "end": 533.38,
+   "words": [
+    ["Also", 527.4, 527.92],
+    ["bonus", 528.0, 528.6],
+    ["sock", 528.7, 529.0],
+    ["station", 529.0, 529.5],
+    ["because", 529.5, 530.26],
+    ["we're", 530.6, 530.8],
+    ["too", 530.8, 530.9],
+    ["lazy", 530.9, 531.3],
+    ["to", 531.3, 531.4],
+    ["go", 531.4, 531.5],
+    ["back", 531.5, 531.8],
+    ["upstairs", 531.8, 532.1],
+    ["when", 532.1, 532.3],
+    ["we", 532.3, 532.4],
+    ["forget", 532.4, 532.7],
+    ["socks.", 532.7, 533.38]
+   ]
+  },
+  {
+   "text": "That's just a one.",
+   "start": 533.4,
+   "end": 534.53,
+   "words": [
+    ["That's", 533.4, 533.6],
+    ["just", 533.6, 533.8],
+    ["a", 533.8, 534.08],
+    ["one.", 534.2, 534.53]
+   ]
+  },
+  {
+   "text": "Bonus It's not in the bins. It's 21.",
+   "start": 534.53,
+   "end": 536.84,
+   "words": [
+    ["bonus", 534.53, 534.6],
+    ["It's", 534.6, 534.7],
+    ["not", 534.7, 535.1],
+    ["in", 535.1, 535.3],
+    ["the", 535.3, 535.7],
+    ["bins.", 535.7, 536.3],
+    ["It's", 536.3, 536.4],
+    ["21.", 536.4, 536.84]
+   ]
+  },
+  {
+   "text": "Random household junk station.",
+   "start": 538.2,
+   "end": 540.3,
+   "words": [
+    ["Random", 538.2, 538.6],
+    ["household", 538.6, 539.1],
+    ["junk", 539.1, 539.5],
+    ["station.", 539.5, 540.3]
+   ]
+  },
+  {
+   "text": "You all that stuff know that you're like I'm not sure what this is or if I 100% need it but it probably is important.",
+   "start": 540.3,
+   "end": 546.5,
+   "words": [
+    ["You", 540.3, 540.6],
+    ["all", 540.6, 540.8],
+    ["that", 540.8, 541.0],
+    ["stuff", 541.0, 541.15],
+    ["know", 541.15, 541.6],
+    ["that", 541.6, 541.7],
+    ["you're", 541.7, 541.9],
+    ["like", 541.9, 542.0],
+    ["I'm", 542.0, 542.2],
+    ["not", 542.2, 542.3],
+    ["sure", 542.3, 542.6],
+    ["what", 542.6, 542.7],
+    ["this", 542.7, 542.9],
+    ["is", 542.9, 543.26],
+    ["or", 543.3, 543.4],
+    ["if", 543.4, 543.5],
+    ["I", 543.5, 543.6],
+    ["100%", 543.6, 544.12],
+    ["need", 544.2, 544.4],
+    ["it", 544.4, 544.7],
+    ["but", 544.7, 544.8],
+    ["it", 544.8, 544.9],
+    ["probably", 544.9, 545.4],
+    ["is", 545.4, 545.7],
+    ["important.", 545.7, 546.5]
+   ]
+  },
+  {
+   "text": "And where do you put it?",
+   "start": 546.5,
+   "end": 547.3,
+   "words": [
+    ["And", 546.5, 546.6],
+    ["where", 546.6, 546.8],
+    ["do", 546.8, 546.85],
+    ["you", 546.84, 546.9],
+    ["put", 546.9, 547.1],
+    ["it?", 547.1, 547.3]
+   ]
+  },
+  {
+   "text": "Like I don't know, crazy glue and these little felt pads and the random parts that come with stuff that probably maybe I don't know, random household bins.",
+   "start": 547.3,
+   "end": 556.9,
+   "words": [
+    ["Like", 547.3, 547.7],
+    ["I", 547.7, 547.8],
+    ["don't", 547.8, 547.9],
+    ["know,", 547.9, 548.1],
+    ["crazy", 548.1, 548.5],
+    ["glue", 548.5, 548.9],
+    ["and", 548.9, 549.34],
+    ["these", 549.5, 549.7],
+    ["little", 549.7, 549.9],
+    ["felt", 549.9, 550.1],
+    ["pads", 550.1, 550.62],
+    ["and", 550.7, 550.9],
+    ["the", 550.9, 551.0],
+    ["random", 551.0, 551.3],
+    ["parts", 551.3, 551.6],
+    ["that", 551.6, 551.7],
+    ["come", 551.7, 551.8],
+    ["with", 551.8, 552.0],
+    ["stuff", 552.0, 552.2],
+    ["that", 552.2, 552.5],
+    ["probably", 552.5, 553.2],
+    ["maybe", 553.2, 553.7],
+    ["I", 553.7, 553.9],
+    ["don't", 553.9, 554.1],
+    ["know,", 554.1, 554.7],
+    ["random", 554.7, 555.38],
+    ["household", 555.6, 556.3],
+    ["bins.", 556.3, 556.9]
+   ]
+  },
+  {
+   "text": "I actually get paid for this which is…",
+   "start": 559.7,
+   "end": 561.26,
+   "words": [
+    ["I", 559.7, 559.8],
+    ["actually", 559.8, 560.1],
+    ["get", 560.1, 560.2],
+    ["paid", 560.2, 560.4],
+    ["for", 560.4, 560.5],
+    ["this", 560.5, 560.7],
+    ["which", 560.7, 560.9],
+    ["is", 560.9, 561.26]
+   ]
+  },
+  {
+   "text": "Sometimes I feel like these are the most ridiculous tips ever but honestly they are also awesome.",
+   "start": 563.1,
+   "end": 569.2,
+   "words": [
+    ["Sometimes", 563.1, 563.5],
+    ["I", 563.5, 563.6],
+    ["feel", 563.6, 563.8],
+    ["like", 563.8, 564.0],
+    ["these", 564.0, 564.3],
+    ["are", 564.3, 564.5],
+    ["the", 564.5, 564.6],
+    ["most", 564.6, 564.9],
+    ["ridiculous", 564.9, 565.6],
+    ["tips", 565.6, 565.9],
+    ["ever", 565.9, 566.1],
+    ["but", 566.1, 566.4],
+    ["honestly", 566.4, 567.24],
+    ["they", 567.5, 567.8],
+    ["are", 567.8, 568.0],
+    ["also", 568.0, 568.5],
+    ["awesome.", 568.5, 569.2]
+   ]
+  },
+  {
+   "text": "They're like dumb and awesome which probably is the point, right?",
+   "start": 569.2,
+   "end": 574.1,
+   "words": [
+    ["They're", 569.2, 569.4],
+    ["like", 569.4, 569.7],
+    ["dumb", 569.7, 570.1],
+    ["and", 570.1, 570.3],
+    ["awesome", 570.3, 571.06],
+    ["which", 571.5, 572.1],
+    ["probably", 572.4, 572.8],
+    ["is", 572.8, 572.9],
+    ["the", 572.9, 573.1],
+    ["point,", 573.1, 573.6],
+    ["right?", 573.6, 574.1]
+   ]
+  },
+  {
+   "text": "Like why are we overthinking organization?",
+   "start": 574.1,
+   "end": 576.8,
+   "words": [
+    ["Like", 574.1, 574.3],
+    ["why", 574.3, 574.6],
+    ["are", 574.6, 574.7],
+    ["we", 574.7, 574.9],
+    ["overthinking", 574.9, 575.8],
+    ["organization?", 575.8, 576.8]
+   ]
+  },
+  {
+   "text": "It should just be as easy as a random catcher bin.",
+   "start": 576.8,
+   "end": 580.92,
+   "words": [
+    ["It", 576.8, 577.0],
+    ["should", 577.0, 577.4],
+    ["just", 577.4, 577.7],
+    ["be", 577.7, 577.8],
+    ["as", 577.8, 578.0],
+    ["easy", 578.0, 578.52],
+    ["as", 578.7, 578.9],
+    ["a", 578.9, 579.0],
+    ["random", 579.0, 579.68],
+    ["catcher", 580.1, 580.4],
+    ["bin.", 580.4, 580.92]
+   ]
+  },
+  {
+   "text": "Bill paying station.",
+   "start": 581.8,
+   "end": 583.0,
+   "words": [
+    ["Bill", 581.8, 582.0],
+    ["paying", 582.0, 582.3],
+    ["station.", 582.3, 583.0]
+   ]
+  },
+  {
+   "text": "I know some of these you might be thinking duh, that's obvious.",
+   "start": 583.0,
+   "end": 586.4,
+   "words": [
+    ["I", 583.0, 583.1],
+    ["know", 583.1, 583.3],
+    ["some", 583.3, 583.4],
+    ["of", 583.4, 583.5],
+    ["these", 583.5, 583.9],
+    ["you", 583.9, 584.0],
+    ["might", 584.0, 584.1],
+    ["be", 584.1, 584.2],
+    ["thinking", 584.2, 585.0],
+    ["duh,", 585.0, 585.5],
+    ["that's", 585.5, 585.8],
+    ["obvious.", 585.8, 586.4]
+   ]
+  },
+  {
+   "text": "It is obvious.",
+   "start": 586.4,
+   "end": 587.94,
+   "words": [
+    ["It", 586.4, 586.7],
+    ["is", 586.7, 587.06],
+    ["obvious.", 587.1, 587.94]
+   ]
+  },
+  {
+   "text": "All of these should be obvious but are you actually creating these in your home?",
+   "start": 588.0,
+   "end": 593.0,
+   "words": [
+    ["All", 588.0, 588.3],
+    ["of", 588.3, 588.4],
+    ["these", 588.4, 588.7],
+    ["should", 588.7, 588.9],
+    ["be", 588.9, 589.1],
+    ["obvious", 589.1, 589.86],
+    ["but", 589.9, 590.0],
+    ["are", 590.0, 590.1],
+    ["you", 590.1, 590.4],
+    ["actually", 590.4, 591.1],
+    ["creating", 591.1, 591.8],
+    ["these", 591.8, 592.1],
+    ["in", 592.1, 592.2],
+    ["your", 592.2, 592.4],
+    ["home?", 592.4, 593.0]
+   ]
+  },
+  {
+   "text": "A bill paying station's just an action file.",
+   "start": 593.0,
+   "end": 595.2,
+   "words": [
+    ["A", 593.0, 593.1],
+    ["bill", 593.1, 593.3],
+    ["paying", 593.3, 593.6],
+    ["station's", 593.6, 594.1],
+    ["just", 594.1, 594.4],
+    ["an", 594.4, 594.5],
+    ["action", 594.5, 594.8],
+    ["file.", 594.8, 595.2]
+   ]
+  },
+  {
+   "text": "It's where the important stuff goes.",
+   "start": 595.2,
+   "end": 596.8,
+   "words": [
+    ["It's", 595.2, 595.3],
+    ["where", 595.3, 595.5],
+    ["the", 595.5, 595.6],
+    ["important", 595.6, 596.1],
+    ["stuff", 596.1, 596.4],
+    ["goes.", 596.4, 596.8]
+   ]
+  },
+  {
+   "text": "Maybe if you are still a dinosaur like me and you mail bills it has like envelopes and stamps and just your credit card or passwords,",
+   "start": 596.8,
+   "end": 604.9,
+   "words": [
+    ["Maybe", 596.8, 597.1],
+    ["if", 597.1, 597.3],
+    ["you", 597.3, 597.7],
+    ["are", 597.7, 597.8],
+    ["still", 597.8, 598.4],
+    ["a", 599.0, 599.1],
+    ["dinosaur", 599.1, 599.5],
+    ["like", 599.5, 599.7],
+    ["me", 599.7, 599.9],
+    ["and", 599.9, 600.0],
+    ["you", 600.0, 600.2],
+    ["mail", 600.2, 600.5],
+    ["bills", 600.5, 600.9],
+    ["it", 600.9, 601.0],
+    ["has", 601.0, 601.2],
+    ["like", 601.2, 601.5],
+    ["envelopes", 601.5, 602.0],
+    ["and", 602.0, 602.2],
+    ["stamps", 602.2, 602.7],
+    ["and", 602.7, 603.14],
+    ["just", 603.2, 603.4],
+    ["your", 603.4, 603.5],
+    ["credit", 603.5, 603.8],
+    ["card", 603.8, 604.1],
+    ["or", 604.1, 604.2],
+    ["passwords,", 604.2, 604.9]
+   ]
+  },
+  {
+   "text": "all the stuff you need to deal with important paper in one spot.",
+   "start": 604.9,
+   "end": 608.6,
+   "words": [
+    ["all", 604.9, 605.2],
+    ["the", 605.2, 605.3],
+    ["stuff", 605.3, 605.7],
+    ["you", 605.7, 605.9],
+    ["need", 605.9, 606.4],
+    ["to", 606.4, 606.5],
+    ["deal", 606.5, 606.7],
+    ["with", 606.7, 606.8],
+    ["important", 606.8, 607.1],
+    ["paper", 607.1, 607.7],
+    ["in", 607.7, 607.9],
+    ["one", 607.9, 608.1],
+    ["spot.", 608.1, 608.6]
+   ]
+  },
+  {
+   "text": "Bill paying station.",
+   "start": 608.6,
+   "end": 609.8,
+   "words": [
+    ["Bill", 608.6, 608.8],
+    ["paying", 608.8, 609.0],
+    ["station.", 609.0, 609.8]
+   ]
+  },
+  {
+   "text": "Again, a lot of these are captain obvious, but are you doing them?",
+   "start": 609.8,
+   "end": 615.4,
+   "words": [
+    ["Again,", 609.8, 610.48],
+    ["a", 610.5, 610.6],
+    ["lot", 610.6, 610.9],
+    ["of", 610.9, 611.0],
+    ["these", 611.0, 611.3],
+    ["are", 611.3, 611.4],
+    ["captain", 611.4, 611.9],
+    ["obvious,", 611.9, 612.74],
+    ["but", 612.9, 613.34],
+    ["are", 613.5, 613.94],
+    ["you", 614.0, 614.44],
+    ["doing", 614.5, 614.9],
+    ["them?", 614.9, 615.4]
+   ]
+  },
+  {
+   "text": "That's the question.",
+   "start": 615.4,
+   "end": 616.6,
+   "words": [
+    ["That's", 615.4, 615.8],
+    ["the", 615.8, 615.9],
+    ["question.", 615.9, 616.6]
+   ]
+  },
+  {
+   "text": "Because if not, you should be.",
+   "start": 616.6,
+   "end": 618.54,
+   "words": [
+    ["Because", 616.6, 617.0],
+    ["if", 617.0, 617.1],
+    ["not,", 617.1, 617.62],
+    ["you", 617.7, 617.9],
+    ["should", 617.9, 618.1],
+    ["be.", 618.1, 618.54]
+   ]
+  },
+  {
+   "text": "Come with me.",
+   "start": 619.1,
+   "end": 619.94,
+   "words": [
+    ["Come", 619.1, 619.3],
+    ["with", 619.3, 619.5],
+    ["me.", 619.5, 619.94]
+   ]
+  },
+  {
+   "text": "This is my donation station.",
+   "start": 622.8,
+   "end": 625.54,
+   "words": [
+    ["This", 622.8, 623.2],
+    ["is", 623.2, 623.4],
+    ["my", 623.4, 623.7],
+    ["donation", 623.7, 624.54],
+    ["station.", 624.7, 625.54]
+   ]
+  },
+  {
+   "text": "This is um a a a Rubbermaid tote where I put stuff to be donated.",
+   "start": 625.6,
+   "end": 630.9,
+   "words": [
+    ["This", 625.6, 625.8],
+    ["is", 625.8, 626.1],
+    ["um", 626.1, 626.46],
+    ["a", 626.7, 626.98],
+    ["a", 627.1, 627.38],
+    ["a", 627.4, 627.5],
+    ["Rubbermaid", 627.5, 628.0],
+    ["tote", 628.0, 628.52],
+    ["where", 629.2, 629.4],
+    ["I", 629.4, 629.5],
+    ["put", 629.5, 629.7],
+    ["stuff", 629.7, 630.1],
+    ["to", 630.1, 630.2],
+    ["be", 630.2, 630.3],
+    ["donated.", 630.3, 630.9]
+   ]
+  },
+  {
+   "text": "And when it's full, which it is right now, then I move it to my car and I drop it off.",
+   "start": 630.9,
+   "end": 634.8,
+   "words": [
+    ["And", 630.9, 631.1],
+    ["when", 631.1, 631.2],
+    ["it's", 631.2, 631.4],
+    ["full,", 631.4, 631.8],
+    ["which", 631.8, 632.0],
+    ["it", 632.0, 632.1],
+    ["is", 632.1, 632.3],
+    ["right", 632.3, 632.6],
+    ["now,", 632.6, 633.0],
+    ["then", 633.0, 633.1],
+    ["I", 633.1, 633.2],
+    ["move", 633.2, 633.4],
+    ["it", 633.4, 633.5],
+    ["to", 633.5, 633.6],
+    ["my", 633.6, 633.7],
+    ["car", 633.7, 634.1],
+    ["and", 634.1, 634.2],
+    ["I", 634.2, 634.3],
+    ["drop", 634.3, 634.5],
+    ["it", 634.5, 634.7],
+    ["off.", 634.7, 634.8]
+   ]
+  },
+  {
+   "text": "But having this means I never have to wait until later.",
+   "start": 634.8,
+   "end": 638.28,
+   "words": [
+    ["But", 634.8, 635.0],
+    ["having", 635.0, 635.6],
+    ["this", 635.6, 635.9],
+    ["means", 635.9, 636.2],
+    ["I", 636.2, 636.3],
+    ["never", 636.3, 636.6],
+    ["have", 636.6, 636.7],
+    ["to", 636.7, 636.9],
+    ["wait", 636.9, 637.3],
+    ["until", 637.3, 637.6],
+    ["later.", 637.6, 638.28]
+   ]
+  },
+  {
+   "text": "Like when I tried on this shirt and I looked like my mother…",
+   "start": 638.3,
+   "end": 642.08,
+   "words": [
+    ["Like", 638.3, 638.5],
+    ["when", 638.5, 638.6],
+    ["I", 638.6, 638.7],
+    ["tried", 638.7, 639.0],
+    ["on", 639.0, 639.2],
+    ["this", 639.2, 639.4],
+    ["shirt", 639.4, 640.0],
+    ["and", 640.1, 640.3],
+    ["I", 640.3, 640.5],
+    ["looked", 640.5, 640.9],
+    ["like", 640.9, 641.2],
+    ["my", 641.2, 641.4],
+    ["mother", 641.4, 642.08]
+   ]
+  },
+  {
+   "text": "because she has one similar, I thought, girl, you're too young to look like a 72-year-old.",
+   "start": 642.3,
+   "end": 647.67,
+   "words": [
+    ["because", 642.3, 642.7],
+    ["she", 642.7, 642.9],
+    ["has", 642.9, 643.2],
+    ["one", 643.2, 643.4],
+    ["similar,", 643.4, 644.1],
+    ["I", 644.1, 644.2],
+    ["thought,", 644.2, 644.8],
+    ["girl,", 644.8, 645.4],
+    ["you're", 645.4, 645.5],
+    ["too", 645.5, 645.7],
+    ["young", 645.7, 646.0],
+    ["to", 646.0, 646.1],
+    ["look", 646.1, 646.3],
+    ["like", 646.3, 646.4],
+    ["a", 646.4, 646.51],
+    ["72-year-old.", 646.51, 647.67]
+   ]
+  },
+  {
+   "text": "Into the donation station it went.",
+   "start": 647.9,
+   "end": 650.1,
+   "words": [
+    ["Into", 647.9, 648.1],
+    ["the", 648.1, 648.3],
+    ["donation", 648.3, 648.9],
+    ["station", 648.9, 649.4],
+    ["it", 649.4, 649.5],
+    ["went.", 649.5, 650.1]
+   ]
+  },
+  {
+   "text": "Just get a bin somewhere in your house for donations to go.",
+   "start": 652.5,
+   "end": 655.04,
+   "words": [
+    ["Just", 652.5, 652.7],
+    ["get", 652.7, 652.9],
+    ["a", 652.9, 652.97],
+    ["bin", 652.97, 653.2],
+    ["somewhere", 653.2, 653.5],
+    ["in", 653.5, 653.6],
+    ["your", 653.6, 653.7],
+    ["house", 653.7, 653.9],
+    ["for", 653.9, 654.0],
+    ["donations", 654.0, 654.5],
+    ["to", 654.5, 654.6],
+    ["go.", 654.6, 655.04]
+   ]
+  },
+  {
+   "text": "This is a station that I have had for like 15 years and I absolutely recommend.",
+   "start": 656.1,
+   "end": 662.0,
+   "words": [
+    ["This", 656.1, 656.4],
+    ["is", 656.4, 656.5],
+    ["a", 656.5, 656.6],
+    ["station", 656.6, 657.2],
+    ["that", 657.2, 657.4],
+    ["I", 657.4, 657.5],
+    ["have", 657.5, 657.6],
+    ["had", 657.6, 658.0],
+    ["for", 658.0, 658.2],
+    ["like", 658.2, 658.5],
+    ["15", 658.5, 658.86],
+    ["years", 659.7, 660.3],
+    ["and", 660.3, 660.5],
+    ["I", 660.5, 660.7],
+    ["absolutely", 660.7, 661.4],
+    ["recommend.", 661.4, 662.0]
+   ]
+  },
+  {
+   "text": "I call this a homework station, but you can also call it an art station.",
+   "start": 662.0,
+   "end": 666.14,
+   "words": [
+    ["I", 662.0, 662.1],
+    ["call", 662.1, 662.3],
+    ["this", 662.3, 662.6],
+    ["a", 662.6, 662.7],
+    ["homework", 662.7, 663.3],
+    ["station,", 663.3, 663.9],
+    ["but", 663.9, 664.0],
+    ["you", 664.0, 664.1],
+    ["can", 664.1, 664.2],
+    ["also", 664.2, 664.5],
+    ["call", 664.5, 664.7],
+    ["it", 664.7, 664.8],
+    ["an", 664.8, 665.0],
+    ["art", 665.0, 665.3],
+    ["station.", 665.3, 666.14]
+   ]
+  },
+  {
+   "text": "My kids keep all the things they use when doing homework in this cart.",
+   "start": 666.3,
+   "end": 670.6,
+   "words": [
+    ["My", 666.3, 666.6],
+    ["kids", 666.6, 666.9],
+    ["keep", 666.9, 667.4],
+    ["all", 667.4, 667.8],
+    ["the", 667.8, 667.9],
+    ["things", 667.9, 668.2],
+    ["they", 668.2, 668.3],
+    ["use", 668.3, 668.6],
+    ["when", 668.6, 668.7],
+    ["doing", 668.7, 668.9],
+    ["homework", 668.9, 669.7],
+    ["in", 669.7, 669.8],
+    ["this", 669.8, 670.0],
+    ["cart.", 670.0, 670.6]
+   ]
+  },
+  {
+   "text": "Now I even have a 20-year-old.",
+   "start": 670.7,
+   "end": 672.1,
+   "words": [
+    ["Now", 670.7, 671.0],
+    ["I", 671.0, 671.1],
+    ["even", 671.1, 671.3],
+    ["have", 671.3, 671.4],
+    ["a", 671.4, 671.5],
+    ["20-year-old.", 671.5, 672.1]
+   ]
+  },
+  {
+   "text": "She still has a homework station because she's in college.",
+   "start": 672.1,
+   "end": 675.7,
+   "words": [
+    ["She", 672.1, 672.3],
+    ["still", 672.3, 672.9],
+    ["has", 673.0, 673.44],
+    ["a", 673.5, 673.6],
+    ["homework", 673.6, 674.2],
+    ["station", 674.2, 674.6],
+    ["because", 674.6, 674.8],
+    ["she's", 674.8, 675.0],
+    ["in", 675.0, 675.2],
+    ["college.", 675.2, 675.7]
+   ]
+  },
+  {
+   "text": "It's just handy dandy.",
+   "start": 675.7,
+   "end": 676.9,
+   "words": [
+    ["It's", 675.7, 675.9],
+    ["just", 675.9, 676.1],
+    ["handy", 676.1, 676.4],
+    ["dandy.", 676.4, 676.9]
+   ]
+  },
+  {
+   "text": "Especially I like it on wheels because sometimes they might want to be in the kitchen or the dining room or their room and it's portable.",
+   "start": 676.9,
+   "end": 683.8,
+   "words": [
+    ["Especially", 676.9, 677.5],
+    ["I", 677.5, 677.6],
+    ["like", 677.6, 677.8],
+    ["it", 677.8, 677.9],
+    ["on", 677.9, 678.1],
+    ["wheels", 678.1, 678.5],
+    ["because", 678.5, 678.9],
+    ["sometimes", 678.9, 679.5],
+    ["they", 679.5, 679.6],
+    ["might", 679.6, 679.9],
+    ["want", 679.9, 680.1],
+    ["to", 680.1, 680.2],
+    ["be", 680.2, 680.3],
+    ["in", 680.3, 680.4],
+    ["the", 680.4, 680.5],
+    ["kitchen", 680.5, 680.9],
+    ["or", 680.9, 681.1],
+    ["the", 681.1, 681.2],
+    ["dining", 681.2, 681.5],
+    ["room", 681.5, 681.7],
+    ["or", 681.7, 681.9],
+    ["their", 681.9, 682.1],
+    ["room", 682.1, 682.5],
+    ["and", 682.5, 682.7],
+    ["it's", 682.7, 682.9],
+    ["portable.", 682.9, 683.8]
+   ]
+  },
+  {
+   "text": "So if you like to art or craft or if you have kids who do homework, a homework station.",
+   "start": 683.8,
+   "end": 689.84,
+   "words": [
+    ["So", 683.8, 684.0],
+    ["if", 684.0, 684.1],
+    ["you", 684.1, 684.54],
+    ["like", 684.9, 685.1],
+    ["to", 685.1, 685.3],
+    ["art", 685.3, 685.74],
+    ["or", 685.8, 685.9],
+    ["craft", 685.9, 686.5],
+    ["or", 686.5, 686.6],
+    ["if", 686.6, 686.7],
+    ["you", 686.7, 686.8],
+    ["have", 686.8, 686.9],
+    ["kids", 686.9, 687.3],
+    ["who", 687.3, 687.4],
+    ["do", 687.4, 687.6],
+    ["homework,", 687.6, 688.3],
+    ["a", 688.3, 688.58],
+    ["homework", 688.59, 689.0],
+    ["station.", 689.0, 689.84]
+   ]
+  },
+  {
+   "text": "Putting it in a cart is like an extra bonus.",
+   "start": 689.9,
+   "end": 692.58,
+   "words": [
+    ["Putting", 689.9, 690.1],
+    ["it", 690.1, 690.2],
+    ["in", 690.2, 690.3],
+    ["a", 690.3, 690.4],
+    ["cart", 690.4, 690.8],
+    ["is", 690.8, 690.9],
+    ["like", 690.9, 691.42],
+    ["an", 691.5, 691.6],
+    ["extra", 691.6, 691.9],
+    ["bonus.", 691.9, 692.58]
+   ]
+  },
+  {
+   "text": "Do you have a wellness station?",
+   "start": 693.3,
+   "end": 696.14,
+   "words": [
+    ["Do", 693.3, 693.4],
+    ["you", 693.4, 693.7],
+    ["have", 693.7, 694.2],
+    ["a", 694.2, 694.4],
+    ["wellness", 694.4, 695.24],
+    ["station?", 695.3, 696.14]
+   ]
+  },
+  {
+   "text": "Do you know how many times I find cough syrup and stuff in the kitchen?",
+   "start": 696.3,
+   "end": 699.24,
+   "words": [
+    ["Do", 696.3, 696.4],
+    ["you", 696.4, 696.5],
+    ["know", 696.5, 696.56],
+    ["how", 696.56, 696.61],
+    ["many", 696.6, 696.7],
+    ["times", 696.7, 697.0],
+    ["I", 697.0, 697.1],
+    ["find", 697.1, 697.3],
+    ["cough", 697.3, 697.6],
+    ["syrup", 697.6, 697.9],
+    ["and", 697.9, 698.0],
+    ["stuff", 698.0, 698.2],
+    ["in", 698.2, 698.3],
+    ["the", 698.3, 698.4],
+    ["kitchen?", 698.4, 699.24]
+   ]
+  },
+  {
+   "text": "You do you, boo.",
+   "start": 699.4,
+   "end": 700.52,
+   "words": [
+    ["You", 699.4, 699.5],
+    ["do", 699.5, 699.7],
+    ["you,", 699.7, 700.0],
+    ["boo.", 700.0, 700.52]
+   ]
+  },
+  {
+   "text": "But I have a real problem with it. Why?",
+   "start": 700.6,
+   "end": 702.92,
+   "words": [
+    ["But", 700.6, 700.8],
+    ["I", 700.8, 700.9],
+    ["have", 700.9, 701.1],
+    ["a", 701.1, 701.2],
+    ["real", 701.2, 701.4],
+    ["problem", 701.4, 701.9],
+    ["with", 701.9, 702.1],
+    ["it.", 702.1, 702.4],
+    ["Why?", 702.4, 702.92]
+   ]
+  },
+  {
+   "text": "Because medication and first aid supplies and vitamins, they're best friends.",
+   "start": 703.1,
+   "end": 708.0,
+   "words": [
+    ["Because", 703.1, 703.86],
+    ["medication", 704.0, 704.8],
+    ["and", 704.8, 704.9],
+    ["first", 704.9, 705.2],
+    ["aid", 705.2, 705.4],
+    ["supplies", 705.4, 705.8],
+    ["and", 705.8, 705.9],
+    ["vitamins,", 705.9, 706.7],
+    ["they're", 706.7, 706.8],
+    ["best", 706.8, 707.3],
+    ["friends.", 707.3, 708.0]
+   ]
+  },
+  {
+   "text": "And I think they should be stored together.",
+   "start": 708.0,
+   "end": 709.5,
+   "words": [
+    ["And", 708.0, 708.1],
+    ["I", 708.1, 708.15],
+    ["think", 708.13, 708.3],
+    ["they", 708.3, 708.4],
+    ["should", 708.4, 708.6],
+    ["be", 708.6, 708.7],
+    ["stored", 708.7, 709.0],
+    ["together.", 709.0, 709.5]
+   ]
+  },
+  {
+   "text": "And so creating one spot, it doesn't have to be this fancy bento box type container.",
+   "start": 709.5,
+   "end": 714.5,
+   "words": [
+    ["And", 709.5, 709.7],
+    ["so", 709.7, 709.8],
+    ["creating", 709.8, 710.6],
+    ["one", 710.6, 710.9],
+    ["spot,", 710.9, 711.3],
+    ["it", 711.3, 711.4],
+    ["doesn't", 711.4, 711.6],
+    ["have", 711.6, 711.8],
+    ["to", 711.8, 711.9],
+    ["be", 711.9, 712.1],
+    ["this", 712.1, 712.3],
+    ["fancy", 712.3, 712.8],
+    ["bento", 712.8, 713.1],
+    ["box", 713.1, 713.5],
+    ["type", 713.5, 713.8],
+    ["container.", 713.8, 714.5]
+   ]
+  },
+  {
+   "text": "Anything, a box, but gather all those things into one spot.",
+   "start": 714.5,
+   "end": 719.5,
+   "words": [
+    ["Anything,", 714.5, 715.4],
+    ["a", 715.4, 715.5],
+    ["box,", 715.5, 716.02],
+    ["but", 716.3, 716.6],
+    ["gather", 716.6, 717.1],
+    ["all", 717.1, 717.5],
+    ["those", 717.5, 717.9],
+    ["things", 717.9, 718.2],
+    ["into", 718.2, 718.7],
+    ["one", 718.7, 719.1],
+    ["spot.", 719.1, 719.5]
+   ]
+  },
+  {
+   "text": "So if you need an aspirin or an allergy med or a Band-Aid, you know exactly where to go because they're neighbors and they're stored together.",
+   "start": 719.5,
+   "end": 727.7,
+   "words": [
+    ["So", 719.5, 719.6],
+    ["if", 719.6, 719.7],
+    ["you", 719.7, 719.9],
+    ["need", 719.9, 720.1],
+    ["an", 720.1, 720.3],
+    ["aspirin", 720.3, 721.06],
+    ["or", 721.1, 721.2],
+    ["an", 721.2, 721.3],
+    ["allergy", 721.3, 721.6],
+    ["med", 721.6, 722.04],
+    ["or", 722.2, 722.56],
+    ["a", 722.6, 722.7],
+    ["Band-Aid,", 722.7, 723.4],
+    ["you", 723.4, 723.6],
+    ["know", 723.6, 723.9],
+    ["exactly", 723.9, 724.66],
+    ["where", 724.7, 724.8],
+    ["to", 724.8, 724.9],
+    ["go", 724.9, 725.26],
+    ["because", 725.3, 725.6],
+    ["they're", 725.6, 725.8],
+    ["neighbors", 725.8, 726.5],
+    ["and", 726.5, 726.6],
+    ["they're", 726.6, 726.7],
+    ["stored", 726.7, 727.1],
+    ["together.", 727.1, 727.7]
+   ]
+  },
+  {
+   "text": "This is going to save you a ton of time and just make life easier, which is what organization is all about.",
+   "start": 727.7,
+   "end": 733.58,
+   "words": [
+    ["This", 727.7, 727.8],
+    ["is", 727.8, 727.9],
+    ["going", 727.9, 728.1],
+    ["to", 728.1, 728.2],
+    ["save", 728.2, 728.4],
+    ["you", 728.4, 728.5],
+    ["a", 728.5, 728.6],
+    ["ton", 728.6, 728.7],
+    ["of", 728.7, 728.9],
+    ["time", 728.9, 729.2],
+    ["and", 729.2, 729.3],
+    ["just", 729.3, 729.7],
+    ["make", 729.7, 729.9],
+    ["life", 729.9, 730.2],
+    ["easier,", 730.2, 730.6],
+    ["which", 730.6, 730.9],
+    ["is", 730.9, 731.0],
+    ["what", 731.0, 731.3],
+    ["organization", 731.3, 732.2],
+    ["is", 732.2, 732.4],
+    ["all", 732.4, 732.84],
+    ["about.", 732.9, 733.58]
+   ]
+  },
+  {
+   "text": "Where's my bedrodders at?",
+   "start": 734.6,
+   "end": 736.24,
+   "words": [
+    ["Where's", 734.6, 734.7],
+    ["my", 734.7, 734.8],
+    ["bedrodders", 734.8, 735.8],
+    ["at?", 735.8, 736.24]
+   ]
+  },
+  {
+   "text": "I spend a lot of time in my bed, and I don't love things on my bedside table, which is why I have a bedside station.",
+   "start": 736.6,
+   "end": 742.94,
+   "words": [
+    ["I", 736.6, 736.7],
+    ["spend", 736.7, 736.9],
+    ["a", 736.9, 737.0],
+    ["lot", 737.0, 737.1],
+    ["of", 737.1, 737.2],
+    ["time", 737.2, 737.5],
+    ["in", 737.5, 737.6],
+    ["my", 737.6, 737.7],
+    ["bed,", 737.7, 738.0],
+    ["and", 738.0, 738.3],
+    ["I", 738.3, 738.5],
+    ["don't", 738.5, 738.9],
+    ["love", 738.9, 739.0],
+    ["things", 739.0, 739.2],
+    ["on", 739.2, 739.3],
+    ["my", 739.3, 739.4],
+    ["bedside", 739.4, 739.9],
+    ["table,", 739.9, 740.3],
+    ["which", 740.3, 740.5],
+    ["is", 740.5, 740.6],
+    ["why", 740.6, 740.8],
+    ["I", 740.8, 740.88],
+    ["have", 740.88, 741.2],
+    ["a", 741.2, 741.3],
+    ["bedside", 741.3, 742.06],
+    ["station.", 742.1, 742.94]
+   ]
+  },
+  {
+   "text": "Just tucks into the side of my bed.",
+   "start": 743.3,
+   "end": 744.7,
+   "words": [
+    ["Just", 743.3, 743.4],
+    ["tucks", 743.4, 743.7],
+    ["into", 743.7, 743.9],
+    ["the", 743.9, 744.0],
+    ["side", 744.0, 744.2],
+    ["of", 744.2, 744.3],
+    ["my", 744.3, 744.4],
+    ["bed.", 744.4, 744.7]
+   ]
+  },
+  {
+   "text": "This is a new addition to the station, and I'm loving it.",
+   "start": 744.7,
+   "end": 748.4,
+   "words": [
+    ["This", 744.7, 745.0],
+    ["is", 745.0, 745.1],
+    ["a", 745.1, 745.2],
+    ["new", 745.2, 745.5],
+    ["addition", 745.5, 746.1],
+    ["to", 746.1, 746.2],
+    ["the", 746.2, 746.4],
+    ["station,", 746.4, 747.1],
+    ["and", 747.1, 747.3],
+    ["I'm", 747.3, 747.5],
+    ["loving", 747.5, 748.1],
+    ["it.", 748.1, 748.4]
+   ]
+  },
+  {
+   "text": "It has all the things I use in bedtime,",
+   "start": 748.4,
+   "end": 750.3,
+   "words": [
+    ["It", 748.4, 748.5],
+    ["has", 748.5, 748.6],
+    ["all", 748.6, 748.8],
+    ["the", 748.8, 748.9],
+    ["things", 748.9, 749.3],
+    ["I", 749.3, 749.4],
+    ["use", 749.4, 749.8],
+    ["in", 749.8, 749.9],
+    ["bedtime,", 749.9, 750.3]
+   ]
+  },
+  {
+   "text": "like my spray that makes everything smell like lavender and my reading glasses and my iPad and my book that I'm reading.",
+   "start": 750.3,
+   "end": 756.3,
+   "words": [
+    ["like", 750.3, 750.5],
+    ["my", 750.5, 750.8],
+    ["spray", 750.8, 751.1],
+    ["that", 751.1, 751.2],
+    ["makes", 751.2, 751.5],
+    ["everything", 751.5, 751.8],
+    ["smell", 751.8, 752.0],
+    ["like", 752.0, 752.2],
+    ["lavender", 752.2, 752.8],
+    ["and", 752.8, 753.0],
+    ["my", 753.0, 753.2],
+    ["reading", 753.2, 753.4],
+    ["glasses", 753.4, 754.1],
+    ["and", 754.1, 754.3],
+    ["my", 754.3, 754.66],
+    ["iPad", 754.7, 755.2],
+    ["and", 755.2, 755.3],
+    ["my", 755.3, 755.4],
+    ["book", 755.4, 755.7],
+    ["that", 755.7, 755.8],
+    ["I'm", 755.8, 755.9],
+    ["reading.", 755.9, 756.3]
+   ]
+  },
+  {
+   "text": "Guys, it's amazing.",
+   "start": 756.3,
+   "end": 757.5,
+   "words": [
+    ["Guys,", 756.3, 756.8],
+    ["it's", 756.8, 757.0],
+    ["amazing.", 757.0, 757.5]
+   ]
+  },
+  {
+   "text": "But the coolest thing is this was so cheap,",
+   "start": 757.5,
+   "end": 761.18,
+   "words": [
+    ["But", 757.5, 757.6],
+    ["the", 757.6, 757.7],
+    ["coolest", 757.7, 758.1],
+    ["thing", 758.1, 758.4],
+    ["is", 758.4, 758.76],
+    ["this", 759.3, 759.4],
+    ["was", 759.4, 759.7],
+    ["so", 759.7, 760.06],
+    ["cheap,", 760.5, 761.18]
+   ]
+  },
+  {
+   "text": "and it tucks under your mattress and has different ways of attaching to the side of your bed…",
+   "start": 761.3,
+   "end": 766.0,
+   "words": [
+    ["and", 761.3, 761.74],
+    ["it", 762.0, 762.2],
+    ["tucks", 762.2, 762.5],
+    ["under", 762.5, 762.7],
+    ["your", 762.7, 762.8],
+    ["mattress", 762.8, 763.3],
+    ["and", 763.3, 763.4],
+    ["has", 763.4, 763.6],
+    ["different", 763.6, 763.9],
+    ["ways", 763.9, 764.1],
+    ["of", 764.1, 764.2],
+    ["attaching", 764.2, 764.8],
+    ["to", 764.8, 764.9],
+    ["the", 764.9, 765.1],
+    ["side", 765.1, 765.4],
+    ["of", 765.4, 765.5],
+    ["your", 765.5, 765.7],
+    ["bed", 765.7, 766.0]
+   ]
+  },
+  {
+   "text": "so that it doesn't take up valuable real estate and contribute to clutter.",
+   "start": 766.0,
+   "end": 770.1,
+   "words": [
+    ["so", 766.0, 766.2],
+    ["that", 766.2, 766.3],
+    ["it", 766.3, 766.5],
+    ["doesn't", 766.5, 766.9],
+    ["take", 766.9, 767.2],
+    ["up", 767.2, 767.4],
+    ["valuable", 767.4, 767.8],
+    ["real", 767.8, 768.0],
+    ["estate", 768.0, 768.4],
+    ["and", 768.4, 768.6],
+    ["contribute", 768.6, 769.5],
+    ["to", 769.5, 769.6],
+    ["clutter.", 769.6, 770.1]
+   ]
+  },
+  {
+   "text": "Could I just keep everything piled on my nightstand?",
+   "start": 770.1,
+   "end": 772.5,
+   "words": [
+    ["Could", 770.1, 770.4],
+    ["I", 770.4, 770.5],
+    ["just", 770.5, 770.7],
+    ["keep", 770.7, 770.9],
+    ["everything", 770.9, 771.3],
+    ["piled", 771.3, 771.5],
+    ["on", 771.5, 771.6],
+    ["my", 771.6, 771.7],
+    ["nightstand?", 771.7, 772.5]
+   ]
+  },
+  {
+   "text": "Absa freaking lutely.",
+   "start": 772.5,
+   "end": 773.7,
+   "words": [
+    ["Absa", 772.5, 772.8],
+    ["freaking", 772.8, 773.2],
+    ["lutely.", 773.2, 773.7]
+   ]
+  },
+  {
+   "text": "But as a ladybug, it stresses me out.",
+   "start": 773.7,
+   "end": 776.2,
+   "words": [
+    ["But", 773.7, 774.0],
+    ["as", 774.0, 774.2],
+    ["a", 774.2, 774.3],
+    ["ladybug,", 774.3, 775.14],
+    ["it", 775.2, 775.3],
+    ["stresses", 775.3, 775.7],
+    ["me", 775.7, 775.9],
+    ["out.", 775.9, 776.2]
+   ]
+  },
+  {
+   "text": "And clutter attracts clutter.",
+   "start": 776.2,
+   "end": 778.2,
+   "words": [
+    ["And", 776.2, 776.64],
+    ["clutter", 777.1, 777.4],
+    ["attracts", 777.4, 777.8],
+    ["clutter.", 777.8, 778.2]
+   ]
+  },
+  {
+   "text": "So giving something a concrete home, it's the container concept.",
+   "start": 778.2,
+   "end": 781.6,
+   "words": [
+    ["So", 778.2, 778.5],
+    ["giving", 778.5, 778.9],
+    ["something", 778.9, 779.3],
+    ["a", 779.3, 779.4],
+    ["concrete", 779.4, 780.0],
+    ["home,", 780.0, 780.4],
+    ["it's", 780.4, 780.6],
+    ["the", 780.6, 780.7],
+    ["container", 780.7, 781.1],
+    ["concept.", 781.1, 781.6]
+   ]
+  },
+  {
+   "text": "It means you're not going to continue to spread.",
+   "start": 781.6,
+   "end": 784.3,
+   "words": [
+    ["It", 781.6, 781.8],
+    ["means", 781.8, 782.4],
+    ["you're", 782.6, 782.7],
+    ["not", 782.7, 782.9],
+    ["going", 782.9, 783.0],
+    ["to", 783.0, 783.1],
+    ["continue", 783.1, 783.5],
+    ["to", 783.5, 783.7],
+    ["spread.", 783.7, 784.3]
+   ]
+  },
+  {
+   "text": "When it's full, it's full.",
+   "start": 784.3,
+   "end": 786.0,
+   "words": [
+    ["When", 784.3, 784.4],
+    ["it's", 784.4, 784.7],
+    ["full,", 784.7, 785.2],
+    ["it's", 785.2, 785.5],
+    ["full.", 785.5, 786.0]
+   ]
+  },
+  {
+   "text": "It's about limits and boundaries and stations.",
+   "start": 786.0,
+   "end": 789.7,
+   "words": [
+    ["It's", 786.0, 786.2],
+    ["about", 786.2, 786.4],
+    ["limits", 786.4, 787.08],
+    ["and", 787.2, 787.3],
+    ["boundaries", 787.3, 788.2],
+    ["and", 788.2, 788.64],
+    ["stations.", 788.9, 789.7]
+   ]
+  },
+  {
+   "text": "It's literally the secret to having a tidy home.",
+   "start": 789.7,
+   "end": 792.1,
+   "words": [
+    ["It's", 789.7, 789.8],
+    ["literally", 789.8, 790.2],
+    ["the", 790.2, 790.47],
+    ["secret", 790.47, 791.0],
+    ["to", 791.0, 791.05],
+    ["having", 791.05, 791.2],
+    ["a", 791.2, 791.3],
+    ["tidy", 791.3, 791.5],
+    ["home.", 791.5, 792.1]
+   ]
+  },
+  {
+   "text": "You want to know something really surprising?",
+   "start": 792.4,
+   "end": 794.1,
+   "words": [
+    ["You", 792.4, 792.5],
+    ["want", 792.5, 792.6],
+    ["to", 792.6, 792.7],
+    ["know", 792.7, 792.79],
+    ["something", 792.79, 793.0],
+    ["really", 793.0, 793.3],
+    ["surprising?", 793.3, 794.1]
+   ]
+  },
+  {
+   "text": "Almost every home that I visit to help declutter and organize, if they have pets, pet clutter is like a real thing.",
+   "start": 794.1,
+   "end": 800.98,
+   "words": [
+    ["Almost", 794.1, 794.5],
+    ["every", 794.5, 794.9],
+    ["home", 794.9, 795.2],
+    ["that", 795.2, 795.4],
+    ["I", 795.4, 795.5],
+    ["visit", 795.5, 795.9],
+    ["to", 795.9, 796.0],
+    ["help", 796.0, 796.3],
+    ["declutter", 796.3, 796.7],
+    ["and", 796.7, 796.8],
+    ["organize,", 796.8, 797.4],
+    ["if", 797.4, 797.5],
+    ["they", 797.5, 797.6],
+    ["have", 797.6, 797.9],
+    ["pets,", 797.9, 798.5],
+    ["pet", 798.8, 799.1],
+    ["clutter", 799.1, 799.6],
+    ["is", 799.6, 799.7],
+    ["like", 799.7, 799.9],
+    ["a", 799.9, 800.0],
+    ["real", 800.0, 800.3],
+    ["thing.", 800.3, 800.98]
+   ]
+  },
+  {
+   "text": "So have a pet zone.",
+   "start": 801.0,
+   "end": 802.9,
+   "words": [
+    ["So", 801.0, 801.36],
+    ["have", 801.4, 801.7],
+    ["a", 801.7, 801.8],
+    ["pet", 801.8, 802.24],
+    ["zone.", 802.3, 802.9]
+   ]
+  },
+  {
+   "text": "I just have this bench from Amazon, but because it's right beside Penny's food, it's where we store all of her treats and Mr.",
+   "start": 803.1,
+   "end": 811.1,
+   "words": [
+    ["I", 803.1, 803.2],
+    ["just", 803.2, 803.5],
+    ["have", 803.5, 803.7],
+    ["this", 803.7, 803.9],
+    ["bench", 803.9, 804.3],
+    ["from", 804.3, 804.5],
+    ["Amazon,", 804.5, 805.1],
+    ["but", 805.1, 805.3],
+    ["because", 805.3, 805.7],
+    ["it's", 805.7, 805.9],
+    ["right", 805.9, 806.3],
+    ["beside", 806.3, 806.7],
+    ["Penny's", 806.7, 807.2],
+    ["food,", 807.2, 807.8],
+    ["it's", 808.0, 808.3],
+    ["where", 808.3, 808.5],
+    ["we", 808.5, 808.6],
+    ["store", 808.6, 809.1],
+    ["all", 809.1, 809.3],
+    ["of", 809.3, 809.4],
+    ["her", 809.4, 809.6],
+    ["treats", 809.6, 810.28],
+    ["and", 810.5, 810.9],
+    ["Mr.", 810.9, 811.1]
+   ]
+  },
+  {
+   "text": "Bojangles things too, like toys and their accessories, the poop bags.",
+   "start": 811.1,
+   "end": 815.8,
+   "words": [
+    ["Bojangles", 811.1, 811.9],
+    ["things", 811.9, 812.2],
+    ["too,", 812.2, 812.72],
+    ["like", 812.8, 813.0],
+    ["toys", 813.0, 813.5],
+    ["and", 813.5, 813.9],
+    ["their", 813.9, 814.1],
+    ["accessories,", 814.1, 814.8],
+    ["the", 814.8, 814.9],
+    ["poop", 814.9, 815.3],
+    ["bags.", 815.3, 815.8]
+   ]
+  },
+  {
+   "text": "You know what I mean?",
+   "start": 815.8,
+   "end": 816.3,
+   "words": [
+    ["You", 815.8, 815.9],
+    ["know", 815.9, 816.0],
+    ["what", 816.0, 816.1],
+    ["I", 816.1, 816.15],
+    ["mean?", 816.13, 816.3]
+   ]
+  },
+  {
+   "text": "Like where is this in your home?",
+   "start": 816.3,
+   "end": 818.3,
+   "words": [
+    ["Like", 816.3, 816.5],
+    ["where", 816.5, 816.8],
+    ["is", 816.8, 817.1],
+    ["this", 817.1, 817.4],
+    ["in", 817.4, 817.5],
+    ["your", 817.5, 817.7],
+    ["home?", 817.7, 818.3]
+   ]
+  },
+  {
+   "text": "And keep it with their medications and the papers that they have from the vet.",
+   "start": 818.5,
+   "end": 822.6,
+   "words": [
+    ["And", 818.5, 818.9],
+    ["keep", 818.9, 819.2],
+    ["it", 819.2, 819.3],
+    ["with", 819.3, 819.5],
+    ["their", 819.5, 819.7],
+    ["medications", 819.7, 820.5],
+    ["and", 820.5, 820.94],
+    ["the", 821.0, 821.1],
+    ["papers", 821.1, 821.5],
+    ["that", 821.5, 821.7],
+    ["they", 821.7, 821.8],
+    ["have", 821.8, 822.0],
+    ["from", 822.0, 822.1],
+    ["the", 822.1, 822.3],
+    ["vet.", 822.3, 822.6]
+   ]
+  },
+  {
+   "text": "Like everything to do with my pets is in one spot so we don't lose things.",
+   "start": 822.6,
+   "end": 827.8,
+   "words": [
+    ["Like", 822.6, 822.9],
+    ["everything", 822.9, 823.9],
+    ["to", 823.9, 824.1],
+    ["do", 824.1, 824.4],
+    ["with", 824.4, 824.6],
+    ["my", 824.6, 824.7],
+    ["pets", 824.7, 825.1],
+    ["is", 825.1, 825.3],
+    ["in", 825.3, 825.5],
+    ["one", 825.5, 825.8],
+    ["spot", 825.8, 826.32],
+    ["so", 826.7, 826.8],
+    ["we", 826.8, 826.9],
+    ["don't", 826.9, 827.2],
+    ["lose", 827.2, 827.5],
+    ["things.", 827.5, 827.8]
+   ]
+  },
+  {
+   "text": "But more importantly, it doesn't become part of the mess.",
+   "start": 827.8,
+   "end": 831.6,
+   "words": [
+    ["But", 827.8, 828.0],
+    ["more", 828.0, 828.1],
+    ["importantly,", 828.1, 829.1],
+    ["it", 829.1, 829.2],
+    ["doesn't", 829.2, 829.5],
+    ["become", 829.5, 830.18],
+    ["part", 830.2, 830.7],
+    ["of", 830.7, 830.8],
+    ["the", 830.8, 831.0],
+    ["mess.", 831.0, 831.6]
+   ]
+  },
+  {
+   "text": "A play station or a hobby station.",
+   "start": 832.3,
+   "end": 835.2,
+   "words": [
+    ["A", 832.3, 832.4],
+    ["play", 832.4, 832.9],
+    ["station", 832.9, 833.5],
+    ["or", 833.5, 833.7],
+    ["a", 833.7, 833.8],
+    ["hobby", 833.8, 834.4],
+    ["station.", 834.4, 835.2]
+   ]
+  },
+  {
+   "text": "Here's the thing.",
+   "start": 835.2,
+   "end": 835.7,
+   "words": [
+    ["Here's", 835.2, 835.4],
+    ["the", 835.4, 835.5],
+    ["thing.", 835.5, 835.7]
+   ]
+  },
+  {
+   "text": "If you're like me and you love to lay in bed all day or you just really want to have less screen time,",
+   "start": 835.7,
+   "end": 841.7,
+   "words": [
+    ["If", 835.7, 835.9],
+    ["you're", 835.9, 836.0],
+    ["like", 836.0, 836.3],
+    ["me", 836.3, 836.6],
+    ["and", 836.6, 836.8],
+    ["you", 836.8, 837.2],
+    ["love", 837.2, 837.5],
+    ["to", 837.5, 837.6],
+    ["lay", 837.6, 837.7],
+    ["in", 837.7, 837.78],
+    ["bed", 837.78, 837.9],
+    ["all", 837.9, 838.1],
+    ["day", 838.1, 838.54],
+    ["or", 838.7, 839.06],
+    ["you", 839.1, 839.2],
+    ["just", 839.2, 839.5],
+    ["really", 839.5, 840.0],
+    ["want", 840.0, 840.3],
+    ["to", 840.3, 840.37],
+    ["have", 840.37, 840.5],
+    ["less", 840.5, 840.8],
+    ["screen", 840.8, 841.1],
+    ["time,", 841.1, 841.7]
+   ]
+  },
+  {
+   "text": "where is all the things you could do when you're not on a screen?",
+   "start": 841.7,
+   "end": 845.2,
+   "words": [
+    ["where", 841.7, 842.0],
+    ["is", 842.0, 842.2],
+    ["all", 842.2, 842.5],
+    ["the", 842.5, 842.7],
+    ["things", 842.7, 843.1],
+    ["you", 843.1, 843.3],
+    ["could", 843.3, 843.5],
+    ["do", 843.5, 843.86],
+    ["when", 844.1, 844.3],
+    ["you're", 844.3, 844.4],
+    ["not", 844.4, 844.6],
+    ["on", 844.6, 844.7],
+    ["a", 844.7, 844.8],
+    ["screen?", 844.8, 845.2]
+   ]
+  },
+  {
+   "text": "So I've been trying to learn I've been trying to learn a Rubik's cube and failing.",
+   "start": 845.2,
+   "end": 850.1,
+   "words": [
+    ["So", 845.2, 845.56],
+    ["I've", 845.7, 846.0],
+    ["been", 846.0, 846.2],
+    ["trying", 846.2, 846.5],
+    ["to", 846.5, 846.7],
+    ["learn", 846.7, 847.3],
+    ["I've", 847.3, 847.5],
+    ["been", 847.5, 847.6],
+    ["trying", 847.6, 848.2],
+    ["to", 848.2, 848.3],
+    ["learn", 848.3, 848.5],
+    ["a", 848.5, 848.6],
+    ["Rubik's", 848.6, 849.0],
+    ["cube", 849.0, 849.2],
+    ["and", 849.2, 849.4],
+    ["failing.", 849.4, 850.1]
+   ]
+  },
+  {
+   "text": "But I also love doing lock picking and sketching.",
+   "start": 850.1,
+   "end": 853.5,
+   "words": [
+    ["But", 850.1, 850.2],
+    ["I", 850.2, 850.3],
+    ["also", 850.3, 850.5],
+    ["love", 850.5, 850.8],
+    ["doing", 850.8, 851.0],
+    ["lock", 851.0, 851.4],
+    ["picking", 851.4, 852.16],
+    ["and", 852.2, 852.5],
+    ["sketching.", 852.5, 853.5]
+   ]
+  },
+  {
+   "text": "Maybe you like to crochet or Sudoku puzzles.",
+   "start": 853.6,
+   "end": 856.6,
+   "words": [
+    ["Maybe", 853.6, 853.8],
+    ["you", 853.8, 853.9],
+    ["like", 853.9, 854.1],
+    ["to", 854.1, 854.2],
+    ["crochet", 854.2, 854.96],
+    ["or", 855.1, 855.3],
+    ["Sudoku", 855.3, 855.9],
+    ["puzzles.", 855.9, 856.6]
+   ]
+  },
+  {
+   "text": "So fun, right?",
+   "start": 856.6,
+   "end": 857.5,
+   "words": [
+    ["So", 856.6, 856.9],
+    ["fun,", 856.9, 857.3],
+    ["right?", 857.3, 857.5]
+   ]
+  },
+  {
+   "text": "Like have all of those things. The boredom.",
+   "start": 857.5,
+   "end": 860.54,
+   "words": [
+    ["Like", 857.5, 857.9],
+    ["have", 857.9, 858.4],
+    ["all", 858.4, 858.7],
+    ["of", 858.7, 858.8],
+    ["those", 858.8, 859.1],
+    ["things.", 859.1, 859.6],
+    ["The", 859.6, 859.7],
+    ["boredom.", 859.7, 860.54]
+   ]
+  },
+  {
+   "text": "Ooh, it's a boredom basket or a boredom station.",
+   "start": 860.7,
+   "end": 864.3,
+   "words": [
+    ["Ooh,", 860.7, 860.9],
+    ["it's", 860.9, 861.1],
+    ["a", 861.1, 861.2],
+    ["boredom", 861.2, 861.7],
+    ["basket", 861.7, 862.38],
+    ["or", 862.9, 863.1],
+    ["a", 863.1, 863.38],
+    ["boredom", 863.5, 863.6],
+    ["station.", 863.6, 864.3]
+   ]
+  },
+  {
+   "text": "That's a good one.",
+   "start": 864.3,
+   "end": 865.2,
+   "words": [
+    ["That's", 864.3, 864.5],
+    ["a", 864.5, 864.55],
+    ["good", 864.54, 864.7],
+    ["one.", 864.7, 865.2]
+   ]
+  },
+  {
+   "text": "In one spot.",
+   "start": 865.2,
+   "end": 866.3,
+   "words": [
+    ["In", 865.2, 865.4],
+    ["one", 865.4, 865.7],
+    ["spot.", 865.7, 866.3]
+   ]
+  },
+  {
+   "text": "I feel like you need this, right?",
+   "start": 866.3,
+   "end": 867.98,
+   "words": [
+    ["I", 866.3, 866.4],
+    ["feel", 866.4, 866.5],
+    ["like", 866.5, 866.6],
+    ["you", 866.6, 866.7],
+    ["need", 866.7, 867.0],
+    ["this,", 867.0, 867.3],
+    ["right?", 867.3, 867.98]
+   ]
+  },
+  {
+   "text": "Am I Am I alone?",
+   "start": 868.1,
+   "end": 868.9,
+   "words": [
+    ["Am", 868.1, 868.2],
+    ["I", 868.2, 868.4],
+    ["Am", 868.4, 868.5],
+    ["I", 868.5, 868.6],
+    ["alone?", 868.6, 868.9]
+   ]
+  },
+  {
+   "text": "Let me know in the below comments if this is something you can get behind.",
+   "start": 868.9,
+   "end": 871.1,
+   "words": [
+    ["Let", 868.9, 869.0],
+    ["me", 869.0, 869.1],
+    ["know", 869.1, 869.2],
+    ["in", 869.2, 869.3],
+    ["the", 869.3, 869.6],
+    ["below", 869.6, 869.71],
+    ["comments", 869.71, 869.8],
+    ["if", 869.8, 869.9],
+    ["this", 869.9, 870.1],
+    ["is", 870.1, 870.2],
+    ["something", 870.2, 870.5],
+    ["you", 870.5, 870.6],
+    ["can", 870.6, 870.7],
+    ["get", 870.7, 870.8],
+    ["behind.", 870.8, 871.1]
+   ]
+  },
+  {
+   "text": "And I keep mine under my bed again because I spend an obnoxious amount of time in my bed.",
+   "start": 871.1,
+   "end": 876.12,
+   "words": [
+    ["And", 871.1, 871.2],
+    ["I", 871.2, 871.48],
+    ["keep", 871.6, 871.8],
+    ["mine", 871.8, 871.9],
+    ["under", 871.9, 872.1],
+    ["my", 872.1, 872.2],
+    ["bed", 872.2, 872.5],
+    ["again", 872.5, 872.7],
+    ["because", 872.7, 873.46],
+    ["I", 873.9, 874.0],
+    ["spend", 874.0, 874.2],
+    ["an", 874.2, 874.3],
+    ["obnoxious", 874.3, 874.9],
+    ["amount", 874.9, 875.1],
+    ["of", 875.1, 875.2],
+    ["time", 875.2, 875.4],
+    ["in", 875.4, 875.5],
+    ["my", 875.5, 875.6],
+    ["bed.", 875.6, 876.12]
+   ]
+  },
+  {
+   "text": "Real organization is about laziness.",
+   "start": 876.9,
+   "end": 879.72,
+   "words": [
+    ["Real", 876.9, 877.1],
+    ["organization", 877.1, 877.9],
+    ["is", 877.9, 878.1],
+    ["about", 878.1, 878.7],
+    ["laziness.", 878.8, 879.72]
+   ]
+  },
+  {
+   "text": "For real. Seriously.",
+   "start": 880.1,
+   "end": 881.4,
+   "words": [
+    ["For", 880.1, 880.2],
+    ["real.", 880.2, 880.5],
+    ["Seriously.", 880.5, 881.4]
+   ]
+  },
+  {
+   "text": "Your home should work for you.",
+   "start": 881.4,
+   "end": 883.0,
+   "words": [
+    ["Your", 881.4, 881.6],
+    ["home", 881.6, 881.9],
+    ["should", 881.9, 882.1],
+    ["work", 882.1, 882.4],
+    ["for", 882.4, 882.7],
+    ["you.", 882.7, 883.0]
+   ]
+  },
+  {
+   "text": "It should make your life feel effortless.",
+   "start": 883.0,
+   "end": 885.9,
+   "words": [
+    ["It", 883.0, 883.1],
+    ["should", 883.1, 883.3],
+    ["make", 883.3, 883.7],
+    ["your", 883.7, 883.9],
+    ["life", 883.9, 884.4],
+    ["feel", 884.4, 884.9],
+    ["effortless.", 884.9, 885.9]
+   ]
+  },
+  {
+   "text": "It should definitely not be a part-time job.",
+   "start": 885.9,
+   "end": 887.82,
+   "words": [
+    ["It", 885.9, 885.95],
+    ["should", 885.95, 886.1],
+    ["definitely", 886.1, 886.6],
+    ["not", 886.6, 886.8],
+    ["be", 886.8, 886.9],
+    ["a", 886.9, 887.0],
+    ["part-time", 887.0, 887.3],
+    ["job.", 887.3, 887.82]
+   ]
+  },
+  {
+   "text": "So these stations, they reduce decisions.",
+   "start": 888.0,
+   "end": 890.9,
+   "words": [
+    ["So", 888.0, 888.1],
+    ["these", 888.1, 888.5],
+    ["stations,", 888.5, 889.2],
+    ["they", 889.2, 889.4],
+    ["reduce", 889.4, 890.08],
+    ["decisions.", 890.1, 890.9]
+   ]
+  },
+  {
+   "text": "They reduce the amount of time you have to look for things or walk back and forth across your kitchen when you're making a coffee in the morning.",
+   "start": 890.9,
+   "end": 897.5,
+   "words": [
+    ["They", 890.9, 891.1],
+    ["reduce", 891.1, 891.6],
+    ["the", 891.6, 891.7],
+    ["amount", 891.7, 892.0],
+    ["of", 892.0, 892.1],
+    ["time", 892.1, 892.4],
+    ["you", 892.4, 892.5],
+    ["have", 892.5, 892.6],
+    ["to", 892.6, 892.7],
+    ["look", 892.7, 893.1],
+    ["for", 893.1, 893.2],
+    ["things", 893.2, 893.6],
+    ["or", 893.6, 893.7],
+    ["walk", 893.7, 894.1],
+    ["back", 894.1, 894.4],
+    ["and", 894.4, 894.5],
+    ["forth", 894.5, 894.8],
+    ["across", 894.8, 895.1],
+    ["your", 895.1, 895.2],
+    ["kitchen", 895.2, 895.7],
+    ["when", 895.7, 895.8],
+    ["you're", 895.8, 895.9],
+    ["making", 895.9, 896.2],
+    ["a", 896.2, 896.3],
+    ["coffee", 896.3, 896.7],
+    ["in", 896.7, 896.8],
+    ["the", 896.8, 896.85],
+    ["morning.", 896.8, 897.5]
+   ]
+  },
+  {
+   "text": "They just make life simplified.",
+   "start": 897.5,
+   "end": 901.08,
+   "words": [
+    ["They", 897.5, 897.6],
+    ["just", 897.6, 898.12],
+    ["make", 898.3, 898.82],
+    ["life", 899.0, 899.52],
+    ["simplified.", 900.0, 901.08]
+   ]
+  },
+  {
+   "text": "And this is definitely not about going and having to find 20 new spots in your home or buying 20 new containers to put stuff into.",
+   "start": 901.1,
+   "end": 909.8,
+   "words": [
+    ["And", 901.1, 901.2],
+    ["this", 901.2, 901.4],
+    ["is", 901.4, 901.76],
+    ["definitely", 901.8, 902.4],
+    ["not", 902.4, 902.6],
+    ["about", 902.6, 902.9],
+    ["going", 902.9, 903.3],
+    ["and", 903.3, 903.4],
+    ["having", 903.4, 903.7],
+    ["to", 903.7, 903.9],
+    ["find", 903.9, 904.42],
+    ["20", 904.5, 904.8],
+    ["new", 904.8, 905.0],
+    ["spots", 905.0, 905.6],
+    ["in", 905.7, 905.8],
+    ["your", 905.8, 906.0],
+    ["home", 906.0, 906.4],
+    ["or", 906.4, 906.6],
+    ["buying", 906.6, 907.2],
+    ["20", 907.2, 907.56],
+    ["new", 907.6, 907.8],
+    ["containers", 907.8, 908.7],
+    ["to", 908.7, 908.8],
+    ["put", 908.8, 908.9],
+    ["stuff", 908.9, 909.2],
+    ["into.", 909.2, 909.8]
+   ]
+  },
+  {
+   "text": "It's about creating systems.",
+   "start": 910.0,
+   "end": 912.1,
+   "words": [
+    ["It's", 910.0, 910.2],
+    ["about", 910.2, 910.8],
+    ["creating", 910.9, 911.3],
+    ["systems.", 911.3, 912.1]
+   ]
+  },
+  {
+   "text": "It's about creating this streamlined thing for the stuff you do every single day.",
+   "start": 912.1,
+   "end": 917.1,
+   "words": [
+    ["It's", 912.1, 912.2],
+    ["about", 912.2, 912.8],
+    ["creating", 912.9, 913.5],
+    ["this", 913.5, 913.8],
+    ["streamlined", 913.8, 914.6],
+    ["thing", 914.6, 914.9],
+    ["for", 914.9, 915.1],
+    ["the", 915.1, 915.2],
+    ["stuff", 915.2, 915.6],
+    ["you", 915.6, 915.7],
+    ["do", 915.7, 916.0],
+    ["every", 916.0, 916.4],
+    ["single", 916.4, 916.7],
+    ["day.", 916.7, 917.1]
+   ]
+  },
+  {
+   "text": "You may have to do a little rearranging, but you can use what you already have, the space you already have.",
+   "start": 917.1,
+   "end": 923.1,
+   "words": [
+    ["You", 917.1, 917.3],
+    ["may", 917.3, 917.4],
+    ["have", 917.4, 917.5],
+    ["to", 917.5, 917.6],
+    ["do", 917.6, 917.9],
+    ["a", 917.9, 918.0],
+    ["little", 918.0, 918.4],
+    ["rearranging,", 918.4, 919.2],
+    ["but", 919.2, 919.4],
+    ["you", 919.4, 919.6],
+    ["can", 919.6, 919.9],
+    ["use", 919.9, 920.2],
+    ["what", 920.2, 920.3],
+    ["you", 920.3, 920.5],
+    ["already", 920.5, 920.9],
+    ["have,", 920.9, 921.3],
+    ["the", 921.3, 921.4],
+    ["space", 921.4, 921.8],
+    ["you", 921.8, 922.0],
+    ["already", 922.0, 922.5],
+    ["have.", 922.5, 923.1]
+   ]
+  },
+  {
+   "text": "Just instead of thinking, where do I store that?",
+   "start": 923.2,
+   "end": 925.9,
+   "words": [
+    ["Just", 923.2, 923.5],
+    ["instead", 923.5, 923.8],
+    ["of", 923.8, 923.9],
+    ["thinking,", 923.9, 924.8],
+    ["where", 924.8, 925.0],
+    ["do", 925.0, 925.1],
+    ["I", 925.1, 925.2],
+    ["store", 925.2, 925.5],
+    ["that?", 925.5, 925.9]
+   ]
+  },
+  {
+   "text": "Think, where do I use this?",
+   "start": 925.9,
+   "end": 928.0,
+   "words": [
+    ["Think,", 925.9, 926.5],
+    ["where", 926.5, 926.7],
+    ["do", 926.7, 926.9],
+    ["I", 926.9, 927.0],
+    ["use", 927.0, 927.44],
+    ["this?", 927.5, 928.0]
+   ]
+  },
+  {
+   "text": "And what do I use along with it?",
+   "start": 928.0,
+   "end": 930.24,
+   "words": [
+    ["And", 928.0, 928.1],
+    ["what", 928.1, 928.3],
+    ["do", 928.3, 928.5],
+    ["I", 928.5, 928.6],
+    ["use", 928.6, 928.9],
+    ["along", 928.9, 929.4],
+    ["with", 929.4, 929.8],
+    ["it?", 929.8, 930.24]
+   ]
+  },
+  {
+   "text": "And how could I put this all together exactly where I would naturally put it down?",
+   "start": 930.3,
+   "end": 934.7,
+   "words": [
+    ["And", 930.3, 930.5],
+    ["how", 930.5, 930.6],
+    ["could", 930.6, 930.8],
+    ["I", 930.8, 930.9],
+    ["put", 930.9, 931.1],
+    ["this", 931.1, 931.3],
+    ["all", 931.3, 931.5],
+    ["together", 931.5, 932.34],
+    ["exactly", 932.6, 933.1],
+    ["where", 933.1, 933.2],
+    ["I", 933.2, 933.3],
+    ["would", 933.3, 933.4],
+    ["naturally", 933.4, 933.9],
+    ["put", 933.9, 934.1],
+    ["it", 934.1, 934.2],
+    ["down?", 934.2, 934.7]
+   ]
+  },
+  {
+   "text": "That's the secret.",
+   "start": 934.7,
+   "end": 935.7,
+   "words": [
+    ["That's", 934.7, 934.9],
+    ["the", 934.9, 935.14],
+    ["secret.", 935.14, 935.7]
+   ]
+  },
+  {
+   "text": "And 20 stations are the things I started with, but honestly, I have like 100 stations in home, probably more.",
+   "start": 935.7,
+   "end": 942.15,
+   "words": [
+    ["And", 935.7, 935.9],
+    ["20", 935.9, 936.26],
+    ["stations", 936.3, 936.9],
+    ["are", 936.9, 937.1],
+    ["the", 937.1, 937.2],
+    ["things", 937.2, 937.5],
+    ["I", 937.5, 937.55],
+    ["started", 937.55, 937.9],
+    ["with,", 937.9, 938.1],
+    ["but", 938.1, 938.4],
+    ["honestly,", 938.4, 939.2],
+    ["I", 939.2, 939.3],
+    ["have", 939.3, 939.5],
+    ["like", 939.5, 939.6],
+    ["100", 939.6, 940.04],
+    ["stations", 940.5, 941.1],
+    ["in", 941.1, 941.3],
+    ["home,", 941.3, 941.6],
+    ["probably", 941.6, 942.0],
+    ["more.", 942.0, 942.15]
+   ]
+  },
+  {
+   "text": "My Let me know in comments below the what your favorite was, what you want to try in your home,",
+   "start": 942.15,
+   "end": 947.0,
+   "words": [
+    ["my", 942.15, 942.51],
+    ["Let", 942.7, 942.8],
+    ["me", 942.8, 942.9],
+    ["know", 942.9, 943.1],
+    ["in", 943.1, 943.2],
+    ["comments", 943.2, 943.6],
+    ["below", 943.6, 943.86],
+    ["the", 943.86, 943.91],
+    ["what", 943.9, 944.1],
+    ["your", 944.1, 944.2],
+    ["favorite", 944.2, 944.6],
+    ["was,", 944.6, 945.0],
+    ["what", 945.0, 945.2],
+    ["you", 945.2, 945.4],
+    ["want", 945.4, 945.6],
+    ["to", 945.6, 945.7],
+    ["try", 945.7, 946.1],
+    ["in", 946.1, 946.2],
+    ["your", 946.2, 946.4],
+    ["home,", 946.4, 947.0]
+   ]
+  },
+  {
+   "text": "or if there's something I've missed, something really obvious.",
+   "start": 947.0,
+   "end": 949.8,
+   "words": [
+    ["or", 947.0, 947.2],
+    ["if", 947.2, 947.3],
+    ["there's", 947.3, 947.4],
+    ["something", 947.4, 947.7],
+    ["I've", 947.7, 947.9],
+    ["missed,", 947.9, 948.5],
+    ["something", 948.5, 948.8],
+    ["really", 948.8, 949.2],
+    ["obvious.", 949.2, 949.8]
+   ]
+  },
+  {
+   "text": "That's what this should be.",
+   "start": 949.8,
+   "end": 951.2,
+   "words": [
+    ["That's", 949.8, 950.0],
+    ["what", 950.0, 950.3],
+    ["this", 950.3, 950.5],
+    ["should", 950.5, 950.9],
+    ["be.", 950.9, 951.2]
+   ]
+  },
+  {
+   "text": "These stations should be like so obvious because real organization is simple.",
+   "start": 951.2,
+   "end": 958.96,
+   "words": [
+    ["These", 951.2, 951.5],
+    ["stations", 951.5, 952.0],
+    ["should", 952.0, 952.3],
+    ["be", 952.3, 952.5],
+    ["like", 952.5, 953.02],
+    ["so", 953.3, 953.66],
+    ["obvious", 954.5, 955.1],
+    ["because", 955.1, 955.5],
+    ["real", 955.5, 956.02],
+    ["organization", 956.1, 957.26],
+    ["is", 957.3, 957.66],
+    ["simple.", 958.2, 958.96]
+   ]
+  },
+  {
+   "text": "We're overcomplicating it, and that's the problem.",
+   "start": 959.8,
+   "end": 962.1,
+   "words": [
+    ["We're", 959.8, 959.9],
+    ["overcomplicating", 959.9, 960.8],
+    ["it,", 960.8, 961.1],
+    ["and", 961.1, 961.2],
+    ["that's", 961.2, 961.4],
+    ["the", 961.4, 961.5],
+    ["problem.", 961.5, 962.1]
+   ]
+  },
+  {
+   "text": "Thank you guys so much.",
+   "start": 962.1,
+   "end": 963.4,
+   "words": [
+    ["Thank", 962.1, 962.3],
+    ["you", 962.3, 962.4],
+    ["guys", 962.4, 962.9],
+    ["so", 962.9, 963.1],
+    ["much.", 963.1, 963.4]
+   ]
+  },
+  {
+   "text": "I hope you enjoyed, and I'll see you next time.",
+   "start": 963.4,
+   "end": 965.73,
+   "words": [
+    ["I", 963.4, 963.5],
+    ["hope", 963.5, 963.7],
+    ["you", 963.7, 963.8],
+    ["enjoyed,", 963.8, 964.5],
+    ["and", 964.5, 964.6],
+    ["I'll", 964.6, 964.8],
+    ["see", 964.8, 965.0],
+    ["you", 965.0, 965.3],
+    ["next", 965.3, 965.5],
+    ["time.", 965.5, 965.73]
+   ]
+  },
+  {
+   "text": "Guys Thank you guys so much for those of you who have stayed to the end.",
+   "start": 965.73,
+   "end": 969.5,
+   "words": [
+    ["guys", 965.73, 966.25],
+    ["Thank", 966.7, 966.9],
+    ["you", 966.9, 967.03],
+    ["guys", 967.03, 967.2],
+    ["so", 967.2, 967.3],
+    ["much", 967.3, 967.4],
+    ["for", 967.4, 967.5],
+    ["those", 967.5, 967.7],
+    ["of", 967.7, 967.8],
+    ["you", 967.8, 967.9],
+    ["who", 967.9, 968.1],
+    ["have", 968.1, 968.2],
+    ["stayed", 968.2, 968.7],
+    ["to", 968.7, 968.9],
+    ["the", 968.9, 969.0],
+    ["end.", 969.0, 969.5]
+   ]
+  },
+  {
+   "text": "Let's cast a vote in the comments below.",
+   "start": 969.5,
+   "end": 972.28,
+   "words": [
+    ["Let's", 969.5, 969.9],
+    ["cast", 969.9, 970.3],
+    ["a", 970.3, 970.4],
+    ["vote", 970.4, 970.9],
+    ["in", 970.9, 971.0],
+    ["the", 971.0, 971.1],
+    ["comments", 971.1, 971.6],
+    ["below.", 971.6, 972.28]
+   ]
+  },
+  {
+   "text": "Are you like, yay, Christmas is 7 weeks away?",
+   "start": 972.3,
+   "end": 975.5,
+   "words": [
+    ["Are", 972.3, 972.5],
+    ["you", 972.5, 972.8],
+    ["like,", 972.8, 973.3],
+    ["yay,", 973.3, 973.7],
+    ["Christmas", 973.7, 974.1],
+    ["is", 974.1, 974.3],
+    ["7", 974.3, 974.58],
+    ["weeks", 974.6, 974.9],
+    ["away?", 974.9, 975.5]
+   ]
+  },
+  {
+   "text": "Or are you like, oh, Christmas is only seven weeks away.",
+   "start": 975.7,
+   "end": 980.0,
+   "words": [
+    ["Or", 975.7, 975.9],
+    ["are", 975.9, 976.0],
+    ["you", 976.0, 976.2],
+    ["like,", 976.2, 976.8],
+    ["oh,", 976.9, 977.34],
+    ["Christmas", 977.4, 978.0],
+    ["is", 978.0, 978.1],
+    ["only", 978.1, 978.5],
+    ["seven", 978.5, 979.0],
+    ["weeks", 979.0, 979.4],
+    ["away.", 979.4, 980.0]
+   ]
+  },
+  {
+   "text": "I don't know, man.",
+   "start": 980.1,
+   "end": 981.0,
+   "words": [
+    ["I", 980.1, 980.3],
+    ["don't", 980.3, 980.5],
+    ["know,", 980.5, 980.7],
+    ["man.", 980.7, 981.0]
+   ]
+  },
+  {
+   "text": "The older I get, the faster time seems to go.",
+   "start": 981.0,
+   "end": 984.24,
+   "words": [
+    ["The", 981.0, 981.2],
+    ["older", 981.2, 981.6],
+    ["I", 981.6, 981.7],
+    ["get,", 981.7, 982.0],
+    ["the", 982.0, 982.1],
+    ["faster", 982.1, 982.78],
+    ["time", 982.9, 983.4],
+    ["seems", 983.4, 983.7],
+    ["to", 983.7, 983.8],
+    ["go.", 983.8, 984.24]
+   ]
+  },
+  {
+   "text": "Can we just pause?",
+   "start": 984.5,
+   "end": 986.38,
+   "words": [
+    ["Can", 984.5, 984.7],
+    ["we", 984.7, 985.06],
+    ["just", 985.1, 985.62],
+    ["pause?", 985.7, 986.38]
+   ]
+  },
+  {
+   "text": "I don't want to decorate my house for Christmas.",
+   "start": 986.7,
+   "end": 988.8,
+   "words": [
+    ["I", 986.7, 986.8],
+    ["don't", 986.8, 987.0],
+    ["want", 987.0, 987.1],
+    ["to", 987.1, 987.2],
+    ["decorate", 987.2, 987.6],
+    ["my", 987.6, 987.7],
+    ["house", 987.7, 987.9],
+    ["for", 987.9, 988.0],
+    ["Christmas.", 988.0, 988.8]
+   ]
+  },
+  {
+   "text": "That's a lot of work.",
+   "start": 988.8,
+   "end": 989.8,
+   "words": [
+    ["That's", 988.8, 989.0],
+    ["a", 989.0, 989.1],
+    ["lot", 989.1, 989.2],
+    ["of", 989.2, 989.3],
+    ["work.", 989.3, 989.8]
+   ]
+  },
+  {
+   "text": "I don't want to have to buy gifts.",
+   "start": 989.8,
+   "end": 990.9,
+   "words": [
+    ["I", 989.8, 989.85],
+    ["don't", 989.84, 990.0],
+    ["want", 990.0, 990.1],
+    ["to", 990.1, 990.15],
+    ["have", 990.14, 990.2],
+    ["to", 990.2, 990.3],
+    ["buy", 990.3, 990.4],
+    ["gifts.", 990.4, 990.9]
+   ]
+  },
+  {
+   "text": "I don't want to I just want to I think there was a movie where people just like went on vacation for Christmas,",
+   "start": 990.9,
+   "end": 995.9,
+   "words": [
+    ["I", 990.9, 991.0],
+    ["don't", 991.0, 991.1],
+    ["want", 991.1, 991.2],
+    ["to", 991.2, 991.5],
+    ["I", 991.5, 991.6],
+    ["just", 991.6, 991.8],
+    ["want", 991.8, 992.0],
+    ["to", 992.0, 992.36],
+    ["I", 992.7, 992.75],
+    ["think", 992.72, 992.8],
+    ["there", 992.8, 992.9],
+    ["was", 992.9, 993.0],
+    ["a", 993.0, 993.1],
+    ["movie", 993.1, 993.4],
+    ["where", 993.4, 993.5],
+    ["people", 993.5, 993.7],
+    ["just", 993.7, 993.9],
+    ["like", 993.9, 994.3],
+    ["went", 994.3, 994.6],
+    ["on", 994.6, 994.7],
+    ["vacation", 994.7, 995.3],
+    ["for", 995.3, 995.4],
+    ["Christmas,", 995.4, 995.9]
+   ]
+  },
+  {
+   "text": "but then they ended up not.",
+   "start": 995.9,
+   "end": 997.1,
+   "words": [
+    ["but", 995.9, 996.1],
+    ["then", 996.1, 996.2],
+    ["they", 996.2, 996.4],
+    ["ended", 996.4, 996.6],
+    ["up", 996.6, 996.7],
+    ["not.", 996.7, 997.1]
+   ]
+  },
+  {
+   "text": "Let me know if you know what I'm talking about in the comments below.",
+   "start": 997.1,
+   "end": 999.2,
+   "words": [
+    ["Let", 997.1, 997.2],
+    ["me", 997.2, 997.3],
+    ["know", 997.3, 997.5],
+    ["if", 997.5, 997.6],
+    ["you", 997.6, 997.7],
+    ["know", 997.7, 997.8],
+    ["what", 997.8, 997.9],
+    ["I'm", 997.9, 998.0],
+    ["talking", 998.0, 998.3],
+    ["about", 998.3, 998.6],
+    ["in", 998.6, 998.65],
+    ["the", 998.64, 998.7],
+    ["comments", 998.7, 999.0],
+    ["below.", 999.0, 999.2]
+   ]
+  },
+  {
+   "text": "The point is usually I cannot wait for the holiday season.",
+   "start": 999.2,
+   "end": 1004.96,
+   "words": [
+    ["The", 999.2, 999.3],
+    ["point", 999.3, 999.8],
+    ["is", 999.8, 1000.16],
+    ["usually", 1001.3, 1002.06],
+    ["I", 1002.3, 1002.4],
+    ["cannot", 1002.4, 1002.9],
+    ["wait", 1002.9, 1003.4],
+    ["for", 1003.4, 1003.5],
+    ["the", 1003.5, 1003.7],
+    ["holiday", 1003.7, 1004.2],
+    ["season.", 1004.2, 1004.96]
+   ]
+  },
+  {
+   "text": "This year I'm filled with dread.",
+   "start": 1005.1,
+   "end": 1007.78,
+   "words": [
+    ["This", 1005.1, 1005.4],
+    ["year", 1005.4, 1005.92],
+    ["I'm", 1006.1, 1006.3],
+    ["filled", 1006.3, 1006.9],
+    ["with", 1006.9, 1007.1],
+    ["dread.", 1007.1, 1007.78]
+   ]
+  },
+  {
+   "text": "Menopause I'm going to blame perimenopause because I'm just like I just want to give a nope to 99% of my life.",
+   "start": 1009.2,
+   "end": 1016.6,
+   "words": [
+    ["Menopause", 1009.2, 1009.7],
+    ["I'm", 1009.7, 1009.8],
+    ["going", 1009.8, 1009.9],
+    ["to", 1009.9, 1010.1],
+    ["blame", 1010.1, 1010.4],
+    ["perimenopause", 1010.4, 1011.4],
+    ["because", 1011.4, 1011.7],
+    ["I'm", 1011.7, 1011.8],
+    ["just", 1011.8, 1012.1],
+    ["like", 1012.1, 1012.62],
+    ["I", 1013.7, 1013.8],
+    ["just", 1013.8, 1013.9],
+    ["want", 1013.9, 1014.1],
+    ["to", 1014.1, 1014.2],
+    ["give", 1014.2, 1014.4],
+    ["a", 1014.4, 1014.5],
+    ["nope", 1014.5, 1014.9],
+    ["to", 1014.9, 1015.1],
+    ["99%", 1015.1, 1015.54],
+    ["of", 1015.8, 1015.9],
+    ["my", 1015.9, 1016.0],
+    ["life.", 1016.0, 1016.6]
+   ]
+  },
+  {
+   "text": "I just want to play Fortnite and eat Skittles and just just live my best life.",
+   "start": 1016.7,
+   "end": 1022.3,
+   "words": [
+    ["I", 1016.7, 1016.75],
+    ["just", 1016.74, 1016.9],
+    ["want", 1016.9, 1017.0],
+    ["to", 1017.0, 1017.05],
+    ["play", 1017.04, 1017.1],
+    ["Fortnite", 1017.1, 1017.94],
+    ["and", 1018.0, 1018.1],
+    ["eat", 1018.1, 1018.3],
+    ["Skittles", 1018.3, 1019.14],
+    ["and", 1019.2, 1019.4],
+    ["just", 1019.4, 1019.92],
+    ["just", 1020.9, 1021.1],
+    ["live", 1021.1, 1021.3],
+    ["my", 1021.3, 1021.4],
+    ["best", 1021.4, 1021.7],
+    ["life.", 1021.7, 1022.3]
+   ]
+  },
+  {
+   "text": "Definitely don't want to cook a turkey or put up a Christmas tree.",
+   "start": 1023.5,
+   "end": 1026.5,
+   "words": [
+    ["Definitely", 1023.5, 1023.9],
+    ["don't", 1023.9, 1024.1],
+    ["want", 1024.1, 1024.2],
+    ["to", 1024.2, 1024.27],
+    ["cook", 1024.27, 1024.4],
+    ["a", 1024.4, 1024.5],
+    ["turkey", 1024.5, 1025.0],
+    ["or", 1025.0, 1025.1],
+    ["put", 1025.1, 1025.3],
+    ["up", 1025.3, 1025.4],
+    ["a", 1025.4, 1025.45],
+    ["Christmas", 1025.45, 1025.9],
+    ["tree.", 1025.9, 1026.5]
+   ]
+  },
+  {
+   "text": "Am I alone?",
+   "start": 1027.5,
+   "end": 1028.3,
+   "words": [
+    ["Am", 1027.5, 1027.6],
+    ["I", 1027.6, 1027.7],
+    ["alone?", 1027.7, 1028.3]
+   ]
+  },
+  {
+   "text": "Am I crazy?",
+   "start": 1028.3,
+   "end": 1029.0,
+   "words": [
+    ["Am", 1028.3, 1028.4],
+    ["I", 1028.4, 1028.5],
+    ["crazy?", 1028.5, 1029.0]
+   ]
+  },
+  {
+   "text": "Do I just need hormone replacement therapy?",
+   "start": 1029.0,
+   "end": 1030.9,
+   "words": [
+    ["Do", 1029.0, 1029.1],
+    ["I", 1029.1, 1029.2],
+    ["just", 1029.2, 1029.4],
+    ["need", 1029.4, 1029.5],
+    ["hormone", 1029.5, 1029.8],
+    ["replacement", 1029.8, 1030.3],
+    ["therapy?", 1030.3, 1030.9]
+   ]
+  },
+  {
+   "text": "Where is my heart gone?",
+   "start": 1030.9,
+   "end": 1032.0,
+   "words": [
+    ["Where", 1030.9, 1031.1],
+    ["is", 1031.1, 1031.2],
+    ["my", 1031.2, 1031.3],
+    ["heart", 1031.3, 1031.6],
+    ["gone?", 1031.6, 1032.0]
+   ]
+  },
+  {
+   "text": "Am I the Grinch?",
+   "start": 1032.0,
+   "end": 1033.06,
+   "words": [
+    ["Am", 1032.0, 1032.1],
+    ["I", 1032.1, 1032.2],
+    ["the", 1032.2, 1032.3],
+    ["Grinch?", 1032.3, 1033.06]
+   ]
+  },
+  {
+   "text": "Do I need to grow my heart?",
+   "start": 1033.1,
+   "end": 1034.4,
+   "words": [
+    ["Do", 1033.1, 1033.2],
+    ["I", 1033.2, 1033.3],
+    ["need", 1033.3, 1033.5],
+    ["to", 1033.5, 1033.6],
+    ["grow", 1033.6, 1033.7],
+    ["my", 1033.7, 1033.8],
+    ["heart?", 1033.8, 1034.4]
+   ]
+  },
+  {
+   "text": "Is it two sizes too small?",
+   "start": 1034.4,
+   "end": 1035.7,
+   "words": [
+    ["Is", 1034.4, 1034.45],
+    ["it", 1034.45, 1034.5],
+    ["two", 1034.5, 1034.7],
+    ["sizes", 1034.7, 1035.0],
+    ["too", 1035.0, 1035.1],
+    ["small?", 1035.1, 1035.7]
+   ]
+  },
+  {
+   "text": "Let me know in the comments below if you feel me and if there's a certain age that you reached where maybe you were just like, nah.",
+   "start": 1035.7,
+   "end": 1040.82,
+   "words": [
+    ["Let", 1035.7, 1035.9],
+    ["me", 1035.9, 1035.97],
+    ["know", 1035.97, 1036.1],
+    ["in", 1036.1, 1036.2],
+    ["the", 1036.2, 1036.3],
+    ["comments", 1036.3, 1036.5],
+    ["below", 1036.5, 1036.8],
+    ["if", 1036.8, 1036.9],
+    ["you", 1036.9, 1037.0],
+    ["feel", 1037.0, 1037.2],
+    ["me", 1037.2, 1037.4],
+    ["and", 1037.4, 1037.5],
+    ["if", 1037.5, 1037.6],
+    ["there's", 1037.6, 1037.8],
+    ["a", 1037.8, 1037.9],
+    ["certain", 1037.9, 1038.2],
+    ["age", 1038.2, 1038.5],
+    ["that", 1038.5, 1038.7],
+    ["you", 1038.7, 1038.8],
+    ["reached", 1038.8, 1039.3],
+    ["where", 1039.3, 1039.4],
+    ["maybe", 1039.4, 1039.7],
+    ["you", 1039.7, 1039.8],
+    ["were", 1039.8, 1039.9],
+    ["just", 1039.9, 1040.1],
+    ["like,", 1040.1, 1040.3],
+    ["nah.", 1040.3, 1040.82]
+   ]
+  },
+  {
+   "text": "I'm just going to I'm just going to skip it.",
+   "start": 1042.3,
+   "end": 1044.34,
+   "words": [
+    ["I'm", 1042.3, 1042.4],
+    ["just", 1042.4, 1042.5],
+    ["going", 1042.5, 1042.7],
+    ["to", 1042.7, 1043.06],
+    ["I'm", 1043.2, 1043.3],
+    ["just", 1043.3, 1043.4],
+    ["going", 1043.4, 1043.5],
+    ["to", 1043.5, 1043.6],
+    ["skip", 1043.6, 1043.9],
+    ["it.", 1043.9, 1044.34]
+   ]
+  },
+  {
+   "text": "I think I'm there.",
+   "start": 1044.8,
+   "end": 1045.78,
+   "words": [
+    ["I", 1044.8, 1044.9],
+    ["think", 1044.9, 1045.0],
+    ["I'm", 1045.0, 1045.1],
+    ["there.", 1045.1, 1045.78]
+   ]
+  },
+  {
+   "text": "This reminds me.",
+   "start": 1046.3,
+   "end": 1047.44,
+   "words": [
+    ["This", 1046.3, 1046.5],
+    ["reminds", 1046.5, 1047.0],
+    ["me.", 1047.0, 1047.44]
+   ]
+  },
+  {
+   "text": "Did you guys know that I had a podcast where I just rant about things and sometimes learn about things?",
+   "start": 1047.5,
+   "end": 1052.5,
+   "words": [
+    ["Did", 1047.5, 1047.6],
+    ["you", 1047.6, 1047.7],
+    ["guys", 1047.7, 1047.9],
+    ["know", 1047.9, 1048.0],
+    ["that", 1048.0, 1048.1],
+    ["I", 1048.1, 1048.2],
+    ["had", 1048.2, 1048.4],
+    ["a", 1048.4, 1048.49],
+    ["podcast", 1048.49, 1049.1],
+    ["where", 1049.1, 1049.3],
+    ["I", 1049.3, 1049.4],
+    ["just", 1049.4, 1049.92],
+    ["rant", 1050.1, 1050.3],
+    ["about", 1050.3, 1050.6],
+    ["things", 1050.6, 1050.9],
+    ["and", 1050.9, 1051.0],
+    ["sometimes", 1051.0, 1051.5],
+    ["learn", 1051.5, 1051.7],
+    ["about", 1051.7, 1051.9],
+    ["things?", 1051.9, 1052.5]
+   ]
+  },
+  {
+   "text": "Anyways, in that podcast I'm going to put a link to it.",
+   "start": 1052.5,
+   "end": 1055.6,
+   "words": [
+    ["Anyways,", 1052.5, 1053.2],
+    ["in", 1053.2, 1053.4],
+    ["that", 1053.4, 1053.6],
+    ["podcast", 1053.6, 1054.3],
+    ["I'm", 1054.3, 1054.4],
+    ["going", 1054.4, 1054.5],
+    ["to", 1054.5, 1054.7],
+    ["put", 1054.7, 1054.9],
+    ["a", 1054.9, 1054.96],
+    ["link", 1054.96, 1055.2],
+    ["to", 1055.2, 1055.3],
+    ["it.", 1055.3, 1055.6]
+   ]
+  },
+  {
+   "text": "I talk about the fact that studies have shown they just released a bunch of studies…",
+   "start": 1055.6,
+   "end": 1060.2,
+   "words": [
+    ["I", 1055.6, 1055.7],
+    ["talk", 1055.7, 1056.1],
+    ["about", 1056.1, 1056.7],
+    ["the", 1056.9, 1057.0],
+    ["fact", 1057.0, 1057.5],
+    ["that", 1057.5, 1057.8],
+    ["studies", 1057.8, 1058.4],
+    ["have", 1058.4, 1058.5],
+    ["shown", 1058.5, 1058.7],
+    ["they", 1058.7, 1058.8],
+    ["just", 1058.8, 1059.0],
+    ["released", 1059.0, 1059.3],
+    ["a", 1059.3, 1059.35],
+    ["bunch", 1059.34, 1059.5],
+    ["of", 1059.5, 1059.6],
+    ["studies", 1059.6, 1060.2]
+   ]
+  },
+  {
+   "text": "that this year in North America we're going to spend over a trillion dollars on gifts…",
+   "start": 1060.2,
+   "end": 1066.2,
+   "words": [
+    ["that", 1060.2, 1060.4],
+    ["this", 1060.4, 1060.8],
+    ["year", 1060.8, 1061.3],
+    ["in", 1061.3, 1061.4],
+    ["North", 1061.4, 1061.6],
+    ["America", 1061.6, 1062.2],
+    ["we're", 1062.2, 1062.5],
+    ["going", 1062.5, 1062.7],
+    ["to", 1062.7, 1062.8],
+    ["spend", 1062.8, 1063.4],
+    ["over", 1063.5, 1063.9],
+    ["a", 1063.9, 1064.0],
+    ["trillion", 1064.0, 1064.84],
+    ["dollars", 1064.9, 1065.4],
+    ["on", 1065.4, 1065.6],
+    ["gifts", 1065.6, 1066.2]
+   ]
+  },
+  {
+   "text": "and that people are saying they would rather spend their money on gifts for other people than food.",
+   "start": 1066.4,
+   "end": 1072.7,
+   "words": [
+    ["and", 1066.4, 1066.6],
+    ["that", 1066.6, 1066.7],
+    ["people", 1066.7, 1067.2],
+    ["are", 1067.2, 1067.3],
+    ["saying", 1067.3, 1067.7],
+    ["they", 1067.7, 1067.8],
+    ["would", 1067.8, 1068.0],
+    ["rather", 1068.0, 1068.6],
+    ["spend", 1068.6, 1069.2],
+    ["their", 1069.3, 1069.5],
+    ["money", 1069.5, 1070.1],
+    ["on", 1070.4, 1070.6],
+    ["gifts", 1070.6, 1071.0],
+    ["for", 1071.0, 1071.1],
+    ["other", 1071.1, 1071.3],
+    ["people", 1071.3, 1071.8],
+    ["than", 1071.8, 1072.1],
+    ["food.", 1072.1, 1072.7]
+   ]
+  },
+  {
+   "text": "Like people are going without, putting things on credit card to fill their home with crap…",
+   "start": 1072.7,
+   "end": 1076.92,
+   "words": [
+    ["Like", 1072.7, 1072.8],
+    ["people", 1072.8, 1073.1],
+    ["are", 1073.1, 1073.2],
+    ["going", 1073.2, 1073.5],
+    ["without,", 1073.5, 1073.8],
+    ["putting", 1073.8, 1074.1],
+    ["things", 1074.1, 1074.3],
+    ["on", 1074.3, 1074.4],
+    ["credit", 1074.4, 1074.7],
+    ["card", 1074.7, 1075.22],
+    ["to", 1075.4, 1075.5],
+    ["fill", 1075.5, 1075.7],
+    ["their", 1075.7, 1075.9],
+    ["home", 1075.9, 1076.1],
+    ["with", 1076.1, 1076.4],
+    ["crap", 1076.4, 1076.92]
+   ]
+  },
+  {
+   "text": "that's going to definitely end up in landfill a and that no one really wants.",
+   "start": 1077.3,
+   "end": 1081.18,
+   "words": [
+    ["that's", 1077.3, 1077.4],
+    ["going", 1077.4, 1077.6],
+    ["to", 1077.6, 1077.7],
+    ["definitely", 1077.7, 1078.2],
+    ["end", 1078.2, 1078.3],
+    ["up", 1078.3, 1078.5],
+    ["in", 1078.5, 1078.6],
+    ["landfill", 1078.6, 1079.3],
+    ["a", 1079.3, 1079.58],
+    ["and", 1079.7, 1079.8],
+    ["that", 1079.8, 1080.0],
+    ["no", 1080.0, 1080.1],
+    ["one", 1080.1, 1080.3],
+    ["really", 1080.3, 1080.5],
+    ["wants.", 1080.5, 1081.18]
+   ]
+  },
+  {
+   "text": "Why do we do this?",
+   "start": 1081.8,
+   "end": 1083.0,
+   "words": [
+    ["Why", 1081.8, 1081.9],
+    ["do", 1081.9, 1082.0],
+    ["we", 1082.0, 1082.1],
+    ["do", 1082.1, 1082.4],
+    ["this?", 1082.4, 1083.0]
+   ]
+  },
+  {
+   "text": "Can we just Oh, I don't know why we I'm You know I'm doing it.",
+   "start": 1083.4,
+   "end": 1086.6,
+   "words": [
+    ["Can", 1083.4, 1083.6],
+    ["we", 1083.6, 1083.7],
+    ["just", 1083.7, 1084.22],
+    ["Oh,", 1084.5, 1084.6],
+    ["I", 1084.6, 1084.65],
+    ["don't", 1084.6, 1084.8],
+    ["know", 1084.8, 1085.0],
+    ["why", 1085.0, 1085.2],
+    ["we", 1085.2, 1085.56],
+    ["I'm", 1085.6, 1085.7],
+    ["You", 1085.7, 1085.9],
+    ["know", 1085.9, 1086.0],
+    ["I'm", 1086.0, 1086.1],
+    ["doing", 1086.1, 1086.4],
+    ["it.", 1086.4, 1086.6]
+   ]
+  },
+  {
+   "text": "I say that.",
+   "start": 1086.6,
+   "end": 1087.1,
+   "words": [
+    ["I", 1086.6, 1086.7],
+    ["say", 1086.7, 1086.9],
+    ["that.", 1086.9, 1087.1]
+   ]
+  },
+  {
+   "text": "You know I'm buying some useless crap for my entire family, but I don't want to.",
+   "start": 1087.1,
+   "end": 1092.44,
+   "words": [
+    ["You", 1087.1, 1087.2],
+    ["know", 1087.2, 1087.4],
+    ["I'm", 1087.4, 1087.5],
+    ["buying", 1087.5, 1087.8],
+    ["some", 1087.8, 1088.1],
+    ["useless", 1088.1, 1088.6],
+    ["crap", 1088.6, 1088.9],
+    ["for", 1088.9, 1089.0],
+    ["my", 1089.0, 1089.1],
+    ["entire", 1089.1, 1089.5],
+    ["family,", 1089.5, 1090.26],
+    ["but", 1090.9, 1091.0],
+    ["I", 1091.0, 1091.1],
+    ["don't", 1091.1, 1091.6],
+    ["want", 1091.6, 1092.0],
+    ["to.", 1092.0, 1092.44]
+   ]
+  },
+  {
+   "text": "A trillion dollars.",
+   "start": 1097.9,
+   "end": 1099.54,
+   "words": [
+    ["A", 1097.9, 1098.1],
+    ["trillion", 1098.1, 1098.7],
+    ["dollars.", 1098.7, 1099.54]
+   ]
+  },
+  {
+   "text": "In this economy.",
+   "start": 1102.0,
+   "end": 1103.14,
+   "words": [
+    ["in", 1102.0, 1102.1],
+    ["this", 1102.1, 1102.3],
+    ["economy.", 1102.3, 1103.14]
+   ]
+  },
+  {
+   "text": "That's also in this economy.",
+   "start": 1104.8,
+   "end": 1106.34,
+   "words": [
+    ["That's", 1104.8, 1104.9],
+    ["also", 1104.9, 1105.2],
+    ["in", 1105.2, 1105.3],
+    ["this", 1105.3, 1105.5],
+    ["economy.", 1105.5, 1106.34]
+   ]
+  }
+ ]
+}
