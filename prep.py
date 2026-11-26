@@ -29,6 +29,9 @@ import tempfile
 import time
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlencode, urlparse, parse_qs
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -165,6 +168,120 @@ def parse_json3(data):
         w[2] = min(w[2], nxt, w[1] + est_dur(w[0]))
         w[2] = max(w[2], w[1] + 0.05)
     return words
+
+
+# ---------------------------------------------------------------- GitHub Actions 자막 수집 보조 경로
+# Supadata API: 외부 서비스의 키는 GitHub Actions Secret으로만 전달합니다.
+# 브라우저 HTML이나 Git 저장소에 API 키를 넣지 마세요.
+
+SUPADATA_BASE = "https://api.supadata.ai/v1"
+VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+
+
+def extract_video_id(url):
+    u = urlparse(url)
+    host = (u.hostname or "").lower()
+    if host in ("youtu.be", "www.youtu.be"):
+        val = u.path.strip("/").split("/")[0]
+    elif host in ("youtube.com", "www.youtube.com", "m.youtube.com", "music.youtube.com"):
+        parts = u.path.strip("/").split("/")
+        val = (parse_qs(u.query).get("v") or [""])[0] if u.path == "/watch" else (parts[1] if len(parts) > 1 and parts[0] in ("shorts", "live", "embed") else "")
+    else:
+        raise ValueError("지원하지 않는 유튜브 주소입니다.")
+    if not VIDEO_ID_RE.fullmatch(val):
+        raise ValueError("유효한 유튜브 영상 ID가 없습니다.")
+    return val
+
+
+def supadata_get(path, params=None):
+    key = os.environ.get("SUPADATA_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("SUPADATA_API_KEY가 설정되지 않았습니다.")
+    url = SUPADATA_BASE + path
+    if params:
+        url += "?" + urlencode(params)
+    req = Request(url, headers={"x-api-key": key, "Accept": "application/json"})
+    try:
+        with urlopen(req, timeout=45) as r:
+            return r.status, json.load(r)
+    except HTTPError as e:
+        detail = e.read(400).decode("utf-8", errors="replace")
+        raise RuntimeError(f"자막 API HTTP {e.code}: {detail}") from e
+    except URLError as e:
+        raise RuntimeError(f"자막 API 연결 오류: {e.reason}") from e
+
+
+def supadata_transcript(url, language):
+    # native: 공개된 자막만 가져옵니다. AI 음성 변환으로 추가 비용이 나가지 않게 기본값 고정.
+    status, data = supadata_get("/transcript", {"url": url, "lang": language, "text": "false", "mode": "native"})
+    if status == 202 or data.get("jobId"):
+        job_id = data.get("jobId")
+        if not job_id or not re.fullmatch(r"[A-Za-z0-9_-]+", str(job_id)):
+            raise RuntimeError("자막 API가 올바르지 않은 작업 ID를 반환했습니다.")
+        for _ in range(48):
+            time.sleep(3)
+            status, data = supadata_get("/transcript/" + job_id)
+            if data.get("status") == "failed":
+                raise RuntimeError("자막 API 비동기 작업 실패: " + str(data.get("error", "")))
+            if data.get("status") == "completed" or (isinstance(data.get("content"), list) and data.get("status") not in ("queued", "active")):
+                break
+        else:
+            raise RuntimeError("자막 API 처리 제한 시간(144초)을 초과했습니다.")
+    if not isinstance(data.get("content"), list):
+        raise RuntimeError("자막 API가 시간 정보가 있는 자막을 반환하지 않았습니다.")
+    actual_lang = data.get("lang") or language
+    if str(actual_lang).lower().split("-")[0] != language.lower().split("-")[0]:
+        raise RuntimeError(f"요청 언어 {language} 대신 {actual_lang} 자막이 반환되었습니다.")
+    return data
+
+
+def timed_chunks_to_words(chunks):
+    """구간 단위 타임스탬프를 기존 words 구조로 변환.
+
+    API는 단어별 시각을 제공하지 않으므로 단어 길이에 비례해 추정합니다.
+    """
+    result = []
+    for chunk in chunks:
+        if not isinstance(chunk, dict):
+            continue
+        text = NOISE.sub(" ", html.unescape(str(chunk.get("text", "")))).strip()
+        toks = text.split()
+        if not toks:
+            continue
+        st = float(chunk.get("offset", 0)) / 1000.0
+        dur = float(chunk.get("duration", 0)) / 1000.0
+        if dur <= 0 or st < 0:
+            continue
+        total = sum(max(1, len(t)) for t in toks)
+        cursor = st
+        for i, token in enumerate(toks):
+            en = st + dur if i == len(toks) - 1 else cursor + dur * max(1, len(token)) / total
+            result.append([token, cursor, max(cursor + 0.01, en)])
+            cursor = en
+    result.sort(key=lambda w: w[1])
+    for i in range(len(result) - 1):
+        result[i][2] = min(result[i][2], max(result[i][1] + 0.01, result[i + 1][1]))
+    return result
+
+
+def get_supadata_video(url, language):
+    transcript = supadata_transcript(url, language)
+    words = timed_chunks_to_words(transcript["content"])
+    if not words:
+        raise RuntimeError("외부 자막 API에 사용할 수 있는 자막 단어가 없습니다.")
+    video_id = extract_video_id(url)
+    # 영상 메타데이터 실패는 치명적 오류가 아니므로 ID로 대체합니다.
+    title, channel, duration = video_id, "", None
+    try:
+        _, metadata = supadata_get("/metadata", {"url": url})
+        title = metadata.get("title") or video_id
+        author = metadata.get("author") or {}
+        channel = author.get("name", "") if isinstance(author, dict) else str(author)
+        duration = metadata.get("duration")
+    except Exception as e:
+        print(f"  메타데이터 생략(자막 등록은 계속): {e}")
+    info = {"id": video_id, "title": title, "channel": channel, "duration": duration}
+    return info, words, transcript.get("lang") or language
 
 
 # ---------------------------------------------------------------- 문장 나누기 공통
@@ -495,30 +612,42 @@ def get_local(seg):
 
 
 def process_video(url, seg, force):
-    with YoutubeDL({"quiet": True, "skip_download": True, "noplaylist": True}) as ydl:
-        info = ydl.extract_info(url, download=False)
-    vid = info["id"]
-    title = info.get("title", vid)
+    # 먼저 기존 yt-dlp를 시도하되 GitHub Actions가 차단되면 API로 자동 전환.
+    vid = extract_video_id(url)
     out_path = OUT_DIR / f"{vid}.json"
     if out_path.exists() and not force:
-        print(f"- 이미 처리됨, 건너뜀 (다시 하려면 --force): {title}")
+        print(f"- 이미 처리됨, 건너뜀: {vid}")
         return True
 
+    words = None
+    info = None
+    lang = seg.get("lang", "en")
+    kind = "auto"
+    if os.environ.get("SHADOW_CAPTION_PROVIDER", "").lower() == "supadata":
+        # API 키가 있는 경우 GitHub Actions의 불필요한 yt-dlp 차단 요청 생략.
+        print("  외부 자막 API로 수집 중...")
+        info, words, lang = get_supadata_video(url, lang)
+        kind = "supadata-native"
+    else:
+        try:
+            with YoutubeDL({"quiet": True, "skip_download": True, "noplaylist": True}) as ydl:
+                info = ydl.extract_info(url, download=False)
+            lang, kind = pick_subtitle(info, lang)
+            if not lang:
+                raise RuntimeError("선택한 언어의 자막을 찾지 못했습니다.")
+            words = parse_json3(download_json3(url, lang, kind))
+            if not words:
+                raise RuntimeError("자막에서 단어를 찾지 못했습니다.")
+        except Exception as e:
+            if not os.environ.get("SUPADATA_API_KEY", "").strip():
+                raise
+            print(f"  yt-dlp 수집 실패: {e}")
+            print("  외부 자막 API로 재시도 중...")
+            info, words, lang = get_supadata_video(url, seg.get("lang", "en"))
+            kind = "supadata-native"
+    title = info.get("title") or vid
     print(f"\n▶ {title} ({vid})")
-    lang, kind = pick_subtitle(info, seg.get("lang", "en"))
-    if not lang:
-        print("  선택한 언어의 자막이 없는 영상이라 건너뜁니다. (대기 목록에서 제거)")
-        return True
-    orig_lang = str(info.get("language") or "")
-    if kind == "auto" and lang == "en" and orig_lang and not orig_lang.startswith("en"):
-        print("  ⚠ 원래 언어가 영어가 아닌 영상이라, 자동 번역 자막일 수 있습니다.")
-    print(f"  자막: {lang} ({'수동' if kind == 'manual' else '자동 생성'})")
-
-    words = parse_json3(download_json3(url, lang, kind))
-    if not words:
-        print("  자막에서 단어를 찾지 못했습니다. (대기 목록에서 제거)")
-        return True
-    print(f"  단어 {len(words)}개")
+    print(f"  자막: {lang} ({kind}), 단어 {len(words)}개")
 
     if seg.get("lang", "en") != "en":
         print("  비영어 언어: 규칙 기반 문장 분리를 사용합니다.")
