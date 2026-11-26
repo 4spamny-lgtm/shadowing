@@ -1,3 +1,67 @@
+name: 영상 추가
+
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: '원어 자막 언어 (en/ja/zh/es/fr/de)'
+        required: false
+        default: 'en'
+      url:
+        description: '유튜브 주소 (여러 개면 띄어쓰기로 구분, 비우면 queue.txt 처리)'
+        required: false
+        default: ''
+  push:
+    branches: [main]
+    paths: [queue.txt]
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: shadowing-video-writes
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: 저장소 받기
+        uses: actions/checkout@v4
+
+      - name: 처리할 주소 확인
+        id: check
+        env:
+          INPUT_URL: ${{ inputs.url }}
+        run: |
+          if [ -n "$INPUT_URL" ] || grep -qvE '^[[:space:]]*(#|$)' queue.txt 2>/dev/null; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'run=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Python 준비
+        if: steps.check.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Deno 준비
+        if: steps.check.outputs.run == 'true'
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: 문장 부호 모델 캐시
+        if: steps.check.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: punct-model-v1
+
+      - name: 패키지 설치
         if: steps.check.outputs.run == 'true'
         run: |
           python -m pip install -U 'yt-dlp[default,curl-cffi]'
