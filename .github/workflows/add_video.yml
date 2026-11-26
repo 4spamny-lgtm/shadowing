@@ -1,109 +1,45 @@
-# 유튜브 주소를 받아 GitHub 서버에서 prep.py를 실행하고, 결과를 저장소에 올립니다.
-#
-# 실행 방법
-#   1) 저장소 Actions 탭 → "영상 추가" → Run workflow → 주소 입력 → Run workflow
-#   2) queue.txt에 주소를 적고 저장(Commit)하면 자동 실행
-#
-# 유튜브가 막아서 실패한 주소는 queue.txt에 남고,
-# 노트북에서 add.bat을 실행하면 이어서 처리됩니다.
-
-name: 영상 추가
-
-on:
-  workflow_dispatch:
-    inputs:
-      lang:
-        description: '원어 자막 언어 (en/ja/zh/es/fr/de)'
-        required: false
-        default: 'en'
-      url:
-        description: "유튜브 주소 (여러 개면 띄어쓰기로 구분, 비워두면 queue.txt만 처리)"
-        required: false
-        default: ""
-  push:
-    branches: [main]
-    paths: [queue.txt]
-
-permissions:
-  contents: write
-  pages: write
-
-# 여러 번 실행돼도 한 번에 하나씩 차례로 처리
-concurrency:
-  group: shadowing-video-writes
-  cancel-in-progress: false
-
-jobs:
-  add:
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
-    steps:
-      - name: 저장소 받기
-        uses: actions/checkout@v4
-
-      - name: 할 일 확인
-        id: check
-        env:
-          INPUT_URL: ${{ inputs.url }}
-        run: |
-          if [ -n "$INPUT_URL" ] || grep -qvE '^[[:space:]]*(#|$)' queue.txt 2>/dev/null; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "처리할 주소가 없어서 종료합니다."
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Python 준비
-        if: steps.check.outputs.run == 'true'
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Deno 준비 (yt-dlp에 필요)
-        if: steps.check.outputs.run == 'true'
-        uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-
-      - name: 문장 부호 모델 캐시 (두 번째 실행부터 빨라짐)
-        if: steps.check.outputs.run == 'true'
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/huggingface
-          key: punct-model-v1
-
-      - name: 패키지 설치
         if: steps.check.outputs.run == 'true'
         run: |
-          pip install -U "yt-dlp[default,curl-cffi]"
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
-          pip install deepmultilingualpunctuation
+          python -m pip install -U 'yt-dlp[default,curl-cffi]'
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install deepmultilingualpunctuation
 
-      - name: 영상 처리
+      - name: 영상 처리 (자동 자막 API 보조 경로)
         if: steps.check.outputs.run == 'true'
         env:
           INPUT_URL: ${{ inputs.url }}
           SOURCE_LANG: ${{ inputs.lang || 'en' }}
+          SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
         run: |
-          set -f
+          # API 키를 설정한 경우 GitHub 서버의 YouTube 403 요청은 생략합니다.
+          if [ -n "$SUPADATA_API_KEY" ]; then
+            export SHADOW_CAPTION_PROVIDER=supadata
+            echo '자막 API 연결 활성화됨 (키 내용은 출력하지 않음)'
+          else
+            echo '자막 API 키 없음: 기존 yt-dlp 경로 사용'
+          fi
           set +e
           python -c 'import os,subprocess,sys; u=os.environ.get("INPUT_URL", "").split(); sys.exit(subprocess.call([sys.executable,"prep.py","--queue","--lang",os.environ.get("SOURCE_LANG","en"),*u]))'
           code=$?
           set -e
-          if [ "$code" -ne 0 ] && [ "$code" -ne 2 ]; then exit "$code"; fi
+          if [ "$code" -eq 2 ]; then
+            echo '::warning::일부 영상의 자막을 수집하지 못했습니다. queue.txt에 남겨 두었습니다.'
+          elif [ "$code" -ne 0 ]; then
+            exit "$code"
+          fi
 
-      - name: 이중자막 번역 (실패해도 영상은 저장)
+      - name: 이중자막 번역 (실패해도 영상 저장)
         if: steps.check.outputs.run == 'true'
         continue-on-error: true
         env:
           GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
         run: python translate_videos.py --target ko
 
-      - name: 결과 저장 (충돌 시 최신 상태에 안전하게 재적용)
+      - name: 결과 저장
         if: steps.check.outputs.run == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           python publish_safe.py
 
       - name: 사이트 새로고침
